@@ -11,7 +11,7 @@ metodo_default: "hibrido"
 vetorial:
   modelo: "all-MiniLM-L6-v2"
   metrica: "cosine"
-  limiar_minimo: 0.65          # Similaridade mínima para inclusão
+  limiar_minimo: 0.15          # Similaridade mínima para inclusão (ajustado: embeddings densos 384d)
   limiar_alta_confianca: 0.85  # Acima disso, resultado direto
   top_k: 20                    # Número máximo de candidatos
   expandir_query: true         # Expandir query com sinônimos ontológicos

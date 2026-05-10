@@ -1,0 +1,176 @@
+﻿python : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate 
+limits and faster downloads.
+No linha:1 caractere:1
++ python 'e:/Arquivos/Área de Trabalho/MestreCuca/tests/test_classifier ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING:huggingface_hub.utils._http:Warning: You are sending unauthenticated requests to the HF Hub. Please set a 
+HF_TOKEN to enable higher rate limits and faster downloads.
+======================================================================
+CLASSIFICADOR ONTOLÓGICO MULTINÍVEL — SUÍTE DE TESTES
+======================================================================
+
+
+[TEST] Warm-up do modelo de embedding...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2764.62it/s]
+  ✅ Warm-up concluído sem erros
+
+[TEST] Instanciação do classificador...
+  ✅ OK: 162 células, 162 embeddings (cobertura: 100.0%)
+  ✅ Eixos: ['SINTRÓPICO', 'ENTRÓPICO']
+  ✅ Pilares: ['LOGOS', 'BIOS', 'PATHOS', 'KHAOS', 'APEIRON', 'MYTHOS']
+  ✅ Domínios: 18 → ['ALGORITMIA', 'ALTERIDADE', 'ARQUETIPO', 'ENTROPIA', 'ESCALA', 'ESTETICA', 'ETHOS', 'MECANICA', 'METABOLISMO', 'MISTERIO', 'NARRATIVA', 'NOMOS', 'OIKOS', 'SINGULARIDADE', 'SINTESE', 'SOMA', 'VACUO', 'VIBRATIO']
+  ✅ Subárvores: 54
+
+[TEST] Integridade dos dados...
+  ✅ Todas as 162 células passaram na verificação de integridade
+
+[TEST] Cobertura do registry...
+  ✅ Total: 162 células
+  ❌ Domínios faltando: {'MISTERIO', 'MECANICA', 'ESTETICA', 'ARQUETIPO', 'SINTESE', 'VACUO'}
+  ⚠️ Domínios extras: {'ESTÉTICA', 'VÁCUO', 'MISTÉRIO', 'MECÂNICA', 'ARQUÉTIPO', 'SÍNTESE'}
+  ✅ Todos os embeddings carregados (162)
+
+[TEST] Classificação N0 (Eixo)...
+  ✅ SINTRÓPICO detectado: score=0.2601
+  ❌ Esperado ENTRÓPICO, got SINTRÓPICO
+  ✅ ENTRÓPICO para 'explorar': score=0.228
+  ✅ SINTRÓPICO para 'construir': score=0.2298
+
+[TEST] Classificação N1 (Pilar)...
+  ✅ LOGOS detectado: score=0.4023
+  ✅ BIOS detectado: score=0.3767
+  ✅ PATHOS detectado: score=0.3721
+  ✅ KHAOS detectado: score=0.3776
+  ✅ APEIRON detectado: score=0.2327
+  ✅ MYTHOS detectado: score=0.4079
+
+[TEST] Classificação N2 (Domínio)...
+  ✅ ALGORITMIA detectado: score=0.2992
+  ✅ OIKOS detectado: score=0.3637
+  ✅ ETHOS detectado: score=0.3454
+  ✅ ENTROPIA detectado: score=0.4257
+  ✅ ESCALA detectado: score=0.281
+  ✅ ARQUETIPO detectado: score=0.3633
+
+[TEST] Classificação N3 (Subárvore)...
+  ✅ RESOLUCAO detectado: score=0.192
+  ✅ MORADA detectado: score=0.3679
+  ✅ DEGRADACAO detectado: score=0.3109
+  ❌ Esperado PADRAO_PRIMORDIAL, got COMPORTAMENTO (query: 'reconhecer padrões primordiais na experiência...')
+  ✅ VALORES detectado: score=0.3625
+  ✅ ESTATICA detectado: score=0.3598
+
+[TEST] Classificação N4 (Célula)...
+  ❌ Esperado contendo 'DECOMPOSICAO', got 'DECOMPOSIÇÃO_BINÁRIA'
+     Top3: [('DECOMPOSIÇÃO_BINÁRIA', 0.2226), ('CASO_BASE', 0.2132), ('SEQUÊNCIA_OTIMIZADA', 0.196)]
+  ❌ Esperado contendo 'PROTECAO', got 'RECURSOS_ESSENCIAIS'
+     Top3: [('RECURSOS_ESSENCIAIS', 0.3207), ('SANEAMENTO', 0.2802), ('PROTEÇÃO_FÍSICA', 0.2577)]
+  ❌ Esperado contendo 'DISSIPACAO', got 'DESCONHECIDO'
+     Top3: []
+
+[TEST] Classificação completa N0→N4...
+  ⚠️ Query 1: Confiança 0.3609 < 0.4
+  ✅ Query 1: SINTRÓPICO → LOGOS → ALGORITMIA → RESOLUCAO → DECOMPOSIÇÃO_BINÁRIA (conf=0.3609)
+  ❌ Query 2: N1 esperado LOGOS, got BIOS
+  ⚠️ Query 3: Confiança 0.2695 < 0.4
+  ✅ Query 3: SINTRÓPICO → LOGOS → ALGORITMIA → VALIDACAO → VERIFICAÇÃO_LÓGICA (conf=0.2695)
+  ⚠️ Query 4: Confiança 0.3174 < 0.4
+  ✅ Query 4: SINTRÓPICO → LOGOS → ALGORITMIA → OTIMIZACAO → PARALELIZAÇÃO (conf=0.3174)
+  ❌ Query 5: N1 esperado BIOS, got PATHOS
+  ⚠️ Query 6: Confiança 0.2794 < 0.35
+  ✅ Query 6: SINTRÓPICO → BIOS → OIKOS → TERRITORIO → GESTÃO_RECURSOS_TERRITORIAIS (conf=0.2794)
+  ✅ Query 7: SINTRÓPICO → PATHOS → ETHOS → VALORES → CONFLITO_VALORES (conf=0.3669)
+  ❌ Query 8: N0 esperado ENTRÓPICO, got SINTRÓPICO
+  ❌ Query 9: N0 esperado ENTRÓPICO, got SINTRÓPICO
+  ⚠️ Query 10: Confiança 0.2538 < 0.35
+  ✅ Query 10: ENTRÓPICO → APEIRON → ESCALA → MAGNITUDE → LEI_ESCALAR (conf=0.2538)
+  ❌ Query 11: N2 esperado ARQUETIPO, got NARRATIVA
+  ⚠️ Query 12: Confiança 0.3402 < 0.35
+  ✅ Query 12: ENTRÓPICO → MYTHOS → ARQUETIPO → SIMBOLO → PONTE_SENSÍVEL (conf=0.3402)
+  ✅ Query 13: ENTRÓPICO → MYTHOS → NARRATIVA → LINHA_SENTIDO → NARRATIVA_VIDA (conf=0.3700)
+  ❌ Query 14: N1 esperado KHAOS, got MYTHOS
+  ⚠️ Query 15: Confiança 0.2538 < 0.3
+  ✅ Query 15: SINTRÓPICO → LOGOS → ALGORITMIA → RESOLUCAO → CASO_BASE (conf=0.2538)
+  ✅ Query 16: ENTRÓPICO → MYTHOS → NARRATIVA → TEIA → COMPLEXIDADE_TEIA (conf=0.3577)
+
+  Resultado: 10/16 queries classificadas corretamente
+
+[TEST] Classificação N4 com keywords...
+  ❌ Keyword 'decomposição' não encontrada para query 'dividir problema em duas metades recursivamente'
+     N4=DISTRIBUIÇÃO_RECURSOS, Top3=[('DISTRIBUIÇÃO_RECURSOS', 0.2424), ('ARMAZENAMENTO_RECURSOS', 0.2089), ('ROTAÇÃO_ESTOQUE', 0.1902)]
+  ❌ Keyword 'binária' não encontrada para query 'dividir problema em duas metades recursivamente'
+     N4=DISTRIBUIÇÃO_RECURSOS, Top3=[('DISTRIBUIÇÃO_RECURSOS', 0.2424), ('ARMAZENAMENTO_RECURSOS', 0.2089), ('ROTAÇÃO_ESTOQUE', 0.1902)]
+  ❌ Keyword 'divisão' não encontrada para query 'dividir problema em duas metades recursivamente'
+     N4=DISTRIBUIÇÃO_RECURSOS, Top3=[('DISTRIBUIÇÃO_RECURSOS', 0.2424), ('ARMAZENAMENTO_RECURSOS', 0.2089), ('ROTAÇÃO_ESTOQUE', 0.1902)]
+  ❌ Keyword 'prova' não encontrada para query 'verificar lógica de um algoritmo passo a passo'
+     N4=VERIFICAÇÃO_LÓGICA, Top3=[('VERIFICAÇÃO_LÓGICA', 0.3168), ('TESTE_DE_FRONTEIRA', 0.2536), ('CORREÇÃO_PARCIAL', 0.2334)]
+  ❌ Keyword 'desordem' não encontrada para query 'explorar o que é entropia em sistemas'
+     N4=ENTROPIA_SISTEMA, Top3=[('ENTROPIA_SISTEMA', 0.4897), ('DESTRUIÇÃO_CRIATIVA', 0.4418), ('RECICLAGEM', 0.4088)]
+
+[TEST] Consistência topológica da cascata...
+  ✅ Todas as classificações são topologicamente consistentes
+
+[TEST] Acurácia amostral por domínio...
+  ❌ 'como implementar um algoritmo de busca...': esperado ALGORITMIA, got SOMA
+  ❌ 'resolver problema com programação dinâmica...': esperado ALGORITMIA, got SOMA
+  ✅ 'analisar complexidade de um algoritmo...' → ALGORITMIA
+  ✅ 'como construir uma morada sustentável...' → OIKOS
+  ❌ 'organizar o território de forma harmoniosa...': esperado OIKOS, got ESTETICA
+  ❌ 'prover recursos para a comunidade...': esperado OIKOS, got ALTERIDADE
+  ❌ 'quais valores devem guiar uma organização...': esperado ETHOS, got ALGORITMIA
+  ❌ 'estabelecer princípios éticos para decisões...': esperado ETHOS, got ESCALA
+  ✅ 'praticar a virtude na liderança...' → ETHOS
+  ❌ 'entender a degradação de sistemas...': esperado ENTROPIA, got SOMA
+  ❌ 'como a energia se dissipa em processos...': esperado ENTROPIA, got MECANICA
+  ❌ 'o caos em sistemas não lineares...': esperado ENTROPIA, got MECANICA
+  ✅ 'compreender a magnitude de fenômenos cósmicos...' → ESCALA
+  ✅ 'proporção áurea na natureza...' → ESCALA
+  ✅ 'escala de leis físicas universais...' → ESCALA
+  ✅ 'identificar padrões primordiais na cultura...' → ARQUETIPO
+  ✅ 'o herói e sua jornada arquetípica...' → ARQUETIPO
+  ❌ 'símbolos universais na experiência humana...': esperado ARQUETIPO, got ESCALA
+
+  Acurácia N2: 8/18 = 44.4%
+  ⚠️ Acurácia 44.4% abaixo do limiar de 70%
+
+[TEST] Benchmark de latência...
+  Latências: ['140.3ms', '126.1ms', '105.4ms', '113.0ms', '122.1ms']
+  Média: 121.4ms | Min: 105.4ms | Max: 140.3ms
+  ✅ Todas as classificações abaixo de 5s
+
+[TEST] Edge cases...
+  ✅ '...' → SINTRÓPICO/LOGOS/NOMOS
+  ✅ 'a...' → ENTRÓPICO/APEIRON/VACUO
+  ✅ 'xkqj zwpw...' → ENTRÓPICO/KHAOS/SINTESE
+  ✅ '12345...' → ENTRÓPICO/APEIRON/ESCALA
+  ✅ '   ...' → SINTRÓPICO/LOGOS/NOMOS
+  ✅ 'O que é o infinito?...' → ENTRÓPICO/KHAOS/SINGULARIDADE
+  ✅ 'COMO FAZER ALGO BOM...' → SINTRÓPICO/LOGOS/ALGORITMIA
+  ✅ 'como   fazer    algo...' → SINTRÓPICO/LOGOS/NOMOS
+
+======================================================================
+RESUMO DOS TESTES
+======================================================================
+  ✅ PASS: warm_up
+  ✅ PASS: instantiation
+  ✅ PASS: data_integrity
+  ❌ FAIL: coverage
+  ❌ FAIL: n0
+  ✅ PASS: n1
+  ✅ PASS: n2
+  ❌ FAIL: n3
+  ❌ FAIL: n4
+  ❌ FAIL: full_classify
+  ❌ FAIL: n4_keywords
+  ✅ PASS: consistency
+  ✅ PASS: accuracy
+  ✅ PASS: latency
+  ✅ PASS: edge_cases
+
+  Total: 9/15 testes passados
+
+  ⚠️  6 teste(s) falhou(ram)

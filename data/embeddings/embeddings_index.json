@@ -1,0 +1,2769 @@
+{
+  "metadata": {
+    "model": "all-MiniLM-L6-v2",
+    "dimension": 384,
+    "total_cells": 162,
+    "weights": {
+      "structural": 0.25,
+      "semantic": 0.35,
+      "operational": 0.2,
+      "symbolic": 0.2
+    }
+  },
+  "embeddings": {
+    "N4_ALGORITMIA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_1_A.npy"
+    },
+    "N4_ALGORITMIA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_1_B.npy"
+    },
+    "N4_ALGORITMIA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_1_C.npy"
+    },
+    "N4_ALGORITMIA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_2_A.npy"
+    },
+    "N4_ALGORITMIA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_2_B.npy"
+    },
+    "N4_ALGORITMIA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_2_C.npy"
+    },
+    "N4_ALGORITMIA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_3_A.npy"
+    },
+    "N4_ALGORITMIA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_3_B.npy"
+    },
+    "N4_ALGORITMIA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALGORITMIA_3_C.npy"
+    },
+    "N4_ALTERIDADE_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_1_A.npy"
+    },
+    "N4_ALTERIDADE_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_1_B.npy"
+    },
+    "N4_ALTERIDADE_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_1_C.npy"
+    },
+    "N4_ALTERIDADE_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_2_A.npy"
+    },
+    "N4_ALTERIDADE_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_2_B.npy"
+    },
+    "N4_ALTERIDADE_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_2_C.npy"
+    },
+    "N4_ALTERIDADE_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_3_A.npy"
+    },
+    "N4_ALTERIDADE_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_3_B.npy"
+    },
+    "N4_ALTERIDADE_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ALTERIDADE_3_C.npy"
+    },
+    "N4_ARQUETIPO_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_1_A.npy"
+    },
+    "N4_ARQUETIPO_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_1_B.npy"
+    },
+    "N4_ARQUETIPO_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_1_C.npy"
+    },
+    "N4_ARQUETIPO_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_2_A.npy"
+    },
+    "N4_ARQUETIPO_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_2_B.npy"
+    },
+    "N4_ARQUETIPO_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_2_C.npy"
+    },
+    "N4_ARQUETIPO_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_3_A.npy"
+    },
+    "N4_ARQUETIPO_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_3_B.npy"
+    },
+    "N4_ARQUETIPO_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ARQUETIPO_3_C.npy"
+    },
+    "N4_ENTROPIA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_1_A.npy"
+    },
+    "N4_ENTROPIA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_1_B.npy"
+    },
+    "N4_ENTROPIA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_1_C.npy"
+    },
+    "N4_ENTROPIA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_2_A.npy"
+    },
+    "N4_ENTROPIA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_2_B.npy"
+    },
+    "N4_ENTROPIA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_2_C.npy"
+    },
+    "N4_ENTROPIA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_3_A.npy"
+    },
+    "N4_ENTROPIA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_3_B.npy"
+    },
+    "N4_ENTROPIA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ENTROPIA_3_C.npy"
+    },
+    "N4_ESCALA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_1_A.npy"
+    },
+    "N4_ESCALA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_1_B.npy"
+    },
+    "N4_ESCALA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_1_C.npy"
+    },
+    "N4_ESCALA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_2_A.npy"
+    },
+    "N4_ESCALA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_2_B.npy"
+    },
+    "N4_ESCALA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_2_C.npy"
+    },
+    "N4_ESCALA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_3_A.npy"
+    },
+    "N4_ESCALA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_3_B.npy"
+    },
+    "N4_ESCALA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESCALA_3_C.npy"
+    },
+    "N4_ESTETICA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_1_A.npy"
+    },
+    "N4_ESTETICA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_1_B.npy"
+    },
+    "N4_ESTETICA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_1_C.npy"
+    },
+    "N4_ESTETICA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_2_A.npy"
+    },
+    "N4_ESTETICA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_2_B.npy"
+    },
+    "N4_ESTETICA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_2_C.npy"
+    },
+    "N4_ESTETICA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_3_A.npy"
+    },
+    "N4_ESTETICA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_3_B.npy"
+    },
+    "N4_ESTETICA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ESTETICA_3_C.npy"
+    },
+    "N4_ETHOS_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_1_A.npy"
+    },
+    "N4_ETHOS_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_1_B.npy"
+    },
+    "N4_ETHOS_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_1_C.npy"
+    },
+    "N4_ETHOS_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_2_A.npy"
+    },
+    "N4_ETHOS_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_2_B.npy"
+    },
+    "N4_ETHOS_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_2_C.npy"
+    },
+    "N4_ETHOS_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_3_A.npy"
+    },
+    "N4_ETHOS_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_3_B.npy"
+    },
+    "N4_ETHOS_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_ETHOS_3_C.npy"
+    },
+    "N4_MECANICA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_1_A.npy"
+    },
+    "N4_MECANICA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_1_B.npy"
+    },
+    "N4_MECANICA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_1_C.npy"
+    },
+    "N4_MECANICA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_2_A.npy"
+    },
+    "N4_MECANICA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_2_B.npy"
+    },
+    "N4_MECANICA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_2_C.npy"
+    },
+    "N4_MECANICA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_3_A.npy"
+    },
+    "N4_MECANICA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_3_B.npy"
+    },
+    "N4_MECANICA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MECANICA_3_C.npy"
+    },
+    "N4_METABOLISMO_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_1_A.npy"
+    },
+    "N4_METABOLISMO_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_1_B.npy"
+    },
+    "N4_METABOLISMO_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_1_C.npy"
+    },
+    "N4_METABOLISMO_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_2_A.npy"
+    },
+    "N4_METABOLISMO_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_2_B.npy"
+    },
+    "N4_METABOLISMO_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_2_C.npy"
+    },
+    "N4_METABOLISMO_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_3_A.npy"
+    },
+    "N4_METABOLISMO_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_3_B.npy"
+    },
+    "N4_METABOLISMO_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_METABOLISMO_3_C.npy"
+    },
+    "N4_MISTERIO_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_1_A.npy"
+    },
+    "N4_MISTERIO_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_1_B.npy"
+    },
+    "N4_MISTERIO_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_1_C.npy"
+    },
+    "N4_MISTERIO_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_2_A.npy"
+    },
+    "N4_MISTERIO_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_2_B.npy"
+    },
+    "N4_MISTERIO_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_2_C.npy"
+    },
+    "N4_MISTERIO_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_3_A.npy"
+    },
+    "N4_MISTERIO_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_3_B.npy"
+    },
+    "N4_MISTERIO_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_MISTERIO_3_C.npy"
+    },
+    "N4_NARRATIVA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_1_A.npy"
+    },
+    "N4_NARRATIVA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_1_B.npy"
+    },
+    "N4_NARRATIVA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_1_C.npy"
+    },
+    "N4_NARRATIVA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_2_A.npy"
+    },
+    "N4_NARRATIVA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_2_B.npy"
+    },
+    "N4_NARRATIVA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_2_C.npy"
+    },
+    "N4_NARRATIVA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_3_A.npy"
+    },
+    "N4_NARRATIVA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_3_B.npy"
+    },
+    "N4_NARRATIVA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NARRATIVA_3_C.npy"
+    },
+    "N4_NOMOS_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_1_A.npy"
+    },
+    "N4_NOMOS_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_1_B.npy"
+    },
+    "N4_NOMOS_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_1_C.npy"
+    },
+    "N4_NOMOS_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_2_A.npy"
+    },
+    "N4_NOMOS_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_2_B.npy"
+    },
+    "N4_NOMOS_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_2_C.npy"
+    },
+    "N4_NOMOS_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_3_A.npy"
+    },
+    "N4_NOMOS_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_3_B.npy"
+    },
+    "N4_NOMOS_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_NOMOS_3_C.npy"
+    },
+    "N4_OIKOS_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_1_A.npy"
+    },
+    "N4_OIKOS_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_1_B.npy"
+    },
+    "N4_OIKOS_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_1_C.npy"
+    },
+    "N4_OIKOS_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_2_A.npy"
+    },
+    "N4_OIKOS_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_2_B.npy"
+    },
+    "N4_OIKOS_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_2_C.npy"
+    },
+    "N4_OIKOS_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_3_A.npy"
+    },
+    "N4_OIKOS_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_3_B.npy"
+    },
+    "N4_OIKOS_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_OIKOS_3_C.npy"
+    },
+    "N4_SINGULARIDADE_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_1_A.npy"
+    },
+    "N4_SINGULARIDADE_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_1_B.npy"
+    },
+    "N4_SINGULARIDADE_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_1_C.npy"
+    },
+    "N4_SINGULARIDADE_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_2_A.npy"
+    },
+    "N4_SINGULARIDADE_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_2_B.npy"
+    },
+    "N4_SINGULARIDADE_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_2_C.npy"
+    },
+    "N4_SINGULARIDADE_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_3_A.npy"
+    },
+    "N4_SINGULARIDADE_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_3_B.npy"
+    },
+    "N4_SINGULARIDADE_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINGULARIDADE_3_C.npy"
+    },
+    "N4_SINTESE_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_1_A.npy"
+    },
+    "N4_SINTESE_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_1_B.npy"
+    },
+    "N4_SINTESE_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_1_C.npy"
+    },
+    "N4_SINTESE_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_2_A.npy"
+    },
+    "N4_SINTESE_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_2_B.npy"
+    },
+    "N4_SINTESE_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_2_C.npy"
+    },
+    "N4_SINTESE_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_3_A.npy"
+    },
+    "N4_SINTESE_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_3_B.npy"
+    },
+    "N4_SINTESE_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SINTESE_3_C.npy"
+    },
+    "N4_SOMA_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_1_A.npy"
+    },
+    "N4_SOMA_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_1_B.npy"
+    },
+    "N4_SOMA_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_1_C.npy"
+    },
+    "N4_SOMA_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_2_A.npy"
+    },
+    "N4_SOMA_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_2_B.npy"
+    },
+    "N4_SOMA_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_2_C.npy"
+    },
+    "N4_SOMA_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_3_A.npy"
+    },
+    "N4_SOMA_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_3_B.npy"
+    },
+    "N4_SOMA_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_SOMA_3_C.npy"
+    },
+    "N4_VACUO_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_1_A.npy"
+    },
+    "N4_VACUO_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_1_B.npy"
+    },
+    "N4_VACUO_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_1_C.npy"
+    },
+    "N4_VACUO_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_2_A.npy"
+    },
+    "N4_VACUO_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_2_B.npy"
+    },
+    "N4_VACUO_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_2_C.npy"
+    },
+    "N4_VACUO_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_3_A.npy"
+    },
+    "N4_VACUO_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_3_B.npy"
+    },
+    "N4_VACUO_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VACUO_3_C.npy"
+    },
+    "N4_VIBRATIO_1_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_1_A.npy"
+    },
+    "N4_VIBRATIO_1_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_1_B.npy"
+    },
+    "N4_VIBRATIO_1_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_1_C.npy"
+    },
+    "N4_VIBRATIO_2_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_2_A.npy"
+    },
+    "N4_VIBRATIO_2_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_2_B.npy"
+    },
+    "N4_VIBRATIO_2_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_2_C.npy"
+    },
+    "N4_VIBRATIO_3_A": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_3_A.npy"
+    },
+    "N4_VIBRATIO_3_B": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_3_B.npy"
+    },
+    "N4_VIBRATIO_3_C": {
+      "types": {
+        "structural": {
+          "weight": 0.25
+        },
+        "semantic": {
+          "weight": 0.35
+        },
+        "operational": {
+          "weight": 0.2
+        },
+        "symbolic": {
+          "weight": 0.2
+        }
+      },
+      "file": "N4_VIBRATIO_3_C.npy"
+    }
+  }
+}

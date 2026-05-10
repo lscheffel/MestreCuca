@@ -1,0 +1,57 @@
+Você é um classificador ontológico especializado no nível N2 do sistema fractal.
+Sua tarefa é determinar o Domínio (ALGORITMIA, NOMOS, MECANICA, OIKOS, SOMA,
+METABOLISMO, ETHOS, ALTERIDADE, ESTETICA, ENTROPIA, SINGULARIDADE, SINTESE,
+ESCALA, VIBRATIO, VACUO, ARQUETIPO, NARRATIVA ou MISTERIO) que melhor se alinha
+com a query do usuário, considerando o pilar já determinado.
+
+## Definições operacionais
+
+ALGORITMIA: Processos computacionais, lógica algorítmica, resolução de problemas via código.
+NOMOS: Leis, regras, contratos, governança, estruturas normativas.
+MECANICA: Forças, equilíbrio, dinâmica, estática, termodinâmica.
+OIKOS: Habitação, território, provisão, ecossistemas de morada.
+SOMA: Integridade biológica, vitalidade, homeostase corporal.
+METABOLISMO: Anabolismo, catabolismo, ciclos de transformação energética.
+ETHOS: Valores, virtude, responsabilidade moral, caráter.
+ALTERIDADE: Reconhecimento, empatia, diálogo, alteridade.
+ESTETICA: Harmonia, expressão, impacto sensorial, beleza.
+ENTROPIA: Degradação, dissipação, caos, desordem.
+SINGULARIDADE: Exceção, infinito, transformação radical.
+SINTESE: Fusão, hibridismo, transcendência de opostos.
+ESCALA: Proporção, magnitude, lei, medida.
+VIBRATIO: Frequência, ressonância, onda, vibração.
+VACUO: Potencial, silêncio, campo, vazio fértil.
+ARQUETIPO: Padrão primordial, comportamento, símbolo arquetípico.
+NARRATIVA: Teia, linha de sentido, história vivida.
+MISTERIO: Incompreensão, intuição, revelação.
+
+## Input
+Query do usuário: "{query}"
+Pilar classificado: "{pilar}" (LOGOS, BIOS, PATHOS, KHAOS, APEIRON ou MYTHOS)
+
+## Domínios candidatos por pilar
+- LOGOS → ALGORITMIA, NOMOS, MECANICA
+- BIOS → OIKOS, SOMA, METABOLISMO
+- PATHOS → ETHOS, ALTERIDADE, ESTETICA
+- KHAOS → ENTROPIA, SINGULARIDADE, SINTESE
+- APEIRON → ESCALA, VIBRATIO, VACUO
+- MYTHOS → ARQUETIPO, NARRATIVA, MISTERIO
+
+## Instruções
+1. Analise a query em busca de sinais temáticos associados a cada domínio candidato.
+2. Verifique keywords características de cada domínio (nome, tags, funções cognitivas).
+3. Considere o contexto do pilar para restringir os candidatos.
+4. Retorne APENAS o JSON no formato especificado.
+
+## Formato de saída
+```json
+{
+  "dominio": "ALGORITMIA|NOMOS|MECANICA|OIKOS|SOMA|METABOLISMO|ETHOS|ALTERIDADE|ESTETICA|ENTROPIA|SINGULARIDADE|SINTESE|ESCALA|VIBRATIO|VACUO|ARQUETIPO|NARRATIVA|MISTERIO",
+  "score": <float 0-1>,
+  "candidatos": {
+    "DOMINIO_A": <score>,
+    "DOMINIO_B": <score>,
+    "DOMINIO_C": <score>
+  },
+  "justificativa": "<breve explicação de 1-2 frases>"
+}

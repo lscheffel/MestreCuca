@@ -1,0 +1,99 @@
+=== N4_ALGORITMIA_1_A ===
+  uid: 'N4_ALGORITMIA_1_A'
+  legacy_id: 'R1.1.1-A'
+  path: 'S1.L1.1.1-A'
+  hierarchical_id: '1.1.1.1'
+  nivel: 'N4'
+  pilar: 'LOGOS'
+  dominio: 'ALGORITMIA'
+  n3_ref: '1.1.1'
+  n3_name: 'RESOLUÇÃO'
+  axis: 'SINTRÓPICO'
+  natureza: 'processo'
+  subtree_num: 1
+  cell_num: 1
+  cell_letter: 'A'
+  nome: 'DECOMPOSIÇÃO_BINÁRIA'
+  nome_normalizado: 'decomposição binária'
+  gatilho: 'Problema complexo sem solução evidente'
+  acao: 'Dividir em duas subpartes até atingir unidade resolvível'
+  restricao: 'Não aplicar quando a divisão altera a natureza do problema'
+  verificacao: 'Cada subparte deve ser estritamente menor que o original'
+  funcao_cognitiva: ['decompor', 'sequenciar', 'validar', 'resolver', 'controlar', 'otimizar', 'classificar', 'avaliar']
+  assinatura_semantica: {'abstracao': 0.417, 'complexidade': 0.601, 'causalidade': 0.595, 'emocionalidade': 0.271, 'materialidade': 0.339, 'simbolismo': 0.291, 'dinamismo': 0.598, 'temporalidade': 0.555, 'ambiguidade': 0.256
+  opostos: ['N4_ALGORITMIA_1_C', 'N4_ALGORITMIA_3_A', 'N4_ALGORITMIA_3_B', 'N4_ALGORITMIA_3_C']
+  exemplos: [{'texto': 'Ao aplicar decomposição binária em um contexto de algoritmia, verificar o fluxo de transformações'}, {'texto': 'Identificar os passos sequenciais de decomposição binária antes da execução'
+  analogias: [{'texto': 'decomposição binária é como uma receita: passos sequenciais que transformam ingredientes em resultado', 'tipo': 'analogia_conceitual'}, {'texto': 'Como um algoritmo de ordenação: reorganiz
+  tags: ['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']
+  relacoes: [{'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_B', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_A'}, {'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_C', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_A'}]
+  metadata: {'criado_em': '2026-05-09T15:36:19.892721+00:00', 'versao_schema': '1.0.0', 'origem': 'create_n4_manual.py', 'status': 'enriquecido', 'revisoes': [{'versao': '1.0.0', 'data': '2026-05-09T15:36:19.8927
+
+Fields: ['acao', 'analogias', 'assinatura_semantica', 'axis', 'cell_letter', 'cell_num', 'dominio', 'exemplos', 'funcao_cognitiva', 'gatilho', 'hierarchical_id', 'legacy_id', 'metadata', 'n3_name', 'n3_ref', 'natureza', 'nivel', 'nome', 'nome_normalizado', 'opostos', 'path', 'pilar', 'relacoes', 'restricao', 'subtree_num', 'tags', 'uid', 'verificacao']
+
+n3_names (54):
+  [ANABOLISMO] -> 3 cells
+  [CAMPO] -> 3 cells
+  [CAOS] -> 3 cells
+  [CATABOLISMO] -> 3 cells
+  [CICLO] -> 3 cells
+  [COMPORTAMENTO] -> 3 cells
+  [CONTORNO] -> 3 cells
+  [DEGRADAÇÃO] -> 3 cells
+  [DIALOGO] -> 3 cells
+  [DINAMICA] -> 3 cells
+  [DISSIPAÇÃO] -> 3 cells
+  [EMPATIA] -> 3 cells
+  [ESTATICA] -> 3 cells
+  [EXCEPCAO] -> 3 cells
+  [EXPRESSAO] -> 3 cells
+  [FREQUENCIA] -> 3 cells
+  [FUSÃO] -> 3 cells
+  [HARMONIA] -> 3 cells
+  [HIBRIDISMO] -> 3 cells
+  [HISTÓRIA_VIVIDA] -> 3 cells
+  [HOMEOSTASE] -> 3 cells
+  [IMPACTO] -> 3 cells
+  [INCOMPREENSÃO] -> 3 cells
+  [INFINITO] -> 3 cells
+  [INTEGRIDADE] -> 3 cells
+  [INTUIÇÃO] -> 3 cells
+  [LEGISLAÇÃO] -> 3 cells
+  [LEI] -> 3 cells
+  [LINHA_SENTIDO] -> 3 cells
+  [MAGNITUDE] -> 3 cells
+  [MORADA] -> 3 cells
+  [ONDA] -> 3 cells
+  [OTIMIZAÇÃO] -> 3 cells
+  [PACTO] -> 3 cells
+  [PADRAO_PRIMORDIAL] -> 3 cells
+  [POTENCIAL] -> 3 cells
+  [PROPORÇÃO] -> 3 cells
+  [PROVISAO] -> 3 cells
+  [RECONHECIMENTO] -> 3 cells
+  [RESOLUÇÃO] -> 3 cells
+  [RESONÂNCIA] -> 3 cells
+  [RESPONSABILIDADE] -> 3 cells
+  [REVELAÇÃO] -> 3 cells
+  [SILÊNCIO] -> 3 cells
+  [SÍMBOLO] -> 3 cells
+  [TEIA] -> 3 cells
+  [TERMOTRANSDINÂMICA] -> 3 cells
+  [TERRITORIO] -> 3 cells
+  [TRANSCENDENCIA] -> 3 cells
+  [TRANSFORMAÇÃO] -> 3 cells
+  [VALIDAÇÃO] -> 3 cells
+  [VALORES] -> 3 cells
+  [VIRTUDE] -> 3 cells
+  [VITALIDADE] -> 3 cells
+
+axis (2): ['ENTRÓPICO', 'SINTRÓPICO']
+pilar (6): ['APEIRON', 'BIOS', 'KHAOS', 'LOGOS', 'MYTHOS', 'PATHOS']
+dominio (18): ['ALGORITMIA', 'ALTERIDADE', 'ARQUÉTIPO', 'ENTROPIA', 'ESCALA', 'ESTÉTICA', 'ETHOS', 'MECÂNICA', 'METABOLISMO', 'MISTÉRIO', 'NARRATIVA', 'NOMOS', 'OIKOS', 'SINGULARIDADE', 'SOMA', 'SÍNTESE', 'VIBRATIO', 'VÁCUO']
+
+=== Cells in RESOLUCAO ===
+  N4_ALGORITMIA_1_A: nome=DECOMPOSIÇÃO_BINÁRIA, n3_name=RESOLUÇÃO, tags=['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']
+  N4_ALGORITMIA_1_B: nome=SEQUÊNCIA_OTIMIZADA, n3_name=RESOLUÇÃO, tags=['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']
+  N4_ALGORITMIA_1_C: nome=CASO_BASE, n3_name=RESOLUÇÃO, tags=['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']
+
+=== Looking for DECOMPOSICAO ===
+  FOUND: N4_ALGORITMIA_1_A: nome=DECOMPOSIÇÃO_BINÁRIA, nome_normalizado=decomposição binária, tags=['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']

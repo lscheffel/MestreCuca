@@ -1,0 +1,114 @@
+Total files: 162
+
+=== N4_ALGORITMIA_1_A.json ===
+  uid: 'N4_ALGORITMIA_1_A'
+  legacy_id: 'R1.1.1-A'
+  path: 'S1.L1.1.1-A'
+  hierarchical_id: '1.1.1.1'
+  nivel: 'N4'
+  pilar: 'LOGOS'
+  dominio: 'ALGORITMIA'
+  n3_ref: '1.1.1'
+  n3_name: 'RESOLUÇÃO'
+  axis: 'SINTRÓPICO'
+  natureza: 'processo'
+  subtree_num: 1
+  cell_num: 1
+  cell_letter: 'A'
+  nome: 'DECOMPOSIÇÃO_BINÁRIA'
+  nome_normalizado: 'decomposição binária'
+  gatilho: 'Problema complexo sem solução evidente'
+  acao: 'Dividir em duas subpartes até atingir unidade resolvível'
+  restricao: 'Não aplicar quando a divisão altera a natureza do problema'
+  verificacao: 'Cada subparte deve ser estritamente menor que o original'
+  funcao_cognitiva: ['decompor', 'sequenciar', 'validar']
+  assinatura_semantica: {'abstracao': 0.417, 'complexidade': 0.601, 'causalidade': 0.595, 'emocionalidade': 0.271, 'materialidade': 0.339, 'simbolismo': 0.291, 'dinamismo': 0.598, 'temporalidade': 0.555, 'ambiguidade': 0.256}
+  opostos: ['N4_ALGORITMIA_1_C', 'N4_ALGORITMIA_3_A', 'N4_ALGORITMIA_3_B']
+  exemplos: [{'texto': 'Ao aplicar decomposição binária em um contexto de algoritmia, verificar o fluxo de transformações'}, {'texto': 'Identificar os passos sequenciais de decomposição binária antes da execução'}]
+  analogias: [{'texto': 'decomposição binária é como uma receita: passos sequenciais que transformam ingredientes em resultado', 'tipo': 'analogia_conceitual'}, {'texto': 'Como um algoritmo de ordenação: reorganiza elementos até atingir ordem', 'tipo': 'analogia_conceitual'}]
+  tags: ['sintrópico', 'logos', 'n3_resolução']
+  relacoes: [{'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_B', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_A'}, {'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_C', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_A'}]
+  metadata: {'criado_em': '2026-05-09T15:36:19.892721+00:00', 'versao_schema': '1.0.0', 'origem': 'create_n4_manual.py', 'status': 'enriquecido', 'revisoes': [{'versao': '1.0.0', 'data': '2026-05-09T15:36:19.892747+00:00', 'descricao': 'Conversão inicial de markdown para JSON enriquecido'}], 'versoes': [{'versao': '2.0.0', 'data': '2026-05-09T16:21:45.323421+00:00', 'descricao': 'Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos'}]}
+
+=== N4_ALGORITMIA_1_B.json ===
+  uid: 'N4_ALGORITMIA_1_B'
+  legacy_id: 'R1.1.1-B'
+  path: 'S1.L1.1.1-B'
+  hierarchical_id: '1.1.1.2'
+  nivel: 'N4'
+  pilar: 'LOGOS'
+  dominio: 'ALGORITMIA'
+  n3_ref: '1.1.1'
+  n3_name: 'RESOLUÇÃO'
+  axis: 'SINTRÓPICO'
+  natureza: 'processo'
+  subtree_num: 1
+  cell_num: 2
+  cell_letter: 'B'
+  nome: 'SEQUÊNCIA_OTIMIZADA'
+  nome_normalizado: 'sequência otimizada'
+  gatilho: 'Múltiplos passos possíveis para objetivo'
+  acao: 'Identificar dependências e ordenar topologicamente'
+  restricao: 'Ignorar ordens que violem precedências lógicas'
+  verificacao: 'Sequência deve ser executável sem retrocessos'
+  funcao_cognitiva: ['sequenciar', 'classificar', 'validar']
+  assinatura_semantica: {'abstracao': 0.418, 'complexidade': 0.581, 'causalidade': 0.557, 'emocionalidade': 0.263, 'materialidade': 0.317, 'simbolismo': 0.272, 'dinamismo': 0.634, 'temporalidade': 0.566, 'ambiguidade': 0.239}
+  opostos: ['N4_ALGORITMIA_3_A', 'N4_ALGORITMIA_3_B', 'N4_ALGORITMIA_3_C']
+  exemplos: [{'texto': 'Ao aplicar sequência otimizada em um contexto de algoritmia, verificar o fluxo de transformações'}, {'texto': 'Identificar os passos sequenciais de sequência otimizada antes da execução'}]
+  analogias: [{'texto': 'sequência otimizada é como uma receita: passos sequenciais que transformam ingredientes em resultado', 'tipo': 'analogia_conceitual'}, {'texto': 'Como um algoritmo de ordenação: reorganiza elementos até atingir ordem', 'tipo': 'analogia_conceitual'}]
+  tags: ['sintrópico', 'logos', 'n3_resolução']
+  relacoes: [{'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_A', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_B'}, {'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_C', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_B'}]
+  metadata: {'criado_em': '2026-05-09T15:36:19.896301+00:00', 'versao_schema': '1.0.0', 'origem': 'create_n4_manual.py', 'status': 'enriquecido', 'revisoes': [{'versao': '1.0.0', 'data': '2026-05-09T15:36:19.896331+00:00', 'descricao': 'Conversão inicial de markdown para JSON enriquecido'}], 'versoes': [{'versao': '2.0.0', 'data': '2026-05-09T16:21:45.332334+00:00', 'descricao': 'Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos'}]}
+
+=== N4_ALGORITMIA_1_C.json ===
+  uid: 'N4_ALGORITMIA_1_C'
+  legacy_id: 'R1.1.1-C'
+  path: 'S1.L1.1.1-C'
+  hierarchical_id: '1.1.1.3'
+  nivel: 'N4'
+  pilar: 'LOGOS'
+  dominio: 'ALGORITMIA'
+  n3_ref: '1.1.1'
+  n3_name: 'RESOLUÇÃO'
+  axis: 'SINTRÓPICO'
+  natureza: 'processo'
+  subtree_num: 1
+  cell_num: 3
+  cell_letter: 'C'
+  nome: 'CASO_BASE'
+  nome_normalizado: 'caso base'
+  gatilho: 'Recursão ou processo iterativo'
+  acao: 'Definir condição de parada e resultado trivial'
+  restricao: 'Caso base deve ser alcançável em passos finitos'
+  verificacao: 'Processo converge para caso base'
+  funcao_cognitiva: ['sequenciar', 'especializar', 'validar']
+  assinatura_semantica: {'abstracao': 0.427, 'complexidade': 0.582, 'causalidade': 0.583, 'emocionalidade': 0.254, 'materialidade': 0.334, 'simbolismo': 0.264, 'dinamismo': 0.611, 'temporalidade': 0.571, 'ambiguidade': 0.295}
+  opostos: ['N4_ALGORITMIA_1_A', 'N4_ALGORITMIA_3_A', 'N4_ALGORITMIA_3_B']
+  exemplos: [{'texto': 'Ao aplicar caso base em um contexto de algoritmia, verificar o fluxo de transformações'}, {'texto': 'Identificar os passos sequenciais de caso base antes da execução'}]
+  analogias: [{'texto': 'caso base é como uma receita: passos sequenciais que transformam ingredientes em resultado', 'tipo': 'analogia_conceitual'}, {'texto': 'Como um algoritmo de ordenação: reorganiza elementos até atingir ordem', 'tipo': 'analogia_conceitual'}]
+  tags: ['sintrópico', 'logos', 'n3_resolução']
+  relacoes: [{'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_A', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_C'}, {'tipo': 'complementa', 'alvo': 'N4_ALGORITMIA_1_B', 'peso': 0.6, 'source': 'N4_ALGORITMIA_1_C'}]
+  metadata: {'criado_em': '2026-05-09T15:36:19.899785+00:00', 'versao_schema': '1.0.0', 'origem': 'create_n4_manual.py', 'status': 'enriquecido', 'revisoes': [{'versao': '1.0.0', 'data': '2026-05-09T15:36:19.899813+00:00', 'descricao': 'Conversão inicial de markdown para JSON enriquecido'}], 'versoes': [{'versao': '2.0.0', 'data': '2026-05-09T16:21:45.341008+00:00', 'descricao': 'Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos'}]}
+
+=== KEY NAMES ===
+All top-level keys: ['acao', 'analogias', 'assinatura_semantica', 'axis', 'cell_letter', 'cell_num', 'dominio', 'exemplos', 'funcao_cognitiva', 'gatilho', 'hierarchical_id', 'legacy_id', 'metadata', 'n3_name', 'n3_ref', 'natureza', 'nivel', 'nome', 'nome_normalizado', 'opostos', 'path', 'pilar', 'relacoes', 'restricao', 'subtree_num', 'tags', 'uid', 'verificacao']
+
+=== RAW DOMINIO VALUES ===
+Unique (18):
+  'ALGORITMIA'
+  'ALTERIDADE'
+  'ARQUÉTIPO'
+  'ENTROPIA'
+  'ESCALA'
+  'ESTÉTICA'
+  'ETHOS'
+  'MECÂNICA'
+  'METABOLISMO'
+  'MISTÉRIO'
+
+=== RAW N3_NAME VALUES ===
+Traceback (most recent call last):
+  File "e:\Arquivos\Área de Trabalho\MestreCuca\diag.py", line 47, in <module>
+    with open(os.path.join(d, f), encoding='utf-8') as fp:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: "'MISTÉRIO'\\N4_ALGORITMIA_1_A.json"

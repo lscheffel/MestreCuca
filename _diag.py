@@ -1,62 +1,41 @@
 #!/usr/bin/env python3
-"""Diagnostico do bug infer_paths."""
-import sys
-import os
-os.chdir(r"e:\Arquivos\Área de Trabalho\MestreCuca")
+import sys, numpy as np
+sys.path.insert(0, 'tools')
 sys.path.insert(0, 'core')
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
+from pathlib import Path
+import json
 
-import networkx as nx
-from ontology_graph import OntologyGraph
+model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
+emb_dir = Path('data/embeddings')
+embeddings = {}
+for f in sorted(emb_dir.glob('N4_*.npy')):
+    uid = f.stem
+    emb = np.load(f).astype(np.float32)
+    norm = np.linalg.norm(emb)
+    if norm > 1e-8:
+        emb = emb / norm
+    embeddings[uid] = emb
 
-g = OntologyGraph()
-g.load_registry()
-g.build_graph()
+all_embs = np.stack(list(embeddings.values()))
+all_uids = list(embeddings.keys())
 
-print(f"Nodes: {g.G.number_of_nodes()}")
-print(f"Edges: {g.G.number_of_edges()}")
+queries = [
+    'decomposicao problemas complexos',
+    'validacao sistemas',
+    'metabolismo ciclos',
+    'reconhecimento padroes',
+    'homeostase equilibrio',
+    'transformacao ruptura',
+]
 
-# Verificar se os nós existem
-src = 'N4_ALGORITMIA_1_A'
-tgt = 'N4_MISTERIO_3_A'
-print(f"{src} in G: {src in g.G}")
-print(f"{tgt} in G: {tgt in g.G}")
-
-# Verificar componentes conexas
-undirected = g.G.to_undirected()
-cc = list(nx.connected_components(undirected))
-print(f"Componentes conexas: {len(cc)}")
-for i, comp in enumerate(cc):
-    has_algo = src in comp
-    has_mist = tgt in comp
-    if has_algo or has_mist:
-        print(f"  Componente {i}: tamanho={len(comp)}, ALGO={has_algo}, MIST={has_mist}")
-
-# Testar all_simple_paths diretamente
-try:
-    search_graph = g.G.to_undirected()
-    paths = list(nx.all_simple_paths(search_graph, src, tgt, cutoff=8))
-    print(f"all_simple_paths found: {len(paths)} paths")
-    if paths:
-        print(f"  Primeiro caminho: {paths[0]}")
-except Exception as e:
-    print(f"Exception type: {type(e).__name__}")
-    print(f"Exception module: {type(e).__module__}")
-    print(f"Exception message: '{e}'")
-    import traceback
-    traceback.print_exc()
-
-# Testar infer_paths
-try:
-    result = g.infer_paths(src, tgt, max_length=8)
-    print(f"infer_paths result type: {type(result)}")
-    print(f"infer_paths result len: {len(result)}")
-except Exception as e:
-    print(f"infer_paths Exception: {type(e).__name__}: '{e}'")
-    import traceback
-    traceback.print_exc()
-
-# Verificar NetworkXNoPath
-print(f"\nHas NetworkXNoPath: {hasattr(nx, 'NetworkXNoPath')}")
-print(f"Has NoPath: {hasattr(nx, 'NoPath')}")
-excs = [a for a in dir(nx) if 'Error' in a or 'Exception' in a or 'NoPath' in a]
-print(f"NX exceptions: {excs}")
+for q in queries:
+    q_emb = model.encode(q, normalize_embeddings=True, convert_to_numpy=True).astype(np.float32)
+    sims = cosine_similarity(q_emb.reshape(1, -1), all_embs)[0]
+    top_idx = np.argsort(sims)[::-1][:5]
+    print('Query: %s' % q)
+    print('  Max sim: %.4f' % sims[top_idx[0]])
+    for idx in top_idx:
+        print('    %s: %.4f' % (all_uids[idx], sims[idx]))
+    print()

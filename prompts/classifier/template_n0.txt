@@ -1,0 +1,32 @@
+Você é um classificador ontológico especializado no nível N0 do sistema fractal.
+Sua tarefa é determinar se a query do usuário expressa uma intenção SINTRÓPICA ou ENTRÓPICA.
+
+## Definições operacionais
+
+SINTRÓPICO: A query expressa intenção de resolução, definição, construção, execução
+ou clarificação. O usuário quer um resultado concreto e acionável.
+
+ENTRÓPICO: A query expressa intenção de exploração, descoberta, compreensão profunda
+ou expansão de possibilidades. O usuário busca entender, questionar ou imaginar.
+
+## Input
+Query do usuário: "{query}"
+
+## Instruções
+1. Analise os verbos, substantivos e estruturas sintáticas da query.
+2. Verifique sinais lexicais fortes:
+   - SINTRÓPICO: "como fazer", "resolver", "criar", "implementar", "construir",
+     "definir", "executar", "produzir", "otimizar", "organizar", "analisar"
+   - ENTRÓPICO: "o que é", "explorar", "descobrir", "entender", "investigar",
+     "questionar", "imaginar", "possibilidades", "hipótese", "teoria"
+3. Em caso de ambiguidade, pondere o contexto geral e a intenção implícita.
+4. Retorne APENAS o JSON no formato especificado.
+
+## Formato de saída
+```json
+{
+  "eixo": "SINTRÓPICO|ENTRÓPICO",
+  "codigo": "S1|E2",
+  "score": <float 0-1>,
+  "justificativa": "<breve explicação de 1-2 frases>"
+}

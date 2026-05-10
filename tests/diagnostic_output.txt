@@ -1,0 +1,283 @@
+=== SAMPLE REGISTRY ===
+  N4_ALGORITMIA_1_A: uid='N4_ALGORITMIA_1_A'
+  N4_ALGORITMIA_1_A: axis='SINTRÓPICO'
+  N4_ALGORITMIA_1_A: eixo=None
+  N4_ALGORITMIA_1_A: pilar='LOGOS'
+  N4_ALGORITMIA_1_A: dominio='ALGORITMIA'
+  N4_ALGORITMIA_1_A: n3_name='RESOLUÇÃO'
+  N4_ALGORITMIA_1_A: nome='DECOMPOSIÇÃO_BINÁRIA'
+  N4_ALGORITMIA_1_A: nome_normalizado='decomposição binária'
+
+  N4_ALGORITMIA_1_B: uid='N4_ALGORITMIA_1_B'
+  N4_ALGORITMIA_1_B: axis='SINTRÓPICO'
+  N4_ALGORITMIA_1_B: eixo=None
+  N4_ALGORITMIA_1_B: pilar='LOGOS'
+  N4_ALGORITMIA_1_B: dominio='ALGORITMIA'
+  N4_ALGORITMIA_1_B: n3_name='RESOLUÇÃO'
+  N4_ALGORITMIA_1_B: nome='SEQUÊNCIA_OTIMIZADA'
+  N4_ALGORITMIA_1_B: nome_normalizado='sequência otimizada'
+
+  N4_ALGORITMIA_1_C: uid='N4_ALGORITMIA_1_C'
+  N4_ALGORITMIA_1_C: axis='SINTRÓPICO'
+  N4_ALGORITMIA_1_C: eixo=None
+  N4_ALGORITMIA_1_C: pilar='LOGOS'
+  N4_ALGORITMIA_1_C: dominio='ALGORITMIA'
+  N4_ALGORITMIA_1_C: n3_name='RESOLUÇÃO'
+  N4_ALGORITMIA_1_C: nome='CASO_BASE'
+  N4_ALGORITMIA_1_C: nome_normalizado='caso base'
+
+=== INDEX SIZES ===
+_uid_by_axis: 2 keys
+  ENTRÓPICO: 81 items
+  SINTRÓPICO: 81 items
+_uid_by_pilar: 6 keys
+  APEIRON: 27 items
+  BIOS: 27 items
+  KHAOS: 27 items
+  LOGOS: 27 items
+  MYTHOS: 27 items
+  PATHOS: 27 items
+_uid_by_dominio: 18 keys
+  ALGORITMIA: 9 items
+  ALTERIDADE: 9 items
+  ARQUETIPO: 9 items
+  ENTROPIA: 9 items
+  ESCALA: 9 items
+  ESTETICA: 9 items
+  ETHOS: 9 items
+  MECANICA: 9 items
+  METABOLISMO: 9 items
+  MISTERIO: 9 items
+  NARRATIVA: 9 items
+  NOMOS: 9 items
+  OIKOS: 9 items
+  SINGULARIDADE: 9 items
+  SINTESE: 9 items
+  SOMA: 9 items
+  VACUO: 9 items
+  VIBRATIO: 9 items
+_uid_by_subarvore: 54 keys
+  ANABOLISMO: 3 items
+  CAMPO: 3 items
+  CAOS: 3 items
+  CATABOLISMO: 3 items
+  CICLO: 3 items
+  COMPORTAMENTO: 3 items
+  CONTORNO: 3 items
+  DEGRADACAO: 3 items
+  DIALOGO: 3 items
+  DINAMICA: 3 items
+  DISSIPACAO: 3 items
+  EMPATIA: 3 items
+  ESTATICA: 3 items
+  EXCEPCAO: 3 items
+  EXPRESSAO: 3 items
+  FREQUENCIA: 3 items
+  FUSAO: 3 items
+  HARMONIA: 3 items
+  HIBRIDISMO: 3 items
+  HISTORIA_VIVIDA: 3 items
+  HOMEOSTASE: 3 items
+  IMPACTO: 3 items
+  INCOMPREENSAO: 3 items
+  INFINITO: 3 items
+  INTEGRIDADE: 3 items
+  INTUICAO: 3 items
+  LEGISLACAO: 3 items
+  LEI: 3 items
+  LINHA_SENTIDO: 3 items
+  MAGNITUDE: 3 items
+  MORADA: 3 items
+  ONDA: 3 items
+  OTIMIZACAO: 3 items
+  PACTO: 3 items
+  PADRAO_PRIMORDIAL: 3 items
+  POTENCIAL: 3 items
+  PROPORCAO: 3 items
+  PROVISAO: 3 items
+  RECONHECIMENTO: 3 items
+  RESOLUCAO: 3 items
+  RESONANCIA: 3 items
+  RESPONSABILIDADE: 3 items
+  REVELACAO: 3 items
+  SILENCIO: 3 items
+  SIMBOLO: 3 items
+  TEIA: 3 items
+  TERMOTRANSDINAMICA: 3 items
+  TERRITORIO: 3 items
+  TRANSCENDENCIA: 3 items
+  TRANSFORMACAO: 3 items
+  VALIDACAO: 3 items
+  VALORES: 3 items
+  VIRTUDE: 3 items
+  VITALIDADE: 3 items
+
+=== DOMAIN KEY MISMATCH ===
+  ALGORITMIA      -> norm=ALGORITMIA      in_index=True count=9
+  ALTERIDADE      -> norm=ALTERIDADE      in_index=True count=9
+  ARQUETIPO       -> norm=ARQUETIPO       in_index=True count=9
+  ENTROPIA        -> norm=ENTROPIA        in_index=True count=9
+  ESCALA          -> norm=ESCALA          in_index=True count=9
+  ESTETICA        -> norm=ESTETICA        in_index=True count=9
+  ETHOS           -> norm=ETHOS           in_index=True count=9
+  MECANICA        -> norm=MECANICA        in_index=True count=9
+  METABOLISMO     -> norm=METABOLISMO     in_index=True count=9
+  MISTERIO        -> norm=MISTERIO        in_index=True count=9
+  NARRATIVA       -> norm=NARRATIVA       in_index=True count=9
+  NOMOS           -> norm=NOMOS           in_index=True count=9
+  OIKOS           -> norm=OIKOS           in_index=True count=9
+  SINGULARIDADE   -> norm=SINGULARIDADE   in_index=True count=9
+  SINTESE         -> norm=SINTESE         in_index=True count=9
+  SOMA            -> norm=SOMA            in_index=True count=9
+  VACUO           -> norm=VACUO           in_index=True count=9
+  VIBRATIO        -> norm=VIBRATIO        in_index=True count=9
+
+=== SUBTREE KEY MISMATCH ===
+  RESOLUCAO                 -> norm=RESOLUCAO                 in_index=True
+  OTIMIZACAO                -> norm=OTIMIZACAO                in_index=True
+  VALIDACAO                 -> norm=VALIDACAO                 in_index=True
+  RECONHECIMENTO            -> norm=RECONHECIMENTO            in_index=True
+  EMPATIA                   -> norm=EMPATIA                   in_index=True
+  DIALOGO                   -> norm=DIALOGO                   in_index=True
+  PADRAO_PRIMORDIAL         -> norm=PADRAO_PRIMORDIAL         in_index=True
+  COMPORTAMENTO             -> norm=COMPORTAMENTO             in_index=True
+  SIMBOLO                   -> norm=SIMBOLO                   in_index=True
+  DEGRADACAO                -> norm=DEGRADACAO                in_index=True
+  DISSIPACAO                -> norm=DISSIPACAO                in_index=True
+  CAOS                      -> norm=CAOS                      in_index=True
+  PROPORCAO                 -> norm=PROPORCAO                 in_index=True
+  MAGNITUDE                 -> norm=MAGNITUDE                 in_index=True
+  LEI                       -> norm=LEI                       in_index=True
+  HARMONIA                  -> norm=HARMONIA                  in_index=True
+  EXPRESSAO                 -> norm=EXPRESSAO                 in_index=True
+  IMPACTO                   -> norm=IMPACTO                   in_index=True
+  VALORES                   -> norm=VALORES                   in_index=True
+  VIRTUDE                   -> norm=VIRTUDE                   in_index=True
+  RESPONSABILIDADE          -> norm=RESPONSABILIDADE          in_index=True
+  ESTATICA                  -> norm=ESTATICA                  in_index=True
+  DINAMICA                  -> norm=DINAMICA                  in_index=True
+  TERMOTRANSDINAMICA        -> norm=TERMOTRANSDINAMICA        in_index=True
+  ANABOLISMO                -> norm=ANABOLISMO                in_index=True
+  CATABOLISMO               -> norm=CATABOLISMO               in_index=True
+  CICLO                     -> norm=CICLO                     in_index=True
+  INCOMPREENSAO             -> norm=INCOMPREENSAO             in_index=True
+  INTUICAO                  -> norm=INTUICAO                  in_index=True
+  REVELACAO                 -> norm=REVELACAO                 in_index=True
+  TEIA                      -> norm=TEIA                      in_index=True
+  LINHA_SENTIDO             -> norm=LINHA_SENTIDO             in_index=True
+  HISTORIA_VIVIDA           -> norm=HISTORIA_VIVIDA           in_index=True
+  LEGISLACAO                -> norm=LEGISLACAO                in_index=True
+  CONTORNO                  -> norm=CONTORNO                  in_index=True
+  PACTO                     -> norm=PACTO                     in_index=True
+  MORADA                    -> norm=MORADA                    in_index=True
+  TERRITORIO                -> norm=TERRITORIO                in_index=True
+  PROVISAO                  -> norm=PROVISAO                  in_index=True
+  EXCEPCAO                  -> norm=EXCEPCAO                  in_index=True
+  INFINITO                  -> norm=INFINITO                  in_index=True
+  TRANSFORMACAO             -> norm=TRANSFORMACAO             in_index=True
+  FUSAO                     -> norm=FUSAO                     in_index=True
+  HIBRIDISMO                -> norm=HIBRIDISMO                in_index=True
+  TRANSCENDENCIA            -> norm=TRANSCENDENCIA            in_index=True
+  INTEGRIDADE               -> norm=INTEGRIDADE               in_index=True
+  VITALIDADE                -> norm=VITALIDADE                in_index=True
+  HOMEOSTASE                -> norm=HOMEOSTASE                in_index=True
+  POTENCIAL                 -> norm=POTENCIAL                 in_index=True
+  SILENCIO                  -> norm=SILENCIO                  in_index=True
+  CAMPO                     -> norm=CAMPO                     in_index=True
+  FREQUENCIA                -> norm=FREQUENCIA                in_index=True
+  RESSONANCIA               -> norm=RESSONANCIA               in_index=False
+  ONDA                      -> norm=ONDA                      in_index=True
+
+=== ALL n3_name VALUES ===
+  registry=ANABOLISMO                     norm=ANABOLISMO                     in_index=True
+  registry=CAMPO                          norm=CAMPO                          in_index=True
+  registry=CAOS                           norm=CAOS                           in_index=True
+  registry=CATABOLISMO                    norm=CATABOLISMO                    in_index=True
+  registry=CICLO                          norm=CICLO                          in_index=True
+  registry=COMPORTAMENTO                  norm=COMPORTAMENTO                  in_index=True
+  registry=CONTORNO                       norm=CONTORNO                       in_index=True
+  registry=DEGRADAÇÃO                     norm=DEGRADACAO                     in_index=True
+  registry=DIALOGO                        norm=DIALOGO                        in_index=True
+  registry=DINAMICA                       norm=DINAMICA                       in_index=True
+  registry=DISSIPAÇÃO                     norm=DISSIPACAO                     in_index=True
+  registry=EMPATIA                        norm=EMPATIA                        in_index=True
+  registry=ESTATICA                       norm=ESTATICA                       in_index=True
+  registry=EXCEPCAO                       norm=EXCEPCAO                       in_index=True
+  registry=EXPRESSAO                      norm=EXPRESSAO                      in_index=True
+  registry=FREQUENCIA                     norm=FREQUENCIA                     in_index=True
+  registry=FUSÃO                          norm=FUSAO                          in_index=True
+  registry=HARMONIA                       norm=HARMONIA                       in_index=True
+  registry=HIBRIDISMO                     norm=HIBRIDISMO                     in_index=True
+  registry=HISTÓRIA_VIVIDA                norm=HISTORIA_VIVIDA                in_index=True
+  registry=HOMEOSTASE                     norm=HOMEOSTASE                     in_index=True
+  registry=IMPACTO                        norm=IMPACTO                        in_index=True
+  registry=INCOMPREENSÃO                  norm=INCOMPREENSAO                  in_index=True
+  registry=INFINITO                       norm=INFINITO                       in_index=True
+  registry=INTEGRIDADE                    norm=INTEGRIDADE                    in_index=True
+  registry=INTUIÇÃO                       norm=INTUICAO                       in_index=True
+  registry=LEGISLAÇÃO                     norm=LEGISLACAO                     in_index=True
+  registry=LEI                            norm=LEI                            in_index=True
+  registry=LINHA_SENTIDO                  norm=LINHA_SENTIDO                  in_index=True
+  registry=MAGNITUDE                      norm=MAGNITUDE                      in_index=True
+  registry=MORADA                         norm=MORADA                         in_index=True
+  registry=ONDA                           norm=ONDA                           in_index=True
+  registry=OTIMIZAÇÃO                     norm=OTIMIZACAO                     in_index=True
+  registry=PACTO                          norm=PACTO                          in_index=True
+  registry=PADRAO_PRIMORDIAL              norm=PADRAO_PRIMORDIAL              in_index=True
+  registry=POTENCIAL                      norm=POTENCIAL                      in_index=True
+  registry=PROPORÇÃO                      norm=PROPORCAO                      in_index=True
+  registry=PROVISAO                       norm=PROVISAO                       in_index=True
+  registry=RECONHECIMENTO                 norm=RECONHECIMENTO                 in_index=True
+  registry=RESOLUÇÃO                      norm=RESOLUCAO                      in_index=True
+  registry=RESONÂNCIA                     norm=RESONANCIA                     in_index=True
+  registry=RESPONSABILIDADE               norm=RESPONSABILIDADE               in_index=True
+  registry=REVELAÇÃO                      norm=REVELACAO                      in_index=True
+  registry=SILÊNCIO                       norm=SILENCIO                       in_index=True
+  registry=SÍMBOLO                        norm=SIMBOLO                        in_index=True
+  registry=TEIA                           norm=TEIA                           in_index=True
+  registry=TERMOTRANSDINÂMICA             norm=TERMOTRANSDINAMICA             in_index=True
+  registry=TERRITORIO                     norm=TERRITORIO                     in_index=True
+  registry=TRANSCENDENCIA                 norm=TRANSCENDENCIA                 in_index=True
+  registry=TRANSFORMAÇÃO                  norm=TRANSFORMACAO                  in_index=True
+  registry=VALIDAÇÃO                      norm=VALIDACAO                      in_index=True
+  registry=VALORES                        norm=VALORES                        in_index=True
+  registry=VIRTUDE                        norm=VIRTUDE                        in_index=True
+  registry=VITALIDADE                     norm=VITALIDADE                     in_index=True
+
+=== N0 DEBUG ===
+  'explorar o desconhecido' -> ENTRÓPICO score=0.2323 candidates={'SINTRÓPICO': 0.2073, 'ENTRÓPICO': 0.2323}
+  'o que e o significado da existencia' -> SINTRÓPICO score=0.2711 candidates={'SINTRÓPICO': 0.2711, 'ENTRÓPICO': 0.2622}
+  'como resolver um problema' -> SINTRÓPICO score=0.2265 candidates={'SINTRÓPICO': 0.2265, 'ENTRÓPICO': 0.1916}
+
+=== N2 DEBUG ===
+  'como implementar um algoritmo de busca' pilar=LOGOS -> ALGORITMIA (expected ALGORITMIA) cand={'ALGORITMIA': 0.2905, 'NOMOS': 0.2643, 'MECANICA': 0.2704}
+  'organizar o territorio de forma harmoniosa' pilar=BIOS -> METABOLISMO (expected OIKOS) cand={'OIKOS': 0.2985, 'SOMA': 0.2981, 'METABOLISMO': 0.3007}
+  'quais valores devem guiar uma organizacao' pilar=PATHOS -> ETHOS (expected ETHOS) cand={'ETHOS': 0.3478, 'ALTERIDADE': 0.3364, 'ESTETICA': 0.3287}
+  'entender a degradacao de sistemas' pilar=KHAOS -> ENTROPIA (expected ENTROPIA) cand={'ENTROPIA': 0.2842, 'SINGULARIDADE': 0.268, 'SINTESE': 0.2743}
+
+=== N4 DEBUG ===
+  n3=RESOLUCAO: label=DECOMPOSIÇÃO_BINÁRIA score=0.2226 top3=[('DECOMPOSIÇÃO_BINÁRIA', 0.2226), ('CASO_BASE', 0.2132), ('SEQUÊNCIA_OTIMIZADA', 0.196)]
+  n3=DEGRADACAO: label=DESTRUIÇÃO_CRIATIVA score=0.2073 top3=[('DESTRUIÇÃO_CRIATIVA', 0.2073), ('RECICLAGEM', 0.2071), ('ENTROPIA_SISTEMA', 0.2022)]
+  n3=ENTROPIA: label=DESCONHECIDO score=0.0 top3=[]
+  n3=MORADA: label=RECURSOS_ESSENCIAIS score=0.2186 top3=[('RECURSOS_ESSENCIAIS', 0.2186), ('SANEAMENTO', 0.1868), ('PROTEÇÃO_FÍSICA', 0.1703)]
+  n3=PADRAO_PRIMORDIAL: label=RECONHECIMENTO_ARQUETÍPICO score=0.1942 top3=[('RECONHECIMENTO_ARQUETÍPICO', 0.1942), ('ATIVAÇÃO_SIMPOLAR', 0.1873), ('SÍNTESE_OPOSTOS', 0.1742)]
+
+=== FULL CLASSIFY FAILING ===
+  'o que e o significado da existencia'
+    -> SINTRÓPICO -> PATHOS -> ALTERIDADE -> RECONHECIMENTO -> EXISTÊNCIA conf=0.3820
+  'como implementar um algoritmo de busca'
+    -> SINTRÓPICO -> BIOS -> SOMA -> INTEGRIDADE -> ATUALIZAÇÃO_SISTEMA conf=0.2927
+  'organizar o territorio de forma harmoniosa'
+    -> SINTRÓPICO -> PATHOS -> ESTETICA -> HARMONIA -> EQUILÍBRIO_ESTÉTICO conf=0.3285
+  'quais valores devem guiar uma organizacao'
+    -> SINTRÓPICO -> LOGOS -> ALGORITMIA -> OTIMIZACAO -> PARALELIZAÇÃO conf=0.3517
+  'entender a degradacao de sistemas'
+    -> SINTRÓPICO -> BIOS -> SOMA -> INTEGRIDADE -> ATUALIZAÇÃO_SISTEMA conf=0.3138
+  'reconhecer padroes primordiais na experiencia'
+    -> ENTRÓPICO -> APEIRON -> ESCALA -> MAGNITUDE -> EXPERIÊNCIA_ESCALAR conf=0.3037
+  'explorar o desconhecido'
+    -> ENTRÓPICO -> MYTHOS -> MISTERIO -> REVELACAO -> DESVELAMENTO conf=0.3111
+  'o caos em sistemas nao lineares'
+    -> SINTRÓPICO -> LOGOS -> MECANICA -> ESTATICA -> ANÁLISE_ESTATICA conf=0.3017
+  'simbolos universais na experiencia humana'
+    -> ENTRÓPICO -> MYTHOS -> NARRATIVA -> HISTORIA_VIVIDA -> EXPERIÊNCIA_NARRATIVA conf=0.2758
