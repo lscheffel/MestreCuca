@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-1_3_3 - LOGOS / BALANÇO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 1.3.3 (agregado)
+- **ID N3 Pai:** 1.3.3
+- **ID N2 Avô:** 1.3
+- **Domínio:** LOGOS
+- **Subdomínio N3:** BALANÇO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **BALANÇO** (LOGOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-1_3_3-LOGOS-BALANÇO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-1_3_3-LOGOS-BALANÇO.md` |
+| Domínio N2 | 1.3_BALANÇO |
+| Domínio N1 | LOGOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: LOGOS
+      └─ N2: 1.3_BALANÇO
+          └─ N3: 1.3.3 BALANÇO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. BALANÇO_ENERGIA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** R1.3.3-A
+- **Gatilho:** Sistema trocando energia
+- **Ação:** Contabilizar entradas e saídas
+- **Restrição:** Não criar nem destruir energia
+- **Verificação:** Energia total conservada
 
-### 2. TECIDO_SENTIDO
+### 2. EFICIÊNCIA_TERMODINÂMICA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** R1.3.3-B
+- **Gatilho:** Avaliar eficiência de conversão
+- **Ação:** Calcular razão entre útil e total
+- **Restrição:** Não exceder limites teóricos
+- **Verificação:** Eficiência dentro dos limites possíveis
 
-### 3. COMPLEXIDADE_TEIA
+### 3. ENTROPIA_PROCESSO
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** R1.3.3-C
+- **Gatilho:** Medir desordem do sistema
+- **Ação:** Calcular variação de entropia
+- **Restrição:** Não violar segunda lei
+- **Verificação:** Entropia não diminui globalmente
 
 
 

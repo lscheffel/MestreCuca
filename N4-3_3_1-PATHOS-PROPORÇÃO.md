@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-3_3_1 - PATHOS / PROPORÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 3.3.1 (agregado)
+- **ID N3 Pai:** 3.3.1
+- **ID N2 Avô:** 3.3
+- **Domínio:** PATHOS
+- **Subdomínio N3:** PROPORÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **PROPORÇÃO** (PATHOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-3_3_1-PATHOS-PROPORÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-3_3_1-PATHOS-PROPORÇÃO.md` |
+| Domínio N2 | 3.3_PROPORÇÃO |
+| Domínio N1 | PATHOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: PATHOS
+      └─ N2: 3.3_PROPORÇÃO
+          └─ N3: 3.3.1 PROPORÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. PROPORÇÃO_AUREA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** P3.3.1-A
+- **Gatilho:** Divisão harmônica de espaço/tempo
+- **Ação:** Aplicar razão 1:1.618
+- **Restrição:** Não forçar onde prejudica
+- **Verificação:** Distribuição percebida como equilibrada
 
-### 2. TECIDO_SENTIDO
+### 2. EQUILÍBRIO_ESTÉTICO
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** P3.3.1-B
+- **Gatilho:** Alcançar harmonia visual
+- **Ação:** Balancear elementos
+- **Restrição:** Não desequilibrar composição
+- **Verificação:** Harmonia visual alcançada
 
-### 3. COMPLEXIDADE_TEIA
+### 3. RESSONÂNCIA
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** P3.3.1-C
+- **Gatilho:** Criar vibração harmoniosa
+- **Ação:** Ajustar frequências
+- **Restrição:** Não causar dissonância
+- **Verificação:** Ressonância positiva gerada
 
 
 

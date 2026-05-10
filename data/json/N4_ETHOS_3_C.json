@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ETHOS_3_C",
+  "legacy_id": "P3.1.3-C",
+  "path": "S1.P3.1.3-C",
+  "hierarchical_id": "3.1.3.3",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ETHOS",
+  "n3_ref": "3.1.3",
+  "n3_name": "RESPONSABILIDADE",
+  "axis": "SINTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 3,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "ESCOLHA",
+  "nome_normalizado": "escolha",
+  "gatilho": "Decidir entre alternativas",
+  "acao": "Ponderar valores em conflito",
+  "restricao": "Não decidir precipitadamente",
+  "verificacao": "Escolha alinhada com valores",
+  "funcao_cognitiva": [
+    "avaliar",
+    "classificar",
+    "comparar",
+    "inferir",
+    "interpretar",
+    "mapear",
+    "sequenciar",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.495,
+    "complexidade": 0.467,
+    "causalidade": 0.522,
+    "emocionalidade": 0.348,
+    "materialidade": 0.335,
+    "simbolismo": 0.303,
+    "dinamismo": 0.342,
+    "temporalidade": 0.366,
+    "ambiguidade": 0.474
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de escolha para operação segura em ethos"
+    },
+    {
+      "texto": "Documentar violações de escolha e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "escolha funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "restricao",
+    "ethos",
+    "pathos",
+    "n3_responsabilidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.6,
+      "source": "N4_ETHOS_3_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.6,
+      "source": "N4_ETHOS_3_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.335441+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.335470+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:46.700533+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

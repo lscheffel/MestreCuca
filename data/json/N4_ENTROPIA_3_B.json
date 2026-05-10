@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_3_B",
+  "legacy_id": "K4.1.3-B",
+  "path": "E2.K1.1.3-B",
+  "hierarchical_id": "4.1.3.2",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.3",
+  "n3_name": "CAOS",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "COMPLEXIDADE_CAÓTICA",
+  "nome_normalizado": "complexidade caótica",
+  "gatilho": "Sistema altamente sensível",
+  "acao": "Reconhecer dependência inicial",
+  "restricao": "Não prever a longo prazo",
+  "verificacao": "Comportamento compreendido",
+  "funcao_cognitiva": [
+    "prever",
+    "dissolver",
+    "equilibrar",
+    "transformar",
+    "comparar",
+    "avaliar",
+    "sintetizar",
+    "adaptar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.675,
+    "complexidade": 0.605,
+    "causalidade": 0.484,
+    "emocionalidade": 0.591,
+    "materialidade": 0.352,
+    "simbolismo": 0.668,
+    "dinamismo": 0.607,
+    "temporalidade": 0.492,
+    "ambiguidade": 0.655
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de complexidade caótica emergindo em sistemas de entropia"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno complexidade caótica sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "complexidade caótica é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "entropia",
+    "fenomeno",
+    "n3_caos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_3_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.449216+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.449245+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.854916+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

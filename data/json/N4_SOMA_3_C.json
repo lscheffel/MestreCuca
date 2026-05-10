@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SOMA_3_C",
+  "legacy_id": "B2.2.3-C",
+  "path": "S1.B2.2.3-C",
+  "hierarchical_id": "2.2.3.3",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.3",
+  "n3_name": "HOMEOSTASE",
+  "axis": "SINTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 3,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "ADAPTAÇÃO_CICLICA",
+  "nome_normalizado": "adaptação ciclica",
+  "gatilho": "Sistema sujeito a ciclos naturais",
+  "acao": "Ajustar comportamento ritmicamente",
+  "restricao": "Não forçar padrão constante",
+  "verificacao": "Sistema adapta-se aos ciclos",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "avaliar",
+    "adaptar",
+    "sintetizar",
+    "regenerar",
+    "transformar",
+    "validar",
+    "filtrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.279,
+    "complexidade": 0.367,
+    "causalidade": 0.347,
+    "emocionalidade": 0.318,
+    "materialidade": 0.569,
+    "simbolismo": 0.18,
+    "dinamismo": 0.235,
+    "temporalidade": 0.259,
+    "ambiguidade": 0.298
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se adaptação ciclica mantém o sistema em condição estável dentro de soma"
+    },
+    {
+      "texto": "Avaliar indicadores de adaptação ciclica após intervenção em soma"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "adaptação ciclica é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "soma",
+    "sintrópico",
+    "estado",
+    "bios",
+    "n3_homeostase"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_A",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_B",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_3_C",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.220936+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.220968+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.625898+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

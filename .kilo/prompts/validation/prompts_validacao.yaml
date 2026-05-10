@@ -1,0 +1,41 @@
+# Configuração de Prompts — Validação
+prompts:
+  validacao_classificacao:
+    template: "prompts/validation/template_validacao.yaml"
+    parametros:
+      temperatura: 0.0
+      max_tokens: 2048
+    regras:
+      - verificar_compatibilidade_vetor_pilar
+      - verificar_existencia_dominio
+      - verificar_existencia_subarvore
+      - verificar_existencia_celula
+      - verificar_consistencia_uid
+
+  validacao_consistencia:
+    parametros:
+      temperatura: 0.0
+      max_tokens: 1024
+    regras:
+      - verificar_integridade_grafo
+      - verificar_ciclos
+      - verificar_orfanatos
+      - verificar_cobertura_n4
+
+  qualidade_geral:
+    criterios:
+      - nome: "precisao_ontologica"
+        peso: 0.30
+        descricao: "Corretude da classificação"
+      - nome: "coerencia_resposta"
+        peso: 0.25
+        descricao: "Coerência interna da resposta"
+      - nome: "cobertura_fontes"
+        peso: 0.20
+        descricao: "Amplitude das fontes consultadas"
+      - nome: "fidelidade_dna"
+        peso: 0.15
+        descricao: "Respeito ao DNA ontológico"
+      - nome: "utilidade_pratica"
+        peso: 0.10
+        descricao: "Aplicabilidade da resposta"

@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_3_A",
+  "legacy_id": "K4.1.3-A",
+  "path": "E2.K1.1.3-A",
+  "hierarchical_id": "4.1.3.1",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.3",
+  "n3_name": "CAOS",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "ALEATORIEDADE",
+  "nome_normalizado": "aleatoriedade",
+  "gatilho": "Comportamento imprevisível",
+  "acao": "Aceitar incerteza inerente",
+  "restricao": "Não tentar controlar tudo",
+  "verificacao": "Padrões emergem do caos",
+  "funcao_cognitiva": [
+    "dissolver",
+    "equilibrar",
+    "transformar",
+    "comparar",
+    "avaliar",
+    "controlar",
+    "sintetizar",
+    "adaptar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.674,
+    "complexidade": 0.631,
+    "causalidade": 0.469,
+    "emocionalidade": 0.578,
+    "materialidade": 0.357,
+    "simbolismo": 0.645,
+    "dinamismo": 0.625,
+    "temporalidade": 0.463,
+    "ambiguidade": 0.704
+  },
+  "opostos": [
+    "N4_ARQUETIPO_2_B",
+    "N4_VIBRATIO_3_C",
+    "N4_ALGORITMIA_1_A"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de aleatoriedade emergindo em sistemas de entropia"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno aleatoriedade sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "aleatoriedade é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "entropia",
+    "fenomeno",
+    "n3_caos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_3_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.444163+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.444190+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.843866+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

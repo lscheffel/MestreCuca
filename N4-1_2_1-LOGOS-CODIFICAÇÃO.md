@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-1_2_1 - LOGOS / CODIFICAÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 1.2.1 (agregado)
+- **ID N3 Pai:** 1.2.1
+- **ID N2 Avô:** 1.2
+- **Domínio:** LOGOS
+- **Subdomínio N3:** CODIFICAÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **CODIFICAÇÃO** (LOGOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-1_2_1-LOGOS-CODIFICAÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-1_2_1-LOGOS-CODIFICAÇÃO.md` |
+| Domínio N2 | 1.2_CODIFICAÇÃO |
+| Domínio N1 | LOGOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: LOGOS
+      └─ N2: 1.2_CODIFICAÇÃO
+          └─ N3: 1.2.1 CODIFICAÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. CODIFICAÇÃO_NORMA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** R1.2.1-A
+- **Gatilho:** Regra ou regulamento a ser formalizado
+- **Ação:** Expressar em linguagem formal e inequívoca
+- **Restrição:** Não deixar ambiguidades propositais
+- **Verificação:** Regra pode ser aplicada consistentemente
 
-### 2. TECIDO_SENTIDO
+### 2. VERIFICAÇÃO_CONFORMIDADE
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** R1.2.1-B
+- **Gatilho:** Avaliar conformidade com norma
+- **Ação:** Verificar todos os requisitos explicitamente
+- **Restrição:** Não aceitar conformidade parcial
+- **Verificação:** 100% dos requisitos atendidos
 
-### 3. COMPLEXIDADE_TEIA
+### 3. HIERARQUIA_LEIS
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** R1.2.1-C
+- **Gatilho:** Conflito entre normas de diferentes níveis
+- **Ação:** Aplicar lei de hierarquia superior
+- **Restrição:** Não criar hierarquia arbitrária
+- **Verificação:** Lei superior prevalece sem contradição
 
 
 

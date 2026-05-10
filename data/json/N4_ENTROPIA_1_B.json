@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_1_B",
+  "legacy_id": "K4.1.1-B",
+  "path": "E2.K1.1.1-B",
+  "hierarchical_id": "4.1.1.2",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.1",
+  "n3_name": "DEGRADAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "DESTRUIÇÃO_CRIATIVA",
+  "nome_normalizado": "destruição criativa",
+  "gatilho": "Estrutura obsoleta impedindo evolução",
+  "acao": "Desmantelar componentes não funcionais",
+  "restricao": "Preservar elementos úteis",
+  "verificacao": "Espaço liberado para novas configurações",
+  "funcao_cognitiva": [
+    "avaliar",
+    "equilibrar",
+    "dissolver",
+    "transformar",
+    "classificar",
+    "adaptar",
+    "descompor",
+    "emergir"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.333,
+    "complexidade": 0.392,
+    "causalidade": 0.297,
+    "emocionalidade": 0.275,
+    "materialidade": 0.479,
+    "simbolismo": 0.271,
+    "dinamismo": 0.353,
+    "temporalidade": 0.31,
+    "ambiguidade": 0.369
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se destruição criativa mantém o sistema em condição estável dentro de entropia"
+    },
+    {
+      "texto": "Avaliar indicadores de destruição criativa após intervenção em entropia"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "destruição criativa é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "entropia",
+    "n3_degradação",
+    "estado"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_1_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.427743+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.427772+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.778643+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

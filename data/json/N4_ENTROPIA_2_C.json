@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_2_C",
+  "legacy_id": "K4.1.2-C",
+  "path": "E2.K1.1.2-C",
+  "hierarchical_id": "4.1.2.3",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.2",
+  "n3_name": "DISSIPAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 2,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "RETORNO_AMORFO",
+  "nome_normalizado": "retorno amorfo",
+  "gatilho": "Retornar ao estado potencial",
+  "acao": "Permitir dissolução estrutural",
+  "restricao": "Não manter estrutura artificialmente",
+  "verificacao": "Estado amorfo alcançado",
+  "funcao_cognitiva": [
+    "dissolver",
+    "equilibrar",
+    "transformar",
+    "comparar",
+    "avaliar",
+    "filtrar",
+    "adaptar",
+    "descompor"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.696,
+    "complexidade": 0.583,
+    "causalidade": 0.427,
+    "emocionalidade": 0.515,
+    "materialidade": 0.369,
+    "simbolismo": 0.617,
+    "dinamismo": 0.592,
+    "temporalidade": 0.491,
+    "ambiguidade": 0.683
+  },
+  "opostos": [
+    "N4_ENTROPIA_2_A",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de retorno amorfo emergindo em sistemas de entropia"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno retorno amorfo sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "retorno amorfo é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "entropia",
+    "fenomeno",
+    "n3_dissipação"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.441582+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.441611+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.833184+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

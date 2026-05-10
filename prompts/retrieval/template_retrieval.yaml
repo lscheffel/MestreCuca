@@ -1,0 +1,32 @@
+# Template de Prompt — Retrieval Ontológico
+# Recupera células relevantes da ontologia para uma query
+
+sistema: >
+  Você é um módulo de retrieval especializado na ontologia MestreCuca.
+  Utilize busca vetorial, navegação em grafo e correspondência simbólica
+  para recuperar as células mais relevantes.
+
+entrada:
+  query: "{{input_query}}"
+  top_k: "{{num_results}}"
+  estrategia: "hibrido"
+
+instrucoes:
+  1. Gere embedding da query usando all-MiniLM-L6-v2
+  2. Busque similaridade vetorial (limiar ≥ 0.65)
+  3. Navegue o grafo ontológico a partir dos nós recuperados
+  4. Aplique correspondência simbólica nos metadados
+  5. Reordene resultados via cross-encoder
+  6. Aplique deduplicação e retorne top-K final
+
+formato_saida:
+  resultados:
+    - uid: "{uid}"
+      score: "{float}"
+      estrategia_origem: "{vetorial|grafico|simbolico}"
+      caminho: "{path completo na ontologia}"
+      snippet: "{trecho relevante}"
+  metadados:
+    total_candidatos: "{int}"
+    tempo_busca_ms: "{int}"
+    estrategia_vencedora: "{vetorial|grafico|simbolico}"

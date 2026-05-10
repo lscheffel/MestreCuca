@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-1_1_3 - LOGOS / VERIFICAÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 1.1.3 (agregado)
+- **ID N3 Pai:** 1.1.3
+- **ID N2 Avô:** 1.1
+- **Domínio:** LOGOS
+- **Subdomínio N3:** VERIFICAÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **VERIFICAÇÃO** (LOGOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-1_1_3-LOGOS-VERIFICAÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-1_1_3-LOGOS-VERIFICAÇÃO.md` |
+| Domínio N2 | 1.1_VERIFICAÇÃO |
+| Domínio N1 | LOGOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: LOGOS
+      └─ N2: 1.1_VERIFICAÇÃO
+          └─ N3: 1.1.3 VERIFICAÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. VERIFICAÇÃO_LÓGICA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** R1.1.3-A
+- **Gatilho:** Correção do algoritmo em questão
+- **Ação:** Aplicar provas de correção e invariáveis
+- **Restrição:** Não aceitar testes empíricos como prova
+- **Verificação:** Todas as precondições e pós-condições satisfeitas
 
-### 2. TECIDO_SENTIDO
+### 2. TESTE_DE_FRONTEIRA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** R1.1.3-B
+- **Gatilho:** Identificar limites operacionais
+- **Ação:** Testar casos extremos e limites do domínio
+- **Restrição:** Não extrapolar além dos limites definidos
+- **Verificação:** Comportamento correto em todos os limites
 
-### 3. COMPLEXIDADE_TEIA
+### 3. CORREÇÃO_PARCIAL
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** R1.1.3-C
+- **Gatilho:** Solução parcial para problema maior
+- **Ação:** Validar subproblemas independentemente
+- **Restrição:** Não compor soluções incorretas
+- **Verificação:** Correção de cada subproblema verificada
 
 
 

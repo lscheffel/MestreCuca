@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SOMA_2_A",
+  "legacy_id": "B2.2.2-A",
+  "path": "S1.B2.2.2-A",
+  "hierarchical_id": "2.2.2.1",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.2",
+  "n3_name": "VITALIDADE",
+  "axis": "SINTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "ENERGIA_VITAL",
+  "nome_normalizado": "energia vital",
+  "gatilho": "Veículo precisando de energia",
+  "acao": "Fornecer energia necessária para operação",
+  "restricao": "Não exceder capacidade de carga",
+  "verificacao": "Energia vital mantida em níveis adequados",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "regenerar",
+    "transformar",
+    "adaptar",
+    "filtrar",
+    "modularizar",
+    "sintetizar",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.558,
+    "complexidade": 0.501,
+    "causalidade": 0.502,
+    "emocionalidade": 0.389,
+    "materialidade": 0.436,
+    "simbolismo": 0.378,
+    "dinamismo": 0.62,
+    "temporalidade": 0.556,
+    "ambiguidade": 0.402
+  },
+  "opostos": [
+    "N4_SOMA_2_C",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar energia vital como indicador direcional em soma"
+    },
+    {
+      "texto": "Medir magnitude e direção do energia vital no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "energia vital é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "vetor",
+    "soma",
+    "sintrópico",
+    "bios",
+    "n3_vitalidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_2_B",
+      "peso": 0.6,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_2_C",
+      "peso": 0.6,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_2_A",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.150031+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.150064+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.234485+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

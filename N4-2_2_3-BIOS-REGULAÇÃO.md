@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-2_2_3 - BIOS / REGULAÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 2.2.3 (agregado)
+- **ID N3 Pai:** 2.2.3
+- **ID N2 Avô:** 2.2
+- **Domínio:** BIOS
+- **Subdomínio N3:** REGULAÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **REGULAÇÃO** (BIOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-2_2_3-BIOS-REGULAÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-2_2_3-BIOS-REGULAÇÃO.md` |
+| Domínio N2 | 2.2_REGULAÇÃO |
+| Domínio N1 | BIOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: BIOS
+      └─ N2: 2.2_REGULAÇÃO
+          └─ N3: 2.2.3 REGULAÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. REGULAÇÃO_INTERNA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** B2.2.3-A
+- **Gatilho:** Sistema precisando manter equilíbrio
+- **Ação:** Ajustar parâmetros internos
+- **Restrição:** Não permitir flutuações extremas
+- **Verificação:** Variáveis mantidas dentro da faixa ideal
 
-### 2. TECIDO_SENTIDO
+### 2. FEEDBACK_NEGATIVO
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** B2.2.3-B
+- **Gatilho:** Desvio detectado no sistema
+- **Ação:** Aplicar correção proporcional
+- **Restrição:** Não criar oscilações
+- **Verificação:** Sistema retorna ao equilíbrio
 
-### 3. COMPLEXIDADE_TEIA
+### 3. ADAPTAÇÃO_CICLICA
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** B2.2.3-C
+- **Gatilho:** Sistema sujeito a ciclos naturais
+- **Ação:** Ajustar comportamento ritmicamente
+- **Restrição:** Não forçar padrão constante
+- **Verificação:** Sistema adapta-se aos ciclos
 
 
 

@@ -1,0 +1,1708 @@
+# =============================================================================
+# ONTOLOGIA COGNITIVA — Definição completa da estrutura fractal N0→N4
+# Base: 162 células N4 (2 × 3 × 3 × 3 × 3)
+# =============================================================================
+
+meta:
+  versao: "3.0.0"
+  descricao: "Ontologia cognitiva fractal com 6 camadas hierárquicas"
+  autor: "Sistema MestreCuca"
+  data_criacao: "2026-05-09"
+  total_celulas_n4: 162
+  fator_cardinalidade: "2×3×3×3×3"
+
+# =============================================================================
+# NÍVEL 0 — VETORES (2 vetores primordiais)
+# =============================================================================
+n0_vetores:
+  - id: "SINTR"
+    nome: "SINTRÓPICO"
+    descricao: "Foco em resolução, definição, execução. Redução de incerteza."
+    natureza: convergente
+    axioma: "Máxima clareza, ação direta, redução de entropia informacional"
+    dominios_compativeis:
+      - ALGORITMIA
+      - NOMOS
+      - MECÂNICA
+      - OIKOS
+      - SOMA
+      - METABOLISMO
+      - ETHOS
+      - ALTERIDADE
+      - ESTÉTICA
+
+  - id: "ENTR"
+    nome: "ENTRÓPICO"
+    descricao: "Foco em exploração, expansão, possibilidades. Inovação."
+    natureza: divergente
+    axioma: "Expansão de possibilidades, exploração estratégica, geração de novidade"
+    dominios_compativeis:
+      - ENTROPIA
+      - SINGULARIDADE
+      - SÍNTESE
+      - ESCALA
+      - VIBRATIO
+      - VÁCUO
+      - ARQUÉTIPO
+      - NARRATIVA
+      - MISTÉRIO
+
+# =============================================================================
+# NÍVEL 1 — PILARES (6 pilares ontológicos)
+# =============================================================================
+n1_pilares:
+  - id: "LOGOS"
+    nome: "LOGOS"
+    descricao: "Sistemas, lógica, estrutura, processos"
+    crenca: "Estrutura, hierarquia, lógica inquestionável"
+    natureza: processo
+    vetor_default: SINTR
+    sub_arvores: 3
+
+  - id: "BIOS"
+    nome: "BIOS"
+    descricao: "Organismos, vida, sustentabilidade, integridade"
+    crenca: "Preservação, sustentabilidade, integridade"
+    natureza: organismo
+    vetor_default: SINTR
+    sub_arvores: 3
+
+  - id: "PATHOS"
+    nome: "PATHOS"
+    descricao: "Humano, conexões, significado, decisão"
+    crenca: "Impacto humano, significado, conexão"
+    natureza: relacao
+    vetor_default: SINTR
+    sub_arvores: 3
+
+  - id: "KHAOS"
+    nome: "KHAOS"
+    descricao: "Ruptura, inovação, adaptação, transformação"
+    crenca: "Inovação através da ruptura, adaptabilidade"
+    natureza: transformacao
+    vetor_default: ENTR
+    sub_arvores: 3
+
+  - id: "APEIRON"
+    nome: "APEIRON"
+    descricao: "Escala, estratégia, transcendência, sistêmico"
+    crenca: "Visão sistêmica, escalabilidade, transcendência"
+    natureza: escala
+    vetor_default: ENTR
+    sub_arvores: 3
+
+  - id: "MYTHOS"
+    nome: "MYTHOS"
+    descricao: "Narrativa, símbolo, autoridade, arquétipo"
+    crenca: "Narrativa poderosa, simbolismo, autoridade"
+    natureza: simbolo
+    vetor_default: ENTR
+    sub_arvores: 3
+
+# =============================================================================
+# NÍVEL 2 — DOMÍNIOS (18 domínios: 3 por pilar)
+# =============================================================================
+n2_dominios:
+  # --- LOGOS ---
+  - id: "1.1"
+    pilar: LOGOS
+    nome: "ALGORITMIA"
+    descricao: "Processos computacionais, resolução e otimização"
+    sub_arvores: [RESOLUCAO, OTIMIZACAO, VALIDACAO]
+
+  - id: "1.2"
+    pilar: LOGOS
+    nome: "NOMOS"
+    descricao: "Legislação, contorno e pacto normativo"
+    sub_arvores: [LEGISLACAO, CONTORNO, PACTO]
+
+  - id: "1.3"
+    pilar: LOGOS
+    nome: "MECÂNICA"
+    descricao: "Estática, dinâmica e termotransdinâmica"
+    sub_arvores: [ESTATICA, DINAMICA, TERMOTRANSDINAMICA]
+
+  # --- BIOS ---
+  - id: "2.1"
+    pilar: BIOS
+    nome: "OIKOS"
+    descricao: "Morada, território e provisão"
+    sub_arvores: [MORADA, TERRITORIO, PROVISAO]
+
+  - id: "2.2"
+    pilar: BIOS
+    nome: "SOMA"
+    descricao: "Integridade, vitalidade e homeostase"
+    sub_arvores: [INTEGRIDADE, VITALIDADE, HOMEOSTASE]
+
+  - id: "2.3"
+    pilar: BIOS
+    nome: "METABOLISMO"
+    descricao: "Anabolismo, catabolismo e ciclo"
+    sub_arvores: [ANABOLISMO, CATABOLISMO, CICLO]
+
+  # --- PATHOS ---
+  - id: "3.1"
+    pilar: PATHOS
+    nome: "ETHOS"
+    descricao: "Valores, virtude e responsabilidade"
+    sub_arvores: [VALORES, VIRTUDE, RESPONSABILIDADE]
+
+  - id: "3.2"
+    pilar: PATHOS
+    nome: "ALTERIDADE"
+    descricao: "Reconhecimento, empatia e diálogo"
+    sub_arvores: [RECONHECIMENTO, EMPATIA, DIALOGO]
+
+  - id: "3.3"
+    pilar: PATHOS
+    nome: "ESTÉTICA"
+    descricao: "Harmonia, expressão e impacto"
+    sub_arvores: [HARMONIA, EXPRESSAO, IMPACTO]
+
+  # --- KHAOS ---
+  - id: "4.1"
+    pilar: KHAOS
+    nome: "ENTROPIA"
+    descricao: "Degradação, dissipação e caos"
+    sub_arvores: [DEGRADACAO, DISSIPACAO, CAOS]
+
+  - id: "4.2"
+    pilar: KHAOS
+    nome: "SINGULARIDADE"
+    descricao: "Exceção, infinito e transformação"
+    sub_arvores: [EXCEPCAO, INFINITO, TRANSFORMACAO]
+
+  - id: "4.3"
+    pilar: KHAOS
+    nome: "SÍNTESE"
+    descricao: "Fusão, hibridismo e transcendência"
+    sub_arvores: [FUSAO, HIBRIDISMO, TRANSCENDENCIA]
+
+  # --- APEIRON ---
+  - id: "5.1"
+    pilar: APEIRON
+    nome: "PROPORÇÃO"
+    descricao: "Escalamento, áurea e isomorfismo"
+    sub_arvores: [ESCALAMENTO, AUREA, ISOMORFISMO]
+
+  - id: "5.2"
+    pilar: APEIRON
+    nome: "VIBRATIO"
+    descricao: "Frequência, ressonância e onda"
+    sub_arvores: [FREQUENCIA, RESONANCIA, ONDA]
+
+  - id: "5.3"
+    pilar: APEIRON
+    nome: "VÁCUO"
+    descricao: "Potencial, silêncio e campo"
+    sub_arvores: [POTENCIAL, SILENCIO, CAMPO]
+
+  # --- MYTHOS ---
+  - id: "6.1"
+    pilar: MYTHOS
+    nome: "ARQUÉTIPO"
+    descricao: "Padrão primordial, comportamento e símbolo"
+    sub_arvores: [PADRAO_PRIMORDIAL, COMPORTAMENTO, SIMBOLO]
+
+  - id: "6.2"
+    pilar: MYTHOS
+    nome: "NARRATIVA"
+    descricao: "Teia, linha de sentido e história vivida"
+    sub_arvores: [TEIA, LINHA_SENTIDO, HISTORIA_VIVIDA]
+
+  - id: "6.3"
+    pilar: MYTHOS
+    nome: "MISTÉRIO"
+    descricao: "Incompreensão, intuição e revelação"
+    sub_arvores: [INCOMPREENSAO, INTUICAO, REVELACAO]
+
+# =============================================================================
+# NÍVEL 3 — SUBÁRVORES (54 subárvores)
+# =============================================================================
+n3_sub_arvores:
+  # LOGOS
+  RESOLUCAO: { dominio: ALGORITMIA, pilar: LOGOS, celulas: [DECOMPOSICAO, SEQUENCIA, CASO_BASE] }
+  OTIMIZACAO: { dominio: ALGORITMIA, pilar: LOGOS, celulas: [MELHORIA, EFICIENCIA, EQUILIBRIO] }
+  VALIDACAO: { dominio: ALGORITMIA, pilar: LOGOS, celulas: [VERIFICACAO, CORRECAO, CERTIFICACAO] }
+  LEGISLACAO: { dominio: NOMOS, pilar: LOGOS, celulas: [LEI, JURISPRUDENCIA, REGULAMENTO] }
+  CONTORNO: { dominio: NOMOS, pilar: LOGOS, celulas: [FRONTEIRA, EXCECAO, ADAPTACAO] }
+  PACTO: { dominio: NOMOS, pilar: LOGOS, celulas: [ACORDO, COMPROMISSO, RENEGOCIACAO] }
+  ESTATICA: { dominio: MECANICA, pilar: LOGOS, celulas: [EQUILIBRIO, RESISTENCIA, RIGIDEZ] }
+  DINAMICA: { dominio: MECANICA, pilar: LOGOS, celulas: [MOVIMENTO, FORCA, ENERGIA] }
+  TERMOTRANSDINAMICA: { dominio: MECANICA, pilar: LOGOS, celulas: [CALOR, ENTROPIA_SIST, IRREVERSIBILIDADE] }
+
+  # BIOS
+  MORADA: { dominio: OIKOS, pilar: BIOS, celulas: [PROTECAO, RECURSOS, SANEAMENTO] }
+  TERRITORIO: { dominio: OIKOS, pilar: BIOS, celulas: [ESPACO, DELIMITACAO, SOBERANIA] }
+  PROVISAO: { dominio: OIKOS, pilar: BIOS, celulas: [ARMAZENAMENTO, DISTRIBUICAO, RACIONALIZACAO] }
+  INTEGRIDADE: { dominio: SOMA, pilar: BIOS, celulas: [COESAO, CONSCIENCIA, IDENTIDADE] }
+  VITALIDADE: { dominio: SOMA, pilar: BIOS, celulas: [NASCIMENTO, CRESCIMENTO, RENOVACAO] }
+  HOMEOSTASE: { dominio: SOMA, pilar: BIOS, celulas: [REGULACAO, ADAPTACAO, EQUILIBRIO] }
+  ANABOLISMO: { dominio: METABOLISMO, pilar: BIOS, celulas: [CONSTRUCAO, SÍNTESE, ACUMULACAO] }
+  CATABOLISMO: { dominio: METABOLISMO, pilar: BIOS, celulas: [DECOMPOSICAO, LIBERACAO, DESCARTE] }
+  CICLO: { dominio: METABOLISMO, pilar: BIOS, celulas: [REPETICAO, REGENERACAO, CIRCULARIDADE] }
+
+  # PATHOS
+  VALORES: { dominio: ETHOS, pilar: PATHOS, celulas: [ALINHAMENTO, CONFLITO, TRANSPARENCIA] }
+  VIRTUDE: { dominio: ETHOS, pilar: PATHOS, celulas: [HABITO, DISCERNIMENTO, EXCELENCIA] }
+  RESPONSABILIDADE: { dominio: ETHOS, pilar: PATHOS, celulas: [DEVER, PRESTACAO_CONTAS, REPARACAO] }
+  RECONHECIMENTO: { dominio: ALTERIDADE, pilar: PATHOS, celulas: [IDENTIDADE, VALIDACAO, MEMORIA] }
+  EMPATIA: { dominio: ALTERIDADE, pilar: PATHOS, celulas: [COMPREENSAO, SENSIBILIZACAO, CONEXAO] }
+  DIALOGO: { dominio: ALTERIDADE, pilar: PATHOS, celulas: [COMUNICACAO, NEGOCIACAO, CONCILIACAO] }
+  HARMONIA: { dominio: ESTETICA, pilar: PATHOS, celulas: [PROPORCAO, RITMO, UNIDADE] }
+  EXPRESSAO: { dominio: ESTETICA, pilar: PATHOS, celulas: [CRIACAO, ARTICULACAO, ESTILO] }
+  IMPACTO: { dominio: ESTETICA, pilar: PATHOS, celulas: [INFLUENCIA, TRANSFORMACAO, LEGADO] }
+
+  # KHAOS
+  DEGRADACAO: { dominio: ENTROPIA, pilar: KHAOS, celulas: [EROSAO, CORRUPCAO, DISSOLUCAO] }
+  DISSIPACAO: { dominio: ENTROPIA, pilar: KHAOS, celulas: [DISPERSSAO, VAZAMENTO, EVAPORACAO] }
+  CAOS: { dominio: ENTROPIA, pilar: KHAOS, celulas: [DESORDENACAO, ALEATORIEDADE, CRISE] }
+  EXCEPCAO: { dominio: SINGULARIDADE, pilar: KHAOS, celulas: [ANOMALIA, DESVIACAO, INOVACAO] }
+  INFINITO: { dominio: SINGULARIDADE, pilar: KHAOS, celulas: [ILIMITADO, INFINITESIMO, PARADOXO] }
+  TRANSFORMACAO: { dominio: SINGULARIDADE, pilar: KHAOS, celulas: [METAMORFOSE, TRANSPOSICAO, RECONVERSAO] }
+  FUSAO: { dominio: SINTES, pilar: KHAOS, celulas: [MISTURA, CONVERGENCIA, AMALGAMACAO] }
+  HIBRIDISMO: { dominio: SINTES, pilar: KHAOS, celulas: [MISCEGENIA, SINCRRETISMO, NOVO] }
+  TRANSCENDENCIA: { dominio: SINTES, pilar: KHAOS, celulas: [ULTRAPASSAGEM, EVOLUCAO, APOGEO] }
+
+  # APEIRON
+  ESCALAMENTO: { dominio: PROPORCAO, pilar: APEIRON, celulas: [AMPLIACAO, REDUCAO, ZOOM] }
+  AUREA: { dominio: PROPORCAO, pilar: APEIRON, celulas: [DIVISAO_AUREA, HARMONIA, EQUILIBRIO_PERF] }
+  ISOMORFISMO: { dominio: PROPORCAO, pilar: APEIRON, celulas: [CORRESPONDENCIA, ANALOGIA, MAPEAMENTO] }
+  FREQUENCIA: { dominio: VIBRATIO, pilar: APEIRON, celulas: [OSCILLACAO, CICLO, PULSAO] }
+  RESONANCIA: { dominio: VIBRATIO, pilar: APEIRON, celulas: [AMPLIFICACAO, SINTONIA, ECO] }
+  ONDA: { dominio: VIBRATIO, pilar: APEIRON, celulas: [PROPAGACAO, INTERFERENCIA, MODULACAO] }
+  POTENCIAL: { dominio: VACUO, pilar: APEIRON, celulas: [CAPACIDADE, LATENCIA, POSSIBILIDADE] }
+  SILENCIO: { dominio: VACUO, pilar: APEIRON, celulas: [PAUSA, VAZIO, REFLEXAO] }
+  CAMPO: { dominio: VACUO, pilar: APEIRON, celulas: [ESPACO_INFLUENCIA, GRADIENTE, TOPOLOGIA] }
+
+  # MYTHOS
+  PADRAO_PRIMORDIAL: { dominio: ARQUETIPO, pilar: MYTHOS, celulas: [ORIGEM, MATRIZ, FONTE] }
+  COMPORTAMENTO: { dominio: ARQUETIPO, pilar: MYTHOS, celulas: [ATITUDE, HABITO, RITUAL] }
+  SIMBOLO: { dominio: ARQUETIPO, pilar: MYTHOS, celulas: [ICONE, METAFORA, SIGNIFICADO] }
+  TEIA: { dominio: NARRATIVA, pilar: MYTHOS, celulas: [REDE, CONEXAO, TRAMA] }
+  LINHA_SENTIDO: { dominio: NARRATIVA, pilar: MYTHOS, celulas: [DIRECAO, PROPOSITO, SENTIDO] }
+  HISTORIA_VIVIDA: { dominio: NARRATIVA, pilar: MYTHOS, celulas: [MEMORIA, EXPERIENCIA, TESTEMUNHO] }
+  INCOMPREENSAO: { dominio: MISTERIO, pilar: MYTHOS, celulas: [DUVIDA, ENIGMA, OBSCURIDADE] }
+  INTUICAO: { dominio: MISTERIO, pilar: MYTHOS, celulas: [PRESSENTIMENTO, INSIGHT, REVELACAO] }
+  REVELACAO: { dominio: MISTERIO, pilar: MYTHOS, celulas: [DESCUBERTA, ILUMINACAO, VERDADE] }
+
+# =============================================================================
+# NÍVEL 4 — CÉLULAS OPERACIONAIS (162 células)
+# =============================================================================
+# Formato: cada célula possui:
+#   - uid: identificador único snake_case (reconciliador de IDs)
+#   - path: caminho hierárquico completo
+#   - hierarquico_id: ID numérico 1.1.1.1
+#   - legado_id: ID legado S1.L1.1.1-A
+#   - tipo: natureza ontológica da célula
+
+n4_celulas:
+  # ═══ LOGOS / ALGORITMIA ═══
+  DECOMPOSICAO:
+    uid: "logos_algoritmia_resolucao_decomposicao"
+    path: "LOGOS > ALGORITMIA > RESOLUÇÃO > DECOMPOSIÇÃO"
+    hierarquico_id: "1.1.1.1"
+    legado_id: "S1.L1.1.1-A"
+    tipo: processo
+    descricao: "Decomposição de problemas complexos em subproblemas"
+
+  SEQUENCIA:
+    uid: "logos_algoritmia_resolucao_sequencia"
+    path: "LOGOS > ALGORITMIA > RESOLUÇÃO > SEQUÊNCIA"
+    hierarquico_id: "1.1.1.2"
+    legado_id: "S1.L1.1.2-A"
+    tipo: processo
+    descricao: "Ordenação e sequenciamento de operações"
+
+  CASO_BASE:
+    uid: "logos_algoritmia_resolucao_caso_base"
+    path: "LOGOS > ALGORITMIA > RESOLUÇÃO > CASO BASE"
+    hierarquico_id: "1.1.1.3"
+    legado_id: "S1.L1.1.3-A"
+    tipo: estado
+    descricao: "Condição terminal de recursão"
+
+  MELHORIA:
+    uid: "logos_algoritmia_otimizacao_melhora"
+    path: "LOGOS > ALGORITMIA > OTIMIZAÇÃO > MELHORIA"
+    hierarquico_id: "1.1.2.1"
+    legado_id: "S1.L1.2.1-A"
+    tipo: processo
+    descricao: "Refinamento iterativo de soluções"
+
+  EFICIENCIA:
+    uid: "logos_algoritmia_otimizacao_eficiencia"
+    path: "LOGOS > ALGORITMIA > OTIMIZAÇÃO > EFICIÊNCIA"
+    hierarquico_id: "1.1.2.2"
+    legado_id: "S1.L1.2.2-A"
+    tipo: medida
+    descricao: "Minimização de recursos e tempo"
+
+  EQUILIBRIO:
+    uid: "logos_algoritmia_otimizacao_equilibrio"
+    path: "LOGOS > ALGORITMIA > OTIMIZAÇÃO > EQUILÍBRIO"
+    hierarquico_id: "1.1.2.3"
+    legado_id: "S1.L1.2.3-A"
+    tipo: estado
+    descricao: "Balanceamento de trade-offs"
+
+  VERIFICACAO:
+    uid: "logos_algoritmia_validacao_verificacao"
+    path: "LOGOS > ALGORITMIA > VALIDAÇÃO > VERIFICAÇÃO"
+    hierarquico_id: "1.1.3.1"
+    legado_id: "S1.L1.3.1-A"
+    tipo: processo
+    descricao: "Conferência de conformidade"
+
+  CORRECAO:
+    uid: "logos_algoritmia_validacao_correcao"
+    path: "LOGOS > ALGORITMIA > VALIDAÇÃO > CORREÇÃO"
+    hierarquico_id: "1.1.3.2"
+    legado_id: "S1.L1.3.2-A"
+    tipo: processo
+    descricao: "Retificação de erros detectados"
+
+  CERTIFICACAO:
+    uid: "logos_algoritmia_validacao_certificacao"
+    path: "LOGOS > ALGORITMIA > VALIDAÇÃO > CERTIFICAÇÃO"
+    hierarquico_id: "1.1.3.3"
+    legado_id: "S1.L1.3.3-A"
+    tipo: estado
+    descricao: "Atestado de conformidade"
+
+  # ═══ LOGOS / NOMOS ═══
+  LEI:
+    uid: "logos_nomos_legislacao_lei"
+    path: "LOGOS > NOMOS > LEGISLAÇÃO > LEI"
+    hierarquico_id: "1.2.1.1"
+    legado_id: "S1.L2.1.1-A"
+    tipo: principio
+    descricao: "Regra normativa formal"
+
+  JURISPRUDENCIA:
+    uid: "logos_nomos_legislacao_jurisprudencia"
+    path: "LOGOS > NOMOS > LEGISLAÇÃO > JURISPRUDÊNCIA"
+    hierarquico_id: "1.2.1.2"
+    legado_id: "S1.L2.1.2-A"
+    tipo: processo
+    descricao: "Interpretação e aplicação da lei"
+
+  REGULAMENTO:
+    uid: "logos_nomos_legislacao_regulamento"
+    path: "LOGOS > NOMOS > LEGISLAÇÃO > REGULAMENTO"
+    hierarquico_id: "1.2.1.3"
+    legado_id: "S1.L2.1.3-A"
+    tipo: mecanismo
+    descricao: "Norma regulamentar detalhada"
+
+  FRONTEIRA:
+    uid: "logos_nomos_contorno_fronteira"
+    path: "LOGOS > NOMOS > CONTORNO > FRONTEIRA"
+    hierarquico_id: "1.2.2.1"
+    legado_id: "S1.L2.2.1-A"
+    tipo: restricao
+    descricao: "Limite normativo"
+
+  EXCECAO:
+    uid: "logos_nomos_contorno_excecao"
+    path: "LOGOS > NOMOS > CONTORNO > EXCEÇÃO"
+    hierarquico_id: "1.2.2.2"
+    legado_id: "S1.L2.2.2-A"
+    tipo: excecao
+    descricao: "Desvio autorizado da norma"
+
+  ADAPTACAO:
+    uid: "logos_nomos_contorno_adaptacao"
+    path: "LOGOS > NOMOS > CONTORNO > ADAPTAÇÃO"
+    hierarquico_id: "1.2.2.3"
+    legado_id: "S1.L2.2.3-A"
+    tipo: dinamica
+    descricao: "Ajuste normativo a contextos"
+
+  ACORDO:
+    uid: "logos_nomos_pacto_acordo"
+    path: "LOGOS > NOMOS > PACTO > ACORDO"
+    hierarquico_id: "1.2.3.1"
+    legado_id: "S1.L2.3.1-A"
+    tipo: processo
+    descricao: "Consenso entre partes"
+
+  COMPROMISSO:
+    uid: "logos_nomos_pacto_compromisso"
+    path: "LOGOS > NOMOS > PACTO > COMPROMISSO"
+    hierarquico_id: "1.2.3.2"
+    legado_id: "S1.L2.3.2-A"
+    tipo: estado
+    descricao: "Obrigação assumida"
+
+  RENEGOCIACAO:
+    uid: "logos_nomos_pacto_renegociacao"
+    path: "LOGOS > NOMOS > PACTO > RENEGOCIAÇÃO"
+    hierarquico_id: "1.2.3.3"
+    legado_id: "S1.L2.3.3-A"
+    tipo: processo
+    descricao: "Revisão de termos acordados"
+
+  # ═══ LOGOS / MECÂNICA ═══
+  EQUILIBRIO_MEC:
+    uid: "logos_mecanica_estatica_equilibrio"
+    path: "LOGOS > MECÂNICA > ESTÁTICA > EQUILÍBRIO"
+    hierarquico_id: "1.3.1.1"
+    legado_id: "S1.L3.1.1-A"
+    tipo: estado
+    descricao: "Estado de forças balanceadas"
+
+  RESISTENCIA:
+    uid: "logos_mecanica_estatica_resistencia"
+    path: "LOGOS > MECÂNICA > ESTÁTICA > RESISTÊNCIA"
+    hierarquico_id: "1.3.1.2"
+    legado_id: "S1.L3.1.2-A"
+    tipo: medida
+    descricao: "Capacidade de suportar carga"
+
+  RIGIDEZ:
+    uid: "logos_mecanica_estatica_rigidez"
+    path: "LOGOS > MECÂNICA > ESTÁTICA > RIGIDEZ"
+    hierarquico_id: "1.3.1.3"
+    legado_id: "S1.L3.1.3-A"
+    tipo: propriedade
+    descricao: "Resistência à deformação"
+
+  MOVIMENTO:
+    uid: "logos_mecanica_dinamica_movimento"
+    path: "LOGOS > MECÂNICA > DINÂMICA > MOVIMENTO"
+    hierarquico_id: "1.3.2.1"
+    legado_id: "S1.L3.2.1-A"
+    tipo: processo
+    descricao: "Mudança de posição ao longo do tempo"
+
+  FORCA:
+    uid: "logos_mecanica_dinamica_forca"
+    path: "LOGOS > MECÂNICA > DINÂMICA > FORÇA"
+    hierarquico_id: "1.3.2.2"
+    legado_id: "S1.L3.2.2-A"
+    tipo: vetor
+    descricao: "Agente de mudança de movimento"
+
+  ENERGIA:
+    uid: "logos_mecanica_dinamica_energia"
+    path: "LOGOS > MECÂNICA > DINÂMICA > ENERGIA"
+    hierarquico_id: "1.3.2.3"
+    legado_id: "S1.L3.2.3-A"
+    tipo: medida
+    descricao: "Capacidade de realizar trabalho"
+
+  CALOR:
+    uid: "logos_mecanica_termotransdinamica_calor"
+    path: "LOGOS > MECÂNICA > TERMOTRANSDINÂMICA > CALOR"
+    hierarquico_id: "1.3.3.1"
+    legado_id: "S1.L3.3.1-A"
+    tipo: processo
+    descricao: "Transferência de energia térmica"
+
+  ENTROPIA_SIST:
+    uid: "logos_mecanica_termotransdinamica_entropia"
+    path: "LOGOS > MECÂNICA > TERMOTRANSDINÂMICA > ENTROPIA"
+    hierarquico_id: "1.3.3.2"
+    legado_id: "S1.L3.3.2-A"
+    tipo: medida
+    descricao: "Grau de desordem de um sistema"
+
+  IRREVERSIBILIDADE:
+    uid: "logos_mecanica_termotransdinamica_irreversibilidade"
+    path: "LOGOS > MECÂNICA > TERMOTRANSDINÂMICA > IRREVERSIBILIDADE"
+    hierarquico_id: "1.3.3.3"
+    legado_id: "S1.L3.3.3-A"
+    tipo: restricao
+    descricao: "Direção preferencial dos processos"
+
+  # ═══ BIOS / OIKOS ═══
+  PROTECAO:
+    uid: "bios_oikos_morada_protecao"
+    path: "BIOS > OIKOS > MORADA > PROTEÇÃO"
+    hierarquico_id: "2.1.1.1"
+    legado_id: "S2.L1.1.1-A"
+    tipo: processo
+    descricao: "Abrigo e segurança do organismo"
+
+  RECURSOS:
+    uid: "bios_oikos_morada_recursos"
+    path: "BIOS > OIKOS > MORADA > RECURSOS"
+    hierarquico_id: "2.1.1.2"
+    legado_id: "S2.L1.1.2-A"
+    tipo: medida
+    descricao: "Insumos necessários à sobrevivência"
+
+  SANEAMENTO:
+    uid: "bios_oikos_morada_saneamento"
+    path: "BIOS > OIKOS > MORADA > SANEAMENTO"
+    hierarquico_id: "2.1.1.3"
+    legado_id: "S2.L1.1.3-A"
+    tipo: processo
+    descricao: "Manutenção do ambiente habitável"
+
+  ESPACO:
+    uid: "bios_oikos_territorio_espaco"
+    path: "BIOS > OIKOS > TERRITÓRIO > ESPAÇO"
+    hierarquico_id: "2.1.2.1"
+    legado_id: "S2.L1.2.1-A"
+    tipo: medida
+    descricao: "Extensão ocupada pelo organismo"
+
+  DELIMITACAO:
+    uid: "bios_oikos_territorio_delimitacao"
+    path: "BIOS > OIKOS > TERRITÓRIO > DELIMITAÇÃO"
+    hierarquico_id: "2.1.2.2"
+    legado_id: "S2.L1.2.2-A"
+    tipo: processo
+    descricao: "Definição de fronteiras territoriais"
+
+  SOBERANIA:
+    uid: "bios_oikos_territorio_soberania"
+    path: "BIOS > OIKOS > TERRITÓRIO > SOBERANIA"
+    hierarquico_id: "2.1.2.3"
+    legado_id: "S2.L1.2.3-A"
+    tipo: estado
+    descricao: "Controle autônomo do território"
+
+  ARMAZENAMENTO:
+    uid: "bios_oikos_provisao_armazenamento"
+    path: "BIOS > OIKOS > PROVISÃO > ARMAZENAMENTO"
+    hierarquico_id: "2.1.3.1"
+    legado_id: "S2.L1.3.1-A"
+    tipo: processo
+    descricao: "Acúmulo de recursos para uso futuro"
+
+  DISTRIBUICAO:
+    uid: "bios_oikos_provisao_distribuicao"
+    path: "BIOS > OIKOS > PROVISÃO > DISTRIBUIÇÃO"
+    hierarquico_id: "2.1.3.2"
+    legado_id: "S2.L1.3.2-A"
+    tipo: processo
+    descricao: "Alocação de recursos entre entidades"
+
+  RACIONALIZACAO:
+    uid: "bios_oikos_provisao_racionalizacao"
+    path: "BIOS > OIKOS > PROVISÃO > RACIONALIZAÇÃO"
+    hierarquico_id: "2.1.3.3"
+    legado_id: "S2.L1.3.3-A"
+    tipo: processo
+    descricao: "Otimização do uso de recursos"
+
+  # ═══ BIOS / SOMA ═══
+  COESAO:
+    uid: "bios_soma_integridade_coesao"
+    path: "BIOS > SOMA > INTEGRIDADE > COESÃO"
+    hierarquico_id: "2.2.1.1"
+    legado_id: "S2.L2.1.1-A"
+    tipo: propriedade
+    descricao: "União funcional dos componentes"
+
+  CONSCIENCIA:
+    uid: "bios_soma_integridade_consciencia"
+    path: "BIOS > SOMA > INTEGRIDADE > CONSCIÊNCIA"
+    hierarquico_id: "2.2.1.2"
+    legado_id: "S2.L2.1.2-A"
+    tipo: estado
+    descricao: "Consciência do estado do organismo"
+
+  IDENTIDADE:
+    uid: "bios_soma_integridade_identidade"
+    path: "BIOS > SOMA > INTEGRIDADE > IDENTIDADE"
+    hierarquico_id: "2.2.1.3"
+    legado_id: "S2.L2.1.3-A"
+    tipo: estado
+    descricao: "Auto-reconhecimento ontológico"
+
+  NASCIMENTO:
+    uid: "bios_soma_vitalidade_nascimento"
+    path: "BIOS > SOMA > VITALIDADE > NASCIMENTO"
+    hierarquico_id: "2.2.2.1"
+    legado_id: "S2.L2.2.1-A"
+    tipo: processo
+    descricao: "Início do ciclo de vida"
+
+  CRESCIMENTO:
+    uid: "bios_soma_vitalidade_crescimento"
+    path: "BIOS > SOMA > VITALIDADE > CRESCIMENTO"
+    hierarquico_id: "2.2.2.2"
+    legado_id: "S2.L2.2.2-A"
+    tipo: processo
+    descricao: "Expansão e desenvolvimento"
+
+  RENOVACAO:
+    uid: "bios_soma_vitalidade_renovacao"
+    path: "BIOS > SOMA > VITALIDADE > RENOVAÇÃO"
+    hierarquico_id: "2.2.2.3"
+    legado_id: "S2.L2.2.3-A"
+    tipo: processo
+    descricao: "Restauração funcional"
+
+  REGULACAO:
+    uid: "bios_soma_homeostase_regulacao"
+    path: "BIOS > SOMA > HOMEOSTASE > REGULAÇÃO"
+    hierarquico_id: "2.2.3.1"
+    legado_id: "S2.L2.3.1-A"
+    tipo: processo
+    descricao: "Manutenção de parâmetros internos"
+
+  ADAPTACAO_BIOS:
+    uid: "bios_soma_homeostase_adaptacao"
+    path: "BIOS > SOMA > HOMEOSTASE > ADAPTAÇÃO"
+    hierarquico_id: "2.2.3.2"
+    legado_id: "S2.L2.3.2-A"
+    tipo: processo
+    descricao: "Ajuste a mudanças ambientais"
+
+  EQUILIBRIO_BIOS:
+    uid: "bios_soma_homeostase_equilibrio"
+    path: "BIOS > SOMA > HOMEOSTASE > EQUILÍBRIO"
+    hierarquico_id: "2.2.3.3"
+    legado_id: "S2.L2.3.3-A"
+    tipo: estado
+    descricao: "Estável dinâmico do organismo"
+
+  # ═══ BIOS / METABOLISMO ═══
+  CONSTRUCAO:
+    uid: "bios_metabolismo_anabolismo_construcao"
+    path: "BIOS > METABOLISMO > ANABOLISMO > CONSTRUÇÃO"
+    hierarquico_id: "2.3.1.1"
+    legado_id: "S2.L3.1.1-A"
+    tipo: processo
+    descricao: "Síntese de estruturas complexas"
+
+  SINTESSE:
+    uid: "bios_metabolismo_anabolismo_sintese"
+    path: "BIOS > METABOLISMO > ANABOLISMO > SÍNTESE"
+    hierarquico_id: "2.3.1.2"
+    legado_id: "S2.L3.1.2-A"
+    tipo: processo
+    descricao: "Combinação de elementos em novo todo"
+
+  ACUMULACAO:
+    uid: "bios_metabolismo_anabolismo_acumulacao"
+    path: "BIOS > METABOLISMO > ANABOLISMO > ACUMULAÇÃO"
+    hierarquico_id: "2.3.1.3"
+    legado_id: "S2.L3.1.3-A"
+    tipo: estado
+    descricao: "Reserva de materiais"
+
+  DECOMPOSICAO_BIOS:
+    uid: "bios_metabolismo_catabolismo_decomposicao"
+    path: "BIOS > METABOLISMO > CATABOLISMO > DECOMPOSIÇÃO"
+    hierarquico_id: "2.3.2.1"
+    legado_id: "S2.L3.2.1-A"
+    tipo: processo
+    descricao: "Quebra de estruturas complexas"
+
+  LIBERACAO:
+    uid: "bios_metabolismo_catabolismo_liberacao"
+    path: "BIOS > METABOLISMO > CATABOLISMO > LIBERAÇÃO"
+    hierarquico_id: "2.3.2.2"
+    legado_id: "S2.L3.2.2-A"
+    tipo: processo
+    descricao: "Disponibilização de energia"
+
+  DESCARTE:
+    uid: "bios_metabolismo_catabolismo_descarte"
+    path: "BIOS > METABOLISMO > CATABOLISMO > DESCARTE"
+    hierarquico_id: "2.3.2.3"
+    legado_id: "S2.L3.2.3-A"
+    tipo: processo
+    descricao: "Eliminação de resíduos"
+
+  REPETICAO:
+    uid: "bios_metabolismo_ciclo_repeticao"
+    path: "BIOS > METABOLISMO > CICLO > REPETIÇÃO"
+    hierarquico_id: "2.3.3.1"
+    legado_id: "S2.L3.3.1-A"
+    tipo: dinamica
+    descricao: "Reiteração de processos metabólicos"
+
+  REGENERACAO:
+    uid: "bios_metabolismo_ciclo_regeneracao"
+    path: "BIOS > METABOLISMO > CICLO > REGENERAÇÃO"
+    hierarquico_id: "2.3.3.2"
+    legado_id: "S2.L3.3.2-A"
+    tipo: processo
+    descricao: "Restauração completa do ciclo"
+
+  CIRCULARIDADE:
+    uid: "bios_metabolismo_ciclo_circularidade"
+    path: "BIOS > METABOLISMO > CICLO > CIRCULARIDADE"
+    hierarquico_id: "2.3.3.3"
+    legado_id: "S2.L3.3.3-A"
+    tipo: propriedade
+    descricao: "Fechamento do loop metabólico"
+
+  # ═══ PATHOS / ETHOS ═══
+  ALINHAMENTO:
+    uid: "pathos_ethos_valores_alinhamento"
+    path: "PATHOS > ETHOS > VALORES > ALINHAMENTO"
+    hierarquico_id: "3.1.1.1"
+    legado_id: "S3.L1.1.1-A"
+    tipo: estado
+    descricao: "Coerência entre valores declarados e ações"
+
+  CONFLITO:
+    uid: "pathos_ethos_valores_conflito"
+    path: "PATHOS > ETHOS > VALORES > CONFLITO"
+    hierarquico_id: "3.1.1.2"
+    legado_id: "S3.L1.1.2-A"
+    tipo: fenomeno
+    descricao: "Dissonância entre valores concorrentes"
+
+  TRANSPARENCIA:
+    uid: "pathos_ethos_valores_transparencia"
+    path: "PATHOS > ETHOS > VALORES > TRANSPARÊNCIA"
+    hierarquico_id: "3.1.1.3"
+    legado_id: "S3.L1.1.3-A"
+    tipo: processo
+    descricao: "Visibilidade das motivações"
+
+  HABITO:
+    uid: "pathos_ethos_virtude_habito"
+    path: "PATHOS > ETHOS > VIRTUDE > HÁBITO"
+    hierarquico_id: "3.1.2.1"
+    legado_id: "S3.L1.2.1-A"
+    tipo: processo
+    descricao: "Comportamento cristalizadoizado"
+
+  DISCERNIMENTO:
+    uid: "pathos_ethos_virtude_discernimento"
+    path: "PATHOS > ETHOS > VIRTUDE > DISCERNIMENTO"
+    hierarquico_id: "3.1.2.2"
+    legado_id: "S3.L1.2.2-A"
+    tipo: processo
+    descricao: "Capacidade de julgamento ético"
+
+  EXCELENCIA:
+    uid: "pathos_ethos_virtude_excelencia"
+    path: "PATHOS > ETHOS > VIRTUDE > EXCELÊNCIA"
+    hierarquico_id: "3.1.2.3"
+    legado_id: "S3.L1.2.3-A"
+    tipo: estado
+    descricao: "Realização máxima da virtude"
+
+  DEVER:
+    uid: "pathos_ethos_responsabilidade_dever"
+    path: "PATHOS > ETHOS > RESPONSABILIDADE > DEVER"
+    hierarquico_id: "3.1.3.1"
+    legado_id: "S3.L1.3.1-A"
+    tipo: restricao
+    descricao: "Obrigação moral"
+
+  PRESTACAO_CONTAS:
+    uid: "pathos_ethos_responsabilidade_prestacao_contas"
+    path: "PATHOS > ETHOS > RESPONSABILIDADE > PRESTAÇÃO DE CONTAS"
+    hierarquico_id: "3.1.3.2"
+    legado_id: "S3.L1.3.2-A"
+    tipo: processo
+    descricao: "Demonstrar cumprimento de deveres"
+
+  REPARACAO:
+    uid: "pathos_ethos_responsabilidade_reparacao"
+    path: "PATHOS > ETHOS > RESPONSABILIDADE > REPARAÇÃO"
+    hierarquico_id: "3.1.3.3"
+    legado_id: "S3.L1.3.3-A"
+    tipo: processo
+    descricao: "Compensação por danos causados"
+
+  # ═══ PATHOS / ALTERIDADE ═══
+  IDENTIDADE:
+    uid: "pathos_alteridade_reconhecimento_identidade"
+    path: "PATHOS > ALTERIDADE > RECONHECIMENTO > IDENTIDADE"
+    hierarquico_id: "3.2.1.1"
+    legado_id: "S3.L2.1.1-A"
+    tipo: estado
+    descricao: "Autoconceito e reconhecimento pelo outro"
+
+  VALIDACAO:
+    uid: "pathos_alteridade_reconhecimento_validacao"
+    path: "PATHOS > ALTERIDADE > RECONHECIMENTO > VALIDAÇÃO"
+    hierarquico_id: "3.2.1.2"
+    legado_id: "S3.L2.1.2-A"
+    tipo: processo
+    descricao: "Confirmação da existência e valor"
+
+  MEMORIA:
+    uid: "pathos_alteridade_reconhecimento_memoria"
+    path: "PATHOS > ALTERIDADE > RECONHECIMENTO > MEMÓRIA"
+    hierarquico_id: "3.2.1.3"
+    legado_id: "S3.L2.1.3-A"
+    tipo: processo
+    descricao: "Registro e evocação de experiências"
+
+  COMPREENSAO:
+    uid: "pathos_alteridade_empatia_compreensao"
+    path: "PATHOS > ALTERIDADE > EMPATIA > COMPREENSÃO"
+    hierarquico_id: "3.2.2.1"
+    legado_id: "S3.L2.2.1-A"
+    tipo: processo
+    descricao: "Captação do estado emocional alheio"
+
+  SENSIBILIZACAO:
+    uid: "pathos_alteridade_empatia_sensibilizacao"
+    path: "PATHOS > ALTERIDADE > EMPATIA > SENSIBILIZAÇÃO"
+    hierarquico_id: "3.2.2.2"
+    legado_id: "S3.L2.2.2-A"
+    tipo: processo
+    descricao: "Abertura à experiência do outro"
+
+  CONEXAO:
+    uid: "pathos_alteridade_empatia_conexao"
+    path: "PATHOS > ALTERIDADE > EMPATIA > CONEXÃO"
+    hierarquico_id: "3.2.2.3"
+    legado_id: "S3.L2.2.3-A"
+    tipo: fenomeno
+    descricao: "Vínculo emocional entre entidades"
+
+  COMUNICACAO:
+    uid: "pathos_alteridade_dialogo_comunicacao"
+    path: "PATHOS > ALTERIDADE > DIÁLOGO > COMUNICAÇÃO"
+    hierarquico_id: "3.2.3.1"
+    legado_id: "S3.L2.3.1-A"
+    tipo: processo
+    descricao: "Troca de informações entre agentes"
+
+  NEGOCIACAO:
+    uid: "pathos_alteridade_dialogo_negociacao"
+    path: "PATHOS > ALTERIDADE > DIÁLOGO > NEGOCIAÇÃO"
+    hierarquico_id: "3.2.3.2"
+    legado_id: "S3.L2.3.2-A"
+    tipo: processo
+    descricao: "Busca de acordo mútuo"
+
+  CONCILIACAO:
+    uid: "pathos_alteridade_dialogo_conciliacao"
+    path: "PATHOS > ALTERIDADE > DIÁLOGO > CONCILIAÇÃO"
+    hierarquico_id: "3.2.3.3"
+    legado_id: "S3.L2.3.3-A"
+    tipo: processo
+    descricao: "Resolução de divergências"
+
+  # ═══ PATHOS / ESTÉTICA ═══
+  PROPORCAO:
+    uid: "pathos_estetica_harmonia_proporcao"
+    path: "PATHOS > ESTÉTICA > HARMONIA > PROPORÇÃO"
+    hierarquico_id: "3.3.1.1"
+    legado_id: "S3.L3.1.1-A"
+    tipo: medida
+    descricao: "Relação harmônica entre elementos"
+
+  RITMO:
+    uid: "pathos_estetica_harmonia_ritmo"
+    path: "PATHOS > ESTÉTICA > HARMONIA > RITMO"
+    hierarquico_id: "3.3.1.2"
+    legado_id: "S3.L3.1.2-A"
+    tipo: dinamica
+    descricao: "Padrão temporal recorrente"
+
+  UNIDADE:
+    uid: "pathos_estetica_harmonia_unidade"
+    path: "PATHOS > ESTÉTICA > HARMONIA > UNIDADE"
+    hierarquico_id: "3.3.1.3"
+    legado_id: "S3.L3.1.3-A"
+    tipo: estado
+    descricao: "Coerência do todo percebido"
+
+  CRIACAO:
+    uid: "pathos_estetica_expressao_criacao"
+    path: "PATHOS > ESTÉTICA > EXPRESSÃO > CRIAÇÃO"
+    hierarquico_id: "3.3.2.1"
+    legado_id: "S3.L3.2.1-A"
+    tipo: processo
+    descricao: "Geração de forma nova"
+
+  ARTICULACAO:
+    uid: "pathos_estetica_expressao_articulacao"
+    path: "PATHOS > ESTÉTICA > EXPRESSÃO > ARTICULAÇÃO"
+    hierarquico_id: "3.3.2.2"
+    legado_id: "S3.L3.2.2-A"
+    tipo: processo
+    descricao: "Organização de elementos expressivos"
+
+  ESTILO:
+    uid: "pathos_estetica_expressao_estilo"
+    path: "PATHOS > ESTÉTICA > EXPRESSÃO > ESTILO"
+    hierarquico_id: "3.3.2.3"
+    legado_id: "S3.L3.2.3-A"
+    tipo: propriedade
+    descricao: "Maneira característica de expressão"
+
+  INFLUENCIA:
+    uid: "pathos_estetica_impacto_influencia"
+    path: "PATHOS > ESTÉTICA > IMPACTO > INFLUÊNCIA"
+    hierarquico_id: "3.3.3.1"
+    legado_id: "S3.L3.3.1-A"
+    tipo: fenomeno
+    descricao: "Efeito sobre agentes receptores"
+
+  TRANSFORMACAO_EST:
+    uid: "pathos_estetica_impacto_transformacao"
+    path: "PATHOS > ESTÉTICA > IMPACTO > TRANSFORMAÇÃO"
+    hierarquico_id: "3.3.3.2"
+    legado_id: "S3.L3.3.2-A"
+    tipo: processo
+    descricao: "Mudança profunda provocada pela experiência"
+
+  LEGADO:
+    uid: "pathos_estetica_impacto_legado"
+    path: "PATHOS > ESTÉTICA > IMPACTO > LEGADO"
+    hierarquico_id: "3.3.3.3"
+    legado_id: "S3.L3.3.3-A"
+    tipo: estado
+    descricao: "Marca duradoura na cultura"
+
+  # ═══ KHAOS / ENTROPIA ═══
+  EROSAO:
+    uid: "khaus_entropia_degradacao_erosao"
+    path: "KHAOS > ENTROPIA > DEGRADAÇÃO > EROSÃO"
+    hierarquico_id: "4.1.1.1"
+    legado_id: "S4.L1.1.1-A"
+    tipo: processo
+    descricao: "Desgaste gradual de estrutura"
+
+  CORRUPCAO:
+    uid: "khaus_entropia_degradacao_corrupcao"
+    path: "KHAOS > ENTROPIA > DEGRADAÇÃO > CORRUPÇÃO"
+    hierarquico_id: "4.1.1.2"
+    legado_id: "S4.L1.1.2-A"
+    tipo: fenomeno
+    descricao: "Contaminação sistêmica"
+
+  DISSOLUCAO:
+    uid: "khaus_entropia_degradacao_dissolucao"
+    path: "KHAOS > ENTROPIA > DEGRADAÇÃO > DISSOLUÇÃO"
+    hierarquico_id: "4.1.1.3"
+    legado_id: "S4.L1.1.3-A"
+    tipo: processo
+    descricao: "Desintegração completa"
+
+  DISPERSSAO:
+    uid: "khaus_entropia_dissipacao_disperssao"
+    path: "KHAOS > ENTROPIA > DISSIPAÇÃO > DISPERSSÃO"
+    hierarquico_id: "4.1.2.1"
+    legado_id: "S4.L1.2.1-A"
+    tipo: processo
+    descricao: "Distribuição aleatória de energia"
+
+  VAZAMENTO:
+    uid: "khaus_entropia_dissipacao_vazamento"
+    path: "KHAOS > ENTROPIA > DISSIPAÇÃO > VAZAMENTO"
+    hierarquico_id: "4.1.2.2"
+    legado_id: "S4.L1.2.2-A"
+    tipo: fenomeno
+    descricao: "Perda não controlada de recursos"
+
+  EVAPORACAO:
+    uid: "khaus_entropia_dissipacao_evaporacao"
+    path: "KHAOS > ENTROPIA > DISSIPAÇÃO > EVAPORAÇÃO"
+    hierarquico_id: "4.1.2.3"
+    legado_id: "S4.L1.2.3-A"
+    tipo: processo
+    descricao: "Transição de fase para dispersão"
+
+  DESORDENACAO:
+    uid: "khaus_entropia_caos_desordem"
+    path: "KHAOS > ENTROPIA > CAOS > DESORDENAÇÃO"
+    hierarquico_id: "4.1.3.1"
+    legado_id: "S4.L1.3.1-A"
+    tipo: estado
+    descricao: "Ausência de estrutura previsível"
+
+  ALEATORIEDADE:
+    uid: "khaus_entropia_caos_aleatoriedade"
+    path: "KHAOS > ENTROPIA > CAOS > ALEATORIEDADE"
+    hierarquico_id: "4.1.3.2"
+    legado_id: "S4.L1.3.2-A"
+    tipo: fenomeno
+    descricao: "Comportamento não determinístico"
+
+  CRISE:
+    uid: "khaus_entropia_caos_crise"
+    path: "KHAOS > ENTROPIA > CAOS > CRISE"
+    hierarquico_id: "4.1.3.3"
+    legado_id: "S4.L1.3.3-A"
+    tipo: fenomeno
+    descricao: "Ponto de ruptura sistêmica"
+
+  # ═══ KHAOS / SINGULARIDADE ═══
+  ANOMALIA:
+    uid: "khaus_singularidade_excecao_anomalia"
+    path: "KHAOS > SINGULARIDADE > EXCEÇÃO > ANOMALIA"
+    hierarquico_id: "4.2.1.1"
+    legado_id: "S4.L2.1.1-A"
+    tipo: fenomeno
+    descricao: "Desvio do padrão esperado"
+
+  DESVIACAO:
+    uid: "khaus_singularidade_excecao_desviacao"
+    path: "KHAOS > SINGULARIDADE > EXCEÇÃO > DESVIACAÇÃO"
+    hierarquico_id: "4.2.1.2"
+    legado_id: "S4.L2.1.2-A"
+    tipo: medida
+    descricao: "Distância em relação à norma"
+
+  INOVACAO:
+    uid: "khaus_singularidade_excecao_inovacao"
+    path: "KHAOS > SINGULARIDADE > EXCEÇÃO > INOVAÇÃO"
+    hierarquico_id: "4.2.1.3"
+    legado_id: "S4.L2.1.3-A"
+    tipo: processo
+    descricao: "Criação de novo paradigma"
+
+  ILIMITADO:
+    uid: "khaus_singularidade_infinito_ilimitado"
+    path: "KHAOS > SINGULARIDADE > INFINITO > ILIMITADO"
+    hierarquico_id: "4.2.2.1"
+    legado_id: "S4.L2.2.1-A"
+    tipo: conceito
+    descricao: "Sem fronteiras quantitativas"
+
+  INFINITESIMO:
+    uid: "khaus_singularidade_infinito_infinitesimo"
+    path: "KHAOS > SINGULARIDADE > INFINITO > INFINITÉSIMO"
+    hierarquico_id: "4.2.2.2"
+    legado_id: "S4.L2.2.2-A"
+    tipo: conceito
+    descricao: "Quantidade abaixo de qualquer limiar"
+
+  PARADOXO:
+    uid: "khaus_singularidade_infinito_paradoxo"
+    path: "KHAOS > SINGULARIDADE > INFINITO > PARADOXO"
+    hierarquico_id: "4.2.2.3"
+    legado_id: "S4.L2.2.3-A"
+    tipo: fenomeno
+    descricao: "Contradição aparente irredutível"
+
+  METAMORFOSE:
+    uid: "khaus_singularidade_transformacao_metamorfose"
+    path: "KHAOS > SINGULARIDADE > TRANSFORMAÇÃO > METAMORFOSE"
+    hierarquico_id: "4.2.3.1"
+    legado_id: "S4.L2.3.1-A"
+    tipo: processo
+    descricao: "Mudança radical de forma"
+
+  TRANSPOSICAO:
+    uid: "khaus_singularidade_transformacao_transposicao"
+    path: "KHAOS > SINGULARIDADE > TRANSFORMAÇÃO > TRANSPOSIÇÃO"
+    hierarquico_id: "4.2.3.2"
+    legado_id: "S4.L2.3.2-A"
+    tipo: processo
+    descricao: "Reorganização de elementos"
+
+  RECONVERSAO:
+    uid: "khaus_singularidade_transformacao_reconversao"
+    path: "KHAOS > SINGULARIDADE > TRANSFORMAÇÃO > RECONVERSÃO"
+    hierarquico_id: "4.2.3.3"
+    legado_id: "S4.L2.3.3-A"
+    tipo: processo
+    descricao: "Retorno a estado anterior transformado"
+
+  # ═══ KHAOS / SÍNTESE ═══
+  MISTURA:
+    uid: "khaus_sintese_fusao_mistura"
+    path: "KHAOS > SÍNTESE > FUSÃO > MISTURA"
+    hierarquico_id: "4.3.1.1"
+    legado_id: "S4.L3.1.1-A"
+    tipo: processo
+    descricao: "Combinação de elementos distintos"
+
+  CONVERGENCIA:
+    uid: "khaus_sintese_fusao_convergencia"
+    path: "KHAOS > SÍNTESE > FUSÃO > CONVERGÊNCIA"
+    hierarquico_id: "4.3.1.2"
+    legado_id: "S4.L3.1.2-A"
+    tipo: processo
+    descricao: "Aproximação de múltiplas tendências"
+
+  AMALGAMACAO:
+    uid: "khaus_sintese_fusao_amalgamacao"
+    path: "KHAOS > SÍNTESE > FUSÃO > AMALGAMAÇÃO"
+    hierarquico_id: "4.3.1.3"
+    legado_id: "S4.L3.1.3-A"
+    tipo: fenomeno
+    descricao: "Fusão em entidade única e indissociável"
+
+  MISCEGENIA:
+    uid: "khaus_sintese_hibridismo_miscegenia"
+    path: "KHAOS > SÍNTESE > HIBRIDISMO > MISCEGÊNIA"
+    hierarquico_id: "4.3.2.1"
+    legado_id: "S4.L3.2.1-A"
+    tipo: fenomeno
+    descricao: "Mistura de origens distintas"
+
+  SINCRETISMO:
+    uid: "khaus_sintese_hibridismo_sincretismo"
+    path: "KHAOS > SÍNTESE > HIBRIDISMO > SINCRETISMO"
+    hierarquico_id: "4.3.2.2"
+    legado_id: "S4.L3.2.2-A"
+    tipo: fenomeno
+    descricao: "Fusão de tradições em novo sistema"
+
+  NOVO:
+    uid: "khaus_sintese_hibridismo_novo"
+    path: "KHAOS > SÍNTESE > HIBRIDISMO > NOVO"
+    hierarquico_id: "4.3.2.3"
+    legado_id: "S4.L3.2.3-A"
+    tipo: fenomeno
+    descricao: "Entidade emergente sem precedente"
+
+  ULTRAPASSAGEM:
+    uid: "khaus_sintese_transcendencia_ultrapassagem"
+    path: "KHAOS > SÍNTESE > TRANSCENDÊNCIA > ULTRAPASSAGEM"
+    hierarquico_id: "4.3.3.1"
+    legado_id: "S4.L3.3.1-A"
+    tipo: processo
+    descricao: "Ir além dos limites atuais"
+
+  EVOLUCAO:
+    uid: "khaus_sintese_transcendencia_evolucao"
+    path: "KHAOS > SÍNTESE > TRANSCENDÊNCIA > EVOLUÇÃO"
+    hierarquico_id: "4.3.3.2"
+    legado_id: "S4.L3.3.2-A"
+    tipo: dinamica
+    descricao: "Progressão qualitativa ao longo do tempo"
+
+  APOGEO:
+    uid: "khaus_sintese_transcendencia_apogeo"
+    path: "KHAOS > SÍNTESE > TRANSCENDÊNCIA > APOGEO"
+    hierarquico_id: "4.3.3.3"
+    legado_id: "S4.L3.3.3-A"
+    tipo: estado
+    descricao: "Ponto máximo de desenvolvimento"
+
+  # ═══ APEIRON / PROPORÇÃO ═══
+  AMPLIACAO:
+    uid: "apeiron_proporcao_escalamento_ampliacao"
+    path: "APEIRON > PROPORÇÃO > ESCALAMENTO > AMPLIAÇÃO"
+    hierarquico_id: "5.1.1.1"
+    legado_id: "S5.L1.1.1-A"
+    tipo: processo
+    descricao: "Aumento de escala"
+
+  REDUCAO:
+    uid: "apeiron_proporcao_escalamento_reducao"
+    path: "APEIRON > PROPORÇÃO > ESCALAMENTO > REDUÇÃO"
+    hierarquico_id: "5.1.1.2"
+    legado_id: "S5.L1.1.2-A"
+    tipo: processo
+    descricao: "Diminuição de escala"
+
+  ZOOM:
+    uid: "apeiron_proporcao_escalamento_zoom"
+    path: "APEIRON > PROPORÇÃO > ESCALAMENTO > ZOOM"
+    hierarquico_id: "5.1.1.3"
+    legado_id: "S5.L1.1.3-A"
+    tipo: processo
+    descricao: "Mudança focal de perspectiva"
+
+  DIVISAO_AUREA:
+    uid: "apeiron_proporcao_aurea_divisao_aurea"
+    path: "APEIRON > PROPORÇÃO > ÁUREA > DIVISÃO ÁUREA"
+    hierarquico_id: "5.1.2.1"
+    legado_id: "S5.L1.2.1-A"
+    tipo: conceito
+    descricao: "Proporção φ = (1+√5)/2"
+
+  HARMONIA_AUREA:
+    uid: "apeiron_proporcao_aurea_harmonia"
+    path: "APEIRON > PROPORÇÃO > ÁUREA > HARMONIA"
+    hierarquico_id: "5.1.2.2"
+    legado_id: "S5.L1.2.2-A"
+    tipo: estado
+    descricao: "Equilíbrio estético perfeito"
+
+  EQUILIBRIO_PERF:
+    uid: "apeiron_proporcao_aurea_equilibrio"
+    path: "APEIRON > PROPORÇÃO > ÁUREA > EQUILÍBRIO_PERFEITO"
+    hierarquico_id: "5.1.2.3"
+    legado_id: "S5.L1.2.3-A"
+    tipo: estado
+    descricao: "Balanceamento ideal"
+
+  CORRESPONDENCIA:
+    uid: "apeiron_proporcao_isomorfismo_correspondencia"
+    path: "APEIRON > PROPORÇÃO > ISOMORFISMO > CORRESPONDÊNCIA"
+    hierarquico_id: "5.1.3.1"
+    legado_id: "S5.L1.3.1-A"
+    tipo: relacao
+    descricao: "Mapeamento biunívoco entre estruturas"
+
+  ANALOGIA:
+    uid: "apeiron_proporcao_isomorfismo_analogia"
+    path: "APEIRON > PROPORÇÃO > ISOMORFISMO > ANALOGIA"
+    hierarquico_id: "5.1.3.2"
+    legado_id: "S5.L1.3.2-A"
+    tipo: relacao
+    descricao: "Semelhança estrutural entre domínios"
+
+  MAPEAMENTO:
+    uid: "apeiron_proporcao_isomorfismo_mapeamento"
+    path: "APEIRON > PROPORÇÃO > ISOMORFISMO > MAPEAMENTO"
+    hierarquico_id: "5.1.3.3"
+    legado_id: "S5.L1.3.3-A"
+    tipo: processo
+    descricao: "Representação sistemática de correspondências"
+
+  # ═══ APEIRON / VIBRATIO ═══
+  OSCILLACAO:
+    uid: "apeiron_vibratio_frequencia_oscillacao"
+    path: "APEIRON > VIBRATIO > FREQUÊNCIA > OSCILAÇÃO"
+    hierarquico_id: "5.2.1.1"
+    legado_id: "S5.L2.1.1-A"
+    tipo: dinamica
+    descricao: "Movimento periódico"
+
+  CICLO_FREQ:
+    uid: "apeiron_vibratio_frequencia_ciclo"
+    path: "APEIRON > VIBRATIO > FREQUÊNCIA > CICLO"
+    hierarquico_id: "5.2.1.2"
+    legado_id: "S5.L2.1.2-A"
+    tipo: dinamica
+    descricao: "Sequência periódica completa"
+
+  PULSAO:
+    uid: "apeiron_vibratio_frequencia_pulsao"
+    path: "APEIRON > VIBRATIO > FREQUÊNCIA > PULSAÇÃO"
+    hierarquico_id: "5.2.1.3"
+    legado_id: "S5.L2.1.3-A"
+    tipo: dinamica
+    descricao: "Batimento rítmico"
+
+  AMPLIFICACAO:
+    uid: "apeiron_vibratio_resonancia_amplificacao"
+    path: "APEIRON > VIBRATIO > RESSONÂNCIA > AMPLIFICAÇÃO"
+    hierarquico_id: "5.2.2.1"
+    legado_id: "S5.L2.2.1-A"
+    tipo: processo
+    descricao: "Intensificação por coincidência de frequência"
+
+  SINTONIA:
+    uid: "apeiron_vibratio_resonancia_sintonia"
+    path: "APEIRON > VIBRATIO > RESSONÂNCIA > SINTONIA"
+    hierarquico_id: "5.2.2.2"
+    legado_id: "S5.L2.2.2-A"
+    tipo: estado
+    descricao: "Alinhamento frequencial"
+
+  ECO:
+    uid: "apeiron_vibratio_resonancia_eco"
+    path: "APEIRON > VIBRATIO > RESSONÂNCIA > ECO"
+    hierarquico_id: "5.2.2.3"
+    legado_id: "S5.L2.2.3-A"
+    tipo: fenomeno
+    descricao: "Reflexão de padrão"
+
+  PROPAGACAO:
+    uid: "apeiron_vibratio_onda_propagacao"
+    path: "APEIRON > VIBRATIO > ONDA > PROPAGAÇÃO"
+    hierarquico_id: "5.2.3.1"
+    legado_id: "S5.L2.3.1-A"
+    tipo: processo
+    descricao: "Transmissão de perturbação"
+
+  INTERFERENCIA:
+    uid: "apeiron_vibratio_onda_interferencia"
+    path: "APEIRON > VIBRATIO > ONDA > INTERFERÊNCIA"
+    hierarquico_id: "5.2.3.2"
+    legado_id: "S5.L2.3.2-A"
+    tipo: fenomeno
+    descricao: "Combinação de ondas"
+
+  MODULACAO:
+    uid: "apeiron_vibratio_onda_modulacao"
+    path: "APEIRON > VIBRATIO > ONDA > MODULAÇÃO"
+    hierarquico_id: "5.2.3.3"
+    legado_id: "S5.L2.3.3-A"
+    tipo: processo
+    descricao: "Alteração controlada de parâmetros"
+
+  # ═══ APEIRON / VÁCUO ═══
+  CAPACIDADE:
+    uid: "apeiron_vacuo_potencial_capacidade"
+    path: "APEIRON > VÁCUO > POTENCIAL > CAPACIDADE"
+    hierarquico_id: "5.3.1.1"
+    legado_id: "S5.L3.1.1-A"
+    tipo: medida
+    descricao: "Possibilidade latente de manifestação"
+
+  LATENCIA:
+    uid: "apeiron_vacuo_potencial_latencia"
+    path: "APEIRON > VÁCUO > POTENCIAL > LATÊNCIA"
+    hierarquico_id: "5.3.1.2"
+    legado_id: "S5.L3.1.2-A"
+    tipo: estado
+    descricao: "Estado de possibilidade não ativada"
+
+  POSSIBILIDADE:
+    uid: "apeiron_vacuo_potencial_possibilidade"
+    path: "APEIRON > VÁCUO > POTENCIAL > POSSIBILIDADE"
+    hierarquico_id: "5.3.1.3"
+    legado_id: "S5.L3.1.3-A"
+    tipo: conceito
+    descricao: "Espaço do que pode vir a ser"
+
+  PAUSA:
+    uid: "apeiron_vacuo_silencio_pausa"
+    path: "APEIRON > VÁCUO > SILÊNCIO > PAUSA"
+    hierarquico_id: "5.3.2.1"
+    legado_id: "S5.L3.2.1-A"
+    tipo: processo
+    descricao: "Interrupção intencional"
+
+  VAZIO:
+    uid: "apeiron_vacuo_silencio_vazio"
+    path: "APEIRON > VÁCUO > SILÊNCIO > VAZIO"
+    hierarquico_id: "5.3.2.2"
+    legado_id: "S5.L3.2.2-A"
+    tipo: conceito
+    descricao: "Ausência como espaço gerador"
+
+  REFLEXAO:
+    uid: "apeiron_vacuo_silencio_reflexao"
+    path: "APEIRON > VÁCUO > SILÊNCIO > REFLEXÃO"
+    hierarquico_id: "5.3.2.3"
+    legado_id: "S5.L3.2.3-A"
+    tipo: processo
+    descricao: "Contemplação interna"
+
+  ESPACO_INFLUENCIA:
+    uid: "apeiron_vacuo_campo_espaco_influencia"
+    path: "APEIRON > VÁCUO > CAMPO > ESPAÇO DE INFLUÊNCIA"
+    hierarquico_id: "5.3.3.1"
+    legado_id: "S5.L3.3.1-A"
+    tipo: medida
+    descricao: "Região de atuação"
+
+  GRADIENTE:
+    uid: "apeiron_vacuo_campo_gradiente"
+    path: "APEIRON > VÁCUO > CAMPO > GRADIENTE"
+    hierarquico_id: "5.3.3.2"
+    legado_id: "S5.L3.3.2-A"
+    tipo: medida
+    descricao: "Variação espacial de intensidade"
+
+  TOPOLOGIA:
+    uid: "apeiron_vacuo_campo_topologia"
+    path: "APEIRON > VÁCUO > CAMPO > TOPOLOGIA"
+    hierarquico_id: "5.3.3.3"
+    legado_id: "S5.L3.3.3-A"
+    tipo: estrutura
+    descricao: "Propriedades espaciais do campo"
+
+  # ═══ MYTHOS / ARQUÉTIPO ═══
+  ORIGEM:
+    uid: "mythos_arquetipo_padrao_primordial_origem"
+    path: "MYTHOS > ARQUÉTIPO > PADRÃO PRIMORDIAL > ORIGEM"
+    hierarquico_id: "6.1.1.1"
+    legado_id: "S6.L1.1.1-A"
+    tipo: conceito
+    descricao: "Ponto de começo primordial"
+
+  MATRIZ:
+    uid: "mythos_arquetipo_padrao_primordial_matriz"
+    path: "MYTHOS > ARQUÉTIPO > PADRÃO PRIMORDIAL > MATRIZ"
+    hierarquico_id: "6.1.1.2"
+    legado_id: "S6.L1.1.2-A"
+    tipo: estrutura
+    descricao: "Padrão gerador fundamental"
+
+  FONTE:
+    uid: "mythos_arquetipo_padrao_primordial_fonte"
+    path: "MYTHOS > ARQUÉTIPO > PADRÃO PRIMORDIAL > FONTE"
+    hierarquico_id: "6.1.1.3"
+    legado_id: "S6.L1.1.3-A"
+    tipo: conceito
+    descricao: "Origem última e inesgotável"
+
+  ATITUDE:
+    uid: "mythos_arquetipo_comportamento_atitude"
+    path: "MYTHOS > ARQUÉTIPO > COMPORTAMENTO > ATITUDE"
+    hierarquico_id: "6.1.2.1"
+    legado_id: "S6.L1.2.1-A"
+    tipo: processo
+    descricao: "Disposição recorrente de agir"
+
+  HABITO_MYTH:
+    uid: "mythos_arquetipo_comportamento_habito"
+    path: "MYTHOS > ARQUÉTIPO > COMPORTAMENTO > HÁBITO"
+    hierarquico_id: "6.1.2.2"
+    legado_id: "S6.L1.2.2-A"
+    tipo: processo
+    descricao: "Repetição cristalizada"
+
+  RITUAL:
+    uid: "mythos_arquetipo_comportamento_ritual"
+    path: "MYTHOS > ARQUÉTIPO > COMPORTAMENTO > RITUAL"
+    hierarquico_id: "6.1.2.3"
+    legado_id: "S6.L1.2.3-A"
+    tipo: processo
+    descricao: "Sequência cerimonial carregada de sentido"
+
+  ICONE:
+    uid: "mythos_arquetipo_simbolo_icone"
+    path: "MYTHOS > ARQUÉTIPO > SÍMBOLO > ÍCONE"
+    hierarquico_id: "6.1.3.1"
+    legado_id: "S6.L1.3.1-A"
+    tipo: representacao
+    descricao: "Representação condensada de significado"
+
+  METAFORA:
+    uid: "mythos_arquetipo_simbolo_metafora"
+    path: "MYTHOS > ARQUÉTIPO > SÍMBOLO > METÁFORA"
+    hierarquico_id: "6.1.3.2"
+    legado_id: "S6.L1.3.2-A"
+    tipo: relacao
+    descricao: "Transferência de sentido entre domínios"
+
+  SIGNIFICADO:
+    uid: "mythos_arquetipo_simbolo_significado"
+    path: "MYTHOS > ARQUÉTIPO > SÍMBOLO > SIGNIFICADO"
+    hierarquico_id: "6.1.3.3"
+    legado_id: "S6.L1.3.3-A"
+    tipo: conceito
+    descricao: "Conteúdo semântico profundo"
+
+  # ═══ MYTHOS / NARRATIVA ═══
+  REDE:
+    uid: "mythos_narrativa_teia_rede"
+    path: "MYTHOS > NARRATIVA > TEIA > REDE"
+    hierarquico_id: "6.2.1.1"
+    legado_id: "S6.L2.1.1-A"
+    tipo: estrutura
+    descricao: "Conjunto de conexões"
+
+  CONEXAO_MYTH:
+    uid: "mythos_narrativa_teia_conexao"
+    path: "MYTHOS > NARRATIVA > TEIA > CONEXÃO"
+    hierarquico_id: "6.2.1.2"
+    legado_id: "S6.L2.1.2-A"
+    tipo: relacao
+    descricao: "Vínculo entre elementos"
+
+  TRAMA:
+    uid: "mythos_narrativa_teia_trama"
+    path: "MYTHOS > NARRATIVA > TEIA > TRAMA"
+    hierarquico_id: "6.2.1.3"
+    legado_id: "S6.L2.1.3-A"
+    tipo: estrutura
+    descricao: "Enredo estruturado"
+
+  DIRECAO:
+    uid: "mythos_narrativa_linha_sentido_direcao"
+    path: "MYTHOS > NARRATIVA > LINHA DE SENTIDO > DIREÇÃO"
+    hierarquico_id: "6.2.2.1"
+    legado_id: "S6.L2.2.1-A"
+    tipo: vetor
+    descricao: "Orientação narrativa"
+
+  PROPOSITO:
+    uid: "mythos_narrativa_linha_sentido_proposito"
+    path: "MYTHOS > NARRATIVA > LINHA DE SENTIDO > PROPÓSITO"
+    hierarquico_id: "6.2.2.2"
+    legado_id: "S6.L2.2.2-A"
+    tipo: conceito
+    descricao: "Razão de ser da narrativa"
+
+  SENTIDO:
+    uid: "mythos_narrativa_linha_sentido_sentido"
+    path: "MYTHOS > NARRATIVA > LINHA DE SENTIDO > SENTIDO"
+    hierarquico_id: "6.2.2.3"
+    legado_id: "S6.L2.2.3-A"
+    tipo: conceito
+    descricao: "Significado construído"
+
+  MEMORIA_MYTH:
+    uid: "mythos_narrativa_historia_vivida_memoria"
+    path: "MYTHOS > NARRATIVA > HISTÓRIA VIVIDA > MEMÓRIA"
+    hierarquico_id: "6.2.3.1"
+    legado_id: "S6.L2.3.1-A"
+    tipo: processo
+    descricao: "Registro experiencial"
+
+  EXPERIENCIA:
+    uid: "mythos_narrativa_historia_vivida_experiencia"
+    path: "MYTHOS > NARRATIVA > HISTÓRIA VIVIDA > EXPERIÊNCIA"
+    hierarquico_id: "6.2.3.2"
+    legado_id: "S6.L2.3.2-A"
+    tipo: processo
+    descricao: "Vivencia codificada"
+
+  TESTEMUNHO:
+    uid: "mythos_narrativa_historia_vivida_testemunho"
+    path: "MYTHOS > NARRATIVA > HISTÓRIA VIVIDA > TESTEMUNHO"
+    hierarquico_id: "6.2.3.3"
+    legado_id: "S6.L2.3.3-A"
+    tipo: representacao
+    descricao: "Relato de experiência"
+
+  # ═══ MYTHOS / MISTÉRIO ═══
+  DUVIDA:
+    uid: "mythos_misterio_incompreensao_duvida"
+    path: "MYTHOS > MISTÉRIO > INCOMPREENSÃO > DÚVIDA"
+    hierarquico_id: "6.3.1.1"
+    legado_id: "S6.L3.1.1-A"
+    tipo: estado
+    descricao: "Ausência de certeza"
+
+  ENIGMA:
+    uid: "mythos_misterio_incompreensao_enigma"
+    path: "MYTHOS > MISTÉRIO > INCOMPREENSÃO > ENIGMA"
+    hierarquico_id: "6.3.1.2"
+    legado_id: "S6.L3.1.2-A"
+    tipo: fenomeno
+    descricao: "Problema sem solução aparente"
+
+  OBSCURIDADE:
+    uid: "mythos_misterio_incompreensao_obscuridade"
+    path: "MYTHOS > MISTÉRIO > INCOMPREENSÃO > OBSCURIDADE"
+    hierarquico_id: "6.3.1.3"
+    legado_id: "S6.L3.1.3-A"
+    tipo: estado
+    descricao: "Falta de iluminação conceitual"
+
+  PRESSENTIMENTO:
+    uid: "mythos_misterio_intuicao_pressentimento"
+    path: "MYTHOS > MISTÉRIO > INTUIÇÃO > PRESSENTIMENTO"
+    hierarquico_id: "6.3.2.1"
+    legado_id: "S6.L3.2.1-A"
+    tipo: fenomeno
+    descricao: "Conhecimento sem via racional"
+
+  INSIGHT:
+    uid: "mythos_misterio_intuicao_insight"
+    path: "MYTHOS > MISTÉRIO > INTUIÇÃO > INSIGHT"
+    hierarquico_id: "6.3.2.2"
+    legado_id: "S6.L3.2.2-A"
+    tipo: fenomeno
+    descricao: "Compreensão súbita"
+
+  REVELACAO:
+    uid: "mythos_misterio_intuicao_revelacao"
+    path: "MYTHOS > MISTÉRIO > INTUIÇÃO > REVELAÇÃO"
+    hierarquico_id: "6.3.2.3"
+    legado_id: "S6.L3.2.3-A"
+    tipo: fenomeno
+    descricao: "Desvelamento de verdade oculta"
+
+  DESCOBERTA:
+    uid: "mythos_misterio_revelacao_descoberta"
+    path: "MYTHOS > MISTÉRIO > REVELAÇÃO > DESCOBERTA"
+    hierarquico_id: "6.3.3.1"
+    legado_id: "S6.L3.3.1-A"
+    tipo: processo
+    descricao: "Encontro com o desconhecido"
+
+  ILUMINACAO:
+    uid: "mythos_misterio_revelacao_iluminacao"
+    path: "MYTHOS > MISTÉRIO > REVELAÇÃO > ILUMINAÇÃO"
+    hierarquico_id: "6.3.3.2"
+    legado_id: "S6.L3.3.2-A"
+    tipo: estado
+    descricao: "Estado de compreensão total"
+
+  VERDADE:
+    uid: "mythos_misterio_revelacao_verdade"
+    path: "MYTHOS > MISTÉRIO > REVELAÇÃO > VERDADE"
+    hierarquico_id: "6.3.3.3"
+    legado_id: "S6.L3.3.3-A"
+    tipo: conceito
+    descricao: "Correspondência plena com o real"
+
+# =============================================================================
+# RECONCILIAÇÃO DE IDs — Mapeamento dual
+# =============================================================================
+id_reconciliation:
+  strategy: "uid_immutable"
+  description: >
+    Cada célula possui um uid canônico (snake_case), um ID hierárquico
+    (1.1.1.1) e um ID legado (S1.L1.1.1-A). O uid é a chave primária
+    imutável. Os demais IDs são derivados e podem ser recalculados.
+  format:
+    uid: "{pilar}_{dominio}_{subarvore}_{celula}"
+    hierarquico: "{n1}.{n2}.{n3}.{n4}"
+    legado: "S{n1}.L{n2}.{n3}.{n4}-{pilar[0]}"
+
+# =============================================================================
+# NATUREZAS ONTOLÓGICAS (10 tipos)
+# =============================================================================
+naturezas:
+  - processo
+  - estado
+  - fenomeno
+  - principio
+  - mecanismo
+  - estrutura
+  - arquetipo
+  - dinamica
+  - restricao
+  - vetor
+  - conceito
+  - medida
+  - relacao
+  - representacao
+  - excecao
+
+# =============================================================================
+# TIPOS DE RELAÇÃO
+# =============================================================================
+relacoes:
+  - tipo: "hierarquico"
+    descricao: "Pai-filho na árvore N0→N4"
+  - tipo: "lateral"
+    descricao: "Células no mesmo nível N4"
+  - tipo: "transversal"
+    descricao: "Células em pilares diferentes, mesmo domínio"
+  - tipo: "espelhamento"
+    descricao: "SINTRÓPICO ↔ ENTRÓPICO"
+  - tipo: "causal"
+    descricao: "Uma célula influencia outra"
+  - tipo: "contraste"
+    descricao: "Células opostas ou complementares"
+
+# =============================================================================
+# VETORES SEMÂNTICOS (para embedding)
+# =============================================================================
+vetores_semanticos:
+  - nome: "estrutural"
+    peso: 0.30
+    descricao: "Foco em hierarquia e composição"
+  - nome: "funcional"
+    peso: 0.25
+    descricao: "Foco em processos e operações"
+  - nome: "relacional"
+    peso: 0.20
+    descricao: "Foco em conexões entre entidades"
+  - nome: "simbolico"
+    peso: 0.15
+    descricao: "Foco em significado e narrativa"
+  - nome: "temporal"
+    peso: 0.10
+    descricao: "Foco em sequência e duração"
+
+# =============================================================================
+# CONFIGURAÇÕES DE RETRIEVAL
+# =============================================================================
+retrieval:
+  metodo_default: "hibrido"
+  estrategias:
+    - nome: "vector_similarity"
+      peso: 0.50
+      descricao: "Similaridade cosseno nos embeddings"
+    - nome: "graph_traversal"
+      peso: 0.30
+      descricao: "Navegação pelo grafo ontológico"
+    - nome: "symbolic_match"
+      peso: 0.20
+      descricao: "Correspondência exata de metadados"
+  reranking:
+    ativo: true
+    metodo: "cross-encoder"
+    top_k_rerank: 10
+  cache:
+    ativo: true
+    ttl_segundos: 3600
+    max_itens: 10000

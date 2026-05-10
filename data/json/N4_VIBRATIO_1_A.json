@@ -1,0 +1,167 @@
+{
+  "uid": "N4_VIBRATIO_1_A",
+  "legacy_id": "A5.2.1-A",
+  "path": "E2.A2.2.1-A",
+  "hierarchical_id": "5.2.1.1",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "VIBRATIO",
+  "n3_ref": "5.2.1",
+  "n3_name": "FREQUENCIA",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "CICLO_TEMPORAL",
+  "nome_normalizado": "ciclo temporal",
+  "gatilho": "Frequência determinando caráter",
+  "acao": "Identificar padrão cíclico",
+  "restricao": "Não ignorar periodicidade",
+  "verificacao": "Cadência reconhecida",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "comparar",
+    "generalizar",
+    "avaliar",
+    "abstrair",
+    "escalar",
+    "mapear",
+    "prever"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.692,
+    "complexidade": 0.554,
+    "causalidade": 0.452,
+    "emocionalidade": 0.527,
+    "materialidade": 0.336,
+    "simbolismo": 0.636,
+    "dinamismo": 0.48,
+    "temporalidade": 0.481,
+    "ambiguidade": 0.582
+  },
+  "opostos": [
+    "N4_VIBRATIO_1_B",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de ciclo temporal emergindo em sistemas de vibratio"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno ciclo temporal sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "ciclo temporal é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "n3_frequencia",
+    "entrópico",
+    "fenomeno",
+    "vibratio"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_1_B",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_1_C",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_VIBRATIO_1_A",
+      "peso": 0.7,
+      "source": "N4_ESCALA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.575265+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.575295+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:55.806078+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

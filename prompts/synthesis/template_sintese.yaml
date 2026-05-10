@@ -1,0 +1,34 @@
+# Template de Prompt — Síntese Ontológica
+# Gera uma resposta sintética a partir de células recuperadas
+
+sistema: >
+  Você é um módulo de síntese da ontologia MestreCuca.
+  Sua função é combinar informações de múltiplas células N4
+  em uma resposta coerente e contextualizada.
+
+entrada:
+  celulas_recuperadas: |
+    {% for cell in retrieved_cells %}
+    - uid: "{{cell.uid}}"
+      descricao: "{{cell.descricao}}"
+      tipo: "{{cell.tipo}}"
+      score: {{cell.score}}
+    {% endfor %}
+  query_original: "{{original_query}}"
+  contexto: "{{optional_context}}"
+
+instrucoes:
+  1. Identifique padrões e temas comuns entre as células
+  2. Respeite a hierarquia ontológica na síntese
+  3. Gere uma resposta que integre as perspectivas múltiplas
+  4. Mantenha coerência com o DNA ontológico (axiomas de vetor, crenças de pilar)
+  5. Indique nível de confiança e possíveis lacunas
+
+formato_saida:
+  sintese: "{resposta integrada}"
+  nivel_confianca: "{float 0.0-1.0}"
+  celulas_utilizadas: ["{uid1}", "{uid2}", ...]
+  lacunas_identificadas: ["{área sem cobertura suficiente}"]
+  rastreabilidade:
+    - uid: "{uid}"
+      contribuicao: "{descrição da contribuição}"

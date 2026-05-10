@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_1_C",
+  "legacy_id": "A5.1.1-C",
+  "path": "E2.A2.1.1-C",
+  "hierarchical_id": "5.1.1.3",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.1",
+  "n3_name": "PROPORÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 1,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "ISOMORFISMO",
+  "nome_normalizado": "isomorfismo",
+  "gatilho": "Problema sem solução evidente",
+  "acao": "Mapear para outra escala",
+  "restricao": "Preservar relações essenciais",
+  "verificacao": "Solução válida na escala original",
+  "funcao_cognitiva": [
+    "escalar",
+    "mapear",
+    "comparar",
+    "resolver",
+    "abstrair",
+    "generalizar",
+    "prever",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.707,
+    "complexidade": 0.586,
+    "causalidade": 0.417,
+    "emocionalidade": 0.481,
+    "materialidade": 0.299,
+    "simbolismo": 0.623,
+    "dinamismo": 0.461,
+    "temporalidade": 0.432,
+    "ambiguidade": 0.528
+  },
+  "opostos": [
+    "N4_ESCALA_1_A",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de isomorfismo emergindo em sistemas de escala"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno isomorfismo sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "isomorfismo é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "n3_proporção",
+    "fenomeno",
+    "escala"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.6,
+      "source": "N4_ESCALA_1_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.6,
+      "source": "N4_ESCALA_1_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.540067+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.540096+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.905039+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

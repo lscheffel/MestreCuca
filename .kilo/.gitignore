@@ -1,0 +1,28 @@
+# Dados sensíveis
+memory/*.db
+memory/sessions/
+*.secret
+
+# Cache de embeddings
+embeddings/cache/
+embeddings/*.npy
+
+# Logs
+runtime/logs/*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+Thumbs.db
+.DS_Store

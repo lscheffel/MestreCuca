@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-2_3_1 - BIOS / SÍNTESE - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 2.3.1 (agregado)
+- **ID N3 Pai:** 2.3.1
+- **ID N2 Avô:** 2.3
+- **Domínio:** BIOS
+- **Subdomínio N3:** SÍNTESE
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **SÍNTESE** (BIOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-2_3_1-BIOS-SÍNTESE.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-2_3_1-BIOS-SÍNTESE.md` |
+| Domínio N2 | 2.3_SÍNTESE |
+| Domínio N1 | BIOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: BIOS
+      └─ N2: 2.3_SÍNTESE
+          └─ N3: 2.3.1 SÍNTESE
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. SÍNTESE_MATERIAL
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** B2.3.1-A
+- **Gatilho:** Construir estruturas complexas
+- **Ação:** Combinar componentes simples
+- **Restrição:** Não pular etapas necessárias
+- **Verificação:** Estrutura complexa formada corretamente
 
-### 2. TECIDO_SENTIDO
+### 2. CRESCIMENTO
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** B2.3.1-B
+- **Gatilho:** Sistema aumentando de tamanho
+- **Ação:** Adicionar material de forma ordenada
+- **Restrição:** Não crescer desordenadamente
+- **Verificação:** Crescimento estruturado e funcional
 
-### 3. COMPLEXIDADE_TEIA
+### 3. COMPLEXIFICAÇÃO
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** B2.3.1-C
+- **Gatilho:** Tornar sistema mais complexo
+- **Ação:** Adicionar funcionalidades gradativamente
+- **Restrição:** Não adicionar complexidade desnecessária
+- **Verificação:** Complexidade útil e funcional
 
 
 

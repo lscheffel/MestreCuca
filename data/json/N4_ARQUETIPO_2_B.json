@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ARQUETIPO_2_B",
+  "legacy_id": "M6.1.2-B",
+  "path": "E2.M3.1.2-B",
+  "hierarchical_id": "6.1.2.2",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "ARQUÉTIPO",
+  "n3_ref": "6.1.2",
+  "n3_name": "COMPORTAMENTO",
+  "axis": "ENTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "PADRÃO_COMPORTAMENTAL",
+  "nome_normalizado": "padrão comportamental",
+  "gatilho": "Comportamento repetitivo",
+  "acao": "Identificar arquétipo subjacente",
+  "restricao": "Não julgar o padrão",
+  "verificacao": "Padrão compreendido",
+  "funcao_cognitiva": [
+    "generalizar",
+    "sintetizar",
+    "arquetipar",
+    "classificar",
+    "sequenciar",
+    "avaliar",
+    "interpretar",
+    "narrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.425,
+    "complexidade": 0.529,
+    "causalidade": 0.472,
+    "emocionalidade": 0.401,
+    "materialidade": 0.332,
+    "simbolismo": 0.461,
+    "dinamismo": 0.615,
+    "temporalidade": 0.592,
+    "ambiguidade": 0.374
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar padrão comportamental em um contexto de arquétipo, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de padrão comportamental antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "padrão comportamental é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "mythos",
+    "n3_comportamento",
+    "arquétipo",
+    "processo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_2_A",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_2_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.722718+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.722751+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.703222+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

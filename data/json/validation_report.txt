@@ -1,0 +1,19 @@
+[1/6] Total de JSONs N4: 162
+[2/6] UIDs únicos: 162 de 162 | Duplicados: 0
+[3/6] Naturezas: {'processo': 47, 'fenomeno': 43, 'dinamica': 18, 'estado': 16, 'restricao': 13, 'vetor': 10, 'arquétipo': 8, 'principio': 3, 'mecanismo': 2, 'estrutura': 2}
+[4/6] Pilares: {'LOGOS': 27, 'PATHOS': 27, 'MYTHOS': 27, 'KHAOS': 27, 'APEIRON': 27, 'BIOS': 27}
+[5/6] Todos os 26 campos presentes em todas as 162 células: OK
+[6/6] Total de relações tipadas: 1948
+
+--- AMOSTRA REVERSIBILIDADE ---
+UID: N4_ALGORITMIA_1_A
+Legacy: R1.1.1-A
+Path: S1.L1.1.1-A
+HierID: 1.1.1.1
+Pilar: LOGOS | Domínio: ALGORITMIA | N3: RESOLUÇÃO
+Natureza: processo | Nome: DECOMPOSIÇÃO_BINÁRIA
+Relações: 2
+Tags: ['sintrópico', 'logos', 'n3_resolução', 'algoritmia', 'processo']
+
+=== VALIDAÇÃO CONCLUÍDA ===
+✅ TODOS OS CRITÉRIOS ATENDIDOS

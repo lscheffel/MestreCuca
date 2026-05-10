@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-5_2_2 - APEIRON / AMPLIFICAÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 5.2.2 (agregado)
+- **ID N3 Pai:** 5.2.2
+- **ID N2 Avô:** 5.2
+- **Domínio:** APEIRON
+- **Subdomínio N3:** AMPLIFICAÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **AMPLIFICAÇÃO** (APEIRON), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-5_2_2-APEIRON-AMPLIFICAÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
+| Arquivo N3 | `N3-5_2_2-APEIRON-AMPLIFICAÇÃO.md` |
+| Domínio N2 | 5.2_AMPLIFICAÇÃO |
+| Domínio N1 | APEIRON |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
 N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+  └─ N1: APEIRON
+      └─ N2: 5.2_AMPLIFICAÇÃO
+          └─ N3: 5.2.2 AMPLIFICAÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. AMPLIFICAÇÃO
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** A5.2.2-A
+- **Gatilho:** Sincronia aumentando efeito
+- **Ação:** Ajustar para ressonância
+- **Restrição:** Não causar interferência
+- **Verificação:** Amplificação positiva
 
-### 2. TECIDO_SENTIDO
+### 2. SINCRONIA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** A5.2.2-B
+- **Gatilho:** Elementos em fase
+- **Ação:** Alinhar frequências
+- **Restrição:** Não forçar sincronia
+- **Verificação:** Sincronia natural
 
-### 3. COMPLEXIDADE_TEIA
+### 3. MULTIPLICAÇÃO
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** A5.2.2-C
+- **Gatilho:** Efeito sem adição de matéria
+- **Ação:** Aproveitar ressonância
+- **Restrição:** Não desperdiçar energia
+- **Verificação:** Multiplicação eficiente
 
 
 

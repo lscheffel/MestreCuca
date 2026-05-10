@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-3_1_1 - PATHOS / ALINHAMENTO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 3.1.1 (agregado)
+- **ID N3 Pai:** 3.1.1
+- **ID N2 Avô:** 3.1
+- **Domínio:** PATHOS
+- **Subdomínio N3:** ALINHAMENTO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **ALINHAMENTO** (PATHOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-3_1_1-PATHOS-ALINHAMENTO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-3_1_1-PATHOS-ALINHAMENTO.md` |
+| Domínio N2 | 3.1_ALINHAMENTO |
+| Domínio N1 | PATHOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: PATHOS
+      └─ N2: 3.1_ALINHAMENTO
+          └─ N3: 3.1.1 ALINHAMENTO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. ALINHAMENTO_VALORES
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** P3.1.1-A
+- **Gatilho:** Decisão com múltiplas opções
+- **Ação:** Avaliar contra valores centrais
+- **Restrição:** Não flexibilizar valores por conveniência
+- **Verificação:** Decisão maximiza coerência valor-ação
 
-### 2. TECIDO_SENTIDO
+### 2. CONFLITO_VALORES
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** P3.1.1-B
+- **Gatilho:** Dois ou mais valores em tensão
+- **Ação:** Hierarquizar e buscar síntese
+- **Restrição:** Não suprimir valor permanentemente
+- **Verificação:** Solução preserva essência de ambos
 
-### 3. COMPLEXIDADE_TEIA
+### 3. TRANSPARÊNCIA
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** P3.1.1-C
+- **Gatilho:** Decisão afeta múltiplos stakeholders
+- **Ação:** Comunicar valores que orientaram escolha
+- **Restrição:** Não ocultar motivações
+- **Verificação:** Stakeholders compreendem racional
 
 
 

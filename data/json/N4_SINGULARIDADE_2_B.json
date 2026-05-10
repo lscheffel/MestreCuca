@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SINGULARIDADE_2_B",
+  "legacy_id": "K4.2.2-B",
+  "path": "E2.K1.2.2-B",
+  "hierarchical_id": "4.2.2.2",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SINGULARIDADE",
+  "n3_ref": "4.2.2",
+  "n3_name": "INFINITO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "POTENCIAL_INFINITO",
+  "nome_normalizado": "potencial infinito",
+  "gatilho": "Possibilidades sem limite",
+  "acao": "Abrir-se ao potencial",
+  "restricao": "Não restringir artificialmente",
+  "verificacao": "Potencial reconhecido",
+  "funcao_cognitiva": [
+    "emergir",
+    "prever",
+    "transformar",
+    "avaliar",
+    "adaptar",
+    "descompor",
+    "dissolver",
+    "equilibrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.752,
+    "complexidade": 0.628,
+    "causalidade": 0.446,
+    "emocionalidade": 0.564,
+    "materialidade": 0.364,
+    "simbolismo": 0.689,
+    "dinamismo": 0.588,
+    "temporalidade": 0.502,
+    "ambiguidade": 0.627
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de potencial infinito emergindo em sistemas de singularidade"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno potencial infinito sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "potencial infinito é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "n3_infinito",
+    "fenomeno",
+    "singularidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_A",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_C",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINGULARIDADE_2_B",
+      "peso": 0.7,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.472662+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.472693+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:52.701079+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-6_3_2 - MYTHOS / CONHECIMENTO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
+- **ID N4:** 6.3.2 (agregado)
+- **ID N3 Pai:** 6.3.2
+- **ID N2 Avô:** 6.3
 - **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **Subdomínio N3:** CONHECIMENTO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **CONHECIMENTO** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-6_3_2-MYTHOS-CONHECIMENTO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,8 +31,8 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
+| Arquivo N3 | `N3-6_3_2-MYTHOS-CONHECIMENTO.md` |
+| Domínio N2 | 6.3_CONHECIMENTO |
 | Domínio N1 | MYTHOS |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
@@ -41,8 +41,8 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 ```
 N0: ENTRÓPICO
   └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+      └─ N2: 6.3_CONHECIMENTO
+          └─ N3: 6.3.2 CONHECIMENTO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. CONHECIMENTO_DIRETO
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** M6.3.2-A
+- **Gatilho:** Saber sem mediação racional
+- **Ação:** Confiar na intuição
+- **Restrição:** Não negar conhecimento direto
+- **Verificação:** Intuição reconhecida
 
-### 2. TECIDO_SENTIDO
+### 2. TOCAR_PROFUNDIDADE
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** M6.3.2-B
+- **Gatilho:** Intuição alcançando o profundo
+- **Ação:** Permitir penetração
+- **Restrição:** Não manter distância
+- **Verificação:** Profundidade tocada
 
-### 3. COMPLEXIDADE_TEIA
+### 3. SABER_IMEDIATO
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** M6.3.2-C
+- **Gatilho:** Conhecimento que não passa pela razão
+- **Ação:** Aceitar saber imediato
+- **Restrição:** Não exigir prova
+- **Verificação:** Sabedoria intuitiva reconhecida
 
 
 

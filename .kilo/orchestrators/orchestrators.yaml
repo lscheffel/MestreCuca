@@ -1,0 +1,124 @@
+# =============================================================================
+# CONFIGURAÇÃO DE ORQUESTRADORES — .kilo/orchestrators
+# =============================================================================
+
+orquestradores:
+  # Pipeline principal
+  principal:
+    nome: "MainPipeline"
+    descricao: "Pipeline padrão para processamento cognitivo"
+    etapas:
+      - nome: "roteamento"
+        agente: "roteador"
+        obrigatorio: true
+        timeout_segundos: 15
+      - nome: "classificacao"
+        agente: "classificador"
+        obrigatorio: true
+        timeout_segundos: 30
+      - nome: "retrieval"
+        agente: "retriever"
+        obrigatorio: true
+        timeout_segundos: 45
+      - nome: "sintese"
+        agente: "sintetizador"
+        obrigatorio: true
+        timeout_segundos: 60
+      - nome: "validacao"
+        agente: "validador"
+        obrigatorio: false
+        timeout_segundos: 30
+    
+    politica_falha:
+      estrategia: "fallback_cascata"
+      max_tentativas: 3
+      fallback_para: "basico"
+      notificar: true
+    
+    retry:
+      ativo: true
+      max_tentativas: 3
+      backoff_inicial_ms: 500
+      backoff_maximo_ms: 5000
+      fator_multiplicacao: 2.0
+  
+  # Pipeline básico (fallback)
+  basico:
+    nome: "BasicPipeline"
+    descricao: "Pipeline simplificado para fallback"
+    etapas:
+      - nome: "classificacao"
+        agente: "classificador"
+        obrigatorio: true
+        timeout_segundos: 30
+      - nome: "retrieval"
+        agente: "retriever"
+        obrigatorio: true
+        timeout_segundos: 45
+      - nome: "sintese"
+        agente: "sintetizador"
+        obrigatorio: true
+        timeout_segundos: 60
+    
+    politica_falha:
+      estrategia: "resposta_direta"
+      max_tentativas: 1
+      notificar: false
+  
+  # Pipeline de alta precisão
+  precisao:
+    nome: "HighPrecisionPipeline"
+    descricao: "Pipeline com validação cruzada e múltiplas perspectivas"
+    etapas:
+      - nome: "roteamento"
+        agente: "roteador"
+        obrigatorio: true
+        timeout_segundos: 15
+      - nome: "classificacao_multi"
+        agente: "classificador"
+        obrigatorio: true
+        timeout_segundos: 30
+        config:
+          multi_classificacao: true
+          top_n: 3
+      - nome: "retrieval_profundo"
+        agente: "retriever"
+        obrigatorio: true
+        timeout_segundos: 60
+        config:
+          top_k: 50
+          estrategia: "deep"
+          reranking: true
+      - nome: "sintese_multi"
+        agente: "sintetizador"
+        obrigatorio: true
+        timeout_segundos: 90
+        config:
+          multi_perspectiva: true
+          num_perspectivas: 3
+      - nome: "validacao_cruzada"
+        agente: "validador"
+        obrigatorio: true
+        timeout_segundos: 45
+        config:
+          validacao_cruzada: true
+          consistencia_ontologica: true
+  
+    politica_falha:
+      estrategia: "fallback_cascata"
+      max_tentativas: 2
+      fallback_para: "principal"
+      notificar: true
+
+# Seleção automática de pipeline
+selecao:
+  estrategia: "adaptativa"
+  criterios:
+    - condicao: "complexidade == 'simples' AND latencia_maxima < 1000"
+      pipeline: "basico"
+    - condicao: "complexidade == 'moderado'"
+      pipeline: "principal"
+    - condicao: "complexidade == 'complexo' OR requisito == 'precisao_alta'"
+      pipeline: "precisao"
+    - condicao: "true"  # Default
+      pipeline: "principal"

@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_3_B",
+  "legacy_id": "A5.1.3-B",
+  "path": "E2.A2.1.3-B",
+  "hierarchical_id": "5.1.3.2",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.3",
+  "n3_name": "LEI",
+  "axis": "ENTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "MANIFESTAÇÃO_LEI",
+  "nome_normalizado": "manifestação lei",
+  "gatilho": "Lei se apresentando concretamente",
+  "acao": "Observar efeitos práticos",
+  "restricao": "Não confiar apenas em teoria",
+  "verificacao": "Manifestação verificada",
+  "funcao_cognitiva": [
+    "escalar",
+    "mapear",
+    "abstrair",
+    "generalizar",
+    "prever",
+    "avaliar",
+    "sintetizar",
+    "transcender"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.651,
+    "complexidade": 0.592,
+    "causalidade": 0.501,
+    "emocionalidade": 0.323,
+    "materialidade": 0.335,
+    "simbolismo": 0.435,
+    "dinamismo": 0.64,
+    "temporalidade": 0.557,
+    "ambiguidade": 0.4
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar manifestação lei como indicador direcional em escala"
+    },
+    {
+      "texto": "Medir magnitude e direção do manifestação lei no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "manifestação lei é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "vetor",
+    "escala",
+    "n3_lei"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.6,
+      "source": "N4_ESCALA_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.6,
+      "source": "N4_ESCALA_3_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.562210+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.562239+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.969381+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "uid": "N4_SOMA_3_A",
+  "legacy_id": "B2.2.3-A",
+  "path": "S1.B2.2.3-A",
+  "hierarchical_id": "2.2.3.1",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.3",
+  "n3_name": "HOMEOSTASE",
+  "axis": "SINTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "REGULAÇÃO_INTERNA",
+  "nome_normalizado": "regulação interna",
+  "gatilho": "Sistema precisando manter equilíbrio",
+  "acao": "Ajustar parâmetros internos",
+  "restricao": "Não permitir flutuações extremas",
+  "verificacao": "Variáveis mantidas dentro da faixa ideal",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "avaliar",
+    "adaptar",
+    "filtrar",
+    "regenerar",
+    "validar",
+    "transformar",
+    "modularizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.211,
+    "complexidade": 0.319,
+    "causalidade": 0.255,
+    "emocionalidade": 0.289,
+    "materialidade": 0.534,
+    "simbolismo": 0.166,
+    "dinamismo": 0.203,
+    "temporalidade": 0.213,
+    "ambiguidade": 0.222
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se regulação interna mantém o sistema em condição estável dentro de soma"
+    },
+    {
+      "texto": "Avaliar indicadores de regulação interna após intervenção em soma"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "regulação interna é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "soma",
+    "sintrópico",
+    "estado",
+    "bios",
+    "n3_homeostase"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_B",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_C",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "contrasta",
+      "alvo": "N4_SINGULARIDADE_2_C",
+      "peso": -0.6,
+      "source": "N4_SOMA_3_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_3_A",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.164582+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.164609+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.484533+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

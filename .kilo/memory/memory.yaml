@@ -1,0 +1,60 @@
+# =============================================================================
+# CONFIGURAÇÃO DE MEMÓRIA — .kilo/memory
+# =============================================================================
+
+memoria:
+  # Memória de curto prazo (sessão)
+  curto_prazo:
+    tipo: "volatile"
+    capacidade_max: 500          # Número de itens
+    ttl_segundos: 1800           # 30 minutos
+    estrategia_eviccao: "lru"
+    persistir_ao_salvar: false
+  
+  # Memória de trabalho (contexto ativo)
+  trabalho:
+    tipo: "managed"
+    capacidade_max: 200
+    ttl_segundos: 3600           # 1 hora
+    estrategia_eviccao: "priority"
+    persistir_ao_salvar: true
+    path: "./data/json/sessions/"
+  
+  # Memória de longo prazo
+  longo_prazo:
+    tipo: "persistent"
+    backend: "sqlite"            # "sqlite", "postgresql", "redis"
+    path: "./data/json/memory.db"
+    capacidade_max: 100000
+    ttl_segundos: null            # Sem expiração
+    estrategia_eviccao: "relevance"
+    indexacao:
+      ativo: true
+      campos: ["uid", "pilar", "dominio", "texto", "timestamp"]
+      tipo_indice: "fulltext"
+      path: "./data/indexes/memory/"
+  
+  # Cache de embeddings
+  embedding_cache:
+    tipo: "lru"
+    capacidade_max: 50000
+    ttl_segundos: 86400           # 24 horas
+    path: "./data/embeddings/cache/"
+    estrategia: "similaridade"
+  
+  # Cache de retrieval
+  retrieval_cache:
+    tipo: "ttl"
+    ttl_segundos: 3600            # 1 hora
+    max_itens: 50000
+    redis_config:
+      host: "localhost"
+      porta: 6379
+      db: 1
+  
+  # Serialização
+  serializacao:
+    formato: "json"
+    encoding: "utf-8"
+    compactar: true
+    schema_version: "3.0.0"

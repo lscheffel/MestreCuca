@@ -1,0 +1,58 @@
+Keys in N4_ALGORITMIA_1_A.json:
+  uid
+  legacy_id
+  path
+  hierarchical_id
+  nivel
+  pilar
+  dominio
+  n3_ref
+  n3_name
+  axis
+  natureza
+  subtree_num
+  cell_num
+  cell_letter
+  nome
+  nome_normalizado
+  gatilho
+  acao
+  restricao
+  verificacao
+  assinatura_semantica
+  exemplos
+  analogias
+  tags
+  relacoes
+  metadata
+
+Full content (non-list fields):
+  uid: 'N4_ALGORITMIA_1_A'
+  legacy_id: 'R1.1.1-A'
+  path: 'S1.L1.1.1-A'
+  hierarchical_id: '1.1.1.1'
+  nivel: 'N4'
+  pilar: 'LOGOS'
+  dominio: 'LOGOS'
+  n3_ref: '1.1.1'
+  n3_name: 'DESCONHECIDO'
+  axis: 'SINTRÓPICO'
+  natureza: 'processo'
+  subtree_num: 1
+  cell_num: 1
+  cell_letter: 'A'
+  nome: 'DECOMPOSIÇÃO_BINÁRIA'
+  nome_normalizado: 'decomposição binária'
+  gatilho: 'Problema complexo sem solução evidente'
+  acao: 'Dividir em duas subpartes até atingir unidade resolvível'
+  restricao: 'Não aplicar quando a divisão altera a natureza do problema'
+  verificacao: 'Cada subparte deve ser estritamente menor que o original'
+  assinatura_semantica: 'sig_43fdd6c9bd3dd68b'
+  exemplos: list[2 items]
+  analogias: list[2 items]
+  tags: list[4 items]
+  relacoes: list[2 items]
+  metadata: {'criado_em': '2026-05-09T13:11:29.932438+00:00', 'versao_schema': '1.0.0', 'origem': 'create_n4_manual.py', 'status': 'ativo', 'revisoes': [{'versao': '1.0.0', 'data': '2026-05-09T13:11:29.932470+00:00', 'descricao': 'Conversão inicial de markdown para JSON enriquecido'}]}
+
+
+Index entries: 6

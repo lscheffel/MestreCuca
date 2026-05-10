@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SOMA_2_B",
+  "legacy_id": "B2.2.2-B",
+  "path": "S1.B2.2.2-B",
+  "hierarchical_id": "2.2.2.2",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.2",
+  "n3_name": "VITALIDADE",
+  "axis": "SINTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "AUTORREPARAÇÃO",
+  "nome_normalizado": "autorreparação",
+  "gatilho": "Sistema com capacidade de cura",
+  "acao": "Ativar mecanismos de autorreparação",
+  "restricao": "Não forçar recuperação além do limite",
+  "verificacao": "Sistema recupera funcionalidade gradualmente",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "avaliar",
+    "regenerar",
+    "transformar",
+    "validar",
+    "adaptar",
+    "filtrar",
+    "modularizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.288,
+    "complexidade": 0.381,
+    "causalidade": 0.341,
+    "emocionalidade": 0.327,
+    "materialidade": 0.571,
+    "simbolismo": 0.229,
+    "dinamismo": 0.255,
+    "temporalidade": 0.282,
+    "ambiguidade": 0.241
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se autorreparação mantém o sistema em condição estável dentro de soma"
+    },
+    {
+      "texto": "Avaliar indicadores de autorreparação após intervenção em soma"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "autorreparação é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "soma",
+    "sintrópico",
+    "estado",
+    "bios",
+    "n3_vitalidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_2_A",
+      "peso": 0.6,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_2_C",
+      "peso": 0.6,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_2_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_2_B",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.154113+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.154157+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.308039+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

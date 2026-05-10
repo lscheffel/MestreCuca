@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-3_3_3 - PATHOS / TRANSFORMAÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 3.3.3 (agregado)
+- **ID N3 Pai:** 3.3.3
+- **ID N2 Avô:** 3.3
+- **Domínio:** PATHOS
+- **Subdomínio N3:** TRANSFORMAÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TRANSFORMAÇÃO** (PATHOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-3_3_3-PATHOS-TRANSFORMAÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-3_3_3-PATHOS-TRANSFORMAÇÃO.md` |
+| Domínio N2 | 3.3_TRANSFORMAÇÃO |
+| Domínio N1 | PATHOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: PATHOS
+      └─ N2: 3.3_TRANSFORMAÇÃO
+          └─ N3: 3.3.3 TRANSFORMAÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. TRANSFORMAÇÃO
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** P3.3.3-A
+- **Gatilho:** Alterar estado emocional
+- **Ação:** Provocar mudança interior
+- **Restrição:** Não forçar transformação
+- **Verificação:** Transformação ocorre organicamente
 
-### 2. TECIDO_SENTIDO
+### 2. EMOCIONAL
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** P3.3.3-B
+- **Gatilho:** Afetar sentimentos
+- **Ação:** Tocar sensibilidade
+- **Restrição:** Não manipular emoções
+- **Verificação:** Resposta emocional autêntica
 
-### 3. COMPLEXIDADE_TEIA
+### 3. LIBERDADE
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** P3.3.3-C
+- **Gatilho:** Respeitar autonomia
+- **Ação:** Permitir escolha
+- **Restrição:** Não coagir
+- **Verificação:** Transformação sem violação
 
 
 

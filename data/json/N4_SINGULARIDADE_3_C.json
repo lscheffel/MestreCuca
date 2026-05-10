@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SINGULARIDADE_3_C",
+  "legacy_id": "K4.2.3-C",
+  "path": "E2.K1.2.3-C",
+  "hierarchical_id": "4.2.3.3",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SINGULARIDADE",
+  "n3_ref": "4.2.3",
+  "n3_name": "TRANSFORMAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 3,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "NOVA_ORDEM",
+  "nome_normalizado": "nova ordem",
+  "gatilho": "Estabelecer novo paradigma",
+  "acao": "Construir sobre as ruínas",
+  "restricao": "Não negar o que passou",
+  "verificacao": "Nova ordem consolidada",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "transformar",
+    "avaliar",
+    "emergir",
+    "prever",
+    "adaptar",
+    "descompor",
+    "dissolver"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.485,
+    "complexidade": 0.574,
+    "causalidade": 0.487,
+    "emocionalidade": 0.333,
+    "materialidade": 0.319,
+    "simbolismo": 0.326,
+    "dinamismo": 0.657,
+    "temporalidade": 0.58,
+    "ambiguidade": 0.429
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar nova ordem em um contexto de singularidade, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de nova ordem antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "nova ordem é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "n3_transformação",
+    "processo",
+    "singularidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_3_A",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_3_B",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_3_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINGULARIDADE_3_C",
+      "peso": 0.7,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.488188+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.488215+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:53.022417+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

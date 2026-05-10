@@ -1,0 +1,96 @@
+# =============================================================================
+# CONFIGURAÇÃO DE RETRIEVAL HÍBRIDO — Thresholds e Limites
+# =============================================================================
+
+# Método de retrieval padrão
+metodo_default: "hibrido"
+
+# =============================================================================
+# RETRIEVAL VETORIAL (Similaridade Semântica)
+# =============================================================================
+vetorial:
+  modelo: "all-MiniLM-L6-v2"
+  metrica: "cosine"
+  limiar_minimo: 0.65          # Similaridade mínima para inclusão
+  limiar_alta_confianca: 0.85  # Acima disso, resultado direto
+  top_k: 20                    # Número máximo de candidatos
+  expandir_query: true         # Expandir query com sinônimos ontológicos
+  expansao_max: 5              # Máximo de termos adicionais
+
+# =============================================================================
+# RETRIEVAL GRÁFICO (Navegação na Ontologia)
+# =============================================================================
+grafico:
+  tipo: "caminho_ponderado"
+  profundidade_max: 3           # Saltos máximos no grafo
+  limiar_proximidade: 0.5       # Score mínimo de proximidade ontológica
+  considerar_lateral: true      # Saltos laterais (mesmo nível)
+  considerar_transversal: true  # Saltos entre pilares
+  peso_hierarquico: 0.7         # Peso para proximidade hierárquica
+  peso_lateral: 0.3             # Peso para conexões laterais
+  max_caminhos: 50              # Máximo de caminhos explorados
+
+# =============================================================================
+# RETRIEVAL SIMBÓLICO (Correspondência Exata)
+# =============================================================================
+simbolico:
+  ativo: true
+  campos: ["uid", "hierarquico_id", "legado_id", "tipo", "pilar", "dominio"]
+  correspondencia_exata: true
+  correspondencia_parcial: 0.8   # Limiar para match parcial (fuzzy)
+  max_resultados: 50
+
+# =============================================================================
+# FUSÃO DE RESULTADOS (Hybrid Fusion)
+# =============================================================================
+fusao:
+  estrategia: "weighted_sum"    # "weighted_sum", "rrf", "condorcet"
+  pesos:
+    vetorial: 0.50
+    grafico: 0.30
+    simbolico: 0.20
+  normalizar_scores: true       # Normalizar scores antes da fusão
+  deduplicacao: true            # Remover duplicatas
+  limiar_final: 0.40            # Score mínimo após fusão
+
+# =============================================================================
+# RERANKING (Reordenação Final)
+# =============================================================================
+reranking:
+  ativo: true
+  metodo: "cross-encoder"       # "cross-encoder", "cohere-rerank", "none"
+  modelo: "cross-encoder/ms-marco-MiniLM-L-6-v2"
+  top_k_entrada: 50             # Quantos candidatos para reranking
+  top_k_saida: 10               # Quantos resultados finais
+  limiar_rerank: 0.50           # Score mínimo do reranker
+
+# =============================================================================
+# CACHE DE RETRIEVAL
+# =============================================================================
+cache:
+  ativo: true
+  tipo: "redis"                 # "memory", "redis", "disk"
+  ttl_segundos: 3600            # 1 hora
+  max_itens: 50000
+  redis_config:
+    host: "localhost"
+    porta: 6379
+    db: 0
+    senha: null                 # Definir em variável de ambiente
+
+# =============================================================================
+# MONITORAMENTO
+# =============================================================================
+monitoramento:
+  log_queries: true
+  log_resultados: false         # Pode gerar volume excessivo
+  metricas:
+    - latencia_p50
+    - latencia_p95
+    - latencia_p99
+    - taxa_acerto_top1
+    - taxa_acerto_top5
+    - cobertura_ontologica
+  alertas:
+    latencia_max_ms: 500
+    taxa_acerto_minima: 0.70

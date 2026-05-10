@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_2_A",
+  "legacy_id": "K4.1.2-A",
+  "path": "E2.K1.1.2-A",
+  "hierarchical_id": "4.1.2.1",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.2",
+  "n3_name": "DISSIPAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "DISPERSÃO_ENERGIA",
+  "nome_normalizado": "dispersão energia",
+  "gatilho": "Energia dissipando no meio",
+  "acao": "Redistribuir sem destruir",
+  "restricao": "Não concentrar artificialmente",
+  "verificacao": "Quantidade total conservada",
+  "funcao_cognitiva": [
+    "avaliar",
+    "dissolver",
+    "equilibrar",
+    "transformar",
+    "prever",
+    "adaptar",
+    "descompor",
+    "emergir"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.629,
+    "complexidade": 0.561,
+    "causalidade": 0.479,
+    "emocionalidade": 0.352,
+    "materialidade": 0.324,
+    "simbolismo": 0.369,
+    "dinamismo": 0.705,
+    "temporalidade": 0.556,
+    "ambiguidade": 0.509
+  },
+  "opostos": [
+    "N4_ENTROPIA_2_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar dispersão energia como indicador direcional em entropia"
+    },
+    {
+      "texto": "Medir magnitude e direção do dispersão energia no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "dispersão energia é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "vetor",
+    "khaos",
+    "entropia",
+    "n3_dissipação"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.434106+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.434137+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.806913+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

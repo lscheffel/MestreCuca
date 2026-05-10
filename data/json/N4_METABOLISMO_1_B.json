@@ -1,0 +1,227 @@
+{
+  "uid": "N4_METABOLISMO_1_B",
+  "legacy_id": "B2.3.1-B",
+  "path": "S1.B2.3.1-B",
+  "hierarchical_id": "2.3.1.2",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "METABOLISMO",
+  "n3_ref": "2.3.1",
+  "n3_name": "ANABOLISMO",
+  "axis": "SINTRÓPICO",
+  "natureza": "dinamica",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "CRESCIMENTO",
+  "nome_normalizado": "crescimento",
+  "gatilho": "Sistema aumentando de tamanho",
+  "acao": "Adicionar material de forma ordenada",
+  "restricao": "Não crescer desordenadamente",
+  "verificacao": "Crescimento estruturado e funcional",
+  "funcao_cognitiva": [
+    "transformar",
+    "filtrar",
+    "sintetizar",
+    "adaptar",
+    "equilibrar",
+    "modularizar",
+    "regenerar",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.444,
+    "complexidade": 0.558,
+    "causalidade": 0.597,
+    "emocionalidade": 0.442,
+    "materialidade": 0.479,
+    "simbolismo": 0.382,
+    "dinamismo": 0.719,
+    "temporalidade": 0.671,
+    "ambiguidade": 0.405
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar crescimento ao longo do tempo em sistemas de metabolismo"
+    },
+    {
+      "texto": "Identificar pontos de inflexão no ciclo de crescimento"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "crescimento é como as estações do ano: ciclos de mudança que se repetem com variações",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a metamorfose: transformação que não permite retorno ao estado anterior",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "dinamica",
+    "sintrópico",
+    "bios",
+    "n3_anabolismo",
+    "metabolismo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_METABOLISMO_1_A",
+      "peso": 0.6,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_METABOLISMO_1_C",
+      "peso": 0.6,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_METABOLISMO_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_METABOLISMO_1_B",
+      "peso": 0.5,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.228772+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.228800+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:48.214381+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

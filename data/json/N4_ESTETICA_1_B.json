@@ -1,0 +1,227 @@
+{
+  "uid": "N4_ESTETICA_1_B",
+  "legacy_id": "P3.3.1-B",
+  "path": "S1.P3.3.1-B",
+  "hierarchical_id": "3.3.1.2",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ESTÉTICA",
+  "n3_ref": "3.3.1",
+  "n3_name": "HARMONIA",
+  "axis": "SINTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "EQUILÍBRIO_ESTÉTICO",
+  "nome_normalizado": "equilíbrio estético",
+  "gatilho": "Alcançar harmonia visual",
+  "acao": "Balancear elementos",
+  "restricao": "Não desequilibrar composição",
+  "verificacao": "Harmonia visual alcançada",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "avaliar",
+    "classificar",
+    "comparar",
+    "interpretar",
+    "inferir",
+    "mapear",
+    "validar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.346,
+    "complexidade": 0.373,
+    "causalidade": 0.264,
+    "emocionalidade": 0.362,
+    "materialidade": 0.468,
+    "simbolismo": 0.293,
+    "dinamismo": 0.267,
+    "temporalidade": 0.222,
+    "ambiguidade": 0.32
+  },
+  "opostos": [
+    "N4_ESTETICA_1_A",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se equilíbrio estético mantém o sistema em condição estável dentro de estética"
+    },
+    {
+      "texto": "Avaliar indicadores de equilíbrio estético após intervenção em estética"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "equilíbrio estético é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "estado",
+    "n3_harmonia",
+    "estética",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESTETICA_1_A",
+      "peso": 0.6,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESTETICA_1_C",
+      "peso": 0.6,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_1_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_ESTETICA_1_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_ESTETICA_1_B",
+      "peso": 0.5,
+      "source": "N4_ETHOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.388234+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.388264+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:46.099340+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

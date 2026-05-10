@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ALGORITMIA_2_A",
+  "legacy_id": "R1.1.2-A",
+  "path": "S1.L1.1.2-A",
+  "hierarchical_id": "1.1.2.1",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "ALGORITMIA",
+  "n3_ref": "1.1.2",
+  "n3_name": "OTIMIZAÇÃO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "COMPLEXIDADE_TEMPORAL",
+  "nome_normalizado": "complexidade temporal",
+  "gatilho": "Algoritmo com performance inadequada",
+  "acao": "Analisar notação Big-O e identificar gargalos",
+  "restricao": "Não otimizar prematuramente sem métricas",
+  "verificacao": "Redução de complexidade sem perda de correção",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "otimizar",
+    "decompor",
+    "validar",
+    "avaliar",
+    "controlar",
+    "classificar",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.42,
+    "complexidade": 0.573,
+    "causalidade": 0.566,
+    "emocionalidade": 0.295,
+    "materialidade": 0.361,
+    "simbolismo": 0.25,
+    "dinamismo": 0.619,
+    "temporalidade": 0.563,
+    "ambiguidade": 0.275
+  },
+  "opostos": [
+    "N4_ALGORITMIA_2_C",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar complexidade temporal em um contexto de algoritmia, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de complexidade temporal antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "complexidade temporal é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "logos",
+    "n3_otimização",
+    "processo",
+    "algoritmia"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_2_C",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_2_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.902005+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.902067+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.351269+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

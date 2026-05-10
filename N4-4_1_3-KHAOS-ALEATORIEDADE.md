@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-4_1_3 - KHAOS / ALEATORIEDADE - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 4.1.3 (agregado)
+- **ID N3 Pai:** 4.1.3
+- **ID N2 Avô:** 4.1
+- **Domínio:** KHAOS
+- **Subdomínio N3:** ALEATORIEDADE
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **ALEATORIEDADE** (KHAOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-4_1_3-KHAOS-ALEATORIEDADE.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
+| Arquivo N3 | `N3-4_1_3-KHAOS-ALEATORIEDADE.md` |
+| Domínio N2 | 4.1_ALEATORIEDADE |
+| Domínio N1 | KHAOS |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
 N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+  └─ N1: KHAOS
+      └─ N2: 4.1_ALEATORIEDADE
+          └─ N3: 4.1.3 ALEATORIEDADE
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. ALEATORIEDADE
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** K4.1.3-A
+- **Gatilho:** Comportamento imprevisível
+- **Ação:** Aceitar incerteza inerente
+- **Restrição:** Não tentar controlar tudo
+- **Verificação:** Padrões emergem do caos
 
-### 2. TECIDO_SENTIDO
+### 2. COMPLEXIDADE_CAÓTICA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** K4.1.3-B
+- **Gatilho:** Sistema altamente sensível
+- **Ação:** Reconhecer dependência inicial
+- **Restrição:** Não prever a longo prazo
+- **Verificação:** Comportamento compreendido
 
-### 3. COMPLEXIDADE_TEIA
+### 3. PADRÕES_EMERGENTES
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** K4.1.3-C
+- **Gatilho:** Ordem surgindo do desordem
+- **Ação:** Identificar estruturas ocultas
+- **Restrição:** Não impor ordem externa
+- **Verificação:** Padrões reconhecidos
 
 
 

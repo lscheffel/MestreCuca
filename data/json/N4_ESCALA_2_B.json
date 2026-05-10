@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_2_B",
+  "legacy_id": "A5.1.2-B",
+  "path": "E2.A2.1.2-B",
+  "hierarchical_id": "5.1.2.2",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.2",
+  "n3_name": "MAGNITUDE",
+  "axis": "ENTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "EXPERIÊNCIA_ESCALAR",
+  "nome_normalizado": "experiência escalar",
+  "gatilho": "Tamanho afetando percepção",
+  "acao": "Ajustar expectativas",
+  "restricao": "Não projetar pequena escala",
+  "verificacao": "Experiência adequada",
+  "funcao_cognitiva": [
+    "escalar",
+    "generalizar",
+    "prever",
+    "mapear",
+    "abstrair",
+    "avaliar",
+    "decompor",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.686,
+    "complexidade": 0.542,
+    "causalidade": 0.49,
+    "emocionalidade": 0.303,
+    "materialidade": 0.306,
+    "simbolismo": 0.418,
+    "dinamismo": 0.638,
+    "temporalidade": 0.544,
+    "ambiguidade": 0.395
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar experiência escalar como indicador direcional em escala"
+    },
+    {
+      "texto": "Medir magnitude e direção do experiência escalar no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "experiência escalar é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "vetor",
+    "escala",
+    "n3_magnitude"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.6,
+      "source": "N4_ESCALA_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.6,
+      "source": "N4_ESCALA_2_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.551692+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.551722+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.927988+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

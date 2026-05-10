@@ -1,0 +1,167 @@
+{
+  "uid": "N4_NOMOS_2_B",
+  "legacy_id": "R1.2.2-B",
+  "path": "S1.L1.2.2-B",
+  "hierarchical_id": "1.2.2.2",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "NOMOS",
+  "n3_ref": "1.2.2",
+  "n3_name": "CONTORNO",
+  "axis": "SINTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "GESTÃO_CONTORNO",
+  "nome_normalizado": "gestão contorno",
+  "gatilho": "Controlar interações através do limite",
+  "acao": "Definir pontos de entrada e saída",
+  "restricao": "Não permitir violações do contorno",
+  "verificacao": "Todas as interações respeitam o limite",
+  "funcao_cognitiva": [
+    "controlar",
+    "hierarquizar",
+    "validar",
+    "sequenciar",
+    "filtrar",
+    "classificar",
+    "avaliar",
+    "decompor"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.569,
+    "complexidade": 0.45,
+    "causalidade": 0.594,
+    "emocionalidade": 0.211,
+    "materialidade": 0.323,
+    "simbolismo": 0.252,
+    "dinamismo": 0.318,
+    "temporalidade": 0.323,
+    "ambiguidade": 0.318
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de gestão contorno para operação segura em nomos"
+    },
+    {
+      "texto": "Documentar violações de gestão contorno e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "gestão contorno funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_contorno",
+    "sintrópico",
+    "logos",
+    "restricao",
+    "nomos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NOMOS_2_A",
+      "peso": 0.6,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NOMOS_2_C",
+      "peso": 0.6,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_2_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_NOMOS_2_B",
+      "peso": 0.7,
+      "source": "N4_ALGORITMIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.946150+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.946182+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:51.190530+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

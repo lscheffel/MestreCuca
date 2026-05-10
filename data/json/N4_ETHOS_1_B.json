@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ETHOS_1_B",
+  "legacy_id": "P3.1.1-B",
+  "path": "S1.P3.1.1-B",
+  "hierarchical_id": "3.1.1.2",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ETHOS",
+  "n3_ref": "3.1.1",
+  "n3_name": "VALORES",
+  "axis": "SINTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "CONFLITO_VALORES",
+  "nome_normalizado": "conflito valores",
+  "gatilho": "Dois ou mais valores em tensão",
+  "acao": "Hierarquizar e buscar síntese",
+  "restricao": "Não suprimir valor permanentemente",
+  "verificacao": "Solução preserva essência de ambos",
+  "funcao_cognitiva": [
+    "avaliar",
+    "classificar",
+    "comparar",
+    "inferir",
+    "interpretar",
+    "mapear",
+    "sequenciar",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.496,
+    "complexidade": 0.487,
+    "causalidade": 0.48,
+    "emocionalidade": 0.354,
+    "materialidade": 0.351,
+    "simbolismo": 0.317,
+    "dinamismo": 0.315,
+    "temporalidade": 0.363,
+    "ambiguidade": 0.453
+  },
+  "opostos": [
+    "N4_ETHOS_1_A",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de conflito valores para operação segura em ethos"
+    },
+    {
+      "texto": "Documentar violações de conflito valores e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "conflito valores funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_valores",
+    "sintrópico",
+    "restricao",
+    "ethos",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.6,
+      "source": "N4_ETHOS_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.6,
+      "source": "N4_ETHOS_1_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.306449+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.306478+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:46.600833+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

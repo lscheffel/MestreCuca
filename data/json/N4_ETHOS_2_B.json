@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ETHOS_2_B",
+  "legacy_id": "P3.1.2-B",
+  "path": "S1.P3.1.2-B",
+  "hierarchical_id": "3.1.2.2",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ETHOS",
+  "n3_ref": "3.1.2",
+  "n3_name": "VIRTUDE",
+  "axis": "SINTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "CARÁTER",
+  "nome_normalizado": "caráter",
+  "gatilho": "Desenvolver firmeza moral",
+  "acao": "Praticar hábitos virtuosos",
+  "restricao": "Não agir por impulso",
+  "verificacao": "Caráter fortalecido",
+  "funcao_cognitiva": [
+    "avaliar",
+    "classificar",
+    "comparar",
+    "inferir",
+    "interpretar",
+    "mapear",
+    "hierarquizar",
+    "sequenciar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.503,
+    "complexidade": 0.458,
+    "causalidade": 0.487,
+    "emocionalidade": 0.343,
+    "materialidade": 0.335,
+    "simbolismo": 0.306,
+    "dinamismo": 0.345,
+    "temporalidade": 0.348,
+    "ambiguidade": 0.494
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de caráter para operação segura em ethos"
+    },
+    {
+      "texto": "Documentar violações de caráter e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "caráter funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "restricao",
+    "n3_virtude",
+    "ethos",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.6,
+      "source": "N4_ETHOS_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.6,
+      "source": "N4_ETHOS_2_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.319924+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.319954+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:46.641950+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

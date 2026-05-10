@@ -1,0 +1,228 @@
+{
+  "uid": "N4_MECANICA_2_A",
+  "legacy_id": "R1.3.2-A",
+  "path": "S1.L1.3.2-A",
+  "hierarchical_id": "1.3.2.1",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "MECÂNICA",
+  "n3_ref": "1.3.2",
+  "n3_name": "DINAMICA",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "ANÁLISE_DINÂMICA",
+  "nome_normalizado": "análise dinâmica",
+  "gatilho": "Sistema em movimento ou transição",
+  "acao": "Modelar forças e acelerações",
+  "restricao": "Ignorar efeitos não relevantes",
+  "verificacao": "Equações de movimento resolvidas",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "controlar",
+    "validar",
+    "avaliar",
+    "otimizar",
+    "classificar",
+    "decompor",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.395,
+    "complexidade": 0.577,
+    "causalidade": 0.58,
+    "emocionalidade": 0.263,
+    "materialidade": 0.391,
+    "simbolismo": 0.242,
+    "dinamismo": 0.587,
+    "temporalidade": 0.567,
+    "ambiguidade": 0.267
+  },
+  "opostos": [
+    "N4_MECANICA_2_C",
+    "N4_ARQUETIPO_1_C",
+    "N4_METABOLISMO_1_A",
+    "N4_SINTESE_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar análise dinâmica em um contexto de mecânica, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de análise dinâmica antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "análise dinâmica é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "logos",
+    "mecânica",
+    "processo",
+    "n3_dinamica"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MECANICA_2_B",
+      "peso": 0.6,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MECANICA_2_C",
+      "peso": 0.6,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_2_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_MECANICA_2_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_MECANICA_2_A",
+      "peso": 0.5,
+      "source": "N4_ALGORITMIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.058630+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.058661+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:47.157200+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

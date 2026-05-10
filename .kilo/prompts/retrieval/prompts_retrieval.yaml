@@ -1,0 +1,28 @@
+# Configuração de Prompts — Retrieval
+prompts:
+  busca_vetorial:
+    estrategia: "dense"
+    modelo: "all-MiniLM-L6-v2"
+    limiar: 0.65
+    top_k: 20
+    expandir_query: true
+
+  busca_grafica:
+    estrategia: "graph_traversal"
+    profundidade_max: 3
+    limiar_proximidade: 0.5
+    max_caminhos: 50
+
+  busca_simbolica:
+    estrategia: "exact_match"
+    campos: ["uid", "hierarquico_id", "pilar", "dominio"]
+    fuzzy_limiar: 0.8
+
+  fusao_resultados:
+    estrategia: "weighted_sum"
+    pesos:
+      vetorial: 0.50
+      grafico: 0.30
+      simbolico: 0.20
+    reranking: true
+    top_k_final: 10

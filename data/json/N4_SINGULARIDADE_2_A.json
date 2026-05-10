@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SINGULARIDADE_2_A",
+  "legacy_id": "K4.2.2-A",
+  "path": "E2.K1.2.2-A",
+  "hierarchical_id": "4.2.2.1",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SINGULARIDADE",
+  "n3_ref": "4.2.2",
+  "n3_name": "INFINITO",
+  "axis": "ENTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "HORIZONTE_INATINGÍVEL",
+  "nome_normalizado": "horizonte inatingível",
+  "gatilho": "Limite que recua ao ser abordado",
+  "acao": "Reconhecer infinitude",
+  "restricao": "Não tentar alcançar o inalcançável",
+  "verificacao": "Infinitude aceita",
+  "funcao_cognitiva": [
+    "emergir",
+    "prever",
+    "transformar",
+    "avaliar",
+    "adaptar",
+    "descompor",
+    "dissolver",
+    "equilibrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.562,
+    "complexidade": 0.564,
+    "causalidade": 0.559,
+    "emocionalidade": 0.303,
+    "materialidade": 0.364,
+    "simbolismo": 0.352,
+    "dinamismo": 0.388,
+    "temporalidade": 0.412,
+    "ambiguidade": 0.498
+  },
+  "opostos": [
+    "N4_SINGULARIDADE_2_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de horizonte inatingível para operação segura em singularidade"
+    },
+    {
+      "texto": "Documentar violações de horizonte inatingível e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "horizonte inatingível funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "restricao",
+    "n3_infinito",
+    "singularidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_B",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_C",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINGULARIDADE_2_A",
+      "peso": 0.7,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.468722+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.468831+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:52.561076+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

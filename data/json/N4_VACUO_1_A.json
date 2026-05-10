@@ -1,0 +1,227 @@
+{
+  "uid": "N4_VACUO_1_A",
+  "legacy_id": "A5.3.1-A",
+  "path": "E2.A2.3.1-A",
+  "hierarchical_id": "5.3.1.1",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "VÁCUO",
+  "n3_ref": "5.3.1",
+  "n3_name": "POTENCIAL",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "CAPACIDADE_LATENTE",
+  "nome_normalizado": "capacidade latente",
+  "gatilho": "Potencial não manifestado",
+  "acao": "Reconhecer possibilidade",
+  "restricao": "Não forçar manifestação",
+  "verificacao": "Potencial preservado",
+  "funcao_cognitiva": [
+    "comparar",
+    "abstrair",
+    "generalizar",
+    "escalar",
+    "mapear",
+    "prever",
+    "sintetizar",
+    "transcender"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.727,
+    "complexidade": 0.559,
+    "causalidade": 0.458,
+    "emocionalidade": 0.473,
+    "materialidade": 0.313,
+    "simbolismo": 0.692,
+    "dinamismo": 0.453,
+    "temporalidade": 0.464,
+    "ambiguidade": 0.618
+  },
+  "opostos": [
+    "N4_VACUO_1_B",
+    "N4_VACUO_2_B",
+    "N4_ALGORITMIA_1_A"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de capacidade latente emergindo em sistemas de vácuo"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno capacidade latente sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "capacidade latente é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "n3_potencial",
+    "fenomeno",
+    "vácuo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VACUO_1_B",
+      "peso": 0.6,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VACUO_1_C",
+      "peso": 0.6,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_1_A",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_1_B",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_1_C",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_2_A",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_2_B",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_2_C",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_3_A",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_3_B",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_VIBRATIO_3_C",
+      "peso": 0.7,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.5,
+      "source": "N4_VACUO_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_VACUO_1_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_VACUO_1_A",
+      "peso": 0.5,
+      "source": "N4_ESCALA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.629708+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.629740+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.713899+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

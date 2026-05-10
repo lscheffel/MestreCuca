@@ -1,0 +1,168 @@
+{
+  "uid": "N4_SOMA_1_C",
+  "legacy_id": "B2.2.1-C",
+  "path": "S1.B2.2.1-C",
+  "hierarchical_id": "2.2.1.3",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.1",
+  "n3_name": "INTEGRIDADE",
+  "axis": "SINTRÓPICO",
+  "natureza": "estado",
+  "subtree_num": 1,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "ATUALIZAÇÃO_SISTEMA",
+  "nome_normalizado": "atualização sistema",
+  "gatilho": "Melhorar ou modernizar estrutura",
+  "acao": "Implementar upgrades necessários",
+  "restricao": "Não alterar funcionalidade essencial",
+  "verificacao": "Sistema atualizado mantendo integridade",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "transformar",
+    "avaliar",
+    "regenerar",
+    "validar",
+    "adaptar",
+    "filtrar",
+    "modularizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.246,
+    "complexidade": 0.315,
+    "causalidade": 0.307,
+    "emocionalidade": 0.271,
+    "materialidade": 0.543,
+    "simbolismo": 0.188,
+    "dinamismo": 0.229,
+    "temporalidade": 0.226,
+    "ambiguidade": 0.241
+  },
+  "opostos": [
+    "N4_SINGULARIDADE_2_B",
+    "N4_VACUO_1_C",
+    "N4_VACUO_3_B",
+    "N4_VIBRATIO_3_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Verificar se atualização sistema mantém o sistema em condição estável dentro de soma"
+    },
+    {
+      "texto": "Avaliar indicadores de atualização sistema após intervenção em soma"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "atualização sistema é como um lago tranquilo: aparentemente imóvel, mas com atividade interna",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a homeostase do corpo: mantém equilíbrio apesar de perturbações externas",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_integridade",
+    "soma",
+    "sintrópico",
+    "estado",
+    "bios"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_1_A",
+      "peso": 0.6,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_1_B",
+      "peso": 0.6,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_1_C",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.143627+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.143662+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.169287+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

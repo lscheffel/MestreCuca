@@ -1,0 +1,26 @@
+# Configuração de Prompts — Síntese
+prompts:
+  sintese_padrao:
+    template: "prompts/synthesis/template_sintese.yaml"
+    parametros:
+      temperatura: 0.4
+      max_tokens: 4096
+      top_p: 0.95
+    merge_strategy: "weighted_context"
+
+  sintese_multi_perspectiva:
+    template: "prompts/synthesis/template_sintese.yaml"
+    parametros:
+      temperatura: 0.5
+      max_tokens: 4096
+      top_p: 0.90
+    num_perspectivas: 3
+    merge_strategy: "consensus"
+
+  sintese_rapida:
+    template: "prompts/synthesis/template_sintese.yaml"
+    parametros:
+      temperatura: 0.3
+      max_tokens: 2048
+      top_p: 0.90
+    merge_strategy: "first_match"

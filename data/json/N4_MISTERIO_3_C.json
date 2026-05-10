@@ -1,0 +1,227 @@
+{
+  "uid": "N4_MISTERIO_3_C",
+  "legacy_id": "M6.3.3-C",
+  "path": "E2.M3.3.3-C",
+  "hierarchical_id": "6.3.3.3",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "MISTÉRIO",
+  "n3_ref": "6.3.3",
+  "n3_name": "REVELAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 3,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "MISTERIO_PRESERVADO",
+  "nome_normalizado": "misterio preservado",
+  "gatilho": "Revelação sem esgotar mistério",
+  "acao": "Reconhecer verdade profunda",
+  "restricao": "Não reduzir a explicação",
+  "verificacao": "Mistério preservado",
+  "funcao_cognitiva": [
+    "inferir",
+    "interpretar",
+    "simbolizar",
+    "arquetipar",
+    "classificar",
+    "narrar",
+    "sintetizar",
+    "comparar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.683,
+    "complexidade": 0.524,
+    "causalidade": 0.405,
+    "emocionalidade": 0.608,
+    "materialidade": 0.354,
+    "simbolismo": 0.693,
+    "dinamismo": 0.47,
+    "temporalidade": 0.427,
+    "ambiguidade": 0.65
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de misterio preservado emergindo em sistemas de mistério"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno misterio preservado sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "misterio preservado é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "mythos",
+    "n3_revelação",
+    "mistério",
+    "fenomeno"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MISTERIO_3_A",
+      "peso": 0.6,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MISTERIO_3_B",
+      "peso": 0.6,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_3_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_MISTERIO_3_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_MISTERIO_3_C",
+      "peso": 0.5,
+      "source": "N4_ARQUETIPO_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.893977+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.894008+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:49.986473+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

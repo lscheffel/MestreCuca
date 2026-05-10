@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ALGORITMIA_2_C",
+  "legacy_id": "R1.1.2-C",
+  "path": "S1.L1.1.2-C",
+  "hierarchical_id": "1.1.2.3",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "ALGORITMIA",
+  "n3_ref": "1.1.2",
+  "n3_name": "OTIMIZAÇÃO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 2,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "PARALELIZAÇÃO",
+  "nome_normalizado": "paralelização",
+  "gatilho": "Tarefas independentes e custo computacional alto",
+  "acao": "Distribuir trabalho across múltiplos workers",
+  "restricao": "Overhead de sincronização < 20% do ganho",
+  "verificacao": "Speedup próximo ao linear com número de workers",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "validar",
+    "controlar",
+    "otimizar",
+    "classificar",
+    "decompor",
+    "avaliar",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.406,
+    "complexidade": 0.525,
+    "causalidade": 0.575,
+    "emocionalidade": 0.269,
+    "materialidade": 0.284,
+    "simbolismo": 0.24,
+    "dinamismo": 0.61,
+    "temporalidade": 0.532,
+    "ambiguidade": 0.28
+  },
+  "opostos": [
+    "N4_ALGORITMIA_2_A",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar paralelização em um contexto de algoritmia, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de paralelização antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "paralelização é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "logos",
+    "n3_otimização",
+    "processo",
+    "algoritmia"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_2_A",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_2_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_2_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.908320+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.908350+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.373000+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

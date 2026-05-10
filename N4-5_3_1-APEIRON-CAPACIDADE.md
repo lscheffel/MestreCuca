@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-5_3_1 - APEIRON / CAPACIDADE - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 5.3.1 (agregado)
+- **ID N3 Pai:** 5.3.1
+- **ID N2 Avô:** 5.3
+- **Domínio:** APEIRON
+- **Subdomínio N3:** CAPACIDADE
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **CAPACIDADE** (APEIRON), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-5_3_1-APEIRON-CAPACIDADE.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
+| Arquivo N3 | `N3-5_3_1-APEIRON-CAPACIDADE.md` |
+| Domínio N2 | 5.3_CAPACIDADE |
+| Domínio N1 | APEIRON |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
 N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+  └─ N1: APEIRON
+      └─ N2: 5.3_CAPACIDADE
+          └─ N3: 5.3.1 CAPACIDADE
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. CAPACIDADE_LATENTE
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** A5.3.1-A
+- **Gatilho:** Potencial não manifestado
+- **Ação:** Reconhecer possibilidade
+- **Restrição:** Não forçar manifestação
+- **Verificação:** Potencial preservado
 
-### 2. TECIDO_SENTIDO
+### 2. AVESSO_MANIFESTO
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** A5.3.1-B
+- **Gatilho:** Potencial como oposto do atual
+- **Ação:** Compreender dualidade
+- **Restrição:** Não negar não-manifesto
+- **Verificação:** Dualidade reconhecida
 
-### 3. COMPLEXIDADE_TEIA
+### 3. CAMPO_POTENCIAL
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** A5.3.1-C
+- **Gatilho:** Matriz de possibilidades
+- **Ação:** Mapear estados potenciais
+- **Restrição:** Não limitar possibilidades
+- **Verificação:** Campo reconhecido
 
 
 

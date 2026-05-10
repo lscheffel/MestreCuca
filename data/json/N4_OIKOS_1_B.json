@@ -1,0 +1,107 @@
+{
+  "uid": "N4_OIKOS_1_B",
+  "legacy_id": "B2.1.1-B",
+  "path": "S1.B2.1.1-B",
+  "hierarchical_id": "2.1.1.2",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "OIKOS",
+  "n3_ref": "2.1.1",
+  "n3_name": "MORADA",
+  "axis": "SINTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "RECURSOS_ESSENCIAIS",
+  "nome_normalizado": "recursos essenciais",
+  "gatilho": "Morada sem provisão básica",
+  "acao": "Estocar água, alimento, energia",
+  "restricao": "Não exceder capacidade de armazenamento",
+  "verificacao": "Sobrevivência garantida por período crítico",
+  "funcao_cognitiva": [
+    "adaptar",
+    "equilibrar",
+    "filtrar",
+    "modularizar",
+    "mapear",
+    "avaliar",
+    "regenerar",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.584,
+    "complexidade": 0.476,
+    "causalidade": 0.482,
+    "emocionalidade": 0.342,
+    "materialidade": 0.425,
+    "simbolismo": 0.358,
+    "dinamismo": 0.68,
+    "temporalidade": 0.576,
+    "ambiguidade": 0.361
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar recursos essenciais como indicador direcional em oikos"
+    },
+    {
+      "texto": "Medir magnitude e direção do recursos essenciais no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "recursos essenciais é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_morada",
+    "vetor",
+    "sintrópico",
+    "oikos",
+    "bios"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.6,
+      "source": "N4_OIKOS_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.6,
+      "source": "N4_OIKOS_1_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.092023+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.092053+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:51.681106+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

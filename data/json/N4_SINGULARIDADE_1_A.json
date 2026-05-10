@@ -1,0 +1,173 @@
+{
+  "uid": "N4_SINGULARIDADE_1_A",
+  "legacy_id": "K4.2.1-A",
+  "path": "E2.K1.2.1-A",
+  "hierarchical_id": "4.2.1.1",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SINGULARIDADE",
+  "n3_ref": "4.2.1",
+  "n3_name": "EXCEPCAO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "PONTO_EXCEPCIONAL",
+  "nome_normalizado": "ponto excepcional",
+  "gatilho": "Regras comuns não se aplicam",
+  "acao": "Reconhecer exceção",
+  "restricao": "Não forçar regras normais",
+  "verificacao": "Exceção compreendida",
+  "funcao_cognitiva": [
+    "emergir",
+    "prever",
+    "transformar",
+    "avaliar",
+    "comparar",
+    "adaptar",
+    "descompor",
+    "dissolver"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.701,
+    "complexidade": 0.653,
+    "causalidade": 0.476,
+    "emocionalidade": 0.593,
+    "materialidade": 0.343,
+    "simbolismo": 0.683,
+    "dinamismo": 0.569,
+    "temporalidade": 0.453,
+    "ambiguidade": 0.626
+  },
+  "opostos": [
+    "N4_SINGULARIDADE_1_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de ponto excepcional emergindo em sistemas de singularidade"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno ponto excepcional sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "ponto excepcional é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "n3_excepcao",
+    "fenomeno",
+    "singularidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_1_B",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_1_C",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "contrasta",
+      "alvo": "N4_NOMOS_1_A",
+      "peso": -0.6,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINGULARIDADE_1_A",
+      "peso": 0.7,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.454916+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.454946+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:52.209751+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

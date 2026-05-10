@@ -1,0 +1,167 @@
+{
+  "uid": "N4_ALTERIDADE_1_A",
+  "legacy_id": "P3.2.1-A",
+  "path": "S1.P3.2.1-A",
+  "hierarchical_id": "3.2.1.1",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ALTERIDADE",
+  "n3_ref": "3.2.1",
+  "n3_name": "RECONHECIMENTO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "VALIDAÇÃO_EXISTÊNCIA",
+  "nome_normalizado": "validação existência",
+  "gatilho": "Outro precisa ser reconhecido",
+  "acao": "Validar dignidade e existência",
+  "restricao": "Não negar humanidade",
+  "verificacao": "Outro reconhecido plenamente",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "validar",
+    "avaliar",
+    "classificar",
+    "comparar",
+    "inferir",
+    "mapear",
+    "equilibrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.337,
+    "complexidade": 0.502,
+    "causalidade": 0.439,
+    "emocionalidade": 0.403,
+    "materialidade": 0.287,
+    "simbolismo": 0.316,
+    "dinamismo": 0.582,
+    "temporalidade": 0.522,
+    "ambiguidade": 0.381
+  },
+  "opostos": [
+    "N4_ALTERIDADE_1_C",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar validação existência em um contexto de alteridade, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de validação existência antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "validação existência é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_reconhecimento",
+    "sintrópico",
+    "alteridade",
+    "processo",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_1_B",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_1_C",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_ALTERIDADE_1_A",
+      "peso": 0.7,
+      "source": "N4_ETHOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.339675+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.339706+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.436744+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

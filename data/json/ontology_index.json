@@ -1,0 +1,2971 @@
+{
+  "schema_version": "1.0.0",
+  "gerado_em": "2026-05-09T15:36:20.907354+00:00",
+  "total_celulas": 162,
+  "estatisticas": {
+    "por_natureza": {
+      "processo": 47,
+      "mecanismo": 2,
+      "restricao": 13,
+      "estrutura": 2,
+      "vetor": 10,
+      "estado": 16,
+      "principio": 3,
+      "dinamica": 18,
+      "fenomeno": 43,
+      "arquétipo": 8
+    },
+    "por_dominio": {
+      "ALGORITMIA": 9,
+      "NOMOS": 9,
+      "MECÂNICA": 9,
+      "OIKOS": 9,
+      "SOMA": 9,
+      "METABOLISMO": 9,
+      "ETHOS": 9,
+      "ALTERIDADE": 9,
+      "ESTÉTICA": 9,
+      "ENTROPIA": 9,
+      "SINGULARIDADE": 9,
+      "SÍNTESE": 9,
+      "ESCALA": 9,
+      "VIBRATIO": 9,
+      "VÁCUO": 9,
+      "ARQUÉTIPO": 9,
+      "NARRATIVA": 9,
+      "MISTÉRIO": 9
+    },
+    "por_pilar": {
+      "LOGOS": 27,
+      "BIOS": 27,
+      "PATHOS": 27,
+      "KHAOS": 27,
+      "APEIRON": 27,
+      "MYTHOS": 27
+    },
+    "por_axis": {
+      "SINTRÓPICO": 81,
+      "ENTRÓPICO": 81
+    }
+  },
+  "id_mapping": {
+    "N4_ALGORITMIA_1_A": {
+      "legacy_id": "R1.1.1-A",
+      "path": "S1.L1.1.1-A",
+      "hierarchical_id": "1.1.1.1"
+    },
+    "N4_ALGORITMIA_1_B": {
+      "legacy_id": "R1.1.1-B",
+      "path": "S1.L1.1.1-B",
+      "hierarchical_id": "1.1.1.2"
+    },
+    "N4_ALGORITMIA_1_C": {
+      "legacy_id": "R1.1.1-C",
+      "path": "S1.L1.1.1-C",
+      "hierarchical_id": "1.1.1.3"
+    },
+    "N4_ALGORITMIA_2_A": {
+      "legacy_id": "R1.1.2-A",
+      "path": "S1.L1.1.2-A",
+      "hierarchical_id": "1.1.2.1"
+    },
+    "N4_ALGORITMIA_2_B": {
+      "legacy_id": "R1.1.2-B",
+      "path": "S1.L1.1.2-B",
+      "hierarchical_id": "1.1.2.2"
+    },
+    "N4_ALGORITMIA_2_C": {
+      "legacy_id": "R1.1.2-C",
+      "path": "S1.L1.1.2-C",
+      "hierarchical_id": "1.1.2.3"
+    },
+    "N4_ALGORITMIA_3_A": {
+      "legacy_id": "R1.1.3-A",
+      "path": "S1.L1.1.3-A",
+      "hierarchical_id": "1.1.3.1"
+    },
+    "N4_ALGORITMIA_3_B": {
+      "legacy_id": "R1.1.3-B",
+      "path": "S1.L1.1.3-B",
+      "hierarchical_id": "1.1.3.2"
+    },
+    "N4_ALGORITMIA_3_C": {
+      "legacy_id": "R1.1.3-C",
+      "path": "S1.L1.1.3-C",
+      "hierarchical_id": "1.1.3.3"
+    },
+    "N4_NOMOS_1_A": {
+      "legacy_id": "R1.2.1-A",
+      "path": "S1.L1.2.1-A",
+      "hierarchical_id": "1.2.1.1"
+    },
+    "N4_NOMOS_1_B": {
+      "legacy_id": "R1.2.1-B",
+      "path": "S1.L1.2.1-B",
+      "hierarchical_id": "1.2.1.2"
+    },
+    "N4_NOMOS_1_C": {
+      "legacy_id": "R1.2.1-C",
+      "path": "S1.L1.2.1-C",
+      "hierarchical_id": "1.2.1.3"
+    },
+    "N4_NOMOS_2_A": {
+      "legacy_id": "R1.2.2-A",
+      "path": "S1.L1.2.2-A",
+      "hierarchical_id": "1.2.2.1"
+    },
+    "N4_NOMOS_2_B": {
+      "legacy_id": "R1.2.2-B",
+      "path": "S1.L1.2.2-B",
+      "hierarchical_id": "1.2.2.2"
+    },
+    "N4_NOMOS_2_C": {
+      "legacy_id": "R1.2.2-C",
+      "path": "S1.L1.2.2-C",
+      "hierarchical_id": "1.2.2.3"
+    },
+    "N4_NOMOS_3_A": {
+      "legacy_id": "R1.2.3-A",
+      "path": "S1.L1.2.3-A",
+      "hierarchical_id": "1.2.3.1"
+    },
+    "N4_NOMOS_3_B": {
+      "legacy_id": "R1.2.3-B",
+      "path": "S1.L1.2.3-B",
+      "hierarchical_id": "1.2.3.2"
+    },
+    "N4_NOMOS_3_C": {
+      "legacy_id": "R1.2.3-C",
+      "path": "S1.L1.2.3-C",
+      "hierarchical_id": "1.2.3.3"
+    },
+    "N4_MECANICA_1_A": {
+      "legacy_id": "R1.3.1-A",
+      "path": "S1.L1.3.1-A",
+      "hierarchical_id": "1.3.1.1"
+    },
+    "N4_MECANICA_1_B": {
+      "legacy_id": "R1.3.1-B",
+      "path": "S1.L1.3.1-B",
+      "hierarchical_id": "1.3.1.2"
+    },
+    "N4_MECANICA_1_C": {
+      "legacy_id": "R1.3.1-C",
+      "path": "S1.L1.3.1-C",
+      "hierarchical_id": "1.3.1.3"
+    },
+    "N4_MECANICA_2_A": {
+      "legacy_id": "R1.3.2-A",
+      "path": "S1.L1.3.2-A",
+      "hierarchical_id": "1.3.2.1"
+    },
+    "N4_MECANICA_2_B": {
+      "legacy_id": "R1.3.2-B",
+      "path": "S1.L1.3.2-B",
+      "hierarchical_id": "1.3.2.2"
+    },
+    "N4_MECANICA_2_C": {
+      "legacy_id": "R1.3.2-C",
+      "path": "S1.L1.3.2-C",
+      "hierarchical_id": "1.3.2.3"
+    },
+    "N4_MECANICA_3_A": {
+      "legacy_id": "R1.3.3-A",
+      "path": "S1.L1.3.3-A",
+      "hierarchical_id": "1.3.3.1"
+    },
+    "N4_MECANICA_3_B": {
+      "legacy_id": "R1.3.3-B",
+      "path": "S1.L1.3.3-B",
+      "hierarchical_id": "1.3.3.2"
+    },
+    "N4_MECANICA_3_C": {
+      "legacy_id": "R1.3.3-C",
+      "path": "S1.L1.3.3-C",
+      "hierarchical_id": "1.3.3.3"
+    },
+    "N4_OIKOS_1_A": {
+      "legacy_id": "B2.1.1-A",
+      "path": "S1.B2.1.1-A",
+      "hierarchical_id": "2.1.1.1"
+    },
+    "N4_OIKOS_1_B": {
+      "legacy_id": "B2.1.1-B",
+      "path": "S1.B2.1.1-B",
+      "hierarchical_id": "2.1.1.2"
+    },
+    "N4_OIKOS_1_C": {
+      "legacy_id": "B2.1.1-C",
+      "path": "S1.B2.1.1-C",
+      "hierarchical_id": "2.1.1.3"
+    },
+    "N4_OIKOS_2_A": {
+      "legacy_id": "B2.1.2-A",
+      "path": "S1.B2.1.2-A",
+      "hierarchical_id": "2.1.2.1"
+    },
+    "N4_OIKOS_2_B": {
+      "legacy_id": "B2.1.2-B",
+      "path": "S1.B2.1.2-B",
+      "hierarchical_id": "2.1.2.2"
+    },
+    "N4_OIKOS_2_C": {
+      "legacy_id": "B2.1.2-C",
+      "path": "S1.B2.1.2-C",
+      "hierarchical_id": "2.1.2.3"
+    },
+    "N4_OIKOS_3_A": {
+      "legacy_id": "B2.1.3-A",
+      "path": "S1.B2.1.3-A",
+      "hierarchical_id": "2.1.3.1"
+    },
+    "N4_OIKOS_3_B": {
+      "legacy_id": "B2.1.3-B",
+      "path": "S1.B2.1.3-B",
+      "hierarchical_id": "2.1.3.2"
+    },
+    "N4_OIKOS_3_C": {
+      "legacy_id": "B2.1.3-C",
+      "path": "S1.B2.1.3-C",
+      "hierarchical_id": "2.1.3.3"
+    },
+    "N4_SOMA_1_A": {
+      "legacy_id": "B2.2.1-A",
+      "path": "S1.B2.2.1-A",
+      "hierarchical_id": "2.2.1.1"
+    },
+    "N4_SOMA_1_B": {
+      "legacy_id": "B2.2.1-B",
+      "path": "S1.B2.2.1-B",
+      "hierarchical_id": "2.2.1.2"
+    },
+    "N4_SOMA_1_C": {
+      "legacy_id": "B2.2.1-C",
+      "path": "S1.B2.2.1-C",
+      "hierarchical_id": "2.2.1.3"
+    },
+    "N4_SOMA_2_A": {
+      "legacy_id": "B2.2.2-A",
+      "path": "S1.B2.2.2-A",
+      "hierarchical_id": "2.2.2.1"
+    },
+    "N4_SOMA_2_B": {
+      "legacy_id": "B2.2.2-B",
+      "path": "S1.B2.2.2-B",
+      "hierarchical_id": "2.2.2.2"
+    },
+    "N4_SOMA_2_C": {
+      "legacy_id": "B2.2.2-C",
+      "path": "S1.B2.2.2-C",
+      "hierarchical_id": "2.2.2.3"
+    },
+    "N4_SOMA_3_A": {
+      "legacy_id": "B2.2.3-A",
+      "path": "S1.B2.2.3-A",
+      "hierarchical_id": "2.2.3.1"
+    },
+    "N4_SOMA_3_B": {
+      "legacy_id": "B2.2.3-B",
+      "path": "S1.B2.2.3-B",
+      "hierarchical_id": "2.2.3.2"
+    },
+    "N4_SOMA_3_C": {
+      "legacy_id": "B2.2.3-C",
+      "path": "S1.B2.2.3-C",
+      "hierarchical_id": "2.2.3.3"
+    },
+    "N4_METABOLISMO_1_A": {
+      "legacy_id": "B2.3.1-A",
+      "path": "S1.B2.3.1-A",
+      "hierarchical_id": "2.3.1.1"
+    },
+    "N4_METABOLISMO_1_B": {
+      "legacy_id": "B2.3.1-B",
+      "path": "S1.B2.3.1-B",
+      "hierarchical_id": "2.3.1.2"
+    },
+    "N4_METABOLISMO_1_C": {
+      "legacy_id": "B2.3.1-C",
+      "path": "S1.B2.3.1-C",
+      "hierarchical_id": "2.3.1.3"
+    },
+    "N4_METABOLISMO_2_A": {
+      "legacy_id": "B2.3.2-A",
+      "path": "S1.B2.3.2-A",
+      "hierarchical_id": "2.3.2.1"
+    },
+    "N4_METABOLISMO_2_B": {
+      "legacy_id": "B2.3.2-B",
+      "path": "S1.B2.3.2-B",
+      "hierarchical_id": "2.3.2.2"
+    },
+    "N4_METABOLISMO_2_C": {
+      "legacy_id": "B2.3.2-C",
+      "path": "S1.B2.3.2-C",
+      "hierarchical_id": "2.3.2.3"
+    },
+    "N4_METABOLISMO_3_A": {
+      "legacy_id": "B2.3.3-A",
+      "path": "S1.B2.3.3-A",
+      "hierarchical_id": "2.3.3.1"
+    },
+    "N4_METABOLISMO_3_B": {
+      "legacy_id": "B2.3.3-B",
+      "path": "S1.B2.3.3-B",
+      "hierarchical_id": "2.3.3.2"
+    },
+    "N4_METABOLISMO_3_C": {
+      "legacy_id": "B2.3.3-C",
+      "path": "S1.B2.3.3-C",
+      "hierarchical_id": "2.3.3.3"
+    },
+    "N4_ETHOS_1_A": {
+      "legacy_id": "P3.1.1-A",
+      "path": "S1.P3.1.1-A",
+      "hierarchical_id": "3.1.1.1"
+    },
+    "N4_ETHOS_1_B": {
+      "legacy_id": "P3.1.1-B",
+      "path": "S1.P3.1.1-B",
+      "hierarchical_id": "3.1.1.2"
+    },
+    "N4_ETHOS_1_C": {
+      "legacy_id": "P3.1.1-C",
+      "path": "S1.P3.1.1-C",
+      "hierarchical_id": "3.1.1.3"
+    },
+    "N4_ETHOS_2_A": {
+      "legacy_id": "P3.1.2-A",
+      "path": "S1.P3.1.2-A",
+      "hierarchical_id": "3.1.2.1"
+    },
+    "N4_ETHOS_2_B": {
+      "legacy_id": "P3.1.2-B",
+      "path": "S1.P3.1.2-B",
+      "hierarchical_id": "3.1.2.2"
+    },
+    "N4_ETHOS_2_C": {
+      "legacy_id": "P3.1.2-C",
+      "path": "S1.P3.1.2-C",
+      "hierarchical_id": "3.1.2.3"
+    },
+    "N4_ETHOS_3_A": {
+      "legacy_id": "P3.1.3-A",
+      "path": "S1.P3.1.3-A",
+      "hierarchical_id": "3.1.3.1"
+    },
+    "N4_ETHOS_3_B": {
+      "legacy_id": "P3.1.3-B",
+      "path": "S1.P3.1.3-B",
+      "hierarchical_id": "3.1.3.2"
+    },
+    "N4_ETHOS_3_C": {
+      "legacy_id": "P3.1.3-C",
+      "path": "S1.P3.1.3-C",
+      "hierarchical_id": "3.1.3.3"
+    },
+    "N4_ALTERIDADE_1_A": {
+      "legacy_id": "P3.2.1-A",
+      "path": "S1.P3.2.1-A",
+      "hierarchical_id": "3.2.1.1"
+    },
+    "N4_ALTERIDADE_1_B": {
+      "legacy_id": "P3.2.1-B",
+      "path": "S1.P3.2.1-B",
+      "hierarchical_id": "3.2.1.2"
+    },
+    "N4_ALTERIDADE_1_C": {
+      "legacy_id": "P3.2.1-C",
+      "path": "S1.P3.2.1-C",
+      "hierarchical_id": "3.2.1.3"
+    },
+    "N4_ALTERIDADE_2_A": {
+      "legacy_id": "P3.2.2-A",
+      "path": "S1.P3.2.2-A",
+      "hierarchical_id": "3.2.2.1"
+    },
+    "N4_ALTERIDADE_2_B": {
+      "legacy_id": "P3.2.2-B",
+      "path": "S1.P3.2.2-B",
+      "hierarchical_id": "3.2.2.2"
+    },
+    "N4_ALTERIDADE_2_C": {
+      "legacy_id": "P3.2.2-C",
+      "path": "S1.P3.2.2-C",
+      "hierarchical_id": "3.2.2.3"
+    },
+    "N4_ALTERIDADE_3_A": {
+      "legacy_id": "P3.2.3-A",
+      "path": "S1.P3.2.3-A",
+      "hierarchical_id": "3.2.3.1"
+    },
+    "N4_ALTERIDADE_3_B": {
+      "legacy_id": "P3.2.3-B",
+      "path": "S1.P3.2.3-B",
+      "hierarchical_id": "3.2.3.2"
+    },
+    "N4_ALTERIDADE_3_C": {
+      "legacy_id": "P3.2.3-C",
+      "path": "S1.P3.2.3-C",
+      "hierarchical_id": "3.2.3.3"
+    },
+    "N4_ESTETICA_1_A": {
+      "legacy_id": "P3.3.1-A",
+      "path": "S1.P3.3.1-A",
+      "hierarchical_id": "3.3.1.1"
+    },
+    "N4_ESTETICA_1_B": {
+      "legacy_id": "P3.3.1-B",
+      "path": "S1.P3.3.1-B",
+      "hierarchical_id": "3.3.1.2"
+    },
+    "N4_ESTETICA_1_C": {
+      "legacy_id": "P3.3.1-C",
+      "path": "S1.P3.3.1-C",
+      "hierarchical_id": "3.3.1.3"
+    },
+    "N4_ESTETICA_2_A": {
+      "legacy_id": "P3.3.2-A",
+      "path": "S1.P3.3.2-A",
+      "hierarchical_id": "3.3.2.1"
+    },
+    "N4_ESTETICA_2_B": {
+      "legacy_id": "P3.3.2-B",
+      "path": "S1.P3.3.2-B",
+      "hierarchical_id": "3.3.2.2"
+    },
+    "N4_ESTETICA_2_C": {
+      "legacy_id": "P3.3.2-C",
+      "path": "S1.P3.3.2-C",
+      "hierarchical_id": "3.3.2.3"
+    },
+    "N4_ESTETICA_3_A": {
+      "legacy_id": "P3.3.3-A",
+      "path": "S1.P3.3.3-A",
+      "hierarchical_id": "3.3.3.1"
+    },
+    "N4_ESTETICA_3_B": {
+      "legacy_id": "P3.3.3-B",
+      "path": "S1.P3.3.3-B",
+      "hierarchical_id": "3.3.3.2"
+    },
+    "N4_ESTETICA_3_C": {
+      "legacy_id": "P3.3.3-C",
+      "path": "S1.P3.3.3-C",
+      "hierarchical_id": "3.3.3.3"
+    },
+    "N4_ENTROPIA_1_A": {
+      "legacy_id": "K4.1.1-A",
+      "path": "E2.K1.1.1-A",
+      "hierarchical_id": "4.1.1.1"
+    },
+    "N4_ENTROPIA_1_B": {
+      "legacy_id": "K4.1.1-B",
+      "path": "E2.K1.1.1-B",
+      "hierarchical_id": "4.1.1.2"
+    },
+    "N4_ENTROPIA_1_C": {
+      "legacy_id": "K4.1.1-C",
+      "path": "E2.K1.1.1-C",
+      "hierarchical_id": "4.1.1.3"
+    },
+    "N4_ENTROPIA_2_A": {
+      "legacy_id": "K4.1.2-A",
+      "path": "E2.K1.1.2-A",
+      "hierarchical_id": "4.1.2.1"
+    },
+    "N4_ENTROPIA_2_B": {
+      "legacy_id": "K4.1.2-B",
+      "path": "E2.K1.1.2-B",
+      "hierarchical_id": "4.1.2.2"
+    },
+    "N4_ENTROPIA_2_C": {
+      "legacy_id": "K4.1.2-C",
+      "path": "E2.K1.1.2-C",
+      "hierarchical_id": "4.1.2.3"
+    },
+    "N4_ENTROPIA_3_A": {
+      "legacy_id": "K4.1.3-A",
+      "path": "E2.K1.1.3-A",
+      "hierarchical_id": "4.1.3.1"
+    },
+    "N4_ENTROPIA_3_B": {
+      "legacy_id": "K4.1.3-B",
+      "path": "E2.K1.1.3-B",
+      "hierarchical_id": "4.1.3.2"
+    },
+    "N4_ENTROPIA_3_C": {
+      "legacy_id": "K4.1.3-C",
+      "path": "E2.K1.1.3-C",
+      "hierarchical_id": "4.1.3.3"
+    },
+    "N4_SINGULARIDADE_1_A": {
+      "legacy_id": "K4.2.1-A",
+      "path": "E2.K1.2.1-A",
+      "hierarchical_id": "4.2.1.1"
+    },
+    "N4_SINGULARIDADE_1_B": {
+      "legacy_id": "K4.2.1-B",
+      "path": "E2.K1.2.1-B",
+      "hierarchical_id": "4.2.1.2"
+    },
+    "N4_SINGULARIDADE_1_C": {
+      "legacy_id": "K4.2.1-C",
+      "path": "E2.K1.2.1-C",
+      "hierarchical_id": "4.2.1.3"
+    },
+    "N4_SINGULARIDADE_2_A": {
+      "legacy_id": "K4.2.2-A",
+      "path": "E2.K1.2.2-A",
+      "hierarchical_id": "4.2.2.1"
+    },
+    "N4_SINGULARIDADE_2_B": {
+      "legacy_id": "K4.2.2-B",
+      "path": "E2.K1.2.2-B",
+      "hierarchical_id": "4.2.2.2"
+    },
+    "N4_SINGULARIDADE_2_C": {
+      "legacy_id": "K4.2.2-C",
+      "path": "E2.K1.2.2-C",
+      "hierarchical_id": "4.2.2.3"
+    },
+    "N4_SINGULARIDADE_3_A": {
+      "legacy_id": "K4.2.3-A",
+      "path": "E2.K1.2.3-A",
+      "hierarchical_id": "4.2.3.1"
+    },
+    "N4_SINGULARIDADE_3_B": {
+      "legacy_id": "K4.2.3-B",
+      "path": "E2.K1.2.3-B",
+      "hierarchical_id": "4.2.3.2"
+    },
+    "N4_SINGULARIDADE_3_C": {
+      "legacy_id": "K4.2.3-C",
+      "path": "E2.K1.2.3-C",
+      "hierarchical_id": "4.2.3.3"
+    },
+    "N4_SINTESE_1_A": {
+      "legacy_id": "K4.3.1-A",
+      "path": "E2.K1.3.1-A",
+      "hierarchical_id": "4.3.1.1"
+    },
+    "N4_SINTESE_1_B": {
+      "legacy_id": "K4.3.1-B",
+      "path": "E2.K1.3.1-B",
+      "hierarchical_id": "4.3.1.2"
+    },
+    "N4_SINTESE_1_C": {
+      "legacy_id": "K4.3.1-C",
+      "path": "E2.K1.3.1-C",
+      "hierarchical_id": "4.3.1.3"
+    },
+    "N4_SINTESE_2_A": {
+      "legacy_id": "K4.3.2-A",
+      "path": "E2.K1.3.2-A",
+      "hierarchical_id": "4.3.2.1"
+    },
+    "N4_SINTESE_2_B": {
+      "legacy_id": "K4.3.2-B",
+      "path": "E2.K1.3.2-B",
+      "hierarchical_id": "4.3.2.2"
+    },
+    "N4_SINTESE_2_C": {
+      "legacy_id": "K4.3.2-C",
+      "path": "E2.K1.3.2-C",
+      "hierarchical_id": "4.3.2.3"
+    },
+    "N4_SINTESE_3_A": {
+      "legacy_id": "K4.3.3-A",
+      "path": "E2.K1.3.3-A",
+      "hierarchical_id": "4.3.3.1"
+    },
+    "N4_SINTESE_3_B": {
+      "legacy_id": "K4.3.3-B",
+      "path": "E2.K1.3.3-B",
+      "hierarchical_id": "4.3.3.2"
+    },
+    "N4_SINTESE_3_C": {
+      "legacy_id": "K4.3.3-C",
+      "path": "E2.K1.3.3-C",
+      "hierarchical_id": "4.3.3.3"
+    },
+    "N4_ESCALA_1_A": {
+      "legacy_id": "A5.1.1-A",
+      "path": "E2.A2.1.1-A",
+      "hierarchical_id": "5.1.1.1"
+    },
+    "N4_ESCALA_1_B": {
+      "legacy_id": "A5.1.1-B",
+      "path": "E2.A2.1.1-B",
+      "hierarchical_id": "5.1.1.2"
+    },
+    "N4_ESCALA_1_C": {
+      "legacy_id": "A5.1.1-C",
+      "path": "E2.A2.1.1-C",
+      "hierarchical_id": "5.1.1.3"
+    },
+    "N4_ESCALA_2_A": {
+      "legacy_id": "A5.1.2-A",
+      "path": "E2.A2.1.2-A",
+      "hierarchical_id": "5.1.2.1"
+    },
+    "N4_ESCALA_2_B": {
+      "legacy_id": "A5.1.2-B",
+      "path": "E2.A2.1.2-B",
+      "hierarchical_id": "5.1.2.2"
+    },
+    "N4_ESCALA_2_C": {
+      "legacy_id": "A5.1.2-C",
+      "path": "E2.A2.1.2-C",
+      "hierarchical_id": "5.1.2.3"
+    },
+    "N4_ESCALA_3_A": {
+      "legacy_id": "A5.1.3-A",
+      "path": "E2.A2.1.3-A",
+      "hierarchical_id": "5.1.3.1"
+    },
+    "N4_ESCALA_3_B": {
+      "legacy_id": "A5.1.3-B",
+      "path": "E2.A2.1.3-B",
+      "hierarchical_id": "5.1.3.2"
+    },
+    "N4_ESCALA_3_C": {
+      "legacy_id": "A5.1.3-C",
+      "path": "E2.A2.1.3-C",
+      "hierarchical_id": "5.1.3.3"
+    },
+    "N4_VIBRATIO_1_A": {
+      "legacy_id": "A5.2.1-A",
+      "path": "E2.A2.2.1-A",
+      "hierarchical_id": "5.2.1.1"
+    },
+    "N4_VIBRATIO_1_B": {
+      "legacy_id": "A5.2.1-B",
+      "path": "E2.A2.2.1-B",
+      "hierarchical_id": "5.2.1.2"
+    },
+    "N4_VIBRATIO_1_C": {
+      "legacy_id": "A5.2.1-C",
+      "path": "E2.A2.2.1-C",
+      "hierarchical_id": "5.2.1.3"
+    },
+    "N4_VIBRATIO_2_A": {
+      "legacy_id": "A5.2.2-A",
+      "path": "E2.A2.2.2-A",
+      "hierarchical_id": "5.2.2.1"
+    },
+    "N4_VIBRATIO_2_B": {
+      "legacy_id": "A5.2.2-B",
+      "path": "E2.A2.2.2-B",
+      "hierarchical_id": "5.2.2.2"
+    },
+    "N4_VIBRATIO_2_C": {
+      "legacy_id": "A5.2.2-C",
+      "path": "E2.A2.2.2-C",
+      "hierarchical_id": "5.2.2.3"
+    },
+    "N4_VIBRATIO_3_A": {
+      "legacy_id": "A5.2.3-A",
+      "path": "E2.A2.2.3-A",
+      "hierarchical_id": "5.2.3.1"
+    },
+    "N4_VIBRATIO_3_B": {
+      "legacy_id": "A5.2.3-B",
+      "path": "E2.A2.2.3-B",
+      "hierarchical_id": "5.2.3.2"
+    },
+    "N4_VIBRATIO_3_C": {
+      "legacy_id": "A5.2.3-C",
+      "path": "E2.A2.2.3-C",
+      "hierarchical_id": "5.2.3.3"
+    },
+    "N4_VACUO_1_A": {
+      "legacy_id": "A5.3.1-A",
+      "path": "E2.A2.3.1-A",
+      "hierarchical_id": "5.3.1.1"
+    },
+    "N4_VACUO_1_B": {
+      "legacy_id": "A5.3.1-B",
+      "path": "E2.A2.3.1-B",
+      "hierarchical_id": "5.3.1.2"
+    },
+    "N4_VACUO_1_C": {
+      "legacy_id": "A5.3.1-C",
+      "path": "E2.A2.3.1-C",
+      "hierarchical_id": "5.3.1.3"
+    },
+    "N4_VACUO_2_A": {
+      "legacy_id": "A5.3.2-A",
+      "path": "E2.A2.3.2-A",
+      "hierarchical_id": "5.3.2.1"
+    },
+    "N4_VACUO_2_B": {
+      "legacy_id": "A5.3.2-B",
+      "path": "E2.A2.3.2-B",
+      "hierarchical_id": "5.3.2.2"
+    },
+    "N4_VACUO_2_C": {
+      "legacy_id": "A5.3.2-C",
+      "path": "E2.A2.3.2-C",
+      "hierarchical_id": "5.3.2.3"
+    },
+    "N4_VACUO_3_A": {
+      "legacy_id": "A5.3.3-A",
+      "path": "E2.A2.3.3-A",
+      "hierarchical_id": "5.3.3.1"
+    },
+    "N4_VACUO_3_B": {
+      "legacy_id": "A5.3.3-B",
+      "path": "E2.A2.3.3-B",
+      "hierarchical_id": "5.3.3.2"
+    },
+    "N4_VACUO_3_C": {
+      "legacy_id": "A5.3.3-C",
+      "path": "E2.A2.3.3-C",
+      "hierarchical_id": "5.3.3.3"
+    },
+    "N4_ARQUETIPO_1_A": {
+      "legacy_id": "M6.1.1-A",
+      "path": "E2.M3.1.1-A",
+      "hierarchical_id": "6.1.1.1"
+    },
+    "N4_ARQUETIPO_1_B": {
+      "legacy_id": "M6.1.1-B",
+      "path": "E2.M3.1.1-B",
+      "hierarchical_id": "6.1.1.2"
+    },
+    "N4_ARQUETIPO_1_C": {
+      "legacy_id": "M6.1.1-C",
+      "path": "E2.M3.1.1-C",
+      "hierarchical_id": "6.1.1.3"
+    },
+    "N4_ARQUETIPO_2_A": {
+      "legacy_id": "M6.1.2-A",
+      "path": "E2.M3.1.2-A",
+      "hierarchical_id": "6.1.2.1"
+    },
+    "N4_ARQUETIPO_2_B": {
+      "legacy_id": "M6.1.2-B",
+      "path": "E2.M3.1.2-B",
+      "hierarchical_id": "6.1.2.2"
+    },
+    "N4_ARQUETIPO_2_C": {
+      "legacy_id": "M6.1.2-C",
+      "path": "E2.M3.1.2-C",
+      "hierarchical_id": "6.1.2.3"
+    },
+    "N4_ARQUETIPO_3_A": {
+      "legacy_id": "M6.1.3-A",
+      "path": "E2.M3.1.3-A",
+      "hierarchical_id": "6.1.3.1"
+    },
+    "N4_ARQUETIPO_3_B": {
+      "legacy_id": "M6.1.3-B",
+      "path": "E2.M3.1.3-B",
+      "hierarchical_id": "6.1.3.2"
+    },
+    "N4_ARQUETIPO_3_C": {
+      "legacy_id": "M6.1.3-C",
+      "path": "E2.M3.1.3-C",
+      "hierarchical_id": "6.1.3.3"
+    },
+    "N4_NARRATIVA_1_A": {
+      "legacy_id": "M6.2.1-A",
+      "path": "E2.M3.2.1-A",
+      "hierarchical_id": "6.2.1.1"
+    },
+    "N4_NARRATIVA_1_B": {
+      "legacy_id": "M6.2.1-B",
+      "path": "E2.M3.2.1-B",
+      "hierarchical_id": "6.2.1.2"
+    },
+    "N4_NARRATIVA_1_C": {
+      "legacy_id": "M6.2.1-C",
+      "path": "E2.M3.2.1-C",
+      "hierarchical_id": "6.2.1.3"
+    },
+    "N4_NARRATIVA_2_A": {
+      "legacy_id": "M6.2.2-A",
+      "path": "E2.M3.2.2-A",
+      "hierarchical_id": "6.2.2.1"
+    },
+    "N4_NARRATIVA_2_B": {
+      "legacy_id": "M6.2.2-B",
+      "path": "E2.M3.2.2-B",
+      "hierarchical_id": "6.2.2.2"
+    },
+    "N4_NARRATIVA_2_C": {
+      "legacy_id": "M6.2.2-C",
+      "path": "E2.M3.2.2-C",
+      "hierarchical_id": "6.2.2.3"
+    },
+    "N4_NARRATIVA_3_A": {
+      "legacy_id": "M6.2.3-A",
+      "path": "E2.M3.2.3-A",
+      "hierarchical_id": "6.2.3.1"
+    },
+    "N4_NARRATIVA_3_B": {
+      "legacy_id": "M6.2.3-B",
+      "path": "E2.M3.2.3-B",
+      "hierarchical_id": "6.2.3.2"
+    },
+    "N4_NARRATIVA_3_C": {
+      "legacy_id": "M6.2.3-C",
+      "path": "E2.M3.2.3-C",
+      "hierarchical_id": "6.2.3.3"
+    },
+    "N4_MISTERIO_1_A": {
+      "legacy_id": "M6.3.1-A",
+      "path": "E2.M3.3.1-A",
+      "hierarchical_id": "6.3.1.1"
+    },
+    "N4_MISTERIO_1_B": {
+      "legacy_id": "M6.3.1-B",
+      "path": "E2.M3.3.1-B",
+      "hierarchical_id": "6.3.1.2"
+    },
+    "N4_MISTERIO_1_C": {
+      "legacy_id": "M6.3.1-C",
+      "path": "E2.M3.3.1-C",
+      "hierarchical_id": "6.3.1.3"
+    },
+    "N4_MISTERIO_2_A": {
+      "legacy_id": "M6.3.2-A",
+      "path": "E2.M3.3.2-A",
+      "hierarchical_id": "6.3.2.1"
+    },
+    "N4_MISTERIO_2_B": {
+      "legacy_id": "M6.3.2-B",
+      "path": "E2.M3.3.2-B",
+      "hierarchical_id": "6.3.2.2"
+    },
+    "N4_MISTERIO_2_C": {
+      "legacy_id": "M6.3.2-C",
+      "path": "E2.M3.3.2-C",
+      "hierarchical_id": "6.3.2.3"
+    },
+    "N4_MISTERIO_3_A": {
+      "legacy_id": "M6.3.3-A",
+      "path": "E2.M3.3.3-A",
+      "hierarchical_id": "6.3.3.1"
+    },
+    "N4_MISTERIO_3_B": {
+      "legacy_id": "M6.3.3-B",
+      "path": "E2.M3.3.3-B",
+      "hierarchical_id": "6.3.3.2"
+    },
+    "N4_MISTERIO_3_C": {
+      "legacy_id": "M6.3.3-C",
+      "path": "E2.M3.3.3-C",
+      "hierarchical_id": "6.3.3.3"
+    }
+  },
+  "celulas": [
+    {
+      "uid": "N4_ALGORITMIA_1_A",
+      "legacy_id": "R1.1.1-A",
+      "path": "S1.L1.1.1-A",
+      "hierarchical_id": "1.1.1.1",
+      "nome": "DECOMPOSIÇÃO_BINÁRIA",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_1_B",
+      "legacy_id": "R1.1.1-B",
+      "path": "S1.L1.1.1-B",
+      "hierarchical_id": "1.1.1.2",
+      "nome": "SEQUÊNCIA_OTIMIZADA",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_1_C",
+      "legacy_id": "R1.1.1-C",
+      "path": "S1.L1.1.1-C",
+      "hierarchical_id": "1.1.1.3",
+      "nome": "CASO_BASE",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_2_A",
+      "legacy_id": "R1.1.2-A",
+      "path": "S1.L1.1.2-A",
+      "hierarchical_id": "1.1.2.1",
+      "nome": "COMPLEXIDADE_TEMPORAL",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_2_B",
+      "legacy_id": "R1.1.2-B",
+      "path": "S1.L1.1.2-B",
+      "hierarchical_id": "1.1.2.2",
+      "nome": "MEMOIZAÇÃO",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "mecanismo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_2_C",
+      "legacy_id": "R1.1.2-C",
+      "path": "S1.L1.1.2-C",
+      "hierarchical_id": "1.1.2.3",
+      "nome": "PARALELIZAÇÃO",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_3_A",
+      "legacy_id": "R1.1.3-A",
+      "path": "S1.L1.1.3-A",
+      "hierarchical_id": "1.1.3.1",
+      "nome": "VERIFICAÇÃO_LÓGICA",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_3_B",
+      "legacy_id": "R1.1.3-B",
+      "path": "S1.L1.1.3-B",
+      "hierarchical_id": "1.1.3.2",
+      "nome": "TESTE_DE_FRONTEIRA",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALGORITMIA_3_C",
+      "legacy_id": "R1.1.3-C",
+      "path": "S1.L1.1.3-C",
+      "hierarchical_id": "1.1.3.3",
+      "nome": "CORREÇÃO_PARCIAL",
+      "dominio": "ALGORITMIA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ALTERIDADE_1_A",
+      "legacy_id": "P3.2.1-A",
+      "path": "S1.P3.2.1-A",
+      "hierarchical_id": "3.2.1.1",
+      "nome": "VALIDAÇÃO_EXISTÊNCIA",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_1_B",
+      "legacy_id": "P3.2.1-B",
+      "path": "S1.P3.2.1-B",
+      "hierarchical_id": "3.2.1.2",
+      "nome": "DIGNIDADE",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_1_C",
+      "legacy_id": "P3.2.1-C",
+      "path": "S1.P3.2.1-C",
+      "hierarchical_id": "3.2.1.3",
+      "nome": "EXISTÊNCIA",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_2_A",
+      "legacy_id": "P3.2.2-A",
+      "path": "S1.P3.2.2-A",
+      "hierarchical_id": "3.2.2.1",
+      "nome": "COMPREENSÃO_PROFUNDA",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_2_B",
+      "legacy_id": "P3.2.2-B",
+      "path": "S1.P3.2.2-B",
+      "hierarchical_id": "3.2.2.2",
+      "nome": "PONTE",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_2_C",
+      "legacy_id": "P3.2.2-C",
+      "path": "S1.P3.2.2-C",
+      "hierarchical_id": "3.2.2.3",
+      "nome": "SENTIDO",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_3_A",
+      "legacy_id": "P3.2.3-A",
+      "path": "S1.P3.2.3-A",
+      "hierarchical_id": "3.2.3.1",
+      "nome": "TROCA_MÚTUA",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_3_B",
+      "legacy_id": "P3.2.3-B",
+      "path": "S1.P3.2.3-B",
+      "hierarchical_id": "3.2.3.2",
+      "nome": "CONSTRUÇÃO_CONJUNTA",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ALTERIDADE_3_C",
+      "legacy_id": "P3.2.3-C",
+      "path": "S1.P3.2.3-C",
+      "hierarchical_id": "3.2.3.3",
+      "nome": "REVELAÇÃO",
+      "dominio": "ALTERIDADE",
+      "pilar": "PATHOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_ARQUETIPO_1_A",
+      "legacy_id": "M6.1.1-A",
+      "path": "E2.M3.1.1-A",
+      "hierarchical_id": "6.1.1.1",
+      "nome": "RECONHECIMENTO_ARQUETÍPICO",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_1_B",
+      "legacy_id": "M6.1.1-B",
+      "path": "E2.M3.1.1-B",
+      "hierarchical_id": "6.1.1.2",
+      "nome": "ATIVAÇÃO_SIMPOLAR",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_1_C",
+      "legacy_id": "M6.1.1-C",
+      "path": "E2.M3.1.1-C",
+      "hierarchical_id": "6.1.1.3",
+      "nome": "SÍNTESE_OPOSTOS",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_2_A",
+      "legacy_id": "M6.1.2-A",
+      "path": "E2.M3.1.2-A",
+      "hierarchical_id": "6.1.2.1",
+      "nome": "ROTEIRO_INVISIBLE",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_2_B",
+      "legacy_id": "M6.1.2-B",
+      "path": "E2.M3.1.2-B",
+      "hierarchical_id": "6.1.2.2",
+      "nome": "PADRÃO_COMPORTAMENTAL",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_2_C",
+      "legacy_id": "M6.1.2-C",
+      "path": "E2.M3.1.2-C",
+      "hierarchical_id": "6.1.2.3",
+      "nome": "INFLUÊNCIA_ARQUETÍPICA",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_3_A",
+      "legacy_id": "M6.1.3-A",
+      "path": "E2.M3.1.3-A",
+      "hierarchical_id": "6.1.3.1",
+      "nome": "PONTE_SENSÍVEL",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_3_B",
+      "legacy_id": "M6.1.3-B",
+      "path": "E2.M3.1.3-B",
+      "hierarchical_id": "6.1.3.2",
+      "nome": "LINGUAGEM_SENSÍVEL",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ARQUETIPO_3_C",
+      "legacy_id": "M6.1.3-C",
+      "path": "E2.M3.1.3-C",
+      "hierarchical_id": "6.1.3.3",
+      "nome": "ARQUÉTIPO_EM_FORMA",
+      "dominio": "ARQUÉTIPO",
+      "pilar": "MYTHOS",
+      "natureza": "arquétipo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_1_A",
+      "legacy_id": "K4.1.1-A",
+      "path": "E2.K1.1.1-A",
+      "hierarchical_id": "4.1.1.1",
+      "nome": "ENTROPIA_SISTEMA",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_1_B",
+      "legacy_id": "K4.1.1-B",
+      "path": "E2.K1.1.1-B",
+      "hierarchical_id": "4.1.1.2",
+      "nome": "DESTRUIÇÃO_CRIATIVA",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "estado",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_1_C",
+      "legacy_id": "K4.1.1-C",
+      "path": "E2.K1.1.1-C",
+      "hierarchical_id": "4.1.1.3",
+      "nome": "RECICLAGEM",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_2_A",
+      "legacy_id": "K4.1.2-A",
+      "path": "E2.K1.1.2-A",
+      "hierarchical_id": "4.1.2.1",
+      "nome": "DISPERSÃO_ENERGIA",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_2_B",
+      "legacy_id": "K4.1.2-B",
+      "path": "E2.K1.1.2-B",
+      "hierarchical_id": "4.1.2.2",
+      "nome": "ENTROPIA_AUMENTADA",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_2_C",
+      "legacy_id": "K4.1.2-C",
+      "path": "E2.K1.1.2-C",
+      "hierarchical_id": "4.1.2.3",
+      "nome": "RETORNO_AMORFO",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_3_A",
+      "legacy_id": "K4.1.3-A",
+      "path": "E2.K1.1.3-A",
+      "hierarchical_id": "4.1.3.1",
+      "nome": "ALEATORIEDADE",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_3_B",
+      "legacy_id": "K4.1.3-B",
+      "path": "E2.K1.1.3-B",
+      "hierarchical_id": "4.1.3.2",
+      "nome": "COMPLEXIDADE_CAÓTICA",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ENTROPIA_3_C",
+      "legacy_id": "K4.1.3-C",
+      "path": "E2.K1.1.3-C",
+      "hierarchical_id": "4.1.3.3",
+      "nome": "PADRÕES_EMERGENTES",
+      "dominio": "ENTROPIA",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_1_A",
+      "legacy_id": "A5.1.1-A",
+      "path": "E2.A2.1.1-A",
+      "hierarchical_id": "5.1.1.1",
+      "nome": "ESCALAMENTO",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_1_B",
+      "legacy_id": "A5.1.1-B",
+      "path": "E2.A2.1.1-B",
+      "hierarchical_id": "5.1.1.2",
+      "nome": "PROPORÇÃO_AUREA",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_1_C",
+      "legacy_id": "A5.1.1-C",
+      "path": "E2.A2.1.1-C",
+      "hierarchical_id": "5.1.1.3",
+      "nome": "ISOMORFISMO",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_2_A",
+      "legacy_id": "A5.1.2-A",
+      "path": "E2.A2.1.2-A",
+      "hierarchical_id": "5.1.2.1",
+      "nome": "TAMANHO_NATUREZA",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_2_B",
+      "legacy_id": "A5.1.2-B",
+      "path": "E2.A2.1.2-B",
+      "hierarchical_id": "5.1.2.2",
+      "nome": "EXPERIÊNCIA_ESCALAR",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_2_C",
+      "legacy_id": "A5.1.2-C",
+      "path": "E2.A2.1.2-C",
+      "hierarchical_id": "5.1.2.3",
+      "nome": "LEI_ESCALAR",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_3_A",
+      "legacy_id": "A5.1.3-A",
+      "path": "E2.A2.1.3-A",
+      "hierarchical_id": "5.1.3.1",
+      "nome": "LEI_RELATIVA",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_3_B",
+      "legacy_id": "A5.1.3-B",
+      "path": "E2.A2.1.3-B",
+      "hierarchical_id": "5.1.3.2",
+      "nome": "MANIFESTAÇÃO_LEI",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "vetor",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESCALA_3_C",
+      "legacy_id": "A5.1.3-C",
+      "path": "E2.A2.1.3-C",
+      "hierarchical_id": "5.1.3.3",
+      "nome": "ESCALA_APLICAÇÃO",
+      "dominio": "ESCALA",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ESTETICA_1_A",
+      "legacy_id": "P3.3.1-A",
+      "path": "S1.P3.3.1-A",
+      "hierarchical_id": "3.3.1.1",
+      "nome": "PROPORÇÃO_AUREA",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_1_B",
+      "legacy_id": "P3.3.1-B",
+      "path": "S1.P3.3.1-B",
+      "hierarchical_id": "3.3.1.2",
+      "nome": "EQUILÍBRIO_ESTÉTICO",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_1_C",
+      "legacy_id": "P3.3.1-C",
+      "path": "S1.P3.3.1-C",
+      "hierarchical_id": "3.3.1.3",
+      "nome": "RESSONÂNCIA",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_2_A",
+      "legacy_id": "P3.3.2-A",
+      "path": "S1.P3.3.2-A",
+      "hierarchical_id": "3.3.2.1",
+      "nome": "FORMA_CORPO",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_2_B",
+      "legacy_id": "P3.3.2-B",
+      "path": "S1.P3.3.2-B",
+      "hierarchical_id": "3.3.2.2",
+      "nome": "EXTERIORIZAÇÃO",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_2_C",
+      "legacy_id": "P3.3.2-C",
+      "path": "S1.P3.3.2-C",
+      "hierarchical_id": "3.3.2.3",
+      "nome": "LINGUAGEM_ESTÉTICA",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_3_A",
+      "legacy_id": "P3.3.3-A",
+      "path": "S1.P3.3.3-A",
+      "hierarchical_id": "3.3.3.1",
+      "nome": "TRANSFORMAÇÃO",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_3_B",
+      "legacy_id": "P3.3.3-B",
+      "path": "S1.P3.3.3-B",
+      "hierarchical_id": "3.3.3.2",
+      "nome": "EMOCIONAL",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ESTETICA_3_C",
+      "legacy_id": "P3.3.3-C",
+      "path": "S1.P3.3.3-C",
+      "hierarchical_id": "3.3.3.3",
+      "nome": "LIBERDADE",
+      "dominio": "ESTÉTICA",
+      "pilar": "PATHOS",
+      "natureza": "fenomeno",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_ETHOS_1_A",
+      "legacy_id": "P3.1.1-A",
+      "path": "S1.P3.1.1-A",
+      "hierarchical_id": "3.1.1.1",
+      "nome": "ALINHAMENTO_VALORES",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_1_B",
+      "legacy_id": "P3.1.1-B",
+      "path": "S1.P3.1.1-B",
+      "hierarchical_id": "3.1.1.2",
+      "nome": "CONFLITO_VALORES",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_1_C",
+      "legacy_id": "P3.1.1-C",
+      "path": "S1.P3.1.1-C",
+      "hierarchical_id": "3.1.1.3",
+      "nome": "TRANSPARÊNCIA",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_2_A",
+      "legacy_id": "P3.1.2-A",
+      "path": "S1.P3.1.2-A",
+      "hierarchical_id": "3.1.2.1",
+      "nome": "EXCELÊNCIA_MORAL",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_2_B",
+      "legacy_id": "P3.1.2-B",
+      "path": "S1.P3.1.2-B",
+      "hierarchical_id": "3.1.2.2",
+      "nome": "CARÁTER",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_2_C",
+      "legacy_id": "P3.1.2-C",
+      "path": "S1.P3.1.2-C",
+      "hierarchical_id": "3.1.2.3",
+      "nome": "INTEGRIDADE",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_3_A",
+      "legacy_id": "P3.1.3-A",
+      "path": "S1.P3.1.3-A",
+      "hierarchical_id": "3.1.3.1",
+      "nome": "DEVER",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_3_B",
+      "legacy_id": "P3.1.3-B",
+      "path": "S1.P3.1.3-B",
+      "hierarchical_id": "3.1.3.2",
+      "nome": "CONSEQUÊNCIA",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_ETHOS_3_C",
+      "legacy_id": "P3.1.3-C",
+      "path": "S1.P3.1.3-C",
+      "hierarchical_id": "3.1.3.3",
+      "nome": "ESCOLHA",
+      "dominio": "ETHOS",
+      "pilar": "PATHOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "3.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_MECANICA_1_A",
+      "legacy_id": "R1.3.1-A",
+      "path": "S1.L1.3.1-A",
+      "hierarchical_id": "1.3.1.1",
+      "nome": "ANÁLISE_ESTATICA",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_1_B",
+      "legacy_id": "R1.3.1-B",
+      "path": "S1.L1.3.1-B",
+      "hierarchical_id": "1.3.1.2",
+      "nome": "EQUILÍBRIO_FORÇAS",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_1_C",
+      "legacy_id": "R1.3.1-C",
+      "path": "S1.L1.3.1-C",
+      "hierarchical_id": "1.3.1.3",
+      "nome": "REPOUSO_RELATIVO",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_2_A",
+      "legacy_id": "R1.3.2-A",
+      "path": "S1.L1.3.2-A",
+      "hierarchical_id": "1.3.2.1",
+      "nome": "ANÁLISE_DINÂMICA",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_2_B",
+      "legacy_id": "R1.3.2-B",
+      "path": "S1.L1.3.2-B",
+      "hierarchical_id": "1.3.2.2",
+      "nome": "TRANSFORMAÇÃO_ESTADOS",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_2_C",
+      "legacy_id": "R1.3.2-C",
+      "path": "S1.L1.3.2-C",
+      "hierarchical_id": "1.3.2.3",
+      "nome": "ENERGIA_CINÉTICA",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_3_A",
+      "legacy_id": "R1.3.3-A",
+      "path": "S1.L1.3.3-A",
+      "hierarchical_id": "1.3.3.1",
+      "nome": "BALANÇO_ENERGIA",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "vetor",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_3_B",
+      "legacy_id": "R1.3.3-B",
+      "path": "S1.L1.3.3-B",
+      "hierarchical_id": "1.3.3.2",
+      "nome": "EFICIÊNCIA_TERMODINÂMICA",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MECANICA_3_C",
+      "legacy_id": "R1.3.3-C",
+      "path": "S1.L1.3.3-C",
+      "hierarchical_id": "1.3.3.3",
+      "nome": "ENTROPIA_PROCESSO",
+      "dominio": "MECÂNICA",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_1_A",
+      "legacy_id": "B2.3.1-A",
+      "path": "S1.B2.3.1-A",
+      "hierarchical_id": "2.3.1.1",
+      "nome": "SÍNTESE_MATERIAL",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_1_B",
+      "legacy_id": "B2.3.1-B",
+      "path": "S1.B2.3.1-B",
+      "hierarchical_id": "2.3.1.2",
+      "nome": "CRESCIMENTO",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_1_C",
+      "legacy_id": "B2.3.1-C",
+      "path": "S1.B2.3.1-C",
+      "hierarchical_id": "2.3.1.3",
+      "nome": "COMPLEXIFICAÇÃO",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_2_A",
+      "legacy_id": "B2.3.2-A",
+      "path": "S1.B2.3.2-A",
+      "hierarchical_id": "2.3.2.1",
+      "nome": "DECOMPOSIÇÃO_MATERIAL",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_2_B",
+      "legacy_id": "B2.3.2-B",
+      "path": "S1.B2.3.2-B",
+      "hierarchical_id": "2.3.2.2",
+      "nome": "LIBERAÇÃO_ENERGIA",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "vetor",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_2_C",
+      "legacy_id": "B2.3.2-C",
+      "path": "S1.B2.3.2-C",
+      "hierarchical_id": "2.3.2.3",
+      "nome": "REMOÇÃO_DESEJOS",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_3_A",
+      "legacy_id": "B2.3.3-A",
+      "path": "S1.B2.3.3-A",
+      "hierarchical_id": "2.3.3.1",
+      "nome": "RECIRCULAÇÃO_MATERIAL",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_3_B",
+      "legacy_id": "B2.3.3-B",
+      "path": "S1.B2.3.3-B",
+      "hierarchical_id": "2.3.3.2",
+      "nome": "RENOVAÇÃO_CONTÍNUA",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_METABOLISMO_3_C",
+      "legacy_id": "B2.3.3-C",
+      "path": "S1.B2.3.3-C",
+      "hierarchical_id": "2.3.3.3",
+      "nome": "FLUXO_PERENE",
+      "dominio": "METABOLISMO",
+      "pilar": "BIOS",
+      "natureza": "dinamica",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_1_A",
+      "legacy_id": "M6.3.1-A",
+      "path": "E2.M3.3.1-A",
+      "hierarchical_id": "6.3.1.1",
+      "nome": "LIMITE_ANALÍTICO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "restricao",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_1_B",
+      "legacy_id": "M6.3.1-B",
+      "path": "E2.M3.3.1-B",
+      "hierarchical_id": "6.3.1.2",
+      "nome": "PROTEÇÃO_MISTÉRIO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_1_C",
+      "legacy_id": "M6.3.1-C",
+      "path": "E2.M3.3.1-C",
+      "hierarchical_id": "6.3.1.3",
+      "nome": "HUMILDADE_CONHECIMENTO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_2_A",
+      "legacy_id": "M6.3.2-A",
+      "path": "E2.M3.3.2-A",
+      "hierarchical_id": "6.3.2.1",
+      "nome": "CONHECIMENTO_DIRETO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_2_B",
+      "legacy_id": "M6.3.2-B",
+      "path": "E2.M3.3.2-B",
+      "hierarchical_id": "6.3.2.2",
+      "nome": "TOCAR_PROFUNDIDADE",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_2_C",
+      "legacy_id": "M6.3.2-C",
+      "path": "E2.M3.3.2-C",
+      "hierarchical_id": "6.3.2.3",
+      "nome": "SABER_IMEDIATO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_3_A",
+      "legacy_id": "M6.3.3-A",
+      "path": "E2.M3.3.3-A",
+      "hierarchical_id": "6.3.3.1",
+      "nome": "DESVELAMENTO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_3_B",
+      "legacy_id": "M6.3.3-B",
+      "path": "E2.M3.3.3-B",
+      "hierarchical_id": "6.3.3.2",
+      "nome": "ILUMINAÇÃO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_MISTERIO_3_C",
+      "legacy_id": "M6.3.3-C",
+      "path": "E2.M3.3.3-C",
+      "hierarchical_id": "6.3.3.3",
+      "nome": "MISTERIO_PRESERVADO",
+      "dominio": "MISTÉRIO",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_NARRATIVA_1_A",
+      "legacy_id": "M6.2.1-A",
+      "path": "E2.M3.2.1-A",
+      "hierarchical_id": "6.2.1.1",
+      "nome": "TEIA_CONEXÕES",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "estrutura",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_1_B",
+      "legacy_id": "M6.2.1-B",
+      "path": "E2.M3.2.1-B",
+      "hierarchical_id": "6.2.1.2",
+      "nome": "TECIDO_SENTIDO",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_1_C",
+      "legacy_id": "M6.2.1-C",
+      "path": "E2.M3.2.1-C",
+      "hierarchical_id": "6.2.1.3",
+      "nome": "COMPLEXIDADE_TEIA",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_2_A",
+      "legacy_id": "M6.2.2-A",
+      "path": "E2.M3.2.2-A",
+      "hierarchical_id": "6.2.2.1",
+      "nome": "TEMPO_IDENTIDADE",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_2_B",
+      "legacy_id": "M6.2.2-B",
+      "path": "E2.M3.2.2-B",
+      "hierarchical_id": "6.2.2.2",
+      "nome": "NARRATIVA_VIDA",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_2_C",
+      "legacy_id": "M6.2.2-C",
+      "path": "E2.M3.2.2-C",
+      "hierarchical_id": "6.2.2.3",
+      "nome": "SENTIDO_TEMPORAL",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_3_A",
+      "legacy_id": "M6.2.3-A",
+      "path": "E2.M3.2.3-A",
+      "hierarchical_id": "6.2.3.1",
+      "nome": "EXPERIÊNCIA_NARRATIVA",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_3_B",
+      "legacy_id": "M6.2.3-B",
+      "path": "E2.M3.2.3-B",
+      "hierarchical_id": "6.2.3.2",
+      "nome": "CONTINUIDADE_EXPERIÊNCIA",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NARRATIVA_3_C",
+      "legacy_id": "M6.2.3-C",
+      "path": "E2.M3.2.3-C",
+      "hierarchical_id": "6.2.3.3",
+      "nome": "NARRATIVA_ATIVA",
+      "dominio": "NARRATIVA",
+      "pilar": "MYTHOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "6.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_1_A",
+      "legacy_id": "R1.2.1-A",
+      "path": "S1.L1.2.1-A",
+      "hierarchical_id": "1.2.1.1",
+      "nome": "CODIFICAÇÃO_NORMA",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.1",
+      "num_relacoes": 13
+    },
+    {
+      "uid": "N4_NOMOS_1_B",
+      "legacy_id": "R1.2.1-B",
+      "path": "S1.L1.2.1-B",
+      "hierarchical_id": "1.2.1.2",
+      "nome": "VERIFICAÇÃO_CONFORMIDADE",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_1_C",
+      "legacy_id": "R1.2.1-C",
+      "path": "S1.L1.2.1-C",
+      "hierarchical_id": "1.2.1.3",
+      "nome": "HIERARQUIA_LEIS",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "estrutura",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_2_A",
+      "legacy_id": "R1.2.2-A",
+      "path": "S1.L1.2.2-A",
+      "hierarchical_id": "1.2.2.1",
+      "nome": "DEFINIÇÃO_FRONTEIRA",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_2_B",
+      "legacy_id": "R1.2.2-B",
+      "path": "S1.L1.2.2-B",
+      "hierarchical_id": "1.2.2.2",
+      "nome": "GESTÃO_CONTORNO",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_2_C",
+      "legacy_id": "R1.2.2-C",
+      "path": "S1.L1.2.2-C",
+      "hierarchical_id": "1.2.2.3",
+      "nome": "EXPANSÃO_CONTORNO",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_3_A",
+      "legacy_id": "R1.2.3-A",
+      "path": "S1.L1.2.3-A",
+      "hierarchical_id": "1.2.3.1",
+      "nome": "ESTABELECIMENTO_PACTO",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_3_B",
+      "legacy_id": "R1.2.3-B",
+      "path": "S1.L1.2.3-B",
+      "hierarchical_id": "1.2.3.2",
+      "nome": "CUMPRIMENTO_PACTO",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_NOMOS_3_C",
+      "legacy_id": "R1.2.3-C",
+      "path": "S1.L1.2.3-C",
+      "hierarchical_id": "1.2.3.3",
+      "nome": "RESOLUÇÃO_VIOLAÇÃO",
+      "dominio": "NOMOS",
+      "pilar": "LOGOS",
+      "natureza": "restricao",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "1.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_OIKOS_1_A",
+      "legacy_id": "B2.1.1-A",
+      "path": "S1.B2.1.1-A",
+      "hierarchical_id": "2.1.1.1",
+      "nome": "PROTEÇÃO_FÍSICA",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_1_B",
+      "legacy_id": "B2.1.1-B",
+      "path": "S1.B2.1.1-B",
+      "hierarchical_id": "2.1.1.2",
+      "nome": "RECURSOS_ESSENCIAIS",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "vetor",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_1_C",
+      "legacy_id": "B2.1.1-C",
+      "path": "S1.B2.1.1-C",
+      "hierarchical_id": "2.1.1.3",
+      "nome": "SANEAMENTO",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.1",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_2_A",
+      "legacy_id": "B2.1.2-A",
+      "path": "S1.B2.1.2-A",
+      "hierarchical_id": "2.1.2.1",
+      "nome": "REIVINDICAÇÃO_ESPACIAL",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_2_B",
+      "legacy_id": "B2.1.2-B",
+      "path": "S1.B2.1.2-B",
+      "hierarchical_id": "2.1.2.2",
+      "nome": "DEFESA_TERRITORIAL",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_2_C",
+      "legacy_id": "B2.1.2-C",
+      "path": "S1.B2.1.2-C",
+      "hierarchical_id": "2.1.2.3",
+      "nome": "GESTÃO_RECURSOS_TERRITORIAIS",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.2",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_3_A",
+      "legacy_id": "B2.1.3-A",
+      "path": "S1.B2.1.3-A",
+      "hierarchical_id": "2.1.3.1",
+      "nome": "ARMAZENAMENTO_RECURSOS",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "principio",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_3_B",
+      "legacy_id": "B2.1.3-B",
+      "path": "S1.B2.1.3-B",
+      "hierarchical_id": "2.1.3.2",
+      "nome": "ROTAÇÃO_ESTOQUE",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_OIKOS_3_C",
+      "legacy_id": "B2.1.3-C",
+      "path": "S1.B2.1.3-C",
+      "hierarchical_id": "2.1.3.3",
+      "nome": "DISTRIBUIÇÃO_RECURSOS",
+      "dominio": "OIKOS",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.1.3",
+      "num_relacoes": 2
+    },
+    {
+      "uid": "N4_SINGULARIDADE_1_A",
+      "legacy_id": "K4.2.1-A",
+      "path": "E2.K1.2.1-A",
+      "hierarchical_id": "4.2.1.1",
+      "nome": "PONTO_EXCEPCIONAL",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.1",
+      "num_relacoes": 13
+    },
+    {
+      "uid": "N4_SINGULARIDADE_1_B",
+      "legacy_id": "K4.2.1-B",
+      "path": "E2.K1.2.1-B",
+      "hierarchical_id": "4.2.1.2",
+      "nome": "LEI_SUPERIOR",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_1_C",
+      "legacy_id": "K4.2.1-C",
+      "path": "E2.K1.2.1-C",
+      "hierarchical_id": "4.2.1.3",
+      "nome": "TRANSFORMAÇÃO_EXCEPCIONAL",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_2_A",
+      "legacy_id": "K4.2.2-A",
+      "path": "E2.K1.2.2-A",
+      "hierarchical_id": "4.2.2.1",
+      "nome": "HORIZONTE_INATINGÍVEL",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "restricao",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_2_B",
+      "legacy_id": "K4.2.2-B",
+      "path": "E2.K1.2.2-B",
+      "hierarchical_id": "4.2.2.2",
+      "nome": "POTENCIAL_INFINITO",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_2_C",
+      "legacy_id": "K4.2.2-C",
+      "path": "E2.K1.2.2-C",
+      "hierarchical_id": "4.2.2.3",
+      "nome": "EXPANSÃO_CONTÍNUA",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.2",
+      "num_relacoes": 13
+    },
+    {
+      "uid": "N4_SINGULARIDADE_3_A",
+      "legacy_id": "K4.2.3-A",
+      "path": "E2.K1.2.3-A",
+      "hierarchical_id": "4.2.3.1",
+      "nome": "MORTE_E_RENASCIMENTO",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "dinamica",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_3_B",
+      "legacy_id": "K4.2.3-B",
+      "path": "E2.K1.2.3-B",
+      "hierarchical_id": "4.2.3.2",
+      "nome": "MUDANÇA_RADICAL",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINGULARIDADE_3_C",
+      "legacy_id": "K4.2.3-C",
+      "path": "E2.K1.2.3-C",
+      "hierarchical_id": "4.2.3.3",
+      "nome": "NOVA_ORDEM",
+      "dominio": "SINGULARIDADE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SINTESE_1_A",
+      "legacy_id": "K4.3.1-A",
+      "path": "E2.K1.3.1-A",
+      "hierarchical_id": "4.3.1.1",
+      "nome": "UNIÃO_ELEMENTOS",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_1_B",
+      "legacy_id": "K4.3.1-B",
+      "path": "E2.K1.3.1-B",
+      "hierarchical_id": "4.3.1.2",
+      "nome": "SÍNTESE_CRIATIVA",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_1_C",
+      "legacy_id": "K4.3.1-C",
+      "path": "E2.K1.3.1-C",
+      "hierarchical_id": "4.3.1.3",
+      "nome": "TRANSCENDÊNCIA",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_2_A",
+      "legacy_id": "K4.3.2-A",
+      "path": "E2.K1.3.2-A",
+      "hierarchical_id": "4.3.2.1",
+      "nome": "MISTURA_PRESERVAÇÃO",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_2_B",
+      "legacy_id": "K4.3.2-B",
+      "path": "E2.K1.3.2-B",
+      "hierarchical_id": "4.3.2.2",
+      "nome": "PONTE_TEMPORAL",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_2_C",
+      "legacy_id": "K4.3.2-C",
+      "path": "E2.K1.3.2-C",
+      "hierarchical_id": "4.3.2.3",
+      "nome": "IDENTIDADE_HÍBRIDA",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_3_A",
+      "legacy_id": "K4.3.3-A",
+      "path": "E2.K1.3.3-A",
+      "hierarchical_id": "4.3.3.1",
+      "nome": "SUPERAÇÃO",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_3_B",
+      "legacy_id": "K4.3.3-B",
+      "path": "E2.K1.3.3-B",
+      "hierarchical_id": "4.3.3.2",
+      "nome": "INCLUSÃO",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SINTESE_3_C",
+      "legacy_id": "K4.3.3-C",
+      "path": "E2.K1.3.3-C",
+      "hierarchical_id": "4.3.3.3",
+      "nome": "NÍVEL_NOVO",
+      "dominio": "SÍNTESE",
+      "pilar": "KHAOS",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "4.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_SOMA_1_A",
+      "legacy_id": "B2.2.1-A",
+      "path": "S1.B2.2.1-A",
+      "hierarchical_id": "2.2.1.1",
+      "nome": "MANUTENÇÃO_ESTRUTURAL",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_1_B",
+      "legacy_id": "B2.2.1-B",
+      "path": "S1.B2.2.1-B",
+      "hierarchical_id": "2.2.1.2",
+      "nome": "AVALIAÇÃO_CONDIÇÃO",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "processo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_1_C",
+      "legacy_id": "B2.2.1-C",
+      "path": "S1.B2.2.1-C",
+      "hierarchical_id": "2.2.1.3",
+      "nome": "ATUALIZAÇÃO_SISTEMA",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_2_A",
+      "legacy_id": "B2.2.2-A",
+      "path": "S1.B2.2.2-A",
+      "hierarchical_id": "2.2.2.1",
+      "nome": "ENERGIA_VITAL",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "vetor",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_2_B",
+      "legacy_id": "B2.2.2-B",
+      "path": "S1.B2.2.2-B",
+      "hierarchical_id": "2.2.2.2",
+      "nome": "AUTORREPARAÇÃO",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_2_C",
+      "legacy_id": "B2.2.2-C",
+      "path": "S1.B2.2.2-C",
+      "hierarchical_id": "2.2.2.3",
+      "nome": "RESILIÊNCIA",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_3_A",
+      "legacy_id": "B2.2.3-A",
+      "path": "S1.B2.2.3-A",
+      "hierarchical_id": "2.2.3.1",
+      "nome": "REGULAÇÃO_INTERNA",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.3",
+      "num_relacoes": 13
+    },
+    {
+      "uid": "N4_SOMA_3_B",
+      "legacy_id": "B2.2.3-B",
+      "path": "S1.B2.2.3-B",
+      "hierarchical_id": "2.2.3.2",
+      "nome": "FEEDBACK_NEGATIVO",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "mecanismo",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_SOMA_3_C",
+      "legacy_id": "B2.2.3-C",
+      "path": "S1.B2.2.3-C",
+      "hierarchical_id": "2.2.3.3",
+      "nome": "ADAPTAÇÃO_CICLICA",
+      "dominio": "SOMA",
+      "pilar": "BIOS",
+      "natureza": "estado",
+      "axis": "SINTRÓPICO",
+      "n3_ref": "2.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VACUO_1_A",
+      "legacy_id": "A5.3.1-A",
+      "path": "E2.A2.3.1-A",
+      "hierarchical_id": "5.3.1.1",
+      "nome": "CAPACIDADE_LATENTE",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_1_B",
+      "legacy_id": "A5.3.1-B",
+      "path": "E2.A2.3.1-B",
+      "hierarchical_id": "5.3.1.2",
+      "nome": "AVESSO_MANIFESTO",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_1_C",
+      "legacy_id": "A5.3.1-C",
+      "path": "E2.A2.3.1-C",
+      "hierarchical_id": "5.3.1.3",
+      "nome": "CAMPO_POTENCIAL",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.1",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_2_A",
+      "legacy_id": "A5.3.2-A",
+      "path": "E2.A2.3.2-A",
+      "hierarchical_id": "5.3.2.1",
+      "nome": "AUSÊNCIA_MANIFESTAÇÃO",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "estado",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_2_B",
+      "legacy_id": "A5.3.2-B",
+      "path": "E2.A2.3.2-B",
+      "hierarchical_id": "5.3.2.2",
+      "nome": "LINGUAGEM_NÃO_MANIFESTO",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "estado",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_2_C",
+      "legacy_id": "A5.3.2-C",
+      "path": "E2.A2.3.2-C",
+      "hierarchical_id": "5.3.2.3",
+      "nome": "PRESENÇA_ausência",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "estado",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.2",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_3_A",
+      "legacy_id": "A5.3.3-A",
+      "path": "E2.A2.3.3-A",
+      "hierarchical_id": "5.3.3.1",
+      "nome": "MATRIZ_POSSIBILIDADES",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_3_B",
+      "legacy_id": "A5.3.3-B",
+      "path": "E2.A2.3.3-B",
+      "hierarchical_id": "5.3.3.2",
+      "nome": "REPOUSO_POTENCIAL",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VACUO_3_C",
+      "legacy_id": "A5.3.3-C",
+      "path": "E2.A2.3.3-C",
+      "hierarchical_id": "5.3.3.3",
+      "nome": "UNIFICACAO_CAMPO",
+      "dominio": "VÁCUO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.3.3",
+      "num_relacoes": 22
+    },
+    {
+      "uid": "N4_VIBRATIO_1_A",
+      "legacy_id": "A5.2.1-A",
+      "path": "E2.A2.2.1-A",
+      "hierarchical_id": "5.2.1.1",
+      "nome": "CICLO_TEMPORAL",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_1_B",
+      "legacy_id": "A5.2.1-B",
+      "path": "E2.A2.2.1-B",
+      "hierarchical_id": "5.2.1.2",
+      "nome": "RESONÂNCIA_FREQUÊNCIA",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_1_C",
+      "legacy_id": "A5.2.1-C",
+      "path": "E2.A2.2.1-C",
+      "hierarchical_id": "5.2.1.3",
+      "nome": "IDENTIDADE_FREQUÊNCIA",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.1",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_2_A",
+      "legacy_id": "A5.2.2-A",
+      "path": "E2.A2.2.2-A",
+      "hierarchical_id": "5.2.2.1",
+      "nome": "AMPLIFICAÇÃO",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "principio",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_2_B",
+      "legacy_id": "A5.2.2-B",
+      "path": "E2.A2.2.2-B",
+      "hierarchical_id": "5.2.2.2",
+      "nome": "SINCRONIA",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_2_C",
+      "legacy_id": "A5.2.2-C",
+      "path": "E2.A2.2.2-C",
+      "hierarchical_id": "5.2.2.3",
+      "nome": "MULTIPLICAÇÃO",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "principio",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.2",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_3_A",
+      "legacy_id": "A5.2.3-A",
+      "path": "E2.A2.2.3-A",
+      "hierarchical_id": "5.2.3.1",
+      "nome": "PROPAGAÇÃO",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "processo",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_3_B",
+      "legacy_id": "A5.2.3-B",
+      "path": "E2.A2.2.3-B",
+      "hierarchical_id": "5.2.3.2",
+      "nome": "POTENCIAL_ATUAL",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.3",
+      "num_relacoes": 12
+    },
+    {
+      "uid": "N4_VIBRATIO_3_C",
+      "legacy_id": "A5.2.3-C",
+      "path": "E2.A2.2.3-C",
+      "hierarchical_id": "5.2.3.3",
+      "nome": "PADRÃO_ONDA",
+      "dominio": "VIBRATIO",
+      "pilar": "APEIRON",
+      "natureza": "fenomeno",
+      "axis": "ENTRÓPICO",
+      "n3_ref": "5.2.3",
+      "num_relacoes": 12
+    }
+  ]
+}

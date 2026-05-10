@@ -1,0 +1,167 @@
+{
+  "uid": "N4_NOMOS_1_B",
+  "legacy_id": "R1.2.1-B",
+  "path": "S1.L1.2.1-B",
+  "hierarchical_id": "1.2.1.2",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "NOMOS",
+  "n3_ref": "1.2.1",
+  "n3_name": "LEGISLAÇÃO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "VERIFICAÇÃO_CONFORMIDADE",
+  "nome_normalizado": "verificação conformidade",
+  "gatilho": "Avaliar conformidade com norma",
+  "acao": "Verificar todos os requisitos explicitamente",
+  "restricao": "Não aceitar conformidade parcial",
+  "verificacao": "100% dos requisitos atendidos",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "avaliar",
+    "validar",
+    "controlar",
+    "classificar",
+    "hierarquizar",
+    "otimizar",
+    "decompor"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.424,
+    "complexidade": 0.531,
+    "causalidade": 0.617,
+    "emocionalidade": 0.279,
+    "materialidade": 0.363,
+    "simbolismo": 0.299,
+    "dinamismo": 0.621,
+    "temporalidade": 0.61,
+    "ambiguidade": 0.298
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar verificação conformidade em um contexto de nomos, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de verificação conformidade antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "verificação conformidade é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "processo",
+    "sintrópico",
+    "n3_legislação",
+    "logos",
+    "nomos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NOMOS_1_A",
+      "peso": 0.6,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NOMOS_1_C",
+      "peso": 0.6,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_1_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_2_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALGORITMIA_3_C",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_NOMOS_1_B",
+      "peso": 0.7,
+      "source": "N4_ALGORITMIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.927775+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.927807+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:50.995022+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

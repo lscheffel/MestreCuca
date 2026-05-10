@@ -1,0 +1,69 @@
+# =============================================================================
+# CONFIGURAÇÃO DE AGENTES — .kilo/agents
+# =============================================================================
+
+agentes:
+  classificador:
+    nome: "OntoClassifier"
+    papel: "Classificação ontológica N0→N4"
+    modelo_base: "gpt-4o"
+    temperatura: 0.2
+    template: "prompts/classifier/template_classificacao.yaml"
+    max_tokens: 2048
+    timeout_segundos: 30
+    retry:
+      max_tentativas: 3
+      backoff_ms: 1000
+    rate_limit:
+      requests_por_minuto: 60
+      tokens_por_minuto: 100000
+
+  retriever:
+    nome: "OntoRetriever"
+    papel: "Retrieval híbrido ontológico"
+    modelo_base: "gpt-4o"
+    temperatura: 0.0
+    template: "prompts/retrieval/template_retrieval.yaml"
+    config_retrieval: "config/retrieval.yaml"
+    embedding_modelo: "all-MiniLM-L6-v2"
+    top_k_default: 20
+    timeout_segundos: 45
+    retry:
+      max_tentativas: 3
+      backoff_ms: 1000
+
+  sintetizador:
+    nome: "OntoSynthesizer"
+    papel: "Síntese de múltiplas fontes ontológicas"
+    modelo_base: "gpt-4o"
+    temperatura: 0.4
+    template: "prompts/synthesis/template_sintese.yaml"
+    max_tokens: 4096
+    timeout_segundos: 60
+    retry:
+      max_tentativas: 3
+      backoff_ms: 1000
+
+  validador:
+    nome: "OntoValidator"
+    papel: "Validação de consistência ontológica"
+    modelo_base: "gpt-4o"
+    temperatura: 0.0
+    template: "prompts/validation/template_validacao.yaml"
+    max_tokens: 2048
+    timeout_segundos: 30
+    retry:
+      max_tentativas: 3
+      backoff_ms: 1000
+
+  roteador:
+    nome: "OntoRouter"
+    papel: "Roteamento inteligente de pipelines"
+    modelo_base: "gpt-4o-mini"
+    temperatura: 0.3
+    template: "prompts/routing/template_routing.yaml"
+    max_tokens: 1024
+    timeout_segundos: 15
+    retry:
+      max_tentativas: 3
+      backoff_ms: 500

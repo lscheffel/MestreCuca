@@ -1,0 +1,108 @@
+{
+  "uid": "N4_ALGORITMIA_3_C",
+  "legacy_id": "R1.1.3-C",
+  "path": "S1.L1.1.3-C",
+  "hierarchical_id": "1.1.3.3",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "ALGORITMIA",
+  "n3_ref": "1.1.3",
+  "n3_name": "VALIDAÇÃO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 3,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "CORREÇÃO_PARCIAL",
+  "nome_normalizado": "correção parcial",
+  "gatilho": "Solução parcial para problema maior",
+  "acao": "Validar subproblemas independentemente",
+  "restricao": "Não compor soluções incorretas",
+  "verificacao": "Correção de cada subproblema verificada",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "decompor",
+    "validar",
+    "controlar",
+    "otimizar",
+    "classificar",
+    "avaliar",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.446,
+    "complexidade": 0.582,
+    "causalidade": 0.551,
+    "emocionalidade": 0.278,
+    "materialidade": 0.347,
+    "simbolismo": 0.278,
+    "dinamismo": 0.633,
+    "temporalidade": 0.6,
+    "ambiguidade": 0.248
+  },
+  "opostos": [
+    "N4_ALGORITMIA_3_B",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar correção parcial em um contexto de algoritmia, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de correção parcial antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "correção parcial é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "logos",
+    "algoritmia",
+    "processo",
+    "n3_validação"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_3_A",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_3_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_3_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.919774+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.919807+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.405418+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

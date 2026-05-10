@@ -1,0 +1,107 @@
+{
+  "uid": "N4_OIKOS_1_C",
+  "legacy_id": "B2.1.1-C",
+  "path": "S1.B2.1.1-C",
+  "hierarchical_id": "2.1.1.3",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "OIKOS",
+  "n3_ref": "2.1.1",
+  "n3_name": "MORADA",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 1,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "SANEAMENTO",
+  "nome_normalizado": "saneamento",
+  "gatilho": "Ambiente com risco de contaminação",
+  "acao": "Implementar limpeza e descarte adequado",
+  "restricao": "Solução deve ser sustentável",
+  "verificacao": "Níveis de higiene dentro de padrões seguros",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "adaptar",
+    "equilibrar",
+    "filtrar",
+    "modularizar",
+    "avaliar",
+    "validar",
+    "regenerar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.358,
+    "complexidade": 0.533,
+    "causalidade": 0.482,
+    "emocionalidade": 0.309,
+    "materialidade": 0.444,
+    "simbolismo": 0.299,
+    "dinamismo": 0.609,
+    "temporalidade": 0.593,
+    "ambiguidade": 0.299
+  },
+  "opostos": [
+    "N4_OIKOS_1_A",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar saneamento em um contexto de oikos, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de saneamento antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "saneamento é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_morada",
+    "sintrópico",
+    "oikos",
+    "bios",
+    "processo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.6,
+      "source": "N4_OIKOS_1_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.6,
+      "source": "N4_OIKOS_1_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.096649+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.096681+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:51.746485+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

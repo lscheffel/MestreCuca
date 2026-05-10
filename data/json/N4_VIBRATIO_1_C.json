@@ -1,0 +1,167 @@
+{
+  "uid": "N4_VIBRATIO_1_C",
+  "legacy_id": "A5.2.1-C",
+  "path": "E2.A2.2.1-C",
+  "hierarchical_id": "5.2.1.3",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "VIBRATIO",
+  "n3_ref": "5.2.1",
+  "n3_name": "FREQUENCIA",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 1,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "IDENTIDADE_FREQUÊNCIA",
+  "nome_normalizado": "identidade frequência",
+  "gatilho": "Frequência como assinatura",
+  "acao": "Reconhecer padrão único",
+  "restricao": "Não confundir com ruído",
+  "verificacao": "Identidade estabelecida",
+  "funcao_cognitiva": [
+    "comparar",
+    "generalizar",
+    "sintetizar",
+    "avaliar",
+    "abstrair",
+    "escalar",
+    "mapear",
+    "prever"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.677,
+    "complexidade": 0.579,
+    "causalidade": 0.431,
+    "emocionalidade": 0.52,
+    "materialidade": 0.316,
+    "simbolismo": 0.623,
+    "dinamismo": 0.494,
+    "temporalidade": 0.447,
+    "ambiguidade": 0.546
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de identidade frequência emergindo em sistemas de vibratio"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno identidade frequência sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "identidade frequência é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "n3_frequencia",
+    "entrópico",
+    "fenomeno",
+    "vibratio"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_1_A",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_1_B",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_1_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_VIBRATIO_1_C",
+      "peso": 0.7,
+      "source": "N4_ESCALA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.587778+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.587806+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:56.007687+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

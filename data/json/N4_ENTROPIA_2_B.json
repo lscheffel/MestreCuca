@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ENTROPIA_2_B",
+  "legacy_id": "K4.1.2-B",
+  "path": "E2.K1.1.2-B",
+  "hierarchical_id": "4.1.2.2",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "ENTROPIA",
+  "n3_ref": "4.1.2",
+  "n3_name": "DISSIPAÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "ENTROPIA_AUMENTADA",
+  "nome_normalizado": "entropia aumentada",
+  "gatilho": "Desordem aumentando naturalmente",
+  "acao": "Permitir processo espontâneo",
+  "restricao": "Não forçar ordem artificial",
+  "verificacao": "Desordem dentro dos limites naturais",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "dissolver",
+    "equilibrar",
+    "transformar",
+    "comparar",
+    "avaliar",
+    "filtrar",
+    "adaptar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.707,
+    "complexidade": 0.602,
+    "causalidade": 0.496,
+    "emocionalidade": 0.542,
+    "materialidade": 0.341,
+    "simbolismo": 0.632,
+    "dinamismo": 0.628,
+    "temporalidade": 0.445,
+    "ambiguidade": 0.65
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de entropia aumentada emergindo em sistemas de entropia"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno entropia aumentada sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "entropia aumentada é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "khaos",
+    "entropia",
+    "fenomeno",
+    "n3_dissipação"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.6,
+      "source": "N4_ENTROPIA_2_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.437403+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.437432+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.822514+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

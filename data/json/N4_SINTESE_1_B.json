@@ -1,0 +1,227 @@
+{
+  "uid": "N4_SINTESE_1_B",
+  "legacy_id": "K4.3.1-B",
+  "path": "E2.K1.3.1-B",
+  "hierarchical_id": "4.3.1.2",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SÍNTESE",
+  "n3_ref": "4.3.1",
+  "n3_name": "FUSÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "SÍNTESE_CRIATIVA",
+  "nome_normalizado": "síntese criativa",
+  "gatilho": "Criar algo inédito",
+  "acao": "Transcender os originais",
+  "restricao": "Não ser mera soma",
+  "verificacao": "Nova propriedade emergente",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "avaliar",
+    "adaptar",
+    "descompor",
+    "dissolver",
+    "emergir",
+    "equilibrar",
+    "prever"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.399,
+    "complexidade": 0.592,
+    "causalidade": 0.469,
+    "emocionalidade": 0.346,
+    "materialidade": 0.285,
+    "simbolismo": 0.343,
+    "dinamismo": 0.642,
+    "temporalidade": 0.554,
+    "ambiguidade": 0.383
+  },
+  "opostos": [
+    "N4_MECANICA_1_A",
+    "N4_MECANICA_2_A",
+    "N4_ALGORITMIA_1_A"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar síntese criativa em um contexto de síntese, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de síntese criativa antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "síntese criativa é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_fusão",
+    "entrópico",
+    "khaos",
+    "síntese",
+    "processo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINTESE_1_A",
+      "peso": 0.6,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINTESE_1_C",
+      "peso": 0.6,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_1_A",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_1_B",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_1_C",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_2_A",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_2_B",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_2_C",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_3_A",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_3_B",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SINGULARIDADE_3_C",
+      "peso": 0.7,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.5,
+      "source": "N4_SINTESE_1_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINTESE_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_SINTESE_1_B",
+      "peso": 0.5,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.496871+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.496899+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:53.207818+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

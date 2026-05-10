@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_2_A",
+  "legacy_id": "A5.1.2-A",
+  "path": "E2.A2.1.2-A",
+  "hierarchical_id": "5.1.2.1",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.2",
+  "n3_name": "MAGNITUDE",
+  "axis": "ENTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "TAMANHO_NATUREZA",
+  "nome_normalizado": "tamanho natureza",
+  "gatilho": "Magnitude alterando propriedades",
+  "acao": "Reconhecer efeitos escalares",
+  "restricao": "Não ignorar mudanças qualitativas",
+  "verificacao": "Natureza da lei compreendida",
+  "funcao_cognitiva": [
+    "escalar",
+    "generalizar",
+    "mapear",
+    "transformar",
+    "abstrair",
+    "prever",
+    "avaliar",
+    "decompor"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.681,
+    "complexidade": 0.564,
+    "causalidade": 0.448,
+    "emocionalidade": 0.298,
+    "materialidade": 0.289,
+    "simbolismo": 0.443,
+    "dinamismo": 0.627,
+    "temporalidade": 0.578,
+    "ambiguidade": 0.396
+  },
+  "opostos": [
+    "N4_ESCALA_2_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar tamanho natureza como indicador direcional em escala"
+    },
+    {
+      "texto": "Medir magnitude e direção do tamanho natureza no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "tamanho natureza é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "vetor",
+    "escala",
+    "n3_magnitude"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.6,
+      "source": "N4_ESCALA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.6,
+      "source": "N4_ESCALA_2_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.546411+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.546608+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.913800+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

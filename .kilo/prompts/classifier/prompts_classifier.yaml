@@ -1,0 +1,24 @@
+# Configuração de Prompts — Classificador
+prompts:
+  classificacao_primaria:
+    template: "prompts/classifier/template_classificacao.yaml"
+    parametros:
+      temperatura: 0.2
+      max_tokens: 2048
+      top_p: 0.95
+    cache: true
+    ttl: 3600
+
+  classificacao_secundaria:
+    template: "prompts/classifier/template_classificacao.yaml"
+    parametros:
+      temperatura: 0.5
+      max_tokens: 1024
+      top_p: 0.90
+    cache: false
+
+  validacao_cruzada:
+    template: "prompts/validation/template_validacao.yaml"
+    parametros:
+      temperatura: 0.0
+      max_tokens: 1024

@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_1_B",
+  "legacy_id": "A5.1.1-B",
+  "path": "E2.A2.1.1-B",
+  "hierarchical_id": "5.1.1.2",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.1",
+  "n3_name": "PROPORÇÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 1,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "PROPORÇÃO_AUREA",
+  "nome_normalizado": "proporção aurea",
+  "gatilho": "Divisão harmônica necessária",
+  "acao": "Aplicar razão áurea",
+  "restricao": "Não forçar funcionalidade",
+  "verificacao": "Equilíbrio percebido",
+  "funcao_cognitiva": [
+    "escalar",
+    "mapear",
+    "abstrair",
+    "generalizar",
+    "prever",
+    "avaliar",
+    "sintetizar",
+    "transcender"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.645,
+    "complexidade": 0.559,
+    "causalidade": 0.511,
+    "emocionalidade": 0.294,
+    "materialidade": 0.327,
+    "simbolismo": 0.424,
+    "dinamismo": 0.634,
+    "temporalidade": 0.561,
+    "ambiguidade": 0.401
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar proporção aurea como indicador direcional em escala"
+    },
+    {
+      "texto": "Medir magnitude e direção do proporção aurea no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "proporção aurea é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "vetor",
+    "n3_proporção",
+    "escala"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.6,
+      "source": "N4_ESCALA_1_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.6,
+      "source": "N4_ESCALA_1_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.536383+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.536420+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.891859+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "uid": "N4_NARRATIVA_3_B",
+  "legacy_id": "M6.2.3-B",
+  "path": "E2.M3.2.3-B",
+  "hierarchical_id": "6.2.3.2",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "NARRATIVA",
+  "n3_ref": "6.2.3",
+  "n3_name": "HISTÓRIA_VIVIDA",
+  "axis": "ENTRÓPICO",
+  "natureza": "dinamica",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "CONTINUIDADE_EXPERIÊNCIA",
+  "nome_normalizado": "continuidade experiência",
+  "gatilho": "Experiência como fluxo contínuo",
+  "acao": "Respeitar continuidade",
+  "restricao": "Não fragmentar experiência",
+  "verificacao": "Continuidade reconhecida",
+  "funcao_cognitiva": [
+    "narrar",
+    "classificar",
+    "interpretar",
+    "sintetizar",
+    "arquetipar",
+    "inferir",
+    "simbolizar",
+    "transformar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.457,
+    "complexidade": 0.621,
+    "causalidade": 0.456,
+    "emocionalidade": 0.473,
+    "materialidade": 0.407,
+    "simbolismo": 0.494,
+    "dinamismo": 0.698,
+    "temporalidade": 0.687,
+    "ambiguidade": 0.411
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar continuidade experiência ao longo do tempo em sistemas de narrativa"
+    },
+    {
+      "texto": "Identificar pontos de inflexão no ciclo de continuidade experiência"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "continuidade experiência é como as estações do ano: ciclos de mudança que se repetem com variações",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a metamorfose: transformação que não permite retorno ao estado anterior",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "mythos",
+    "n3_história_vivida",
+    "dinamica",
+    "narrativa"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NARRATIVA_3_A",
+      "peso": 0.6,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NARRATIVA_3_C",
+      "peso": 0.6,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_3_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_NARRATIVA_3_B",
+      "peso": 0.7,
+      "source": "N4_ARQUETIPO_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.776985+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.777013+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:50.627957+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

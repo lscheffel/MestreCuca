@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ALGORITMIA_3_A",
+  "legacy_id": "R1.1.3-A",
+  "path": "S1.L1.1.3-A",
+  "hierarchical_id": "1.1.3.1",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "ALGORITMIA",
+  "n3_ref": "1.1.3",
+  "n3_name": "VALIDAÇÃO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "VERIFICAÇÃO_LÓGICA",
+  "nome_normalizado": "verificação lógica",
+  "gatilho": "Correção do algoritmo em questão",
+  "acao": "Aplicar provas de correção e invariáveis",
+  "restricao": "Não aceitar testes empíricos como prova",
+  "verificacao": "Todas as precondições e pós-condições satisfeitas",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "validar",
+    "controlar",
+    "otimizar",
+    "classificar",
+    "decompor",
+    "avaliar",
+    "hierarquizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.411,
+    "complexidade": 0.572,
+    "causalidade": 0.583,
+    "emocionalidade": 0.28,
+    "materialidade": 0.327,
+    "simbolismo": 0.296,
+    "dinamismo": 0.637,
+    "temporalidade": 0.608,
+    "ambiguidade": 0.277
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar verificação lógica em um contexto de algoritmia, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de verificação lógica antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "verificação lógica é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "logos",
+    "algoritmia",
+    "processo",
+    "n3_validação"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALGORITMIA_3_C",
+      "peso": 0.6,
+      "source": "N4_ALGORITMIA_3_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:19.911523+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:19.911552+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.383149+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

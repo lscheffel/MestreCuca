@@ -1,0 +1,22 @@
+[1/8] Total de JSONs N4: 162
+[2/8] UIDs únicos: 162/162 | Duplicados: 0
+[3/8] Naturezas (10): {'processo': 47, 'fenomeno': 43, 'dinamica': 18, 'estado': 16, 'restricao': 13, 'vetor': 10, 'arquétipo': 8, 'principio': 3, 'mecanismo': 2, 'estrutura': 2}
+[4/8] Pilares (6): {'LOGOS': 27, 'PATHOS': 27, 'MYTHOS': 27, 'KHAOS': 27, 'APEIRON': 27, 'BIOS': 27}
+[5/8] Domínios (18): {'ALGORITMIA': 9, 'ALTERIDADE': 9, 'ARQUÉTIPO': 9, 'ENTROPIA': 9, 'ESCALA': 9, 'ESTÉTICA': 9, 'ETHOS': 9, 'MECÂNICA': 9, 'METABOLISMO': 9, 'MISTÉRIO': 9, 'NARRATIVA': 9, 'NOMOS': 9, 'OIKOS': 9, 'SINGULARIDADE': 9, 'SÍNTESE': 9, 'SOMA': 9, 'VÁCUO': 9, 'VIBRATIO': 9}
+[6/8] Campos obrigatórios (26): OK - todos presentes
+[7/8] Total de relações tipadas: 1948
+
+[8/8] Amostras por pilar:
+  LOGOS: N4_ALGORITMIA_1_A | DECOMPOSIÇÃO_BINÁRIA | natureza=processo | relacoes=2
+  BIOS: N4_METABOLISMO_1_A | SÍNTESE_MATERIAL | natureza=processo | relacoes=22
+  PATHOS: N4_ALTERIDADE_1_A | VALIDAÇÃO_EXISTÊNCIA | natureza=processo | relacoes=12
+  KHAOS: N4_ENTROPIA_1_A | ENTROPIA_SISTEMA | natureza=fenomeno | relacoes=2
+  APEIRON: N4_ESCALA_1_A | ESCALAMENTO | natureza=fenomeno | relacoes=2
+  MYTHOS: N4_ARQUETIPO_1_A | RECONHECIMENTO_ARQUETÍPICO | natureza=arquétipo | relacoes=2
+
+--- VERIFICAÇÃO DE MAPPING ---
+UIDs com path: 162
+Consistência de IDs: OK
+
+==================================================
+✅ TODOS OS CRITÉRIOS ATENDIDOS - FASE 1 COMPLETA

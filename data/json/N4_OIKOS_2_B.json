@@ -1,0 +1,107 @@
+{
+  "uid": "N4_OIKOS_2_B",
+  "legacy_id": "B2.1.2-B",
+  "path": "S1.B2.1.2-B",
+  "hierarchical_id": "2.1.2.2",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "OIKOS",
+  "n3_ref": "2.1.2",
+  "n3_name": "TERRITORIO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 2,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "DEFESA_TERRITORIAL",
+  "nome_normalizado": "defesa territorial",
+  "gatilho": "Proteger espaço contra intrusão",
+  "acao": "Implementar sistemas de vigilância",
+  "restricao": "Não usar força excessiva",
+  "verificacao": "Território mantido sob controle",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "adaptar",
+    "equilibrar",
+    "filtrar",
+    "modularizar",
+    "avaliar",
+    "validar",
+    "regenerar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.309,
+    "complexidade": 0.473,
+    "causalidade": 0.48,
+    "emocionalidade": 0.348,
+    "materialidade": 0.415,
+    "simbolismo": 0.258,
+    "dinamismo": 0.625,
+    "temporalidade": 0.589,
+    "ambiguidade": 0.323
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar defesa territorial em um contexto de oikos, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de defesa territorial antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "defesa territorial é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "oikos",
+    "bios",
+    "n3_territorio",
+    "processo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.6,
+      "source": "N4_OIKOS_2_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.6,
+      "source": "N4_OIKOS_2_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.108029+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.108061+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:51.873904+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

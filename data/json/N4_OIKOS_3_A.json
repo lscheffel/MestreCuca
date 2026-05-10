@@ -1,0 +1,107 @@
+{
+  "uid": "N4_OIKOS_3_A",
+  "legacy_id": "B2.1.3-A",
+  "path": "S1.B2.1.3-A",
+  "hierarchical_id": "2.1.3.1",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "OIKOS",
+  "n3_ref": "2.1.3",
+  "n3_name": "PROVISAO",
+  "axis": "SINTRÓPICO",
+  "natureza": "principio",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "ARMAZENAMENTO_RECURSOS",
+  "nome_normalizado": "armazenamento recursos",
+  "gatilho": "Necessidade de reserva de materiais",
+  "acao": "Estocar provisões para período crítico",
+  "restricao": "Não acumular além da capacidade",
+  "verificacao": "Recursos armazenados de forma segura",
+  "funcao_cognitiva": [
+    "filtrar",
+    "adaptar",
+    "equilibrar",
+    "modularizar",
+    "validar",
+    "regenerar",
+    "sintetizar",
+    "transformar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.626,
+    "complexidade": 0.459,
+    "causalidade": 0.607,
+    "emocionalidade": 0.37,
+    "materialidade": 0.399,
+    "simbolismo": 0.476,
+    "dinamismo": 0.391,
+    "temporalidade": 0.419,
+    "ambiguidade": 0.386
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Aplicar armazenamento recursos como critério de decisão em oikos"
+    },
+    {
+      "texto": "Validar se armazenamento recursos se mantém em cenários extremos"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "armazenamento recursos é como a gravidade: sempre presente, nem sempre perceptível",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a conservação de energia: transforma mas não desaparece",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "principio",
+    "oikos",
+    "bios",
+    "n3_provisao"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.6,
+      "source": "N4_OIKOS_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.6,
+      "source": "N4_OIKOS_3_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.120106+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.120139+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:52.030330+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

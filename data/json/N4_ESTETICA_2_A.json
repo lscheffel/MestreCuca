@@ -1,0 +1,227 @@
+{
+  "uid": "N4_ESTETICA_2_A",
+  "legacy_id": "P3.3.2-A",
+  "path": "S1.P3.3.2-A",
+  "hierarchical_id": "3.3.2.1",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ESTÉTICA",
+  "n3_ref": "3.3.2",
+  "n3_name": "EXPRESSAO",
+  "axis": "SINTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "FORMA_CORPO",
+  "nome_normalizado": "forma corpo",
+  "gatilho": "Dar forma ao sentido",
+  "acao": "Materializar conteúdo",
+  "restricao": "Não deformar essência",
+  "verificacao": "Forma expressa conteúdo fielmente",
+  "funcao_cognitiva": [
+    "comparar",
+    "avaliar",
+    "interpretar",
+    "classificar",
+    "inferir",
+    "equilibrar",
+    "mapear",
+    "validar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.658,
+    "complexidade": 0.554,
+    "causalidade": 0.472,
+    "emocionalidade": 0.671,
+    "materialidade": 0.355,
+    "simbolismo": 0.673,
+    "dinamismo": 0.523,
+    "temporalidade": 0.449,
+    "ambiguidade": 0.67
+  },
+  "opostos": [
+    "N4_ESTETICA_2_C",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de forma corpo emergindo em sistemas de estética"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno forma corpo sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "forma corpo é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_expressao",
+    "sintrópico",
+    "fenomeno",
+    "estética",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESTETICA_2_B",
+      "peso": 0.6,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESTETICA_2_C",
+      "peso": 0.6,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_1_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_2_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_A",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_B",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ALTERIDADE_3_C",
+      "peso": 0.7,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ETHOS_3_C",
+      "peso": 0.5,
+      "source": "N4_ESTETICA_2_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_ESTETICA_2_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_ESTETICA_2_A",
+      "peso": 0.5,
+      "source": "N4_ETHOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.396044+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.396074+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:46.210007+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

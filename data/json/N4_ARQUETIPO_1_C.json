@@ -1,0 +1,102 @@
+{
+  "uid": "N4_ARQUETIPO_1_C",
+  "legacy_id": "M6.1.1-C",
+  "path": "E2.M3.1.1-C",
+  "hierarchical_id": "6.1.1.3",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "ARQUÉTIPO",
+  "n3_ref": "6.1.1",
+  "n3_name": "PADRAO_PRIMORDIAL",
+  "axis": "ENTRÓPICO",
+  "natureza": "arquétipo",
+  "subtree_num": 1,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "SÍNTESE_OPOSTOS",
+  "nome_normalizado": "síntese opostos",
+  "gatilho": "Tensão entre arquétipos",
+  "acao": "Encontrar terceira via",
+  "restricao": "Não suprimir nenhum arquétipo",
+  "verificacao": "Síntese transcende oposição",
+  "funcao_cognitiva": [
+    "arquetipar",
+    "classificar",
+    "generalizar",
+    "interpretar",
+    "simbolizar",
+    "narrar",
+    "avaliar",
+    "comparar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.702,
+    "complexidade": 0.468,
+    "causalidade": 0.343,
+    "emocionalidade": 0.662,
+    "materialidade": 0.321,
+    "simbolismo": 0.725,
+    "dinamismo": 0.353,
+    "temporalidade": 0.469,
+    "ambiguidade": 0.584
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_MECANICA_1_A",
+    "N4_MECANICA_2_A"
+  ],
+  "exemplos": [
+    {
+      "texto": "Aplicar síntese opostos conforme contexto de arquétipo"
+    },
+    {
+      "texto": "Verificar adequação de síntese opostos para o domínio arquétipo"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "síntese opostos pode ser compreendido através de analogias com fenômenos naturais",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_padrao_primordial",
+    "arquétipo",
+    "entrópico",
+    "mythos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_1_A",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_1_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_1_B",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_1_C"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.709286+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.709316+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.682190+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

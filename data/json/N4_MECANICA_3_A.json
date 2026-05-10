@@ -1,0 +1,227 @@
+{
+  "uid": "N4_MECANICA_3_A",
+  "legacy_id": "R1.3.3-A",
+  "path": "S1.L1.3.3-A",
+  "hierarchical_id": "1.3.3.1",
+  "nivel": "N4",
+  "pilar": "LOGOS",
+  "dominio": "MECÂNICA",
+  "n3_ref": "1.3.3",
+  "n3_name": "TERMOTRANSDINÂMICA",
+  "axis": "SINTRÓPICO",
+  "natureza": "vetor",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "BALANÇO_ENERGIA",
+  "nome_normalizado": "balanço energia",
+  "gatilho": "Sistema trocando energia",
+  "acao": "Contabilizar entradas e saídas",
+  "restricao": "Não criar nem destruir energia",
+  "verificacao": "Energia total conservada",
+  "funcao_cognitiva": [
+    "decompor",
+    "avaliar",
+    "controlar",
+    "classificar",
+    "hierarquizar",
+    "otimizar",
+    "sequenciar",
+    "validar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.643,
+    "complexidade": 0.561,
+    "causalidade": 0.55,
+    "emocionalidade": 0.298,
+    "materialidade": 0.37,
+    "simbolismo": 0.346,
+    "dinamismo": 0.613,
+    "temporalidade": 0.581,
+    "ambiguidade": 0.378
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Analisar balanço energia como indicador direcional em mecânica"
+    },
+    {
+      "texto": "Medir magnitude e direção do balanço energia no sistema"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "balanço energia é como a bússola: indica direção mesmo sem ver o destino",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a correnteza de um rio: força invisível que molda o percurso",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "vetor",
+    "sintrópico",
+    "logos",
+    "n3_termotransdinâmica",
+    "mecânica"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MECANICA_3_B",
+      "peso": 0.6,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MECANICA_3_C",
+      "peso": 0.6,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_1_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_2_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_A",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_B",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NOMOS_3_C",
+      "peso": 0.7,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_1_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_2_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_A",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_B",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ALGORITMIA_3_C",
+      "peso": 0.5,
+      "source": "N4_MECANICA_3_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_MECANICA_3_A",
+      "peso": 0.7,
+      "source": "N4_NOMOS_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_MECANICA_3_A",
+      "peso": 0.5,
+      "source": "N4_ALGORITMIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.072212+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.072242+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:47.512833+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-4_1_1 - KHAOS / ENTROPIA - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 4.1.1 (agregado)
+- **ID N3 Pai:** 4.1.1
+- **ID N2 Avô:** 4.1
+- **Domínio:** KHAOS
+- **Subdomínio N3:** ENTROPIA
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **ENTROPIA** (KHAOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-4_1_1-KHAOS-ENTROPIA.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
+| Arquivo N3 | `N3-4_1_1-KHAOS-ENTROPIA.md` |
+| Domínio N2 | 4.1_ENTROPIA |
+| Domínio N1 | KHAOS |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
 N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+  └─ N1: KHAOS
+      └─ N2: 4.1_ENTROPIA
+          └─ N3: 4.1.1 ENTROPIA
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. ENTROPIA_SISTEMA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** K4.1.1-A
+- **Gatilho:** Sistema complexo mostrando fadiga
+- **Ação:** Identificar fontes de desordem
+- **Restrição:** Não tentar reverter entropia total
+- **Verificação:** Taxa de entropia dentro dos limites
 
-### 2. TECIDO_SENTIDO
+### 2. DESTRUIÇÃO_CRIATIVA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** K4.1.1-B
+- **Gatilho:** Estrutura obsoleta impedindo evolução
+- **Ação:** Desmantelar componentes não funcionais
+- **Restrição:** Preservar elementos úteis
+- **Verificação:** Espaço liberado para novas configurações
 
-### 3. COMPLEXIDADE_TEIA
+### 3. RECICLAGEM
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** K4.1.1-C
+- **Gatilho:** Recursos descartados disponíveis
+- **Ação:** Reintegrar em novos ciclos
+- **Restrição:** Energia de reciclagem não deve superar benefício
+- **Verificação:** Material recuperado ≥ 70%
 
 
 

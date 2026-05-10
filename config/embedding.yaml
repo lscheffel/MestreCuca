@@ -1,0 +1,67 @@
+# =============================================================================
+# CONFIGURAÇÃO DE EMBEDDINGS — Geração e gestão de vetores semânticos
+# =============================================================================
+
+modelo:
+  nome: "all-MiniLM-L6-v2"
+  provedor: "sentence-transformers"
+  tipo: "dense"
+  dimensao: 384
+  normalizacao: true  # L2 normalization nos vetores
+  quantizacao: "float16"  # Redução de precisão para memória
+
+# Pesos dos vetores semânticos para retrieval híbrido
+vetores_pesos:
+  estrutural: 0.30
+  funcional: 0.25
+  relacional: 0.20
+  simbolico: 0.15
+  temporal: 0.10
+
+# Configuração de geração de embeddings
+geracao:
+  batch_size: 64
+  max_seq_length: 512
+  truncate: true
+  device: "auto"  # "cpu", "cuda", "auto"
+  workers: 4
+  cache_dir: "./data/embeddings/cache"
+
+# Índice vetorial (FAISS)
+indice:
+  tipo: "IVFFlat"  # Inverted File Index
+  metrica: "cosine"
+  nlist: 100  # Número de clusters para IVF
+  nprobe: 10  # Clusters a buscar em query
+  dimensao: 384
+  path: "./data/embeddings/indice.faiss"
+
+# Armazenamento
+armazenamento:
+  formato: "parquet"
+  path: "./data/embeddings/"
+  prefixo_arquivo: "emb_n4_"
+  compressao: "snappy"
+
+# Cache de embeddings já computados
+cache:
+  ativo: true
+  path: "./data/embeddings/cache/"
+  estrategia: "LRU"
+  max_tamanho_mb: 2048
+  ttl_segundos: 86400  # 24 horas
+
+# Embeddings por contexto
+contextos:
+  - nome: "descricao"
+    campo: "descricao"
+    peso: 1.0
+  - nome: "path"
+    campo: "path"
+    peso: 0.5
+  - nome: "tipo"
+    campo: "tipo"
+    peso: 0.3
+  - nome: "relacoes"
+    campo: "relacoes"
+    peso: 0.7

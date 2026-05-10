@@ -1,0 +1,173 @@
+{
+  "uid": "N4_SINGULARIDADE_2_C",
+  "legacy_id": "K4.2.2-C",
+  "path": "E2.K1.2.2-C",
+  "hierarchical_id": "4.2.2.3",
+  "nivel": "N4",
+  "pilar": "KHAOS",
+  "dominio": "SINGULARIDADE",
+  "n3_ref": "4.2.2",
+  "n3_name": "INFINITO",
+  "axis": "ENTRÓPICO",
+  "natureza": "dinamica",
+  "subtree_num": 2,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "EXPANSÃO_CONTÍNUA",
+  "nome_normalizado": "expansão contínua",
+  "gatilho": "Crescimento sem fronteira",
+  "acao": "Permitir expansão indefinida",
+  "restricao": "Não impor limites arbitrários",
+  "verificacao": "Expansão contínua permitida",
+  "funcao_cognitiva": [
+    "transformar",
+    "prever",
+    "emergir",
+    "adaptar",
+    "equilibrar",
+    "descompor",
+    "dissolver",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.487,
+    "complexidade": 0.635,
+    "causalidade": 0.458,
+    "emocionalidade": 0.43,
+    "materialidade": 0.385,
+    "simbolismo": 0.423,
+    "dinamismo": 0.723,
+    "temporalidade": 0.695,
+    "ambiguidade": 0.469
+  },
+  "opostos": [
+    "N4_SINGULARIDADE_2_A",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar expansão contínua ao longo do tempo em sistemas de singularidade"
+    },
+    {
+      "texto": "Identificar pontos de inflexão no ciclo de expansão contínua"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "expansão contínua é como as estações do ano: ciclos de mudança que se repetem com variações",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a metamorfose: transformação que não permite retorno ao estado anterior",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "dinamica",
+    "khaos",
+    "n3_infinito",
+    "singularidade"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_A",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SINGULARIDADE_2_B",
+      "peso": 0.6,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_1_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_2_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_A",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_B",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ENTROPIA_3_C",
+      "peso": 0.7,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "contrasta",
+      "alvo": "N4_SOMA_3_A",
+      "peso": -0.6,
+      "source": "N4_SINGULARIDADE_2_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SINGULARIDADE_2_C",
+      "peso": 0.7,
+      "source": "N4_ENTROPIA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.478247+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.478279+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:52.745388+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

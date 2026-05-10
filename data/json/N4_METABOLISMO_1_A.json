@@ -1,0 +1,227 @@
+{
+  "uid": "N4_METABOLISMO_1_A",
+  "legacy_id": "B2.3.1-A",
+  "path": "S1.B2.3.1-A",
+  "hierarchical_id": "2.3.1.1",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "METABOLISMO",
+  "n3_ref": "2.3.1",
+  "n3_name": "ANABOLISMO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "SÍNTESE_MATERIAL",
+  "nome_normalizado": "síntese material",
+  "gatilho": "Construir estruturas complexas",
+  "acao": "Combinar componentes simples",
+  "restricao": "Não pular etapas necessárias",
+  "verificacao": "Estrutura complexa formada corretamente",
+  "funcao_cognitiva": [
+    "sintetizar",
+    "sequenciar",
+    "modularizar",
+    "filtrar",
+    "transformar",
+    "adaptar",
+    "equilibrar",
+    "regenerar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.344,
+    "complexidade": 0.509,
+    "causalidade": 0.532,
+    "emocionalidade": 0.334,
+    "materialidade": 0.38,
+    "simbolismo": 0.254,
+    "dinamismo": 0.665,
+    "temporalidade": 0.58,
+    "ambiguidade": 0.289
+  },
+  "opostos": [
+    "N4_METABOLISMO_1_C",
+    "N4_MECANICA_1_A",
+    "N4_MECANICA_2_A"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar síntese material em um contexto de metabolismo, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de síntese material antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "síntese material é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "bios",
+    "n3_anabolismo",
+    "processo",
+    "metabolismo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_METABOLISMO_1_B",
+      "peso": 0.6,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_METABOLISMO_1_C",
+      "peso": 0.6,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_1_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_2_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_A",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_B",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_SOMA_3_C",
+      "peso": 0.7,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.5,
+      "source": "N4_METABOLISMO_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_METABOLISMO_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_METABOLISMO_1_A",
+      "peso": 0.5,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.224464+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.224491+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:48.115990+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

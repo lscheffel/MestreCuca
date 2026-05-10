@@ -1,0 +1,66 @@
+  [DIR]  ontology/n0/
+  [DIR]  ontology/n1/
+  [DIR]  ontology/n2/
+  [DIR]  ontology/n3/
+  [DIR]  ontology/n4/
+  [DIR]  data/json/
+  [DIR]  data/embeddings/
+  [DIR]  data/indexes/
+  [DIR]  data/graphs/
+  [DIR]  runtime/
+  [DIR]  core/
+  [DIR]  tools/
+  [DIR]  prompts/classifier/
+  [DIR]  prompts/retrieval/
+  [DIR]  prompts/synthesis/
+  [DIR]  prompts/validation/
+  [DIR]  prompts/routing/
+  [DIR]  .kilo/agents/
+  [DIR]  .kilo/memory/
+  [DIR]  .kilo/orchestrators/
+  [DIR]  .kilo/prompts/classifier/
+  [DIR]  .kilo/prompts/retrieval/
+  [DIR]  .kilo/prompts/synthesis/
+  [DIR]  .kilo/prompts/validation/
+  [DIR]  .kilo/prompts/routing/
+  [DIR]  tests/
+
+  Total de diretórios criados/verificados: 26
+
+  [FILE] requirements.txt
+  [FILE] config/ontology.yaml (54404 bytes)
+  [FILE] config/embedding.yaml (1605 bytes)
+  [FILE] config/retrieval.yaml (3965 bytes)
+  [FILE] config/graph.yaml (3941 bytes)
+  [FILE] prompts/classifier/template_classificacao.yaml
+  [FILE] prompts/retrieval/template_retrieval.yaml
+  [FILE] prompts/synthesis/template_sintese.yaml
+  [FILE] prompts/validation/template_validacao.yaml
+  [FILE] prompts/routing/template_routing.yaml
+  [FILE] .kilo/agents/agents.yaml
+  [FILE] .kilo/memory/memory.yaml
+  [FILE] .kilo/orchestrators/orchestrators.yaml
+  [FILE] .kilo/prompts/classifier/prompts_classifier.yaml
+  [FILE] .kilo/prompts/retrieval/prompts_retrieval.yaml
+  [FILE] .kilo/prompts/synthesis/prompts_synthesis.yaml
+  [FILE] .kilo/prompts/validation/prompts_validacao.yaml
+  [FILE] .kilo/prompts/routing/prompts_routing.yaml
+  [FILE] runtime/runtime.yaml
+  [FILE] core/__init__.py
+  [FILE] tools/__init__.py
+  [FILE] tests/test_ontology.py
+  [FILE] .kilo/.gitignore
+  [FILE] ontology/n0/.gitkeep
+  [FILE] ontology/n1/.gitkeep
+  [FILE] ontology/n2/.gitkeep
+  [FILE] ontology/n3/.gitkeep
+  [FILE] ontology/n4/.gitkeep
+  [FILE] data/json/.gitkeep
+  [FILE] data/embeddings/.gitkeep
+  [FILE] data/indexes/.gitkeep
+  [FILE] data/graphs/.gitkeep
+  [FILE] README.md
+
+============================================================
+  FASE 0 CONCLUÍDA — Estrutura criada com sucesso!
+============================================================

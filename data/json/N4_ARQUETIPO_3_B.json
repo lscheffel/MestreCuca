@@ -1,0 +1,102 @@
+{
+  "uid": "N4_ARQUETIPO_3_B",
+  "legacy_id": "M6.1.3-B",
+  "path": "E2.M3.1.3-B",
+  "hierarchical_id": "6.1.3.2",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "ARQUÉTIPO",
+  "n3_ref": "6.1.3",
+  "n3_name": "SÍMBOLO",
+  "axis": "ENTRÓPICO",
+  "natureza": "arquétipo",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "LINGUAGEM_SENSÍVEL",
+  "nome_normalizado": "linguagem sensível",
+  "gatilho": "Símbolo como linguagem",
+  "acao": "Decodificar mensagem",
+  "restricao": "Não ignorar linguagem simbólica",
+  "verificacao": "Mensagem simbólica compreendida",
+  "funcao_cognitiva": [
+    "arquetipar",
+    "classificar",
+    "generalizar",
+    "simbolizar",
+    "interpretar",
+    "narrar",
+    "avaliar",
+    "comparar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.718,
+    "complexidade": 0.505,
+    "causalidade": 0.399,
+    "emocionalidade": 0.651,
+    "materialidade": 0.3,
+    "simbolismo": 0.73,
+    "dinamismo": 0.354,
+    "temporalidade": 0.464,
+    "ambiguidade": 0.583
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Aplicar linguagem sensível conforme contexto de arquétipo"
+    },
+    {
+      "texto": "Verificar adequação de linguagem sensível para o domínio arquétipo"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "linguagem sensível pode ser compreendido através de analogias com fenômenos naturais",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "arquétipo",
+    "entrópico",
+    "mythos",
+    "n3_símbolo"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_3_A",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_3_C",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_3_B"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.741080+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.741110+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.735333+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

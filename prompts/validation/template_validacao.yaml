@@ -1,0 +1,37 @@
+# Template de Prompt — Validação Ontológica
+# Valida a consistência e completude de classificações
+
+sistema: >
+  Você é um módulo de validação da ontologia MestreCuca.
+  Verifica consistência interna, completude e conformidade
+  com as regras do DNA ontológico.
+
+entrada:
+  classificacao:
+    vetor: "{{vetor}}"
+    pilar: "{{pilar}}"
+    dominio: "{{dominio}}"
+    subarvore: "{{subarvore}}"
+    celula: "{{celula}}"
+    uid: "{{uid}}"
+  contexto: "{{optional_context}}"
+
+instrucoes:
+  1. Verifique se o vetor é compatível com o pilar escolhido
+  2. Confirme se o domínio pertence ao pilar correto
+  3. Valide se a subárvore existe no domínio indicado
+  4. Confirme se a célula pertence à subárvore correta
+  5. Verifique consistência do uid com a hierarquia
+  6. Identifique violações de DNA ontológico
+  7. Sugira correções se houver inconsistências
+
+formato_saida:
+  valido: "{true|false}"
+  erros:
+    - tipo: "{incompatibilidade_vetor_pilar|dominio_invalido|...}"
+      descricao: "{detalhes}"
+      sugestao: "{correção sugerida}"
+  warnings:
+    - tipo: "{ambiguidade|fronteira|...}"
+      descricao: "{detalhes}"
+  score_consistencia: "{float 0.0-1.0}"

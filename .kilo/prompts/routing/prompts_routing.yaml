@@ -1,0 +1,23 @@
+# Configuração de Prompts — Roteamento
+prompts:
+  roteamento_padrao:
+    template: "prompts/routing/template_routing.yaml"
+    parametros:
+      temperatura: 0.3
+      max_tokens: 1024
+    pipelines_disponiveis:
+      - basico
+      - principal
+      - precisao
+
+  roteamento_adaptativo:
+    template: "prompts/routing/template_routing.yaml"
+    parametros:
+      temperatura: 0.2
+      max_tokens: 512
+    estrategia: "contextual"
+    fatores:
+      - complexidade_input
+      - historico_sessao
+      - requisitos_usuario
+      - carga_sistema

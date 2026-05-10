@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-5_1_1 - APEIRON / ESCALAMENTO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 5.1.1 (agregado)
+- **ID N3 Pai:** 5.1.1
+- **ID N2 Avô:** 5.1
+- **Domínio:** APEIRON
+- **Subdomínio N3:** ESCALAMENTO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **ESCALAMENTO** (APEIRON), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-5_1_1-APEIRON-ESCALAMENTO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
+| Arquivo N3 | `N3-5_1_1-APEIRON-ESCALAMENTO.md` |
+| Domínio N2 | 5.1_ESCALAMENTO |
+| Domínio N1 | APEIRON |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
 N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+  └─ N1: APEIRON
+      └─ N2: 5.1_ESCALAMENTO
+          └─ N3: 5.1.1 ESCALAMENTO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. ESCALAMENTO
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** A5.1.1-A
+- **Gatilho:** Sistema em escala diferente
+- **Ação:** Identificar leis escalares
+- **Restrição:** Não assumir linearidade
+- **Verificação:** Comportamento consistente
 
-### 2. TECIDO_SENTIDO
+### 2. PROPORÇÃO_AUREA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** A5.1.1-B
+- **Gatilho:** Divisão harmônica necessária
+- **Ação:** Aplicar razão áurea
+- **Restrição:** Não forçar funcionalidade
+- **Verificação:** Equilíbrio percebido
 
-### 3. COMPLEXIDADE_TEIA
+### 3. ISOMORFISMO
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** A5.1.1-C
+- **Gatilho:** Problema sem solução evidente
+- **Ação:** Mapear para outra escala
+- **Restrição:** Preservar relações essenciais
+- **Verificação:** Solução válida na escala original
 
 
 

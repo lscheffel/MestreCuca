@@ -1,0 +1,102 @@
+{
+  "uid": "N4_ARQUETIPO_2_A",
+  "legacy_id": "M6.1.2-A",
+  "path": "E2.M3.1.2-A",
+  "hierarchical_id": "6.1.2.1",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "ARQUÉTIPO",
+  "n3_ref": "6.1.2",
+  "n3_name": "COMPORTAMENTO",
+  "axis": "ENTRÓPICO",
+  "natureza": "arquétipo",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "ROTEIRO_INVISIBLE",
+  "nome_normalizado": "roteiro invisible",
+  "gatilho": "Arquétipo guiando ação",
+  "acao": "Reconhecer roteiro oculto",
+  "restricao": "Não negar influência arquetípica",
+  "verificacao": "Roteiro reconhecido",
+  "funcao_cognitiva": [
+    "arquetipar",
+    "classificar",
+    "generalizar",
+    "interpretar",
+    "simbolizar",
+    "sintetizar",
+    "narrar",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.688,
+    "complexidade": 0.472,
+    "causalidade": 0.371,
+    "emocionalidade": 0.685,
+    "materialidade": 0.318,
+    "simbolismo": 0.726,
+    "dinamismo": 0.37,
+    "temporalidade": 0.466,
+    "ambiguidade": 0.563
+  },
+  "opostos": [
+    "N4_ARQUETIPO_2_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Aplicar roteiro invisible conforme contexto de arquétipo"
+    },
+    {
+      "texto": "Verificar adequação de roteiro invisible para o domínio arquétipo"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "roteiro invisible pode ser compreendido através de analogias com fenômenos naturais",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "arquétipo",
+    "entrópico",
+    "mythos",
+    "n3_comportamento"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_2_B",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.6,
+      "source": "N4_ARQUETIPO_2_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.716266+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.716295+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.692727+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

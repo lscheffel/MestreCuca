@@ -1,0 +1,227 @@
+{
+  "uid": "N4_MISTERIO_1_A",
+  "legacy_id": "M6.3.1-A",
+  "path": "E2.M3.3.1-A",
+  "hierarchical_id": "6.3.1.1",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "MISTÉRIO",
+  "n3_ref": "6.3.1",
+  "n3_name": "INCOMPREENSÃO",
+  "axis": "ENTRÓPICO",
+  "natureza": "restricao",
+  "subtree_num": 1,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "LIMITE_ANALÍTICO",
+  "nome_normalizado": "limite analítico",
+  "gatilho": "Conhecimento analítico insuficiente",
+  "acao": "Reconhecer limite da razão",
+  "restricao": "Não forçar compreensão",
+  "verificacao": "Limite aceito",
+  "funcao_cognitiva": [
+    "inferir",
+    "interpretar",
+    "simbolizar",
+    "arquetipar",
+    "classificar",
+    "narrar",
+    "sintetizar",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.576,
+    "complexidade": 0.484,
+    "causalidade": 0.543,
+    "emocionalidade": 0.364,
+    "materialidade": 0.332,
+    "simbolismo": 0.465,
+    "dinamismo": 0.335,
+    "temporalidade": 0.415,
+    "ambiguidade": 0.523
+  },
+  "opostos": [
+    "N4_MISTERIO_1_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Definir limites de limite analítico para operação segura em mistério"
+    },
+    {
+      "texto": "Documentar violações de limite analítico e suas consequências"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "limite analítico funciona como cercas em uma paisagem: define onde se pode ir",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como limites de velocidade: protege ao restringir",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "mythos",
+    "restricao",
+    "mistério",
+    "n3_incompreensão"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MISTERIO_1_B",
+      "peso": 0.6,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_MISTERIO_1_C",
+      "peso": 0.6,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_1_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_2_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_A",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_B",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_NARRATIVA_3_C",
+      "peso": 0.7,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_1_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_A",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_B",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "generaliza",
+      "alvo": "N4_ARQUETIPO_3_C",
+      "peso": 0.5,
+      "source": "N4_MISTERIO_1_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_MISTERIO_1_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_1_A"
+    },
+    {
+      "tipo": "especializa",
+      "alvo": "N4_MISTERIO_1_A",
+      "peso": 0.5,
+      "source": "N4_ARQUETIPO_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.819948+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.819978+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:49.079738+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

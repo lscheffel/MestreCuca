@@ -1,0 +1,167 @@
+{
+  "uid": "N4_VIBRATIO_3_A",
+  "legacy_id": "A5.2.3-A",
+  "path": "E2.A2.2.3-A",
+  "hierarchical_id": "5.2.3.1",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "VIBRATIO",
+  "n3_ref": "5.2.3",
+  "n3_name": "ONDA",
+  "axis": "ENTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "PROPAGAÇÃO",
+  "nome_normalizado": "propagação",
+  "gatilho": "Padrão se movendo no meio",
+  "acao": "Identificar direção e velocidade",
+  "restricao": "Não interromper desnecessariamente",
+  "verificacao": "Propagação compreendida",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "generalizar",
+    "avaliar",
+    "abstrair",
+    "escalar",
+    "mapear",
+    "prever",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.454,
+    "complexidade": 0.571,
+    "causalidade": 0.548,
+    "emocionalidade": 0.275,
+    "materialidade": 0.294,
+    "simbolismo": 0.332,
+    "dinamismo": 0.648,
+    "temporalidade": 0.592,
+    "ambiguidade": 0.329
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar propagação em um contexto de vibratio, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de propagação antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "propagação é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "processo",
+    "vibratio",
+    "n3_onda"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_3_B",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_3_C",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_3_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_VIBRATIO_3_A",
+      "peso": 0.7,
+      "source": "N4_ESCALA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.604917+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.604947+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:56.338010+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

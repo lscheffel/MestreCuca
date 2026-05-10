@@ -1,0 +1,167 @@
+{
+  "uid": "N4_ALTERIDADE_3_B",
+  "legacy_id": "P3.2.3-B",
+  "path": "S1.P3.2.3-B",
+  "hierarchical_id": "3.2.3.2",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ALTERIDADE",
+  "n3_ref": "3.2.3",
+  "n3_name": "DIALOGO",
+  "axis": "SINTRÓPICO",
+  "natureza": "processo",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "CONSTRUÇÃO_CONJUNTA",
+  "nome_normalizado": "construção conjunta",
+  "gatilho": "Criar significado juntos",
+  "acao": "Co-criar entendimento",
+  "restricao": "Não ditador da verdade",
+  "verificacao": "Verdade co-construída",
+  "funcao_cognitiva": [
+    "sequenciar",
+    "avaliar",
+    "classificar",
+    "comparar",
+    "inferir",
+    "mapear",
+    "validar",
+    "equilibrar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.356,
+    "complexidade": 0.511,
+    "causalidade": 0.429,
+    "emocionalidade": 0.369,
+    "materialidade": 0.305,
+    "simbolismo": 0.331,
+    "dinamismo": 0.584,
+    "temporalidade": 0.529,
+    "ambiguidade": 0.431
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Ao aplicar construção conjunta em um contexto de alteridade, verificar o fluxo de transformações"
+    },
+    {
+      "texto": "Identificar os passos sequenciais de construção conjunta antes da execução"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "construção conjunta é como uma receita: passos sequenciais que transformam ingredientes em resultado",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como um algoritmo de ordenação: reorganiza elementos até atingir ordem",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "sintrópico",
+    "alteridade",
+    "n3_dialogo",
+    "processo",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_3_A",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_3_C",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_3_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_ALTERIDADE_3_B",
+      "peso": 0.7,
+      "source": "N4_ETHOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.369234+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.369494+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.617848+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

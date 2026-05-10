@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-2_2_1 - BIOS / MANUTENÇÃO - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
-- **ID N2 Avô:** 6.2
-- **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **ID N4:** 2.2.1 (agregado)
+- **ID N3 Pai:** 2.2.1
+- **ID N2 Avô:** 2.2
+- **Domínio:** BIOS
+- **Subdomínio N3:** MANUTENÇÃO
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **MANUTENÇÃO** (BIOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-2_2_1-BIOS-MANUTENÇÃO.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,18 +31,18 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
-| Domínio N1 | MYTHOS |
-| Vetor N0 | 0.2_ENTRÓPICO |
+| Arquivo N3 | `N3-2_2_1-BIOS-MANUTENÇÃO.md` |
+| Domínio N2 | 2.2_MANUTENÇÃO |
+| Domínio N1 | BIOS |
+| Vetor N0 | 0.1_SINTRÓPICO |
 
 ### Relação Hierárquica
 
 ```
-N0: ENTRÓPICO
-  └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+N0: SINTRÓPICO
+  └─ N1: BIOS
+      └─ N2: 2.2_MANUTENÇÃO
+          └─ N3: 2.2.1 MANUTENÇÃO
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. MANUTENÇÃO_ESTRUTURAL
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** B2.2.1-A
+- **Gatilho:** Veículo material precisando de reparo
+- **Ação:** Realizar manutenção preventiva e corretiva
+- **Restrição:** Não adiar reparos críticos
+- **Verificação:** Integridade estrutural preservada
 
-### 2. TECIDO_SENTIDO
+### 2. AVALIAÇÃO_CONDIÇÃO
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** B2.2.1-B
+- **Gatilho:** Verificar estado do veículo
+- **Ação:** Inspecionar componentes regularmente
+- **Restrição:** Não ignorar sinais de degradação
+- **Verificação:** Condição avaliada e documentada
 
-### 3. COMPLEXIDADE_TEIA
+### 3. ATUALIZAÇÃO_SISTEMA
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** B2.2.1-C
+- **Gatilho:** Melhorar ou modernizar estrutura
+- **Ação:** Implementar upgrades necessários
+- **Restrição:** Não alterar funcionalidade essencial
+- **Verificação:** Sistema atualizado mantendo integridade
 
 
 

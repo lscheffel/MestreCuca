@@ -1,0 +1,167 @@
+{
+  "uid": "N4_ALTERIDADE_2_C",
+  "legacy_id": "P3.2.2-C",
+  "path": "S1.P3.2.2-C",
+  "hierarchical_id": "3.2.2.3",
+  "nivel": "N4",
+  "pilar": "PATHOS",
+  "dominio": "ALTERIDADE",
+  "n3_ref": "3.2.2",
+  "n3_name": "EMPATIA",
+  "axis": "SINTRÓPICO",
+  "natureza": "dinamica",
+  "subtree_num": 2,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "SENTIDO",
+  "nome_normalizado": "sentido",
+  "gatilho": "Compartilhar significado",
+  "acao": "Trocar experiências subjetivas",
+  "restricao": "Não monopolizar narrativa",
+  "verificacao": "Sentido compartilhado",
+  "funcao_cognitiva": [
+    "classificar",
+    "comparar",
+    "inferir",
+    "mapear",
+    "equilibrar",
+    "transformar",
+    "avaliar",
+    "interpretar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.473,
+    "complexidade": 0.58,
+    "causalidade": 0.525,
+    "emocionalidade": 0.511,
+    "materialidade": 0.372,
+    "simbolismo": 0.409,
+    "dinamismo": 0.68,
+    "temporalidade": 0.678,
+    "ambiguidade": 0.49
+  },
+  "opostos": [
+    "N4_ALTERIDADE_2_A",
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar sentido ao longo do tempo em sistemas de alteridade"
+    },
+    {
+      "texto": "Identificar pontos de inflexão no ciclo de sentido"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "sentido é como as estações do ano: ciclos de mudança que se repetem com variações",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a metamorfose: transformação que não permite retorno ao estado anterior",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "n3_empatia",
+    "dinamica",
+    "sintrópico",
+    "alteridade",
+    "pathos"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_2_A",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ALTERIDADE_2_B",
+      "peso": 0.6,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_1_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_2_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_A",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_B",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ETHOS_3_C",
+      "peso": 0.7,
+      "source": "N4_ALTERIDADE_2_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_ALTERIDADE_2_C",
+      "peso": 0.7,
+      "source": "N4_ETHOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.361248+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.361280+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.569422+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

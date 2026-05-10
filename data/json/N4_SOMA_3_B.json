@@ -1,0 +1,167 @@
+{
+  "uid": "N4_SOMA_3_B",
+  "legacy_id": "B2.2.3-B",
+  "path": "S1.B2.2.3-B",
+  "hierarchical_id": "2.2.3.2",
+  "nivel": "N4",
+  "pilar": "BIOS",
+  "dominio": "SOMA",
+  "n3_ref": "2.2.3",
+  "n3_name": "HOMEOSTASE",
+  "axis": "SINTRÓPICO",
+  "natureza": "mecanismo",
+  "subtree_num": 3,
+  "cell_num": 2,
+  "cell_letter": "B",
+  "nome": "FEEDBACK_NEGATIVO",
+  "nome_normalizado": "feedback negativo",
+  "gatilho": "Desvio detectado no sistema",
+  "acao": "Aplicar correção proporcional",
+  "restricao": "Não criar oscilações",
+  "verificacao": "Sistema retorna ao equilíbrio",
+  "funcao_cognitiva": [
+    "equilibrar",
+    "transformar",
+    "sintetizar",
+    "regenerar",
+    "adaptar",
+    "filtrar",
+    "modularizar",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.366,
+    "complexidade": 0.597,
+    "causalidade": 0.608,
+    "emocionalidade": 0.314,
+    "materialidade": 0.615,
+    "simbolismo": 0.315,
+    "dinamismo": 0.531,
+    "temporalidade": 0.45,
+    "ambiguidade": 0.345
+  },
+  "opostos": [
+    "N4_ARQUETIPO_1_A",
+    "N4_ARQUETIPO_1_B",
+    "N4_ARQUETIPO_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Implementar feedback negativo como mecanismo de controle em soma"
+    },
+    {
+      "texto": "Avaliar a eficiência do feedback negativo em ciclos repetidos"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "feedback negativo funciona como um termostato: detecta desvios e corrige automaticamente",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como engrenagens de um relógio: cada peça impulsiona a seguinte",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "mecanismo",
+    "soma",
+    "sintrópico",
+    "bios",
+    "n3_homeostase"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_A",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_SOMA_3_C",
+      "peso": 0.6,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_1_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_2_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_A",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_B",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_OIKOS_3_C",
+      "peso": 0.7,
+      "source": "N4_SOMA_3_B"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_SOMA_3_B",
+      "peso": 0.7,
+      "source": "N4_OIKOS_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.171176+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.171203+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:54.575560+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

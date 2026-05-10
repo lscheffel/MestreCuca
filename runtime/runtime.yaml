@@ -1,0 +1,80 @@
+# =============================================================================
+# CONFIGURAÇÃO DO RUNTIME — Motor de Execução
+# =============================================================================
+
+runtime:
+  versao: "3.0.0"
+  modo: "async"  # "sync", "async"
+  
+  engine:
+    nome: "OntoEngine"
+    workers: 4
+    max_concorrencia: 10
+    loop_eventos: "asyncio"
+  
+  pipeline:
+    default: "principal"
+    pipelines_disponiveis:
+      - basico
+      - principal
+      - precisao
+    timeout_total_segundos: 120
+    circuit_breaker:
+      ativo: true
+      max_falhas: 5
+      janela_segundos: 60
+      tempo_recuperacao_ms: 30000
+  
+  # Gerenciamento de estado
+  estado:
+    tipo: "redis"  # "memory", "redis", "postgresql"
+    redis_config:
+      host: "localhost"
+      porta: 6379
+      db: 2
+    sessao_ttl: 7200  # 2 horas
+  
+  # Monitoramento
+  monitoramento:
+    ativo: true
+    endpoint_health: "/health"
+    endpoint_metrics: "/metrics"
+    exportador: "prometheus"
+    metricas:
+      - solicitacoes_total
+      - solicitacoes_erro
+      - latencia_media
+      - latencia_p95
+      - latencia_p99
+      - cache_hits
+      - cache_misses
+      - pipeline_utilizacao
+  
+  # Logging
+  logging:
+    nivel: "INFO"
+    formato: "json"
+    saida: "stdout"
+    arquivo:
+      ativo: true
+      path: "./runtime/logs/"
+      rotacao:
+        max_size_mb: 100
+        backup_count: 10
+        compressao: true
+  
+  # Tratamento de erros
+  erros:
+    capturar_stacktrace: true
+    notificar: true
+    canal: "sentry"
+    dsn: "${SENTRY_DSN}"
+    niveis:
+      - CRITICAL
+      - ERROR
+  
+  # Recursos
+  recursos:
+    max_memoria_mb: 2048
+    max_threads: 16
+    garbage_collection: "generational"

@@ -1,0 +1,107 @@
+{
+  "uid": "N4_ESCALA_3_A",
+  "legacy_id": "A5.1.3-A",
+  "path": "E2.A2.1.3-A",
+  "hierarchical_id": "5.1.3.1",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "ESCALA",
+  "n3_ref": "5.1.3",
+  "n3_name": "LEI",
+  "axis": "ENTRÓPICO",
+  "natureza": "fenomeno",
+  "subtree_num": 3,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "LEI_RELATIVA",
+  "nome_normalizado": "lei relativa",
+  "gatilho": "Lei dependendo da escala",
+  "acao": "Determinar domínio de validade",
+  "restricao": "Não extrapolar erroneamente",
+  "verificacao": "Aplicação correta",
+  "funcao_cognitiva": [
+    "escalar",
+    "comparar",
+    "prever",
+    "abstrair",
+    "generalizar",
+    "mapear",
+    "inferir",
+    "sintetizar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.731,
+    "complexidade": 0.633,
+    "causalidade": 0.466,
+    "emocionalidade": 0.511,
+    "materialidade": 0.34,
+    "simbolismo": 0.668,
+    "dinamismo": 0.478,
+    "temporalidade": 0.488,
+    "ambiguidade": 0.55
+  },
+  "opostos": [
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B",
+    "N4_ALGORITMIA_1_C"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar padrões de lei relativa emergindo em sistemas de escala"
+    },
+    {
+      "texto": "Medir a intensidade do fenômeno lei relativa sob diferentes condições"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "lei relativa é como uma onda no oceano: padrões que emergem da interação de forças",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a aurora boreal: manifestação visível de processos invisíveis",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "entrópico",
+    "fenomeno",
+    "escala",
+    "n3_lei"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.6,
+      "source": "N4_ESCALA_3_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.6,
+      "source": "N4_ESCALA_3_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.559234+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.559260+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:45.955616+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

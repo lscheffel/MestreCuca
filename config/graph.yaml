@@ -1,0 +1,144 @@
+# =============================================================================
+# CONFIGURAÇÃO DO GRAFO ONTOLÓGICO — NetworkX
+# =============================================================================
+
+grafo:
+  # Motor de grafo
+  engine: "networkx"
+  tipo: "MultiDiGraph"  # Direcionado, multigrafo (múltiplas arestas entre nós)
+  dirigido: true
+  
+  # Persistência
+  persistencia:
+    formato: "gexf"           # "gexf", "graphml", "json", "pickle"
+    path: "./data/graphs/"
+    arquivo_principal: "ontologia_master.gexf"
+    arquivo_snapshot: "ontologia_snapshot_{timestamp}.gexf"
+    auto_salvar: true
+    intervalo_segundos: 300    # Salvar a cada 5 minutos
+    manter_snapshots: 10       # Número de snapshots a reter
+    compressao: true
+  
+  # Características do grafo
+  nos:
+    total_estimado: 162        # Células N4 + nós intermediários
+    atributos_padrao:
+      - uid
+      - tipo
+      - pilar
+      - dominio
+      - subarvore
+      - vetor
+      - hierarquico_id
+      - legado_id
+      - descricao
+      - embedding_ref       # Referência ao arquivo de embedding
+  
+  # Arestas (relações)
+  arestas:
+    tipos:
+      - nome: "hierarquico"
+        dirigido: true
+        peso_default: 1.0
+        descricao: "Relação pai-filho na ontologia"
+      - nome: "lateral"
+        dirigido: false
+        peso_default: 0.5
+        descricao: "Células no mesmo nível"
+      - nome: "transversal"
+        dirigido: false
+        peso_default: 0.3
+        descricao: "Conexão entre pilares"
+      - nome: "espelhamento"
+        dirigido: false
+        peso_default: 0.2
+        descricao: "Mapeamento SINTRÓPICO ↔ ENTRÓPICO"
+      - nome: "causal"
+        dirigido: true
+        peso_default: 0.7
+        descricao: "Influência causal"
+      - nome: "contraste"
+        dirigido: false
+        peso_default: 0.4
+        descricao: "Oposição ou complementaridade"
+    
+    max_arestas_por_no: 20
+  
+  # Algoritmos e métricas
+  algoritmos:
+    centralidade:
+      - tipo: "betweenness"
+        descricao: "Intermediação"
+        calcular: true
+      - tipo: "degree"
+        descricao: "Grau de conectividade"
+        calcular: true
+      - tipo: "closeness"
+        descricao: "Proximidade"
+        calcular: true
+      - tipo: "eigenvector"
+        descricao: "Autovetor"
+        calcular: true
+      - tipo: "pagerank"
+        descricao: "PageRank adaptado"
+        calcular: true
+        damping: 0.85
+    
+    clustering:
+      - tipo: "coeficiente"
+        descricao: "Coeficiente de agrupamento"
+        calcular: true
+      - tipo: "comunidades"
+        descricao: "Detecção de comunidades (Louvain)"
+        calcular: true
+        resolucao: 1.0
+    
+    caminho:
+      - tipo: "menor_caminho"
+        descricao: "Shortest path entre células"
+        calcular: true
+      - tipo: "diametro"
+        descricao: "Diâmetro do grafo"
+        calcular: true
+      - tipo: "densidade"
+        descricao: "Densidade de conexões"
+        calcular: true
+  
+  # Visualização
+  visualizacao:
+    ativo: true
+    engine: "matplotlib"       # "matplotlib", "pyvis", "graphviz"
+    layout: "spring"           # "spring", "kamada_kawai", "spectral", "shell"
+    cor_por_pilar: true
+    tamanho_por_centralidade: true
+    labels: true
+    output_format: "png"
+    resolucao: [1920, 1080]
+    path: "./data/graphs/visualizacoes/"
+  
+  # Índices auxiliares
+  indices:
+    path: "./data/indexes/"
+    tipos:
+      - nome: "uid_index"
+        tipo: "hash"
+        campo: "uid"
+        unico: true
+      - nome: "hierarquico_index"
+        tipo: "btree"
+        campo: "hierarquico_id"
+        unico: true
+      - nome: "pilar_index"
+        tipo: "inverted"
+        campo: "pilar"
+        unico: false
+      - nome: "tipo_index"
+        tipo: "inverted"
+        campo: "tipo"
+        unico: false
+      - nome: "vetor_index"
+        tipo: "hnsw"
+        campo: "embedding"
+        metrica: "cosine"
+        ef_construction: 200
+        M: 16

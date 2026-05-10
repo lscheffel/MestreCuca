@@ -1,0 +1,167 @@
+{
+  "uid": "N4_VIBRATIO_2_C",
+  "legacy_id": "A5.2.2-C",
+  "path": "E2.A2.2.2-C",
+  "hierarchical_id": "5.2.2.3",
+  "nivel": "N4",
+  "pilar": "APEIRON",
+  "dominio": "VIBRATIO",
+  "n3_ref": "5.2.2",
+  "n3_name": "RESONÂNCIA",
+  "axis": "ENTRÓPICO",
+  "natureza": "principio",
+  "subtree_num": 2,
+  "cell_num": 3,
+  "cell_letter": "C",
+  "nome": "MULTIPLICAÇÃO",
+  "nome_normalizado": "multiplicação",
+  "gatilho": "Efeito sem adição de matéria",
+  "acao": "Aproveitar ressonância",
+  "restricao": "Não desperdiçar energia",
+  "verificacao": "Multiplicação eficiente",
+  "funcao_cognitiva": [
+    "abstrair",
+    "generalizar",
+    "prever",
+    "escalar",
+    "mapear",
+    "sintetizar",
+    "transcender",
+    "avaliar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.692,
+    "complexidade": 0.529,
+    "causalidade": 0.623,
+    "emocionalidade": 0.343,
+    "materialidade": 0.306,
+    "simbolismo": 0.539,
+    "dinamismo": 0.411,
+    "temporalidade": 0.461,
+    "ambiguidade": 0.41
+  },
+  "opostos": [
+    "N4_VIBRATIO_2_A",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Aplicar multiplicação como critério de decisão em vibratio"
+    },
+    {
+      "texto": "Validar se multiplicação se mantém em cenários extremos"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "multiplicação é como a gravidade: sempre presente, nem sempre perceptível",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a conservação de energia: transforma mas não desaparece",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "apeiron",
+    "n3_resonância",
+    "entrópico",
+    "principio",
+    "vibratio"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_2_A",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_VIBRATIO_2_B",
+      "peso": 0.6,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_1_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_2_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_A",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_B",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ESCALA_3_C",
+      "peso": 0.7,
+      "source": "N4_VIBRATIO_2_C"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_VIBRATIO_2_C",
+      "peso": 0.7,
+      "source": "N4_ESCALA_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.602024+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.602053+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:56.285672+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

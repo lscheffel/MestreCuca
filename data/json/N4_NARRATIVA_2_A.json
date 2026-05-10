@@ -1,0 +1,167 @@
+{
+  "uid": "N4_NARRATIVA_2_A",
+  "legacy_id": "M6.2.2-A",
+  "path": "E2.M3.2.2-A",
+  "hierarchical_id": "6.2.2.1",
+  "nivel": "N4",
+  "pilar": "MYTHOS",
+  "dominio": "NARRATIVA",
+  "n3_ref": "6.2.2",
+  "n3_name": "LINHA_SENTIDO",
+  "axis": "ENTRÓPICO",
+  "natureza": "dinamica",
+  "subtree_num": 2,
+  "cell_num": 1,
+  "cell_letter": "A",
+  "nome": "TEMPO_IDENTIDADE",
+  "nome_normalizado": "tempo identidade",
+  "gatilho": "Linha temporal tecendo identidade",
+  "acao": "Reconhecer continuidade",
+  "restricao": "Não fragmentar narrativa",
+  "verificacao": "Identidade temporal reconhecida",
+  "funcao_cognitiva": [
+    "narrar",
+    "classificar",
+    "interpretar",
+    "sintetizar",
+    "arquetipar",
+    "inferir",
+    "simbolizar",
+    "transformar"
+  ],
+  "assinatura_semantica": {
+    "abstracao": 0.471,
+    "complexidade": 0.616,
+    "causalidade": 0.46,
+    "emocionalidade": 0.44,
+    "materialidade": 0.407,
+    "simbolismo": 0.506,
+    "dinamismo": 0.672,
+    "temporalidade": 0.71,
+    "ambiguidade": 0.415
+  },
+  "opostos": [
+    "N4_NARRATIVA_2_C",
+    "N4_ALGORITMIA_1_A",
+    "N4_ALGORITMIA_1_B"
+  ],
+  "exemplos": [
+    {
+      "texto": "Observar tempo identidade ao longo do tempo em sistemas de narrativa"
+    },
+    {
+      "texto": "Identificar pontos de inflexão no ciclo de tempo identidade"
+    }
+  ],
+  "analogias": [
+    {
+      "texto": "tempo identidade é como as estações do ano: ciclos de mudança que se repetem com variações",
+      "tipo": "analogia_conceitual"
+    },
+    {
+      "texto": "Como a metamorfose: transformação que não permite retorno ao estado anterior",
+      "tipo": "analogia_conceitual"
+    }
+  ],
+  "tags": [
+    "entrópico",
+    "mythos",
+    "dinamica",
+    "n3_linha_sentido",
+    "narrativa"
+  ],
+  "relacoes": [
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NARRATIVA_2_B",
+      "peso": 0.6,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "complementa",
+      "alvo": "N4_NARRATIVA_2_C",
+      "peso": 0.6,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_1_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_2_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_A",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_B",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "depende_de",
+      "alvo": "N4_ARQUETIPO_3_C",
+      "peso": 0.7,
+      "source": "N4_NARRATIVA_2_A"
+    },
+    {
+      "tipo": "é_requisito_de",
+      "alvo": "N4_NARRATIVA_2_A",
+      "peso": 0.7,
+      "source": "N4_ARQUETIPO_1_A"
+    }
+  ],
+  "metadata": {
+    "criado_em": "2026-05-09T15:36:20.759611+00:00",
+    "versao_schema": "1.0.0",
+    "origem": "create_n4_manual.py",
+    "status": "enriquecido",
+    "revisoes": [
+      {
+        "versao": "1.0.0",
+        "data": "2026-05-09T15:36:20.759645+00:00",
+        "descricao": "Conversão inicial de markdown para JSON enriquecido"
+      }
+    ],
+    "versoes": [
+      {
+        "versao": "2.0.0",
+        "data": "2026-05-09T16:21:50.352726+00:00",
+        "descricao": "Expansão semântica: funcao_cognitiva, assinatura_semantica, opostos"
+      }
+    ]
+  }
+}

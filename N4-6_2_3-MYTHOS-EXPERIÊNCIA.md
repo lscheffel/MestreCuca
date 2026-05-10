@@ -1,14 +1,14 @@
-# N4-6_2_1 - MYTHOS / TEIA - Células Semânticas
+# N4-6_2_3 - MYTHOS / EXPERIÊNCIA - Células Semânticas
 
 ---
 
 ## Metadados
 
-- **ID N4:** 6.2.1 (agregado)
-- **ID N3 Pai:** 6.2.1
+- **ID N4:** 6.2.3 (agregado)
+- **ID N3 Pai:** 6.2.3
 - **ID N2 Avô:** 6.2
 - **Domínio:** MYTHOS
-- **Subdomínio N3:** TEIA
+- **Subdomínio N3:** EXPERIÊNCIA
 - **Geometria Base:** 2×3×3×3×3
 - **Total de Células:** 3
 - **Data:** 2026-05-07
@@ -18,9 +18,9 @@
 
 ## Sumário Executivo
 
-Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **TEIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
+Este arquivo agrega as células semânticas operacionais N4 derivadas do subdomínio N3 **EXPERIÊNCIA** (MYTHOS), conforme mapeamento na Taxonomia Ontológica.
 
-**Origem N3:** `N3-6_2_1-MYTHOS-TEIA.md`  
+**Origem N3:** `N3-6_2_3-MYTHOS-EXPERIÊNCIA.md`  
 **Células N4:** 3 procedimentos aplicáveis
 
 ---
@@ -31,8 +31,8 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 
 | Elemento | Referência |
 |----------|------------|
-| Arquivo N3 | `N3-6_2_1-MYTHOS-TEIA.md` |
-| Domínio N2 | 6.2_TEIA |
+| Arquivo N3 | `N3-6_2_3-MYTHOS-EXPERIÊNCIA.md` |
+| Domínio N2 | 6.2_EXPERIÊNCIA |
 | Domínio N1 | MYTHOS |
 | Vetor N0 | 0.2_ENTRÓPICO |
 
@@ -41,8 +41,8 @@ Este arquivo agrega as células semânticas operacionais N4 derivadas do subdom�
 ```
 N0: ENTRÓPICO
   └─ N1: MYTHOS
-      └─ N2: 6.2_TEIA
-          └─ N3: 6.2.1 TEIA
+      └─ N2: 6.2_EXPERIÊNCIA
+          └─ N3: 6.2.3 EXPERIÊNCIA
               └─ N4: 3 células (este arquivo)
 ```
 
@@ -50,29 +50,29 @@ N0: ENTRÓPICO
 
 ## Células Semânticas N4
 
-### 1. TEIA_CONEXÕES
+### 1. EXPERIÊNCIA_NARRATIVA
 
-- **ID:** M6.2.1-A
-- **Gatilho:** Eventos conectados em rede
-- **Ação:** Mapear conexões significativas
-- **Restrição:** Não isolar eventos
-- **Verificação:** Teia reconhecida
+- **ID:** M6.2.3-A
+- **Gatilho:** Viver como narrativa contínua
+- **Ação:** Reconhecer si mesmo como história
+- **Restrição:** Não objetificar experiência
+- **Verificação:** Narrativa vivida compreendida
 
-### 2. TECIDO_SENTIDO
+### 2. CONTINUIDADE_EXPERIÊNCIA
 
-- **ID:** M6.2.1-B
-- **Gatilho:** Sentido tramado na teia
-- **Ação:** Reconhecer trama
-- **Restrição:** Não rasgar o tecido
-- **Verificação:** Trama compreendida
+- **ID:** M6.2.3-B
+- **Gatilho:** Experiência como fluxo contínuo
+- **Ação:** Respeitar continuidade
+- **Restrição:** Não fragmentar experiência
+- **Verificação:** Continuidade reconhecida
 
-### 3. COMPLEXIDADE_TEIA
+### 3. NARRATIVA_ATIVA
 
-- **ID:** M6.2.1-C
-- **Gatilho:** Rede complexa de conexões
-- **Ação:** Aceitar complexidade
-- **Restrição:** Não simplificar artificialmente
-- **Verificação:** Complexidade respeitada
+- **ID:** M6.2.3-C
+- **Gatilho:** Narrativa como ação viva
+- **Ação:** Reconhecer poder criadora
+- **Restrição:** Não ser mero espectador
+- **Verificação:** Narrativa ativa reconhecida
 
 
 
