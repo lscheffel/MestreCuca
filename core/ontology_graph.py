@@ -12,7 +12,7 @@ from __future__ import annotations
 import json
 import os
 import sys
-from collections import defaultdict
+from collections import defaultdict, deque
 from typing import Any, Optional
 
 import networkx as nx
@@ -508,16 +508,19 @@ class OntologyGraph:
 
     def infer_paths(self, source: str, target: str,
                     max_length: int = 5,
+                    max_paths: int = 50,
                     directed: bool = False) -> list[dict]:
-        """Encontra todos os caminhos simples entre dois nós.
+        """Encontra caminhos entre dois nós usando BFS limitado.
 
-        Navega o grafo como não-dirigido por padrão (relações semânticas
-        são bidirecionais), a menos que directed=True.
+        Usa busca em largura com limites rígidos de profundidade e
+        quantidade de resultados para evitar explosão combinatória
+        em grafos densos.
 
         Args:
             source: Nó de origem.
             target: Nó de destino.
-            max_length: Comprimento máximo do caminho.
+            max_length: Comprimento máximo do caminho (padrão: 5).
+            max_paths: Número máximo de caminhos a retornar (padrão: 50).
             directed: Se True, respeita direção das arestas.
 
         Returns:
@@ -528,12 +531,27 @@ class OntologyGraph:
 
         search_graph = self.G if directed else self.G.to_undirected()
 
-        try:
-            paths = list(nx.all_simple_paths(
-                search_graph, source, target, cutoff=max_length
-            ))
-        except nx.NetworkXNoPath:
-            return []
+        # BFS limitado — evita explosão combinatória de all_simple_paths
+        results: list[list[str]] = []
+        queue: deque[list[str]] = deque([[source]])
+
+        while queue and len(results) < max_paths:
+            path = queue.popleft()
+            node = path[-1]
+
+            if len(path) - 1 > max_length:
+                continue
+
+            if node == target and len(path) > 1:
+                results.append(path)
+                continue
+
+            if len(path) - 1 >= max_length:
+                continue
+
+            for neighbor in search_graph.neighbors(node):
+                if neighbor not in path:  # evita ciclos
+                    queue.append(path + [neighbor])
 
         return [
             {
@@ -541,7 +559,7 @@ class OntologyGraph:
                 'length': len(p) - 1,
                 'total_weight': round(self._path_weight(p), 4),
             }
-            for p in paths
+            for p in results
         ]
 
     def _path_weight(self, path: list[str]) -> float:

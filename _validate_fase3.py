@@ -114,9 +114,9 @@ except Exception as e:
     check("Semantic walk", False, str(e))
     walk_path = []
 
-# 10. Infer paths
+# 10. Infer paths (com max_length seguro para evitar explosão combinatória)
 try:
-    paths_result = g.infer_paths('N4_ALGORITMIA_1_A', 'N4_MISTERIO_3_A', max_length=8)
+    paths_result = g.infer_paths('N4_ALGORITMIA_1_A', 'N4_MISTERIO_3_A', max_length=4, max_paths=20)
     check("Infer paths e lista", isinstance(paths_result, list), "type=" + str(type(paths_result)))
 except Exception as e:
     check("Infer paths", False, str(e))
