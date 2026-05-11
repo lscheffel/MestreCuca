@@ -1,0 +1,495 @@
+ROADMAP_IMPLEMENTACAO_N5:
+  versao: "1.0.0"
+  objetivo_macro:
+    descricao: >
+      Expandir automaticamente a ontologia operacional de 162 células N4
+      para aproximadamente 486 subcélulas N5 semanticamente válidas,
+      preservando coerência fractal, estabilidade inferencial,
+      compatibilidade vetorial e integração total ao motor cognitivo existente.
+
+    resultado_esperado:
+      - "produção automatizada de arquivos N5"
+      - "integração total com embeddings"
+      - "integração total com grafo"
+      - "ativação fractal multi-escala"
+      - "inferência instantânea paralela"
+      - "redução massiva de aliasing semântico"
+      - "aumento da resolução cognitiva"
+
+  estado_atual:
+    ativos_existentes:
+      jsons_n4:
+        quantidade: 162
+        localizacao: "data/json/"
+        conteudo:
+          - "uid"
+          - "path"
+          - "assinatura_semantica"
+          - "funcao_cognitiva"
+          - "relacoes"
+          - "opostos"
+          - "analogias"
+          - "gatilho"
+          - "acao"
+          - "restricao"
+          - "verificacao"
+
+      embeddings:
+        quantidade: 162
+        dimensao: 384
+        localizacao: "data/embeddings/"
+
+      grafo:
+        engine: "NetworkX"
+        nos: 242
+        arestas: 2557
+        localizacao: "core/ontology_graph.py"
+
+      configuracoes:
+        ontology: "config/ontology.yaml"
+        retrieval: "config/retrieval.yaml"
+
+  arquitetura_alvo:
+    estrutura:
+      N0: "vetor"
+      N1: "pilar"
+      N2: "dominio"
+      N3: "subdominio"
+      N4: "célula operacional"
+      N5: "microestado cognitivo"
+
+    geometria:
+      atual: "2×3×3×3×3 = 162"
+      alvo: "2×3×3×3×3×3 = 486"
+
+    paradigma:
+      atual: "classificação hierárquica"
+      alvo: "campo cognitivo fractal"
+
+  estrategia_macro:
+    filosofia:
+      descricao: >
+        Não expandir taxonomicamente.
+        Expandir dinamicamente estados cognitivos internos.
+
+    regra_central:
+      descricao: >
+        Cada N5 deve representar diferença real de dinâmica inferencial,
+        e não mera subdivisão lexical.
+
+    criterio_de_validade:
+      - "altera propagação semântica"
+      - "altera ativação contextual"
+      - "altera trajetória inferencial"
+      - "possui assinatura vetorial distinta"
+      - "possui comportamento cognitivo próprio"
+
+  FASE_1_ANALISE_ONTOLOGICA:
+    objetivo:
+      - "mapear padrões internos das células N4"
+      - "identificar estruturas expansíveis"
+      - "classificar células por densidade cognitiva"
+
+    entregaveis:
+      - "matriz de expansibilidade"
+      - "mapa de granularidade"
+      - "tipologia de expansão"
+
+    implementacao:
+      script: "scripts/analyze_n4_expansion.py"
+
+      pipeline:
+        - "carregar 162 JSONs"
+        - "extrair assinaturas semânticas"
+        - "clusterizar embeddings"
+        - "analisar densidade relacional"
+        - "medir centralidade no grafo"
+        - "medir polissemia"
+        - "medir sobreposição semântica"
+
+    metricas:
+      expansibilidade:
+        formula: >
+          expansibilidade =
+          complexidade +
+          abstração +
+          conectividade +
+          ambiguidade_controlada
+
+      risco_fragmentacao:
+        formula: >
+          baixa_distinção_semântica +
+          redundância_lexical +
+          baixa_variância_vetorial
+
+    output:
+      arquivo: "artifacts/n4_expansion_matrix.json"
+
+      estrutura:
+        uid_n4:
+          expansivel: true
+          score_expansao: 0.83
+          estrategia_recomendada: "estrutura_processo_criterio"
+          risco_fragmentacao: 0.22
+
+  FASE_2_ENGINE_DE_EXPANSAO:
+    objetivo:
+      - "gerar automaticamente subcélulas N5"
+      - "preservar coerência ontológica"
+      - "manter DNA fractal"
+
+    implementacao:
+      script: "scripts/generate_n5.py"
+
+    arquitetura:
+      N5ExpansionEngine:
+        componentes:
+          - "SemanticSplitter"
+          - "CognitiveDifferentiator"
+          - "SignatureGenerator"
+          - "RelationGenerator"
+          - "ValidationEngine"
+
+    heuristicas_de_expansao:
+      estrutura_processo_criterio:
+        descricao:
+          - "subcélula estrutural"
+          - "subcélula procedural"
+          - "subcélula validativa"
+
+      entrada_transformacao_saida:
+        descricao:
+          - "estado inicial"
+          - "dinâmica transformativa"
+          - "estado estabilizado"
+
+      abstracao_execucao_controle:
+        descricao:
+          - "modelo"
+          - "ação"
+          - "verificação"
+
+      tensao_convergencia_estabilidade:
+        descricao:
+          - "força entrópica"
+          - "força transformativa"
+          - "força estabilizadora"
+
+    geracao_automatica:
+      campos_herdados:
+        - "axis"
+        - "pilar"
+        - "dominio"
+        - "n3_ref"
+        - "assinatura_semantica_base"
+        - "funcao_cognitiva"
+        - "tags"
+
+      campos_derivados:
+        - "uid_n5"
+        - "hierarchical_id_n5"
+        - "natureza_n5"
+        - "assinatura_semantica_n5"
+        - "propagacao_prioritaria"
+        - "diferencial_inferencial"
+        - "opostos_n5"
+        - "microrelacoes"
+
+    output:
+      localizacao: "data/n5/"
+      formato: "json"
+
+  FASE_3_GERACAO_DE_ASSINATURAS:
+    objetivo:
+      - "criar diferenciação vetorial real entre N5s"
+
+    implementacao:
+      script: "scripts/generate_n5_signatures.py"
+
+    metodo:
+      entrada:
+        - "assinatura N4 original"
+        - "natureza da subcélula"
+        - "posição estrutural"
+
+      transformacao:
+        estrutural:
+          aumenta:
+            - "materialidade"
+            - "causalidade"
+
+        procedural:
+          aumenta:
+            - "dinamismo"
+            - "temporalidade"
+
+        validativa:
+          aumenta:
+            - "controle"
+            - "consistência"
+
+    validacao:
+      distancia_coseno_minima: 0.08
+      divergencia_minima: 0.12
+
+    objetivo:
+      descricao: >
+        Evitar subcélulas semanticamente colapsadas.
+
+  FASE_4_EMBEDDINGS_N5:
+    objetivo:
+      - "gerar embeddings específicos para N5"
+
+    implementacao:
+      script: "scripts/embed_n5.py"
+
+    estrategia:
+      texto_embedding:
+        composicao:
+          - "nome"
+          - "definição"
+          - "gatilho"
+          - "ação"
+          - "restrição"
+          - "verificação"
+          - "função cognitiva"
+          - "propagação prioritária"
+
+    modelos_recomendados:
+      - "bge-small-en-v1.5"
+      - "nomic-embed-text"
+      - "e5-small-v2"
+
+    output:
+      localizacao: "data/embeddings_n5/"
+      dimensao: 384
+
+  FASE_5_EXPANSAO_DO_GRAFO:
+    objetivo:
+      - "integrar N5 ao campo relacional"
+
+    implementacao:
+      script: "scripts/expand_graph_n5.py"
+
+    alteracoes:
+      novos_nos:
+        aproximado: 486
+
+      novas_arestas:
+        aproximado: 8000-15000
+
+    relacoes_automaticas:
+      intra_n4:
+        - "habilita"
+        - "requer"
+        - "retroalimenta"
+
+      inter_n5:
+        - "complementa"
+        - "contrasta"
+        - "sinergiza"
+        - "estabiliza"
+
+    metricas:
+      - "pagerank"
+      - "betweenness"
+      - "eigenvector"
+      - "community detection"
+
+    objetivo_arquitetural:
+      descricao: >
+        Transformar a ontologia em campo cognitivo propagativo.
+
+  FASE_6_FRACTAL_STORM_ENGINE:
+    objetivo:
+      - "migrar de pipeline sequencial para ativação paralela"
+
+    implementacao:
+      engine: "FractalStormEngine"
+
+    arquitetura:
+      ontology_matrix:
+        shape: "[486,384]"
+
+      adjacency_matrix:
+        tipo: "sparse"
+
+      activation_pipeline:
+        - "embedding query"
+        - "ativação global"
+        - "propagação vetorial"
+        - "ressonância"
+        - "stabilization"
+        - "top-k attractors"
+
+    pseudo_pipeline:
+      - "q = embed(query)"
+      - "activation = ontology_matrix @ q"
+      - "activation = adjacency @ activation"
+      - "activation = normalize(activation)"
+      - "top_k = select_top_k(activation)"
+
+    objetivo:
+      descricao: >
+        Inferência simultânea multi-escala com latência sub-10ms.
+
+  FASE_7_RETRIEVAL_HIBRIDO:
+    objetivo:
+      - "integrar N5 ao retrieval"
+
+    implementacao:
+      componentes:
+        - "semantic retrieval"
+        - "graph propagation"
+        - "attractor resonance"
+        - "context memory"
+
+    retrieval_score:
+      formula: >
+        retrieval =
+        embedding_similarity +
+        graph_resonance +
+        contextual_activation +
+        semantic_density
+
+    beneficios:
+      - "menos respostas genéricas"
+      - "maior contextualização"
+      - "melhor precisão"
+      - "ativação cognitiva fina"
+
+  FASE_8_VALIDACAO_COGNITIVA:
+    objetivo:
+      - "detectar degeneração ontológica"
+
+    implementacao:
+      script: "scripts/validate_n5.py"
+
+    validacoes:
+      - "duplicação semântica"
+      - "colapso vetorial"
+      - "fragmentação excessiva"
+      - "sobreposição estrutural"
+      - "loops inferenciais"
+      - "arestas degeneradas"
+
+    metricas:
+      entropia_global:
+        ideal: "moderada"
+
+      entropia_local:
+        ideal: "baixa"
+
+      modularidade:
+        ideal: ">0.45"
+
+      cluster_purity:
+        ideal: ">0.82"
+
+  FASE_9_OTIMIZACAO_DE_PERFORMANCE:
+    objetivo:
+      - "inferência quase instantânea"
+
+    implementacao:
+      tecnologias:
+        - "NumPy"
+        - "PyTorch"
+        - "FAISS"
+        - "Sparse matrices"
+        - "TorchScript"
+
+    otimizacoes:
+      - "pré-cálculo de vizinhanças"
+      - "cache de propagação"
+      - "compilação de matrizes"
+      - "batch inference"
+      - "memory mapping"
+
+    latencia_alvo:
+      inferencia: "1-15ms"
+
+  FASE_10_API_E_PRODUCAO:
+    objetivo:
+      - "disponibilizar engine operacional"
+
+    implementacao:
+      framework: "FastAPI"
+
+    endpoints:
+      - "/infer"
+      - "/retrieve"
+      - "/propagate"
+      - "/resonate"
+      - "/neighbors"
+      - "/attractors"
+
+    formatos:
+      entrada:
+        - "query"
+        - "embedding"
+        - "context"
+
+      saida:
+        - "ativacoes"
+        - "trajetorias"
+        - "clusters"
+        - "subcélulas"
+        - "scores"
+
+  estrutura_final:
+    data:
+      json_n5: "data/n5/"
+      embeddings_n5: "data/embeddings_n5/"
+      graph_n5: "data/graphs/n5_graph.gexf"
+
+    scripts:
+      - "analyze_n4_expansion.py"
+      - "generate_n5.py"
+      - "generate_n5_signatures.py"
+      - "embed_n5.py"
+      - "expand_graph_n5.py"
+      - "validate_n5.py"
+
+    core:
+      - "fractal_storm_engine.py"
+      - "n5_resonance.py"
+      - "graph_propagation.py"
+      - "semantic_attractors.py"
+
+  riscos:
+    principais:
+      - "fragmentação ontológica"
+      - "redundância semântica"
+      - "colapso vetorial"
+      - "overfitting taxonômico"
+
+    mitigacao:
+      - "thresholds de divergência"
+      - "distância vetorial mínima"
+      - "validação relacional"
+      - "cluster purity"
+      - "controle de entropia"
+
+  beneficios_esperados:
+    inferencia:
+      - "mais precisa"
+      - "menos genérica"
+      - "mais contextual"
+      - "mais profunda"
+
+    retrieval:
+      - "melhor granularidade"
+      - "melhor propagação"
+      - "maior estabilidade"
+
+    cognicao:
+      - "micro-ressonância"
+      - "attractors cognitivos"
+      - "campos semânticos reais"
+      - "trajetórias inferenciais"
+
+  estado_final:
+    descricao: >
+      O sistema deixa de operar como classificador hierárquico
+      e passa a operar como campo cognitivo ontológico propagativo,
+      com ativação fractal paralela multi-escala.

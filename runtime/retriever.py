@@ -15,6 +15,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import sys
 import time
 from pathlib import Path
 from typing import Any, Optional
@@ -25,6 +26,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 from core.ontology_graph import OntologyGraph
 
 logger = logging.getLogger(__name__)
+
+# Resolução robusta do diretório raiz do projeto
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+if str(_PROJECT_ROOT / "core") not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT / "core"))
 
 
 class HybridRetriever:
@@ -55,6 +63,14 @@ class HybridRetriever:
             graph_engine: Instância pré-construída do OntologyGraph (opcional).
             config_path: Caminho para arquivo de configuração YAML.
         """
+        # Resolver caminhos relativos ao diretório raiz do projeto
+        if not Path(embedding_dir).is_absolute():
+            embedding_dir = str(_PROJECT_ROOT / embedding_dir)
+        if not Path(json_dir).is_absolute():
+            json_dir = str(_PROJECT_ROOT / json_dir)
+        if not Path(config_path).is_absolute():
+            config_path = str(_PROJECT_ROOT / config_path)
+
         self.embedding_dir = Path(embedding_dir)
         self.embedding_dim = 384
 

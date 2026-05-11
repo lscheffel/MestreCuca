@@ -359,6 +359,43 @@ class FullClassification:
     confianca_media: float
     top_cells: list[dict[str, Any]] = field(default_factory=list)
 
+    def to_dict(self) -> dict:
+        """Serializa para dicionário, compatível com o contrato do Router."""
+        return {
+            "query": self.query,
+            "classificacao": {
+                "n0_eixo": {
+                    "eixo": self.n0.label,
+                    "code": self.n0.code,
+                    "score": self.n0.score,
+                },
+                "n1_pilar": {
+                    "pilar": self.n1.label,
+                    "code": self.n1.code,
+                    "score": self.n1.score,
+                },
+                "n2_dominio": {
+                    "dominio": self.n2.label,
+                    "code": self.n2.code,
+                    "score": self.n2.score,
+                },
+                "n3_subarvore": {
+                    "subarvore": self.n3.label,
+                    "code": self.n3.code,
+                    "score": self.n3.score,
+                },
+                "n4_celula": {
+                    "celula_nome": self.n4.label,
+                    "code": self.n4.code,
+                    "score": self.n4.score,
+                },
+            },
+            "caminho_completo": self.caminho_completo,
+            "confianca_media": self.confianca_media,
+            "top_cells": self.top_cells,
+            "_latency_ms": 0,
+        }
+
 
 # ---------------------------------------------------------------------------
 # Classificador principal
@@ -847,6 +884,10 @@ class OntologicalClassifier:
             candidates={uid: round(s, 4) for uid, s in scores},
             top_cells=top3,
         )
+
+    def classify(self, query: str) -> FullClassification:
+        """Atalho para full_classify — usado pelo Orchestrator."""
+        return self.full_classify(query)
 
     # ------------------------------------------------------------------
     # Classificação completa

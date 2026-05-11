@@ -13,9 +13,15 @@ import json
 import os
 import sys
 from collections import defaultdict, deque
+from pathlib import Path
 from typing import Any, Optional
 
 import networkx as nx
+
+# Resolução robusta do diretório raiz do projeto
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
 
 # ---------------------------------------------------------------------------
 # Mapeamentos ontológicos derivados da especificação
@@ -87,6 +93,9 @@ class OntologyGraph:
 
     def __init__(self, json_dir: str = "data/json"):
         self.G = nx.DiGraph()
+        # Resolver caminho relativo ao diretório raiz do projeto
+        if not Path(json_dir).is_absolute():
+            json_dir = str(_PROJECT_ROOT / json_dir)
         self.json_dir = json_dir
         self.registry: dict[str, dict] = {}
         self._node_index: dict[str, dict] = {}  # cache de metadados de nós
@@ -430,6 +439,40 @@ class OntologyGraph:
             })
 
         return sorted(results, key=lambda x: abs(x['peso']), reverse=True)
+
+    def query_neighbors_multi(self, node_ids: list[str],
+                              depth: int = 3) -> list[dict]:
+        """Consulta vizinhos para múltiplos nós de origem.
+
+        Expande a busca a partir de várias células seed, útil para
+        recuperação de contexto no pipeline de retrieval híbrido.
+
+        Args:
+            node_ids: Lista de UIDs de origem.
+            depth: Profundidade máxima de expansão.
+
+        Returns:
+            Lista consolidada de vizinhos com metadados.
+        """
+        all_results: list[dict] = []
+        seen_targets: set[str] = set()
+
+        for node_id in node_ids:
+            neighbors = self.query_neighbors(node_id, depth=depth)
+            for nb in neighbors:
+                target = nb['target']
+                if target not in seen_targets:
+                    seen_targets.add(target)
+                    all_results.append(nb)
+
+        # Deduplicar por target, mantendo maior peso
+        best: dict[str, dict] = {}
+        for r in all_results:
+            t = r['target']
+            if t not in best or abs(r['peso']) > abs(best[t]['peso']):
+                best[t] = r
+
+        return sorted(best.values(), key=lambda x: abs(x['peso']), reverse=True)
 
     def semantic_walk(self, start_node: str, steps: int = 3,
                       strategy: str = "weighted",
