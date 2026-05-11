@@ -224,20 +224,31 @@ class OntologyValidator:
                         self._load_cell(uid, json_dir)
                 elif isinstance(index, dict):
                     # Índice é dict (ex: {"schema_version": ..., "total_celulas": 162, ...})
-                    # Tentar extrair UIDs do campo "celulas" ou similar
-                    celulas = index.get("celulas") or index.get("uids") or index.get("cells")
-                    if isinstance(celulas, list):
-                        for uid in celulas:
+                    # Priorizar id_mapping (formato atual com UIDs string como chaves)
+                    id_mapping = index.get("id_mapping", {})
+                    if isinstance(id_mapping, dict) and id_mapping:
+                        for uid in id_mapping:
                             self._load_cell(uid, json_dir)
                     else:
-                        # Fallback: glob direto nos JSONs
-                        logger.info(
-                            "Índice é dict sem lista de UIDs (%d chaves), "
-                            "usando glob fallback",
-                            len(index),
+                        # Fallback para campos de lista (celulas/uids/cells)
+                        celulas = (
+                            index.get("celulas")
+                            or index.get("uids")
+                            or index.get("cells")
                         )
-                        for f in sorted(Path(json_dir).glob("N4_*.json")):
-                            self._load_cell(f.stem, json_dir)
+                        if isinstance(celulas, list) and celulas:
+                            for uid in celulas:
+                                if isinstance(uid, str):
+                                    self._load_cell(uid, json_dir)
+                        else:
+                            # Fallback: glob direto nos JSONs
+                            logger.info(
+                                "Índice é dict sem id_mapping nem lista de UIDs "
+                                "(%d chaves), usando glob fallback",
+                                len(index),
+                            )
+                            for f in sorted(Path(json_dir).glob("N4_*.json")):
+                                self._load_cell(f.stem, json_dir)
             else:
                 # Fallback: carregar todos os JSONs do diretório
                 for f in sorted(Path(json_dir).glob("N4_*.json")):
@@ -299,13 +310,13 @@ class OntologyValidator:
 
         # Calcular score geral
         scores = [v.score for v in verificacoes]
-        score_geral = np.mean(scores) if scores else 0.0
+        score_geral: float = float(np.mean(scores)) if scores else 0.0
 
         # Gerar recomendações
         recomendacoes = self._generate_recommendations(verificacoes)
 
         return ValidationReport(
-            valido=score_geral >= self.threshold,
+            valido=bool(score_geral >= self.threshold),
             verificacoes=verificacoes,
             score_geral=score_geral,
             recomendacoes=recomendacoes,

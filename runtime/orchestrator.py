@@ -12,14 +12,13 @@ from __future__ import annotations
 
 import json
 import logging
+import sys
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, cast
 
 import numpy as np
-import sys
-from pathlib import Path
 
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(_PROJECT_ROOT))
@@ -251,10 +250,9 @@ class OntologyOrchestrator:
 
         # ── PASSO 1: Classificação ──
         try:
-            classification = self.classifier.classify(query)
-            # FullClassification → dict para compatibilidade com o pipeline
-            if hasattr(classification, "to_dict"):
-                classification = classification.to_dict()
+            raw_classification = self.classifier.classify(query)
+            # FullClassification → dict (cast explícito para type-checkers)
+            classification: dict = cast(dict, raw_classification.to_dict())
             logger.info(
                 "Classificação: eixo=%s, pilar=%s, dominio=%s",
                 classification.get("classificacao", {}).get("n0_eixo", {}).get("eixo"),

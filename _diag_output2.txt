@@ -1,0 +1,17 @@
+[DEBUG] Python: 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]
+[DEBUG] CWD: e:\Arquivos\Área de Trabalho\MestreCuca
+[DEBUG] argv: ['runtime/_diag_validator5.py', ';', 'type', '_diag_output2.txt']
+[DEBUG] PROJECT_ROOT: e:\Arquivos\Área de Trabalho\MestreCuca
+[DEBUG] Added PROJECT_ROOT to sys.path
+[DEBUG] Added core to sys.path
+[DEBUG] sys.path[:5] = ['e:\\Arquivos\\Área de Trabalho\\MestreCuca\\core', 'e:\\Arquivos\\Área de Trabalho\\MestreCuca', 'e:\\Arquivos\\Área de Trabalho\\MestreCuca\\runtime', 'C:\\Program Files\\Python313\\python313.zip', 'C:\\Program Files\\Python313\\DLLs']
+[DEBUG] numpy: 2.2.4
+[DEBUG] pathlib ok
+[DEBUG] OntologyValidator imported successfully
+[DEBUG] json_dir: e:\Arquivos\Área de Trabalho\MestreCuca\data\json
+[DEBUG] index_path: e:\Arquivos\Área de Trabalho\MestreCuca\data\json\ontology_index.json
+[DEBUG] json_dir exists: True
+[DEBUG] index_path exists: True
+[RESULT] Registry size: 162
+[RESULT] First 5 keys: ['N4_ALGORITMIA_1_A', 'N4_ALGORITMIA_1_B', 'N4_ALGORITMIA_1_C', 'N4_ALGORITMIA_2_A', 'N4_ALGORITMIA_2_B']
+[DONE] Diagnostic complete
