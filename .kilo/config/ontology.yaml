@@ -1,0 +1,69 @@
+# =============================================================================
+# CONFIGURAÇÃO DA ONTOLOGIA — .kilo/config/ontology.yaml
+# =============================================================================
+
+ontology:
+  name: "OntologiaFractal_KiloCode"
+  version: "3.0.0"
+  description: "Ontologia fractal N0→N4 para sistema cognitivo operacional"
+
+  # Estrutura hierárquica
+  hierarchy:
+    levels: ["N0", "N1", "N2", "N3", "N4"]
+    branching:
+      N0: 2          # SINTRÓPICO, ENTRÓPICO
+      N1: 3          # LOGOS, BIOS, PATHOS (× KHAOS, APEIRON, MYTHOS no ENTRÓPICO)
+      N2: 3          # 3 domínios por pilar
+      N3: 3          # 3 subárvores por domínio
+      N4: 3          # 3 células por subárvore
+    total_cells: 162
+
+  # Mapeamento de pilares por vetor
+  pillars:
+    sintropico:
+      - LOGOS
+      - BIOS
+      - PATHOS
+    entropico:
+      - KHAOS
+      - APEIRON
+      - MYTHOS
+
+  # Domínios por pilar
+  domains:
+    LOGOS: ["ALGORITMIA", "NOMOS", "MECÂNICA"]
+    BIOS: ["OIKOS", "SOMA", "METABOLISMO"]
+    PATHOS: ["ETHOS", "ALTERIDADE", "ESTÉTICA"]
+    KHAOS: ["ENTROPIA", "SINGULARIDADE", "SÍNTESE"]
+    APEIRON: ["ESCALA", "VIBRATIO", "VÁCUO"]
+    MYTHOS: ["ARQUÉTIPO", "NARRATIVA", "MISTÉRIO"]
+
+  # Naturezas ontológicas (tipagem)
+  natures:
+    - processo
+    - estado
+    - fenomeno
+    - principio
+    - mecanismo
+    - estrutura
+    - arquetipo
+    - dinamica
+    - restricao
+    - vetor
+
+  # Tipos de relação
+  relation_types:
+    depende_de: 1.0
+    complementa: 0.8
+    contrasta: -0.7
+    expande: 0.6
+    implementa: 0.9
+    generaliza: 0.7
+    especializa: 0.7
+    causa: 0.85
+    equilibra: 0.5
+    transforma: 0.6
+
+  # UIDs reservados
+  uid_prefix: "N4"
+  uid_format: "^[A-Z0-9_]+$"

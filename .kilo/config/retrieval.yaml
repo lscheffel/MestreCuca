@@ -1,0 +1,58 @@
+# =============================================================================
+# CONFIGURAÇÃO DE RETRIEVAL — .kilo/config/retrieval.yaml
+# =============================================================================
+
+retrieval:
+  nome: "HybridRetriever"
+  versao: "3.0.0"
+  descricao: "Retrieval híbrido: vetorial + gráfico + simbólico"
+
+  # Busca vetorial (dense retrieval)
+  vetorial:
+    modelo: "all-MiniLM-L6-v2"
+    metrica: "cosine"
+    limiar_minimo: 0.65
+    limiar_alto: 0.85
+    top_k_default: 20
+    top_k_max: 100
+    expandir_query: true
+    cache:
+      habilitado: true
+      caminho: "./data/embeddings/cache/"
+      ttl_horas: 24
+      max_tamanho_gb: 2
+
+  # Busca gráfica (graph traversal)
+  grafico:
+    habilitado: true
+    profundidade_max: 3
+    max_caminhos: 50
+    limiar_proximidade: 0.5
+    estrategia: "bfs"               # "bfs" | "dfs" | "dijkstra"
+    reranking: true
+    expansao_vizinhos: 5
+
+  # Busca simbólica (exact match / filtering)
+  simbolico:
+    habilitado: true
+    campos: ["uid", "hierarquico_id", "pilar", "dominio", "natureza"]
+    fuzzy_limiar: 0.8
+    match_exato: true
+
+  # Fusão de resultados
+  fusao:
+    estrategia: "weighted_sum"
+    pesos:
+      vetorial: 0.50
+      grafico: 0.30
+      simbolico: 0.20
+    reranking_final: true
+    top_k_final: 10
+    diversidade_minima: 0.3
+
+  # Re-ranking
+  reranking:
+    habilitado: true
+    modelo: "cross-encoder"
+    top_n_para_rerank: 20
+    limiar_rerank: 0.70

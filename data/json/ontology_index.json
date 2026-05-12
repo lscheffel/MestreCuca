@@ -1,51 +1,51 @@
 {
   "schema_version": "1.0.0",
-  "gerado_em": "2026-05-09T15:36:20.907354+00:00",
+  "gerado_em": "2026-05-11T22:02:34.067947+00:00",
   "total_celulas": 162,
   "estatisticas": {
     "por_natureza": {
-      "processo": 47,
-      "mecanismo": 2,
-      "restricao": 13,
-      "estrutura": 2,
-      "vetor": 10,
-      "estado": 16,
-      "principio": 3,
+      "arquétipo": 8,
       "dinamica": 18,
+      "estado": 16,
+      "estrutura": 2,
       "fenomeno": 43,
-      "arquétipo": 8
+      "mecanismo": 2,
+      "principio": 3,
+      "processo": 47,
+      "restricao": 13,
+      "vetor": 10
     },
     "por_dominio": {
       "ALGORITMIA": 9,
-      "NOMOS": 9,
-      "MECÂNICA": 9,
-      "OIKOS": 9,
-      "SOMA": 9,
-      "METABOLISMO": 9,
-      "ETHOS": 9,
       "ALTERIDADE": 9,
-      "ESTÉTICA": 9,
-      "ENTROPIA": 9,
-      "SINGULARIDADE": 9,
-      "SÍNTESE": 9,
-      "ESCALA": 9,
-      "VIBRATIO": 9,
-      "VÁCUO": 9,
       "ARQUÉTIPO": 9,
+      "ENTROPIA": 9,
+      "ESCALA": 9,
+      "ESTÉTICA": 9,
+      "ETHOS": 9,
+      "MECÂNICA": 9,
+      "METABOLISMO": 9,
+      "MISTÉRIO": 9,
       "NARRATIVA": 9,
-      "MISTÉRIO": 9
+      "NOMOS": 9,
+      "OIKOS": 9,
+      "SINGULARIDADE": 9,
+      "SOMA": 9,
+      "SÍNTESE": 9,
+      "VIBRATIO": 9,
+      "VÁCUO": 9
     },
     "por_pilar": {
-      "LOGOS": 27,
-      "BIOS": 27,
-      "PATHOS": 27,
-      "KHAOS": 27,
       "APEIRON": 27,
-      "MYTHOS": 27
+      "BIOS": 27,
+      "KHAOS": 27,
+      "LOGOS": 27,
+      "MYTHOS": 27,
+      "PATHOS": 27
     },
     "por_axis": {
-      "SINTRÓPICO": 81,
-      "ENTRÓPICO": 81
+      "ENTRÓPICO": 81,
+      "SINTRÓPICO": 81
     }
   },
   "id_mapping": {
@@ -94,276 +94,6 @@
       "path": "S1.L1.1.3-C",
       "hierarchical_id": "1.1.3.3"
     },
-    "N4_NOMOS_1_A": {
-      "legacy_id": "R1.2.1-A",
-      "path": "S1.L1.2.1-A",
-      "hierarchical_id": "1.2.1.1"
-    },
-    "N4_NOMOS_1_B": {
-      "legacy_id": "R1.2.1-B",
-      "path": "S1.L1.2.1-B",
-      "hierarchical_id": "1.2.1.2"
-    },
-    "N4_NOMOS_1_C": {
-      "legacy_id": "R1.2.1-C",
-      "path": "S1.L1.2.1-C",
-      "hierarchical_id": "1.2.1.3"
-    },
-    "N4_NOMOS_2_A": {
-      "legacy_id": "R1.2.2-A",
-      "path": "S1.L1.2.2-A",
-      "hierarchical_id": "1.2.2.1"
-    },
-    "N4_NOMOS_2_B": {
-      "legacy_id": "R1.2.2-B",
-      "path": "S1.L1.2.2-B",
-      "hierarchical_id": "1.2.2.2"
-    },
-    "N4_NOMOS_2_C": {
-      "legacy_id": "R1.2.2-C",
-      "path": "S1.L1.2.2-C",
-      "hierarchical_id": "1.2.2.3"
-    },
-    "N4_NOMOS_3_A": {
-      "legacy_id": "R1.2.3-A",
-      "path": "S1.L1.2.3-A",
-      "hierarchical_id": "1.2.3.1"
-    },
-    "N4_NOMOS_3_B": {
-      "legacy_id": "R1.2.3-B",
-      "path": "S1.L1.2.3-B",
-      "hierarchical_id": "1.2.3.2"
-    },
-    "N4_NOMOS_3_C": {
-      "legacy_id": "R1.2.3-C",
-      "path": "S1.L1.2.3-C",
-      "hierarchical_id": "1.2.3.3"
-    },
-    "N4_MECANICA_1_A": {
-      "legacy_id": "R1.3.1-A",
-      "path": "S1.L1.3.1-A",
-      "hierarchical_id": "1.3.1.1"
-    },
-    "N4_MECANICA_1_B": {
-      "legacy_id": "R1.3.1-B",
-      "path": "S1.L1.3.1-B",
-      "hierarchical_id": "1.3.1.2"
-    },
-    "N4_MECANICA_1_C": {
-      "legacy_id": "R1.3.1-C",
-      "path": "S1.L1.3.1-C",
-      "hierarchical_id": "1.3.1.3"
-    },
-    "N4_MECANICA_2_A": {
-      "legacy_id": "R1.3.2-A",
-      "path": "S1.L1.3.2-A",
-      "hierarchical_id": "1.3.2.1"
-    },
-    "N4_MECANICA_2_B": {
-      "legacy_id": "R1.3.2-B",
-      "path": "S1.L1.3.2-B",
-      "hierarchical_id": "1.3.2.2"
-    },
-    "N4_MECANICA_2_C": {
-      "legacy_id": "R1.3.2-C",
-      "path": "S1.L1.3.2-C",
-      "hierarchical_id": "1.3.2.3"
-    },
-    "N4_MECANICA_3_A": {
-      "legacy_id": "R1.3.3-A",
-      "path": "S1.L1.3.3-A",
-      "hierarchical_id": "1.3.3.1"
-    },
-    "N4_MECANICA_3_B": {
-      "legacy_id": "R1.3.3-B",
-      "path": "S1.L1.3.3-B",
-      "hierarchical_id": "1.3.3.2"
-    },
-    "N4_MECANICA_3_C": {
-      "legacy_id": "R1.3.3-C",
-      "path": "S1.L1.3.3-C",
-      "hierarchical_id": "1.3.3.3"
-    },
-    "N4_OIKOS_1_A": {
-      "legacy_id": "B2.1.1-A",
-      "path": "S1.B2.1.1-A",
-      "hierarchical_id": "2.1.1.1"
-    },
-    "N4_OIKOS_1_B": {
-      "legacy_id": "B2.1.1-B",
-      "path": "S1.B2.1.1-B",
-      "hierarchical_id": "2.1.1.2"
-    },
-    "N4_OIKOS_1_C": {
-      "legacy_id": "B2.1.1-C",
-      "path": "S1.B2.1.1-C",
-      "hierarchical_id": "2.1.1.3"
-    },
-    "N4_OIKOS_2_A": {
-      "legacy_id": "B2.1.2-A",
-      "path": "S1.B2.1.2-A",
-      "hierarchical_id": "2.1.2.1"
-    },
-    "N4_OIKOS_2_B": {
-      "legacy_id": "B2.1.2-B",
-      "path": "S1.B2.1.2-B",
-      "hierarchical_id": "2.1.2.2"
-    },
-    "N4_OIKOS_2_C": {
-      "legacy_id": "B2.1.2-C",
-      "path": "S1.B2.1.2-C",
-      "hierarchical_id": "2.1.2.3"
-    },
-    "N4_OIKOS_3_A": {
-      "legacy_id": "B2.1.3-A",
-      "path": "S1.B2.1.3-A",
-      "hierarchical_id": "2.1.3.1"
-    },
-    "N4_OIKOS_3_B": {
-      "legacy_id": "B2.1.3-B",
-      "path": "S1.B2.1.3-B",
-      "hierarchical_id": "2.1.3.2"
-    },
-    "N4_OIKOS_3_C": {
-      "legacy_id": "B2.1.3-C",
-      "path": "S1.B2.1.3-C",
-      "hierarchical_id": "2.1.3.3"
-    },
-    "N4_SOMA_1_A": {
-      "legacy_id": "B2.2.1-A",
-      "path": "S1.B2.2.1-A",
-      "hierarchical_id": "2.2.1.1"
-    },
-    "N4_SOMA_1_B": {
-      "legacy_id": "B2.2.1-B",
-      "path": "S1.B2.2.1-B",
-      "hierarchical_id": "2.2.1.2"
-    },
-    "N4_SOMA_1_C": {
-      "legacy_id": "B2.2.1-C",
-      "path": "S1.B2.2.1-C",
-      "hierarchical_id": "2.2.1.3"
-    },
-    "N4_SOMA_2_A": {
-      "legacy_id": "B2.2.2-A",
-      "path": "S1.B2.2.2-A",
-      "hierarchical_id": "2.2.2.1"
-    },
-    "N4_SOMA_2_B": {
-      "legacy_id": "B2.2.2-B",
-      "path": "S1.B2.2.2-B",
-      "hierarchical_id": "2.2.2.2"
-    },
-    "N4_SOMA_2_C": {
-      "legacy_id": "B2.2.2-C",
-      "path": "S1.B2.2.2-C",
-      "hierarchical_id": "2.2.2.3"
-    },
-    "N4_SOMA_3_A": {
-      "legacy_id": "B2.2.3-A",
-      "path": "S1.B2.2.3-A",
-      "hierarchical_id": "2.2.3.1"
-    },
-    "N4_SOMA_3_B": {
-      "legacy_id": "B2.2.3-B",
-      "path": "S1.B2.2.3-B",
-      "hierarchical_id": "2.2.3.2"
-    },
-    "N4_SOMA_3_C": {
-      "legacy_id": "B2.2.3-C",
-      "path": "S1.B2.2.3-C",
-      "hierarchical_id": "2.2.3.3"
-    },
-    "N4_METABOLISMO_1_A": {
-      "legacy_id": "B2.3.1-A",
-      "path": "S1.B2.3.1-A",
-      "hierarchical_id": "2.3.1.1"
-    },
-    "N4_METABOLISMO_1_B": {
-      "legacy_id": "B2.3.1-B",
-      "path": "S1.B2.3.1-B",
-      "hierarchical_id": "2.3.1.2"
-    },
-    "N4_METABOLISMO_1_C": {
-      "legacy_id": "B2.3.1-C",
-      "path": "S1.B2.3.1-C",
-      "hierarchical_id": "2.3.1.3"
-    },
-    "N4_METABOLISMO_2_A": {
-      "legacy_id": "B2.3.2-A",
-      "path": "S1.B2.3.2-A",
-      "hierarchical_id": "2.3.2.1"
-    },
-    "N4_METABOLISMO_2_B": {
-      "legacy_id": "B2.3.2-B",
-      "path": "S1.B2.3.2-B",
-      "hierarchical_id": "2.3.2.2"
-    },
-    "N4_METABOLISMO_2_C": {
-      "legacy_id": "B2.3.2-C",
-      "path": "S1.B2.3.2-C",
-      "hierarchical_id": "2.3.2.3"
-    },
-    "N4_METABOLISMO_3_A": {
-      "legacy_id": "B2.3.3-A",
-      "path": "S1.B2.3.3-A",
-      "hierarchical_id": "2.3.3.1"
-    },
-    "N4_METABOLISMO_3_B": {
-      "legacy_id": "B2.3.3-B",
-      "path": "S1.B2.3.3-B",
-      "hierarchical_id": "2.3.3.2"
-    },
-    "N4_METABOLISMO_3_C": {
-      "legacy_id": "B2.3.3-C",
-      "path": "S1.B2.3.3-C",
-      "hierarchical_id": "2.3.3.3"
-    },
-    "N4_ETHOS_1_A": {
-      "legacy_id": "P3.1.1-A",
-      "path": "S1.P3.1.1-A",
-      "hierarchical_id": "3.1.1.1"
-    },
-    "N4_ETHOS_1_B": {
-      "legacy_id": "P3.1.1-B",
-      "path": "S1.P3.1.1-B",
-      "hierarchical_id": "3.1.1.2"
-    },
-    "N4_ETHOS_1_C": {
-      "legacy_id": "P3.1.1-C",
-      "path": "S1.P3.1.1-C",
-      "hierarchical_id": "3.1.1.3"
-    },
-    "N4_ETHOS_2_A": {
-      "legacy_id": "P3.1.2-A",
-      "path": "S1.P3.1.2-A",
-      "hierarchical_id": "3.1.2.1"
-    },
-    "N4_ETHOS_2_B": {
-      "legacy_id": "P3.1.2-B",
-      "path": "S1.P3.1.2-B",
-      "hierarchical_id": "3.1.2.2"
-    },
-    "N4_ETHOS_2_C": {
-      "legacy_id": "P3.1.2-C",
-      "path": "S1.P3.1.2-C",
-      "hierarchical_id": "3.1.2.3"
-    },
-    "N4_ETHOS_3_A": {
-      "legacy_id": "P3.1.3-A",
-      "path": "S1.P3.1.3-A",
-      "hierarchical_id": "3.1.3.1"
-    },
-    "N4_ETHOS_3_B": {
-      "legacy_id": "P3.1.3-B",
-      "path": "S1.P3.1.3-B",
-      "hierarchical_id": "3.1.3.2"
-    },
-    "N4_ETHOS_3_C": {
-      "legacy_id": "P3.1.3-C",
-      "path": "S1.P3.1.3-C",
-      "hierarchical_id": "3.1.3.3"
-    },
     "N4_ALTERIDADE_1_A": {
       "legacy_id": "P3.2.1-A",
       "path": "S1.P3.2.1-A",
@@ -408,6 +138,141 @@
       "legacy_id": "P3.2.3-C",
       "path": "S1.P3.2.3-C",
       "hierarchical_id": "3.2.3.3"
+    },
+    "N4_ARQUETIPO_1_A": {
+      "legacy_id": "M6.1.1-A",
+      "path": "E2.M3.1.1-A",
+      "hierarchical_id": "6.1.1.1"
+    },
+    "N4_ARQUETIPO_1_B": {
+      "legacy_id": "M6.1.1-B",
+      "path": "E2.M3.1.1-B",
+      "hierarchical_id": "6.1.1.2"
+    },
+    "N4_ARQUETIPO_1_C": {
+      "legacy_id": "M6.1.1-C",
+      "path": "E2.M3.1.1-C",
+      "hierarchical_id": "6.1.1.3"
+    },
+    "N4_ARQUETIPO_2_A": {
+      "legacy_id": "M6.1.2-A",
+      "path": "E2.M3.1.2-A",
+      "hierarchical_id": "6.1.2.1"
+    },
+    "N4_ARQUETIPO_2_B": {
+      "legacy_id": "M6.1.2-B",
+      "path": "E2.M3.1.2-B",
+      "hierarchical_id": "6.1.2.2"
+    },
+    "N4_ARQUETIPO_2_C": {
+      "legacy_id": "M6.1.2-C",
+      "path": "E2.M3.1.2-C",
+      "hierarchical_id": "6.1.2.3"
+    },
+    "N4_ARQUETIPO_3_A": {
+      "legacy_id": "M6.1.3-A",
+      "path": "E2.M3.1.3-A",
+      "hierarchical_id": "6.1.3.1"
+    },
+    "N4_ARQUETIPO_3_B": {
+      "legacy_id": "M6.1.3-B",
+      "path": "E2.M3.1.3-B",
+      "hierarchical_id": "6.1.3.2"
+    },
+    "N4_ARQUETIPO_3_C": {
+      "legacy_id": "M6.1.3-C",
+      "path": "E2.M3.1.3-C",
+      "hierarchical_id": "6.1.3.3"
+    },
+    "N4_ENTROPIA_1_A": {
+      "legacy_id": "K4.1.1-A",
+      "path": "E2.K1.1.1-A",
+      "hierarchical_id": "4.1.1.1"
+    },
+    "N4_ENTROPIA_1_B": {
+      "legacy_id": "K4.1.1-B",
+      "path": "E2.K1.1.1-B",
+      "hierarchical_id": "4.1.1.2"
+    },
+    "N4_ENTROPIA_1_C": {
+      "legacy_id": "K4.1.1-C",
+      "path": "E2.K1.1.1-C",
+      "hierarchical_id": "4.1.1.3"
+    },
+    "N4_ENTROPIA_2_A": {
+      "legacy_id": "K4.1.2-A",
+      "path": "E2.K1.1.2-A",
+      "hierarchical_id": "4.1.2.1"
+    },
+    "N4_ENTROPIA_2_B": {
+      "legacy_id": "K4.1.2-B",
+      "path": "E2.K1.1.2-B",
+      "hierarchical_id": "4.1.2.2"
+    },
+    "N4_ENTROPIA_2_C": {
+      "legacy_id": "K4.1.2-C",
+      "path": "E2.K1.1.2-C",
+      "hierarchical_id": "4.1.2.3"
+    },
+    "N4_ENTROPIA_3_A": {
+      "legacy_id": "K4.1.3-A",
+      "path": "E2.K1.1.3-A",
+      "hierarchical_id": "4.1.3.1"
+    },
+    "N4_ENTROPIA_3_B": {
+      "legacy_id": "K4.1.3-B",
+      "path": "E2.K1.1.3-B",
+      "hierarchical_id": "4.1.3.2"
+    },
+    "N4_ENTROPIA_3_C": {
+      "legacy_id": "K4.1.3-C",
+      "path": "E2.K1.1.3-C",
+      "hierarchical_id": "4.1.3.3"
+    },
+    "N4_ESCALA_1_A": {
+      "legacy_id": "A5.1.1-A",
+      "path": "E2.A2.1.1-A",
+      "hierarchical_id": "5.1.1.1"
+    },
+    "N4_ESCALA_1_B": {
+      "legacy_id": "A5.1.1-B",
+      "path": "E2.A2.1.1-B",
+      "hierarchical_id": "5.1.1.2"
+    },
+    "N4_ESCALA_1_C": {
+      "legacy_id": "A5.1.1-C",
+      "path": "E2.A2.1.1-C",
+      "hierarchical_id": "5.1.1.3"
+    },
+    "N4_ESCALA_2_A": {
+      "legacy_id": "A5.1.2-A",
+      "path": "E2.A2.1.2-A",
+      "hierarchical_id": "5.1.2.1"
+    },
+    "N4_ESCALA_2_B": {
+      "legacy_id": "A5.1.2-B",
+      "path": "E2.A2.1.2-B",
+      "hierarchical_id": "5.1.2.2"
+    },
+    "N4_ESCALA_2_C": {
+      "legacy_id": "A5.1.2-C",
+      "path": "E2.A2.1.2-C",
+      "hierarchical_id": "5.1.2.3"
+    },
+    "N4_ESCALA_3_A": {
+      "legacy_id": "A5.1.3-A",
+      "path": "E2.A2.1.3-A",
+      "hierarchical_id": "5.1.3.1"
+    },
+    "N4_ESCALA_3_B": {
+      "legacy_id": "A5.1.3-B",
+      "path": "E2.A2.1.3-B",
+      "hierarchical_id": "5.1.3.2"
+    },
+    "N4_ESCALA_3_C": {
+      "legacy_id": "A5.1.3-C",
+      "path": "E2.A2.1.3-C",
+      "hierarchical_id": "5.1.3.3"
     },
     "N4_ESTETICA_1_A": {
       "legacy_id": "P3.3.1-A",
@@ -454,50 +319,320 @@
       "path": "S1.P3.3.3-C",
       "hierarchical_id": "3.3.3.3"
     },
-    "N4_ENTROPIA_1_A": {
-      "legacy_id": "K4.1.1-A",
-      "path": "E2.K1.1.1-A",
-      "hierarchical_id": "4.1.1.1"
+    "N4_ETHOS_1_A": {
+      "legacy_id": "P3.1.1-A",
+      "path": "S1.P3.1.1-A",
+      "hierarchical_id": "3.1.1.1"
     },
-    "N4_ENTROPIA_1_B": {
-      "legacy_id": "K4.1.1-B",
-      "path": "E2.K1.1.1-B",
-      "hierarchical_id": "4.1.1.2"
+    "N4_ETHOS_1_B": {
+      "legacy_id": "P3.1.1-B",
+      "path": "S1.P3.1.1-B",
+      "hierarchical_id": "3.1.1.2"
     },
-    "N4_ENTROPIA_1_C": {
-      "legacy_id": "K4.1.1-C",
-      "path": "E2.K1.1.1-C",
-      "hierarchical_id": "4.1.1.3"
+    "N4_ETHOS_1_C": {
+      "legacy_id": "P3.1.1-C",
+      "path": "S1.P3.1.1-C",
+      "hierarchical_id": "3.1.1.3"
     },
-    "N4_ENTROPIA_2_A": {
-      "legacy_id": "K4.1.2-A",
-      "path": "E2.K1.1.2-A",
-      "hierarchical_id": "4.1.2.1"
+    "N4_ETHOS_2_A": {
+      "legacy_id": "P3.1.2-A",
+      "path": "S1.P3.1.2-A",
+      "hierarchical_id": "3.1.2.1"
     },
-    "N4_ENTROPIA_2_B": {
-      "legacy_id": "K4.1.2-B",
-      "path": "E2.K1.1.2-B",
-      "hierarchical_id": "4.1.2.2"
+    "N4_ETHOS_2_B": {
+      "legacy_id": "P3.1.2-B",
+      "path": "S1.P3.1.2-B",
+      "hierarchical_id": "3.1.2.2"
     },
-    "N4_ENTROPIA_2_C": {
-      "legacy_id": "K4.1.2-C",
-      "path": "E2.K1.1.2-C",
-      "hierarchical_id": "4.1.2.3"
+    "N4_ETHOS_2_C": {
+      "legacy_id": "P3.1.2-C",
+      "path": "S1.P3.1.2-C",
+      "hierarchical_id": "3.1.2.3"
     },
-    "N4_ENTROPIA_3_A": {
-      "legacy_id": "K4.1.3-A",
-      "path": "E2.K1.1.3-A",
-      "hierarchical_id": "4.1.3.1"
+    "N4_ETHOS_3_A": {
+      "legacy_id": "P3.1.3-A",
+      "path": "S1.P3.1.3-A",
+      "hierarchical_id": "3.1.3.1"
     },
-    "N4_ENTROPIA_3_B": {
-      "legacy_id": "K4.1.3-B",
-      "path": "E2.K1.1.3-B",
-      "hierarchical_id": "4.1.3.2"
+    "N4_ETHOS_3_B": {
+      "legacy_id": "P3.1.3-B",
+      "path": "S1.P3.1.3-B",
+      "hierarchical_id": "3.1.3.2"
     },
-    "N4_ENTROPIA_3_C": {
-      "legacy_id": "K4.1.3-C",
-      "path": "E2.K1.1.3-C",
-      "hierarchical_id": "4.1.3.3"
+    "N4_ETHOS_3_C": {
+      "legacy_id": "P3.1.3-C",
+      "path": "S1.P3.1.3-C",
+      "hierarchical_id": "3.1.3.3"
+    },
+    "N4_MECANICA_1_A": {
+      "legacy_id": "R1.3.1-A",
+      "path": "S1.L1.3.1-A",
+      "hierarchical_id": "1.3.1.1"
+    },
+    "N4_MECANICA_1_B": {
+      "legacy_id": "R1.3.1-B",
+      "path": "S1.L1.3.1-B",
+      "hierarchical_id": "1.3.1.2"
+    },
+    "N4_MECANICA_1_C": {
+      "legacy_id": "R1.3.1-C",
+      "path": "S1.L1.3.1-C",
+      "hierarchical_id": "1.3.1.3"
+    },
+    "N4_MECANICA_2_A": {
+      "legacy_id": "R1.3.2-A",
+      "path": "S1.L1.3.2-A",
+      "hierarchical_id": "1.3.2.1"
+    },
+    "N4_MECANICA_2_B": {
+      "legacy_id": "R1.3.2-B",
+      "path": "S1.L1.3.2-B",
+      "hierarchical_id": "1.3.2.2"
+    },
+    "N4_MECANICA_2_C": {
+      "legacy_id": "R1.3.2-C",
+      "path": "S1.L1.3.2-C",
+      "hierarchical_id": "1.3.2.3"
+    },
+    "N4_MECANICA_3_A": {
+      "legacy_id": "R1.3.3-A",
+      "path": "S1.L1.3.3-A",
+      "hierarchical_id": "1.3.3.1"
+    },
+    "N4_MECANICA_3_B": {
+      "legacy_id": "R1.3.3-B",
+      "path": "S1.L1.3.3-B",
+      "hierarchical_id": "1.3.3.2"
+    },
+    "N4_MECANICA_3_C": {
+      "legacy_id": "R1.3.3-C",
+      "path": "S1.L1.3.3-C",
+      "hierarchical_id": "1.3.3.3"
+    },
+    "N4_METABOLISMO_1_A": {
+      "legacy_id": "B2.3.1-A",
+      "path": "S1.B2.3.1-A",
+      "hierarchical_id": "2.3.1.1"
+    },
+    "N4_METABOLISMO_1_B": {
+      "legacy_id": "B2.3.1-B",
+      "path": "S1.B2.3.1-B",
+      "hierarchical_id": "2.3.1.2"
+    },
+    "N4_METABOLISMO_1_C": {
+      "legacy_id": "B2.3.1-C",
+      "path": "S1.B2.3.1-C",
+      "hierarchical_id": "2.3.1.3"
+    },
+    "N4_METABOLISMO_2_A": {
+      "legacy_id": "B2.3.2-A",
+      "path": "S1.B2.3.2-A",
+      "hierarchical_id": "2.3.2.1"
+    },
+    "N4_METABOLISMO_2_B": {
+      "legacy_id": "B2.3.2-B",
+      "path": "S1.B2.3.2-B",
+      "hierarchical_id": "2.3.2.2"
+    },
+    "N4_METABOLISMO_2_C": {
+      "legacy_id": "B2.3.2-C",
+      "path": "S1.B2.3.2-C",
+      "hierarchical_id": "2.3.2.3"
+    },
+    "N4_METABOLISMO_3_A": {
+      "legacy_id": "B2.3.3-A",
+      "path": "S1.B2.3.3-A",
+      "hierarchical_id": "2.3.3.1"
+    },
+    "N4_METABOLISMO_3_B": {
+      "legacy_id": "B2.3.3-B",
+      "path": "S1.B2.3.3-B",
+      "hierarchical_id": "2.3.3.2"
+    },
+    "N4_METABOLISMO_3_C": {
+      "legacy_id": "B2.3.3-C",
+      "path": "S1.B2.3.3-C",
+      "hierarchical_id": "2.3.3.3"
+    },
+    "N4_MISTERIO_1_A": {
+      "legacy_id": "M6.3.1-A",
+      "path": "E2.M3.3.1-A",
+      "hierarchical_id": "6.3.1.1"
+    },
+    "N4_MISTERIO_1_B": {
+      "legacy_id": "M6.3.1-B",
+      "path": "E2.M3.3.1-B",
+      "hierarchical_id": "6.3.1.2"
+    },
+    "N4_MISTERIO_1_C": {
+      "legacy_id": "M6.3.1-C",
+      "path": "E2.M3.3.1-C",
+      "hierarchical_id": "6.3.1.3"
+    },
+    "N4_MISTERIO_2_A": {
+      "legacy_id": "M6.3.2-A",
+      "path": "E2.M3.3.2-A",
+      "hierarchical_id": "6.3.2.1"
+    },
+    "N4_MISTERIO_2_B": {
+      "legacy_id": "M6.3.2-B",
+      "path": "E2.M3.3.2-B",
+      "hierarchical_id": "6.3.2.2"
+    },
+    "N4_MISTERIO_2_C": {
+      "legacy_id": "M6.3.2-C",
+      "path": "E2.M3.3.2-C",
+      "hierarchical_id": "6.3.2.3"
+    },
+    "N4_MISTERIO_3_A": {
+      "legacy_id": "M6.3.3-A",
+      "path": "E2.M3.3.3-A",
+      "hierarchical_id": "6.3.3.1"
+    },
+    "N4_MISTERIO_3_B": {
+      "legacy_id": "M6.3.3-B",
+      "path": "E2.M3.3.3-B",
+      "hierarchical_id": "6.3.3.2"
+    },
+    "N4_MISTERIO_3_C": {
+      "legacy_id": "M6.3.3-C",
+      "path": "E2.M3.3.3-C",
+      "hierarchical_id": "6.3.3.3"
+    },
+    "N4_NARRATIVA_1_A": {
+      "legacy_id": "M6.2.1-A",
+      "path": "E2.M3.2.1-A",
+      "hierarchical_id": "6.2.1.1"
+    },
+    "N4_NARRATIVA_1_B": {
+      "legacy_id": "M6.2.1-B",
+      "path": "E2.M3.2.1-B",
+      "hierarchical_id": "6.2.1.2"
+    },
+    "N4_NARRATIVA_1_C": {
+      "legacy_id": "M6.2.1-C",
+      "path": "E2.M3.2.1-C",
+      "hierarchical_id": "6.2.1.3"
+    },
+    "N4_NARRATIVA_2_A": {
+      "legacy_id": "M6.2.2-A",
+      "path": "E2.M3.2.2-A",
+      "hierarchical_id": "6.2.2.1"
+    },
+    "N4_NARRATIVA_2_B": {
+      "legacy_id": "M6.2.2-B",
+      "path": "E2.M3.2.2-B",
+      "hierarchical_id": "6.2.2.2"
+    },
+    "N4_NARRATIVA_2_C": {
+      "legacy_id": "M6.2.2-C",
+      "path": "E2.M3.2.2-C",
+      "hierarchical_id": "6.2.2.3"
+    },
+    "N4_NARRATIVA_3_A": {
+      "legacy_id": "M6.2.3-A",
+      "path": "E2.M3.2.3-A",
+      "hierarchical_id": "6.2.3.1"
+    },
+    "N4_NARRATIVA_3_B": {
+      "legacy_id": "M6.2.3-B",
+      "path": "E2.M3.2.3-B",
+      "hierarchical_id": "6.2.3.2"
+    },
+    "N4_NARRATIVA_3_C": {
+      "legacy_id": "M6.2.3-C",
+      "path": "E2.M3.2.3-C",
+      "hierarchical_id": "6.2.3.3"
+    },
+    "N4_NOMOS_1_A": {
+      "legacy_id": "R1.2.1-A",
+      "path": "S1.L1.2.1-A",
+      "hierarchical_id": "1.2.1.1"
+    },
+    "N4_NOMOS_1_B": {
+      "legacy_id": "R1.2.1-B",
+      "path": "S1.L1.2.1-B",
+      "hierarchical_id": "1.2.1.2"
+    },
+    "N4_NOMOS_1_C": {
+      "legacy_id": "R1.2.1-C",
+      "path": "S1.L1.2.1-C",
+      "hierarchical_id": "1.2.1.3"
+    },
+    "N4_NOMOS_2_A": {
+      "legacy_id": "R1.2.2-A",
+      "path": "S1.L1.2.2-A",
+      "hierarchical_id": "1.2.2.1"
+    },
+    "N4_NOMOS_2_B": {
+      "legacy_id": "R1.2.2-B",
+      "path": "S1.L1.2.2-B",
+      "hierarchical_id": "1.2.2.2"
+    },
+    "N4_NOMOS_2_C": {
+      "legacy_id": "R1.2.2-C",
+      "path": "S1.L1.2.2-C",
+      "hierarchical_id": "1.2.2.3"
+    },
+    "N4_NOMOS_3_A": {
+      "legacy_id": "R1.2.3-A",
+      "path": "S1.L1.2.3-A",
+      "hierarchical_id": "1.2.3.1"
+    },
+    "N4_NOMOS_3_B": {
+      "legacy_id": "R1.2.3-B",
+      "path": "S1.L1.2.3-B",
+      "hierarchical_id": "1.2.3.2"
+    },
+    "N4_NOMOS_3_C": {
+      "legacy_id": "R1.2.3-C",
+      "path": "S1.L1.2.3-C",
+      "hierarchical_id": "1.2.3.3"
+    },
+    "N4_OIKOS_1_A": {
+      "legacy_id": "B2.1.1-A",
+      "path": "S1.B2.1.1-A",
+      "hierarchical_id": "2.1.1.1"
+    },
+    "N4_OIKOS_1_B": {
+      "legacy_id": "B2.1.1-B",
+      "path": "S1.B2.1.1-B",
+      "hierarchical_id": "2.1.1.2"
+    },
+    "N4_OIKOS_1_C": {
+      "legacy_id": "B2.1.1-C",
+      "path": "S1.B2.1.1-C",
+      "hierarchical_id": "2.1.1.3"
+    },
+    "N4_OIKOS_2_A": {
+      "legacy_id": "B2.1.2-A",
+      "path": "S1.B2.1.2-A",
+      "hierarchical_id": "2.1.2.1"
+    },
+    "N4_OIKOS_2_B": {
+      "legacy_id": "B2.1.2-B",
+      "path": "S1.B2.1.2-B",
+      "hierarchical_id": "2.1.2.2"
+    },
+    "N4_OIKOS_2_C": {
+      "legacy_id": "B2.1.2-C",
+      "path": "S1.B2.1.2-C",
+      "hierarchical_id": "2.1.2.3"
+    },
+    "N4_OIKOS_3_A": {
+      "legacy_id": "B2.1.3-A",
+      "path": "S1.B2.1.3-A",
+      "hierarchical_id": "2.1.3.1"
+    },
+    "N4_OIKOS_3_B": {
+      "legacy_id": "B2.1.3-B",
+      "path": "S1.B2.1.3-B",
+      "hierarchical_id": "2.1.3.2"
+    },
+    "N4_OIKOS_3_C": {
+      "legacy_id": "B2.1.3-C",
+      "path": "S1.B2.1.3-C",
+      "hierarchical_id": "2.1.3.3"
     },
     "N4_SINGULARIDADE_1_A": {
       "legacy_id": "K4.2.1-A",
@@ -589,95 +724,50 @@
       "path": "E2.K1.3.3-C",
       "hierarchical_id": "4.3.3.3"
     },
-    "N4_ESCALA_1_A": {
-      "legacy_id": "A5.1.1-A",
-      "path": "E2.A2.1.1-A",
-      "hierarchical_id": "5.1.1.1"
+    "N4_SOMA_1_A": {
+      "legacy_id": "B2.2.1-A",
+      "path": "S1.B2.2.1-A",
+      "hierarchical_id": "2.2.1.1"
     },
-    "N4_ESCALA_1_B": {
-      "legacy_id": "A5.1.1-B",
-      "path": "E2.A2.1.1-B",
-      "hierarchical_id": "5.1.1.2"
+    "N4_SOMA_1_B": {
+      "legacy_id": "B2.2.1-B",
+      "path": "S1.B2.2.1-B",
+      "hierarchical_id": "2.2.1.2"
     },
-    "N4_ESCALA_1_C": {
-      "legacy_id": "A5.1.1-C",
-      "path": "E2.A2.1.1-C",
-      "hierarchical_id": "5.1.1.3"
+    "N4_SOMA_1_C": {
+      "legacy_id": "B2.2.1-C",
+      "path": "S1.B2.2.1-C",
+      "hierarchical_id": "2.2.1.3"
     },
-    "N4_ESCALA_2_A": {
-      "legacy_id": "A5.1.2-A",
-      "path": "E2.A2.1.2-A",
-      "hierarchical_id": "5.1.2.1"
+    "N4_SOMA_2_A": {
+      "legacy_id": "B2.2.2-A",
+      "path": "S1.B2.2.2-A",
+      "hierarchical_id": "2.2.2.1"
     },
-    "N4_ESCALA_2_B": {
-      "legacy_id": "A5.1.2-B",
-      "path": "E2.A2.1.2-B",
-      "hierarchical_id": "5.1.2.2"
+    "N4_SOMA_2_B": {
+      "legacy_id": "B2.2.2-B",
+      "path": "S1.B2.2.2-B",
+      "hierarchical_id": "2.2.2.2"
     },
-    "N4_ESCALA_2_C": {
-      "legacy_id": "A5.1.2-C",
-      "path": "E2.A2.1.2-C",
-      "hierarchical_id": "5.1.2.3"
+    "N4_SOMA_2_C": {
+      "legacy_id": "B2.2.2-C",
+      "path": "S1.B2.2.2-C",
+      "hierarchical_id": "2.2.2.3"
     },
-    "N4_ESCALA_3_A": {
-      "legacy_id": "A5.1.3-A",
-      "path": "E2.A2.1.3-A",
-      "hierarchical_id": "5.1.3.1"
+    "N4_SOMA_3_A": {
+      "legacy_id": "B2.2.3-A",
+      "path": "S1.B2.2.3-A",
+      "hierarchical_id": "2.2.3.1"
     },
-    "N4_ESCALA_3_B": {
-      "legacy_id": "A5.1.3-B",
-      "path": "E2.A2.1.3-B",
-      "hierarchical_id": "5.1.3.2"
+    "N4_SOMA_3_B": {
+      "legacy_id": "B2.2.3-B",
+      "path": "S1.B2.2.3-B",
+      "hierarchical_id": "2.2.3.2"
     },
-    "N4_ESCALA_3_C": {
-      "legacy_id": "A5.1.3-C",
-      "path": "E2.A2.1.3-C",
-      "hierarchical_id": "5.1.3.3"
-    },
-    "N4_VIBRATIO_1_A": {
-      "legacy_id": "A5.2.1-A",
-      "path": "E2.A2.2.1-A",
-      "hierarchical_id": "5.2.1.1"
-    },
-    "N4_VIBRATIO_1_B": {
-      "legacy_id": "A5.2.1-B",
-      "path": "E2.A2.2.1-B",
-      "hierarchical_id": "5.2.1.2"
-    },
-    "N4_VIBRATIO_1_C": {
-      "legacy_id": "A5.2.1-C",
-      "path": "E2.A2.2.1-C",
-      "hierarchical_id": "5.2.1.3"
-    },
-    "N4_VIBRATIO_2_A": {
-      "legacy_id": "A5.2.2-A",
-      "path": "E2.A2.2.2-A",
-      "hierarchical_id": "5.2.2.1"
-    },
-    "N4_VIBRATIO_2_B": {
-      "legacy_id": "A5.2.2-B",
-      "path": "E2.A2.2.2-B",
-      "hierarchical_id": "5.2.2.2"
-    },
-    "N4_VIBRATIO_2_C": {
-      "legacy_id": "A5.2.2-C",
-      "path": "E2.A2.2.2-C",
-      "hierarchical_id": "5.2.2.3"
-    },
-    "N4_VIBRATIO_3_A": {
-      "legacy_id": "A5.2.3-A",
-      "path": "E2.A2.2.3-A",
-      "hierarchical_id": "5.2.3.1"
-    },
-    "N4_VIBRATIO_3_B": {
-      "legacy_id": "A5.2.3-B",
-      "path": "E2.A2.2.3-B",
-      "hierarchical_id": "5.2.3.2"
-    },
-    "N4_VIBRATIO_3_C": {
-      "legacy_id": "A5.2.3-C",
-      "path": "E2.A2.2.3-C",
-      "hierarchical_id": "5.2.3.3"
+    "N4_SOMA_3_C": {
+      "legacy_id": "B2.2.3-C",
+      "path": "S1.B2.2.3-C",
+      "hierarchical_id": "2.2.3.3"
     },
     "N4_VACUO_1_A": {
       "legacy_id": "A5.3.1-A",
@@ -724,140 +814,50 @@
       "path": "E2.A2.3.3-C",
       "hierarchical_id": "5.3.3.3"
     },
-    "N4_ARQUETIPO_1_A": {
-      "legacy_id": "M6.1.1-A",
-      "path": "E2.M3.1.1-A",
-      "hierarchical_id": "6.1.1.1"
+    "N4_VIBRATIO_1_A": {
+      "legacy_id": "A5.2.1-A",
+      "path": "E2.A2.2.1-A",
+      "hierarchical_id": "5.2.1.1"
     },
-    "N4_ARQUETIPO_1_B": {
-      "legacy_id": "M6.1.1-B",
-      "path": "E2.M3.1.1-B",
-      "hierarchical_id": "6.1.1.2"
+    "N4_VIBRATIO_1_B": {
+      "legacy_id": "A5.2.1-B",
+      "path": "E2.A2.2.1-B",
+      "hierarchical_id": "5.2.1.2"
     },
-    "N4_ARQUETIPO_1_C": {
-      "legacy_id": "M6.1.1-C",
-      "path": "E2.M3.1.1-C",
-      "hierarchical_id": "6.1.1.3"
+    "N4_VIBRATIO_1_C": {
+      "legacy_id": "A5.2.1-C",
+      "path": "E2.A2.2.1-C",
+      "hierarchical_id": "5.2.1.3"
     },
-    "N4_ARQUETIPO_2_A": {
-      "legacy_id": "M6.1.2-A",
-      "path": "E2.M3.1.2-A",
-      "hierarchical_id": "6.1.2.1"
+    "N4_VIBRATIO_2_A": {
+      "legacy_id": "A5.2.2-A",
+      "path": "E2.A2.2.2-A",
+      "hierarchical_id": "5.2.2.1"
     },
-    "N4_ARQUETIPO_2_B": {
-      "legacy_id": "M6.1.2-B",
-      "path": "E2.M3.1.2-B",
-      "hierarchical_id": "6.1.2.2"
+    "N4_VIBRATIO_2_B": {
+      "legacy_id": "A5.2.2-B",
+      "path": "E2.A2.2.2-B",
+      "hierarchical_id": "5.2.2.2"
     },
-    "N4_ARQUETIPO_2_C": {
-      "legacy_id": "M6.1.2-C",
-      "path": "E2.M3.1.2-C",
-      "hierarchical_id": "6.1.2.3"
+    "N4_VIBRATIO_2_C": {
+      "legacy_id": "A5.2.2-C",
+      "path": "E2.A2.2.2-C",
+      "hierarchical_id": "5.2.2.3"
     },
-    "N4_ARQUETIPO_3_A": {
-      "legacy_id": "M6.1.3-A",
-      "path": "E2.M3.1.3-A",
-      "hierarchical_id": "6.1.3.1"
+    "N4_VIBRATIO_3_A": {
+      "legacy_id": "A5.2.3-A",
+      "path": "E2.A2.2.3-A",
+      "hierarchical_id": "5.2.3.1"
     },
-    "N4_ARQUETIPO_3_B": {
-      "legacy_id": "M6.1.3-B",
-      "path": "E2.M3.1.3-B",
-      "hierarchical_id": "6.1.3.2"
+    "N4_VIBRATIO_3_B": {
+      "legacy_id": "A5.2.3-B",
+      "path": "E2.A2.2.3-B",
+      "hierarchical_id": "5.2.3.2"
     },
-    "N4_ARQUETIPO_3_C": {
-      "legacy_id": "M6.1.3-C",
-      "path": "E2.M3.1.3-C",
-      "hierarchical_id": "6.1.3.3"
-    },
-    "N4_NARRATIVA_1_A": {
-      "legacy_id": "M6.2.1-A",
-      "path": "E2.M3.2.1-A",
-      "hierarchical_id": "6.2.1.1"
-    },
-    "N4_NARRATIVA_1_B": {
-      "legacy_id": "M6.2.1-B",
-      "path": "E2.M3.2.1-B",
-      "hierarchical_id": "6.2.1.2"
-    },
-    "N4_NARRATIVA_1_C": {
-      "legacy_id": "M6.2.1-C",
-      "path": "E2.M3.2.1-C",
-      "hierarchical_id": "6.2.1.3"
-    },
-    "N4_NARRATIVA_2_A": {
-      "legacy_id": "M6.2.2-A",
-      "path": "E2.M3.2.2-A",
-      "hierarchical_id": "6.2.2.1"
-    },
-    "N4_NARRATIVA_2_B": {
-      "legacy_id": "M6.2.2-B",
-      "path": "E2.M3.2.2-B",
-      "hierarchical_id": "6.2.2.2"
-    },
-    "N4_NARRATIVA_2_C": {
-      "legacy_id": "M6.2.2-C",
-      "path": "E2.M3.2.2-C",
-      "hierarchical_id": "6.2.2.3"
-    },
-    "N4_NARRATIVA_3_A": {
-      "legacy_id": "M6.2.3-A",
-      "path": "E2.M3.2.3-A",
-      "hierarchical_id": "6.2.3.1"
-    },
-    "N4_NARRATIVA_3_B": {
-      "legacy_id": "M6.2.3-B",
-      "path": "E2.M3.2.3-B",
-      "hierarchical_id": "6.2.3.2"
-    },
-    "N4_NARRATIVA_3_C": {
-      "legacy_id": "M6.2.3-C",
-      "path": "E2.M3.2.3-C",
-      "hierarchical_id": "6.2.3.3"
-    },
-    "N4_MISTERIO_1_A": {
-      "legacy_id": "M6.3.1-A",
-      "path": "E2.M3.3.1-A",
-      "hierarchical_id": "6.3.1.1"
-    },
-    "N4_MISTERIO_1_B": {
-      "legacy_id": "M6.3.1-B",
-      "path": "E2.M3.3.1-B",
-      "hierarchical_id": "6.3.1.2"
-    },
-    "N4_MISTERIO_1_C": {
-      "legacy_id": "M6.3.1-C",
-      "path": "E2.M3.3.1-C",
-      "hierarchical_id": "6.3.1.3"
-    },
-    "N4_MISTERIO_2_A": {
-      "legacy_id": "M6.3.2-A",
-      "path": "E2.M3.3.2-A",
-      "hierarchical_id": "6.3.2.1"
-    },
-    "N4_MISTERIO_2_B": {
-      "legacy_id": "M6.3.2-B",
-      "path": "E2.M3.3.2-B",
-      "hierarchical_id": "6.3.2.2"
-    },
-    "N4_MISTERIO_2_C": {
-      "legacy_id": "M6.3.2-C",
-      "path": "E2.M3.3.2-C",
-      "hierarchical_id": "6.3.2.3"
-    },
-    "N4_MISTERIO_3_A": {
-      "legacy_id": "M6.3.3-A",
-      "path": "E2.M3.3.3-A",
-      "hierarchical_id": "6.3.3.1"
-    },
-    "N4_MISTERIO_3_B": {
-      "legacy_id": "M6.3.3-B",
-      "path": "E2.M3.3.3-B",
-      "hierarchical_id": "6.3.3.2"
-    },
-    "N4_MISTERIO_3_C": {
-      "legacy_id": "M6.3.3-C",
-      "path": "E2.M3.3.3-C",
-      "hierarchical_id": "6.3.3.3"
+    "N4_VIBRATIO_3_C": {
+      "legacy_id": "A5.2.3-C",
+      "path": "E2.A2.2.3-C",
+      "hierarchical_id": "5.2.3.3"
     }
   },
   "celulas": [

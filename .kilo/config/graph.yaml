@@ -1,0 +1,124 @@
+# =============================================================================
+# CONFIGURAÇÃO DO GRAFO SEMÂNTICO — .kilo/config/graph.yaml
+# =============================================================================
+
+grafo:
+  nome: "OntologySemanticGraph"
+  versao: "3.0.0"
+  descricao: "Grafo semântico da ontologia fractal N0→N4"
+
+  # Motor de grafo
+  engine:
+    backend: "networkx"          # "networkx" | "neo4j" | "arangodb" | "memgraph"
+    directed: true
+    multigraph: false
+    auto_index: true
+
+  # Estrutura de nós
+  nos:
+    prefixo_uid: "N4"
+    atributos_obrigatorios:
+      - uid
+      - hierarquico_id
+      - pilar
+      - dominio
+      - subarvore
+      - celula
+      - natureza
+      - nivel
+    atributos_opcionais:
+      - funcao_cognitiva
+      - assinatura_semantica
+      - opostos
+      - peso_centralidade
+      - cluster_id
+
+  # Estrutura de arestas
+  arestas:
+    tipos:
+      depende_de:
+        peso_default: 1.0
+        dirigido: true
+        descricao: "Dependência funcional"
+      complementa:
+        peso_default: 0.8
+        dirigido: false
+        descricao: "Complementaridade semântica"
+      contrasta:
+        peso_default: -0.7
+        dirigido: false
+        descricao: "Contraste dialético"
+      expande:
+        peso_default: 0.6
+        dirigido: true
+        descricao: "Expansão conceitual"
+      implementa:
+        peso_default: 0.9
+        dirigido: true
+        descricao: "Implementação prática"
+      generaliza:
+        peso_default: 0.7
+        dirigido: true
+        descricao: "Generalização hierárquica"
+      especializa:
+        peso_default: 0.7
+        dirigido: true
+        descricao: "Especialização hierárquica"
+      causa:
+        peso_default: 0.85
+        dirigido: true
+        descricao: "Relação causal"
+      equilibra:
+        peso_default: 0.5
+        dirigido: false
+        descricao: "Equilíbrio dialético"
+      transforma:
+        peso_default: 0.6
+        dirigido: true
+        descricao: "Transformação ontológica"
+
+  # Hierarquia (arestas estruturais N0→N4)
+  hierarquia:
+    habilitada: true
+    peso: 0.3
+    criar_arestas_pai_filho: true
+    propagar_atributos: true
+
+  # Métricas de grafo
+  metricas:
+    habilitadas: true
+    calcular:
+      - centralidade_grau
+      - centralidade_intermediacao
+      - centralidade_proximidade
+      - centralidade_autovetor
+      - coeficiente_agrupamento
+      - densidade
+      - modularidade
+      - pontes
+      - isolamentos
+      - caminhos_minimos
+    cache_resultados: true
+    path_cache: "./data/graphs/metrics/"
+
+  # Detecção de comunidades
+  comunidades:
+    algoritmo: "louvain"          # "louvain" | "leiden" | "label_propagation"
+    resolucao: 1.0
+    min_comunidade: 3
+    recalcular_intervalo_horas: 24
+
+  # Caminhos semânticos
+  caminhos:
+    profundidade_max: 5
+    max_caminhos: 100
+    estrategia: "bfs"             # "bfs" | "dfs" | "dijkstra" | "astar"
+    heuristica: "semantica"       # "semantica" | "hierarquica" | "hibrida"
+
+  # Persistência
+  persistencia:
+    formato: "json"                # "json" | "graphml" | "gexf" | "parquet"
+    path: "./data/graphs/"
+    auto_salvar: true
+    intervalo_salvar_minutos: 30
+    versionar: true

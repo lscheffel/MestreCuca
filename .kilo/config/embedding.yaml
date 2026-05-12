@@ -1,0 +1,63 @@
+# =============================================================================
+# CONFIGURAÇÃO DE EMBEDDINGS — .kilo/config/embedding.yaml
+# =============================================================================
+
+embeddings:
+  # Modelo principal para embeddings semânticos
+  semantic:
+    model: "all-MiniLM-L6-v2"
+    dimension: 384
+    normalize: true
+    cache:
+      enabled: true
+      path: "./data/embeddings/semantic/"
+      max_size_gb: 2
+      ttl_hours: 24
+
+  # Embeddings estruturais (hierarquia/topologia)
+  structural:
+    model: "all-MiniLM-L6-v2"
+    strategy: "hierarchical"
+    encode_path: true
+    encode_level: true
+    cache:
+      enabled: true
+      path: "./data/embeddings/structural/"
+      max_size_gb: 1
+
+  # Embeddings operacionais (funções cognitivas)
+  operational:
+    model: "all-MiniLM-L6-v2"
+    strategy: "function_aware"
+    prefix: "função cognitiva:"
+    cache:
+      enabled: true
+      path: "./data/embeddings/operational/"
+      max_size_gb: 1
+
+  # Embeddings simbólicos (arquétipos/assinaturas)
+  symbolic:
+    model: "all-MiniLM-L6-v2"
+    strategy: "signature_based"
+    dimensions:
+      - abstração
+      - complexidade
+      - causalidade
+      - emocionalidade
+      - materialidade
+      - simbolismo
+      - dinamismo
+      - temporalidade
+      - ambiguidade
+    cache:
+      enabled: true
+      path: "./data/embeddings/symbolic/"
+      max_size_gb: 1
+
+# Configuração de similaridade
+similarity:
+  metric: "cosine"
+  threshold_min: 0.65
+  threshold_high: 0.85
+  top_k_default: 20
+  top_k_max: 100
