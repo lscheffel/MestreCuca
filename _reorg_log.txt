@@ -1,0 +1,6 @@
+
+# Ajustes finais pós-reorganização
+MOVIDO: _reorg_root.py → scripts/_reorg_root.py
+MOVIDO: _verify_tree.py → scripts/_verify_tree.py
+MOVIDO: _reorg_log.txt → scripts/_reorg_log.txt
+RENOMEADO: tests/test_fase3 → tests/test_fase3.py

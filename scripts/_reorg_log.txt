@@ -1,0 +1,41 @@
+MOVIDO: AGENTE - ARQUITETO DE PROMPTS FINAL V1.md → docs/AGENTE - ARQUITETO DE PROMPTS FINAL V1.md
+MOVIDO: agente_arquiteto_prompts_v_1_1_consolidado.md → docs/agente_arquiteto_prompts_v_1_1_consolidado.md
+MOVIDO: agente_arquiteto_prompts_v_2_arquitetura_cognitiva_consolidada.md → docs/agente_arquiteto_prompts_v_2_arquitetura_cognitiva_consolidada.md
+MOVIDO: AGENTS (deprecated).md → docs/AGENTS (deprecated).md
+MOVIDO: ARQUITETO_PROMPTS_FINAL.md → docs/ARQUITETO_PROMPTS_FINAL.md
+MOVIDO: arquitetura_cognitiva_v3.md → docs/arquitetura_cognitiva_v3.md
+MOVIDO: auditoria_discrepancias_ontologicas.md → docs/auditoria_discrepancias_ontologicas.md
+MOVIDO: checklist_recursivo_N3.md → docs/checklist_recursivo_N3.md
+MOVIDO: CORE.md → docs/CORE.md
+MOVIDO: CORE2.md → docs/CORE2.md
+MOVIDO: DSL.md → docs/DSL.md
+MOVIDO: expansao_fractal_n3.md → docs/expansao_fractal_n3.md
+MOVIDO: gpt 0.1 - arquiteto.md → docs/gpt 0.1 - arquiteto.md
+MOVIDO: gpt 1.0 - arquiteto.md → docs/gpt 1.0 - arquiteto.md
+MOVIDO: gpt 1.0.md → docs/gpt 1.0.md
+MOVIDO: ONTOLOGIA_MESTRA_DOMINANTE_V1.md → docs/ONTOLOGIA_MESTRA_DOMINANTE_V1.md
+MOVIDO: ONTOLOGIA_MESTRA_DOMINANTE_V2.md → docs/ONTOLOGIA_MESTRA_DOMINANTE_V2.md
+MOVIDO: plan.md → docs/plan.md
+MOVIDO: plano_transformacao_n4_json.md → docs/plano_transformacao_n4_json.md
+MOVIDO: PROMPT_MODULAR_N3.md → docs/PROMPT_MODULAR_N3.md
+MOVIDO: relatorio_analise_ontologia.md → docs/relatorio_analise_ontologia.md
+MOVIDO: roadmap.md → docs/roadmap.md
+MOVIDO: RUNTIME.md → docs/RUNTIME.md
+MOVIDO: SUMARIO_EXECUTIVO_MUDANÇAS.md → docs/SUMARIO_EXECUTIVO_MUDANÇAS.md
+MOVIDO: taxon_ontology_tree.mmd → docs/taxon_ontology_tree.mmd
+MOVIDO: Taxonomia_Ontologica.md → docs/Taxonomia_Ontologica.md
+MOVIDO: create_n3_files.py → scripts/create_n3_files.py
+MOVIDO: create_n3_files_v2.py → scripts/create_n3_files_v2.py
+MOVIDO: create_n4_files.py → scripts/create_n4_files.py
+MOVIDO: create_n4_from_taxonomy.py → scripts/create_n4_from_taxonomy.py
+MOVIDO: create_n4_manual.py → scripts/create_n4_manual.py
+MOVIDO: padronizador.py → scripts/padronizador.py
+MOVIDO: reestruturar_n4.py → scripts/reestruturar_n4.py
+MOVIDO: run_diag.bat → scripts/run_diag.bat
+MOVIDO: run_test.bat → scripts/run_test.bat
+MOVIDO: test_fase3 → tests/test_fase3
+MOVIDO: test_retrieval.py → tests/test_retrieval.py
+MOVIDO: taxo.txt → data/taxo.txt
+DELETADO: null
+DELETADO: _scan_tree.py
+DELETADO: _tree_output.txt

@@ -1,0 +1,265 @@
+=== ROOT LEVEL (final pós-ajustes) ===
+DIR:  -Force
+DIR:  -p
+DIR:  .git
+DIR:  .kilo
+DIR:  .pytest_cache
+DIR:  __pycache__
+DIR:  config
+DIR:  core
+DIR:  data
+DIR:  docs
+DIR:  ontology
+DIR:  prompts
+DIR:  runtime
+DIR:  scripts
+DIR:  tests
+DIR:  tools
+FILE: _audit_refs.py
+FILE: _audit_scripts.py
+FILE: _check_n3_refs.py
+FILE: _diag.py
+FILE: _diag_output.txt
+FILE: _diag_output2.txt
+FILE: _diag_validator2.py
+FILE: _diag_validator3.py
+FILE: _explore.py
+FILE: _fase3_result.txt
+FILE: _final_adjustments.py
+FILE: _fix_paths.py
+FILE: _inspect_data.py
+FILE: _inspect_output.txt
+FILE: _move_ontology.py
+FILE: _move_status.txt
+FILE: _relatorio_classificacao.md
+FILE: _relatorio_final.md
+FILE: _reorg_log.txt
+FILE: _run_fase4.py
+FILE: _run_validate.py
+FILE: _test_fase4.py
+FILE: _test_retrieval_e2e.py
+FILE: _validate_fase3.py
+FILE: _verify_final.py
+FILE: AGENTS.md
+FILE: CHANGELOG.md
+FILE: CONTRIBUTING.md
+FILE: diag.py
+FILE: diag2.py
+FILE: diag_data.py
+FILE: diag_env.py
+FILE: diag_output.txt
+FILE: diag_validator.py
+FILE: fase3_output.txt
+FILE: MEMORY.md
+FILE: README.md
+FILE: rebuild_index.py
+FILE: requirements.txt
+FILE: run_diag.py
+FILE: run_kilo.py
+FILE: STATES.md
+FILE: test_output.txt
+
+=== -Force/ ===
+
+=== -p/ ===
+
+=== .kilo/ ===
+  FILE: .gitignore
+  FILE: STATE.md
+  FILE: __init__.py
+  DIR:  agents
+  FILE: agents\__init__.py
+  DIR:  agents\__pycache__
+  FILE: agents\__pycache__\__init__.cpython-313.pyc
+  FILE: agents\__pycache__\autonomy_layer.cpython-313.pyc
+  FILE: agents\__pycache__\classifier_agent.cpython-313.pyc
+  FILE: agents\__pycache__\dialectic_agent.cpython-313.pyc
+  FILE: agents\__pycache__\graph_agent.cpython-313.pyc
+  FILE: agents\__pycache__\health_check.cpython-313.pyc
+  FILE: agents\__pycache__\multi_agent_orchestrator.cpython-313.pyc
+  FILE: agents\__pycache__\synthesis_agent.cpython-313.pyc
+  FILE: agents\__pycache__\validator_agent.cpython-313.pyc
+  FILE: agents\agents.yaml
+  FILE: agents\autonomy_layer.py
+  FILE: agents\classifier_agent.py
+  FILE: agents\dialectic_agent.py
+  FILE: agents\driver.py
+  FILE: agents\graph_agent.py
+  FILE: agents\health_check.py
+  FILE: agents\multi_agent_orchestrator.py
+  FILE: agents\synthesis_agent.py
+  FILE: agents\validator_agent.py
+  DIR:  config
+  FILE: config\embedding.yaml
+  FILE: config\graph.yaml
+  FILE: config\ontology.yaml
+  FILE: config\retrieval.yaml
+  DIR:  memory
+  FILE: memory\memory.yaml
+  DIR:  orchestrators
+  FILE: orchestrators\orchestrators.yaml
+  DIR:  prompts
+  DIR:  prompts\classifier
+  FILE: prompts\classifier\prompts_classifier.yaml
+  DIR:  prompts\retrieval
+  FILE: prompts\retrieval\prompts_retrieval.yaml
+  DIR:  prompts\routing
+  FILE: prompts\routing\prompts_routing.yaml
+  DIR:  prompts\synthesis
+  FILE: prompts\synthesis\prompts_synthesis.yaml
+  DIR:  prompts\validation
+  FILE: prompts\validation\prompts_validacao.yaml
+
+=== config/ ===
+  FILE: embedding.yaml
+  FILE: graph.yaml
+  FILE: ontology.yaml
+  FILE: retrieval.yaml
+
+=== core/ ===
+  FILE: AGENTS.md
+  FILE: __init__.py
+  DIR:  __pycache__
+  FILE: __pycache__\__init__.cpython-313.pyc
+  FILE: __pycache__\agent_base.cpython-313.pyc
+  FILE: __pycache__\cognitive_function_engine.cpython-313.pyc
+  FILE: __pycache__\dialectic_engine.cpython-313.pyc
+  FILE: __pycache__\ontology_graph.cpython-313.pyc
+  FILE: __pycache__\ontology_typing.cpython-313.pyc
+  FILE: __pycache__\relation_engine.cpython-313.pyc
+  FILE: __pycache__\signature_engine.cpython-313.pyc
+  FILE: agent_base.py
+  FILE: cognitive_function_engine.py
+  FILE: dialectic_engine.py
+  FILE: ontology_graph.py
+  FILE: ontology_typing.py
+  FILE: relation_engine.py
+  FILE: signature_engine.py
+
+=== docs/ ===
+  FILE: AGENTE - ARQUITETO DE PROMPTS FINAL V1.md
+  FILE: AGENTS (deprecated).md
+  FILE: ARQUITETO_PROMPTS_FINAL.md
+  FILE: CORE.md
+  FILE: CORE2.md
+  FILE: DSL.md
+  FILE: ONTOLOGIA_MESTRA_DOMINANTE_V1.md
+  FILE: ONTOLOGIA_MESTRA_DOMINANTE_V2.md
+  FILE: PROMPT_MODULAR_N3.md
+  FILE: RUNTIME.md
+  FILE: SUMARIO_EXECUTIVO_MUDANÇAS.md
+  FILE: Taxonomia_Ontologica.md
+  FILE: USAGE.md
+  FILE: USAGE.pdf
+  FILE: agente_arquiteto_prompts_v_1_1_consolidado.md
+  FILE: agente_arquiteto_prompts_v_2_arquitetura_cognitiva_consolidada.md
+  FILE: arquitetura_cognitiva_v3.md
+  FILE: arquitetura_sistema_cognitivo.md
+  FILE: arquitetura_sistema_cognitivo.pdf
+  FILE: auditoria_discrepancias_ontologicas.md
+  FILE: checklist_recursivo_N3.md
+  FILE: expansao_fractal_n3.md
+  FILE: gpt 0.1 - arquiteto.md
+  FILE: gpt 1.0 - arquiteto.md
+  FILE: gpt 1.0.md
+  FILE: plan.md
+  FILE: plano_transformacao_n4_json.md
+  FILE: relatorio_analise_ontologia.md
+  DIR:  roadmap
+  FILE: roadmap.md
+  FILE: roadmap\1 - Semantic Operating Substrate - roadmap.md
+  FILE: roadmap\1.1 - Roadmap-ImpN5.yaml
+  FILE: roadmap\2 - COGNITIVE_EXPRESSION_LAYER_ROADMAP.md
+  FILE: roadmap\3 - Semantic Cognitive Infrastructure Stack.md
+  FILE: taxon_ontology_tree.mmd
+
+=== prompts/ ===
+  DIR:  classifier
+  FILE: classifier\template_classificacao.yaml
+  FILE: classifier\template_n0.txt
+  FILE: classifier\template_n1.txt
+  FILE: classifier\template_n2.txt
+  FILE: classifier\template_n3.txt
+  FILE: classifier\template_n4.txt
+  DIR:  retrieval
+  FILE: retrieval\template_retrieval.yaml
+  DIR:  routing
+  FILE: routing\template_routing.yaml
+  DIR:  synthesis
+  FILE: synthesis\template_sintese.yaml
+  DIR:  validation
+  FILE: validation\template_validacao.yaml
+
+=== runtime/ ===
+  FILE: AGENTS.md
+  FILE: __init__.py
+  DIR:  __pycache__
+  FILE: __pycache__\__init__.cpython-313.pyc
+  FILE: __pycache__\classifier.cpython-313.pyc
+  FILE: __pycache__\orchestrator.cpython-313.pyc
+  FILE: __pycache__\retriever.cpython-313.pyc
+  FILE: __pycache__\router.cpython-313.pyc
+  FILE: __pycache__\synthesizer.cpython-313.pyc
+  FILE: __pycache__\validator.cpython-313.pyc
+  FILE: _diag_check_celulas.py
+  FILE: _diag_validator4.py
+  FILE: _diag_validator5.py
+  FILE: classifier.py
+  FILE: orchestrator.py
+  FILE: retriever.py
+  FILE: router.py
+  FILE: runtime.yaml
+  FILE: synthesizer.py
+  FILE: validator.py
+
+=== scripts/ ===
+  FILE: _reorg_log.txt
+  FILE: _reorg_root.py
+  FILE: _verify_tree.py
+  FILE: create_fase0.py
+  FILE: create_n3_files.py
+  FILE: create_n3_files_v2.py
+  FILE: create_n4_files.py
+  FILE: create_n4_from_taxonomy.py
+  FILE: create_n4_manual.py
+  FILE: fase0_output.log
+  FILE: padronizador.py
+  FILE: reestruturar_n4.py
+  FILE: run_diag.bat
+  FILE: run_test.bat
+  FILE: validate_yaml.py
+
+=== tests/ ===
+  FILE: AGENTS.md
+  FILE: ONTO_ENGINE_ROADMAP-DEEP.md
+  DIR:  __pycache__
+  FILE: __pycache__\conftest.cpython-313-pytest-8.0.0.pyc
+  FILE: __pycache__\test_classifier.cpython-313-pytest-8.0.0.pyc
+  FILE: conftest.py
+  FILE: diag_data.py
+  FILE: diagnostic_output.txt
+  FILE: run_diag.py
+  FILE: test_classifier.py
+  FILE: test_fase3.py
+  FILE: test_ontology.py
+  FILE: test_output.txt
+  FILE: test_retrieval.py
+
+=== tools/ ===
+  FILE: AGENTS.md
+  FILE: __init__.py
+  DIR:  __pycache__
+  FILE: __pycache__\canonical_document_builder.cpython-313.pyc
+  FILE: __pycache__\embedding_builder.cpython-313.pyc
+  FILE: __pycache__\uid_generator.cpython-313.pyc
+  FILE: build_embeddings.py
+  FILE: canonical_document_builder.py
+  FILE: e2e_test.py
+  FILE: embedding_builder.py
+  FILE: enrich_json.py
+  FILE: graph_builder.py
+  FILE: inspect_json.py
+  FILE: n4_to_json.py
+  FILE: uid_generator.py
+  FILE: validate_deep.py
+  FILE: validate_fase1.py

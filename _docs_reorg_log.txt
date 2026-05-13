@@ -1,0 +1,34 @@
+Reorganização de docs/ por contexto
+========================================
+
+MOVIDO: arquitetura_sistema_cognitivo.md → docs/arquitetura/arquitetura_sistema_cognitivo.md
+MOVIDO: arquitetura_sistema_cognitivo.pdf → docs/arquitetura/arquitetura_sistema_cognitivo.pdf
+MOVIDO: arquitetura_cognitiva_v3.md → docs/arquitetura/arquitetura_cognitiva_v3.md
+MOVIDO: CORE.md → docs/arquitetura/CORE.md
+MOVIDO: CORE2.md → docs/arquitetura/CORE2.md
+MOVIDO: DSL.md → docs/arquitetura/DSL.md
+MOVIDO: AGENTE - ARQUITETO DE PROMPTS FINAL V1.md → docs/agentes-prompts/AGENTE - ARQUITETO DE PROMPTS FINAL V1.md
+MOVIDO: agente_arquiteto_prompts_v_1_1_consolidado.md → docs/agentes-prompts/agente_arquiteto_prompts_v_1_1_consolidado.md
+MOVIDO: agente_arquiteto_prompts_v_2_arquitetura_cognitiva_consolidada.md → docs/agentes-prompts/agente_arquiteto_prompts_v_2_arquitetura_cognitiva_consolidada.md
+MOVIDO: ARQUITETO_PROMPTS_FINAL.md → docs/agentes-prompts/ARQUITETO_PROMPTS_FINAL.md
+MOVIDO: PROMPT_MODULAR_N3.md → docs/agentes-prompts/PROMPT_MODULAR_N3.md
+MOVIDO: gpt 0.1 - arquiteto.md → docs/agentes-prompts/gpt 0.1 - arquiteto.md
+MOVIDO: gpt 1.0 - arquiteto.md → docs/agentes-prompts/gpt 1.0 - arquiteto.md
+MOVIDO: gpt 1.0.md → docs/agentes-prompts/gpt 1.0.md
+MOVIDO: ONTOLOGIA_MESTRA_DOMINANTE_V1.md → docs/ontologia-taxonomia/ONTOLOGIA_MESTRA_DOMINANTE_V1.md
+MOVIDO: ONTOLOGIA_MESTRA_DOMINANTE_V2.md → docs/ontologia-taxonomia/ONTOLOGIA_MESTRA_DOMINANTE_V2.md
+MOVIDO: Taxonomia_Ontologica.md → docs/ontologia-taxonomia/Taxonomia_Ontologica.md
+MOVIDO: taxon_ontology_tree.mmd → docs/ontologia-taxonomia/taxon_ontology_tree.mmd
+MOVIDO: relatorio_analise_ontologia.md → docs/ontologia-taxonomia/relatorio_analise_ontologia.md
+MOVIDO: plano_transformacao_n4_json.md → docs/ontologia-taxonomia/plano_transformacao_n4_json.md
+MOVIDO: expansao_fractal_n3.md → docs/ontologia-taxonomia/expansao_fractal_n3.md
+MOVIDO: checklist_recursivo_N3.md → docs/ontologia-taxonomia/checklist_recursivo_N3.md
+MOVIDO: RUNTIME.md → docs/runtime-pipeline/RUNTIME.md
+MOVIDO: auditoria_discrepancias_ontologicas.md → docs/auditoria-qualidade/auditoria_discrepancias_ontologicas.md
+MOVIDO: plan.md → docs/planejamento-roadmap/plan.md
+MOVIDO: roadmap.md → docs/planejamento-roadmap/roadmap.md
+MOVIDO: SUMARIO_EXECUTIVO_MUDANÇAS.md → docs/planejamento-roadmap/SUMARIO_EXECUTIVO_MUDANÇAS.md
+MOVIDO: AGENTS (deprecated).md → docs/referencia-historico/AGENTS (deprecated).md
+MOVIDO: USAGE.md → docs/uso-documentacao/USAGE.md
+MOVIDO: USAGE.pdf → docs/uso-documentacao/USAGE.pdf
+MOVIDO: roadmap/ → docs/planejamento-roadmap/roadmap/
