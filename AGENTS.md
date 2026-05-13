@@ -1,246 +1,208 @@
-# AGENTS.md
+# AGENTS.md — MestreCuca
 
-Instruções para agentes de IA trabalhando neste projeto.  
-Ambiente: **Windows 11 pt-BR / Python 3.13 / VS Code + Kilo Code**.
+> Sistema Cognitivo Ontológico · v3.0.0 · 162 células N4 (2×3×3×3×3)  
+> Ambiente: **Windows 11 pt-BR / Python 3.13 / pip + venv / VS Code + Kilo Code**
+
+**Primeira ação em qualquer sessão: leia `.kilo/STATE.md`** — estado atual, decisões recentes, bugs conhecidos e workarounds ativos.
+
+Subdiretórios têm seus próprios `AGENTS.md` com regras específicas. Este arquivo contém apenas o que é universal.
 
 ---
 
 ## Environment
 
 - OS: Windows 11, locale pt-BR, filesystem UTF-8 — paths com acentos são comuns
-- Shell: PowerShell (5.1 ou 7+)
-- Runtime: Python 3.13
-- Package manager: `pip` + `venv`
-- Frontend toolchain: Node.js / npm
-
-**This is a Windows-only environment. Never emit Unix, Linux or macOS commands.**  
-Commands `ls`, `cat`, `head`, `tail`, `touch`, `chmod`, `grep`, `export`, `source` do not exist here. Do not use them.
+- Shell: PowerShell (5.1 ou 7+) — **nunca Unix/Linux/macOS**
+- Proibido: `ls`, `cat`, `head`, `tail`, `touch`, `chmod`, `grep`, `export`, `source`, `&&`, `;`
 
 ---
 
 ## Shell — PowerShell
 
-Use PowerShell **only for simple, single-purpose operations** (create folder, copy file, set env var, run a script). Any logic, looping, parsing or error handling must be a Python script instead.
-
-**Always use native PowerShell cmdlets:**
+Use PowerShell **só para operações simples**. Qualquer lógica, loop ou parsing vira script Python.
 
 ```powershell
-Get-ChildItem -Path ".\src"                          # list files (never ls or dir)
-New-Item -ItemType Directory -Path ".\logs"           # create folder (never mkdir bare)
-New-Item -ItemType File -Path ".\arquivo.txt"         # create file (never touch)
-Get-Content -Encoding UTF8 ".\arquivo.txt"            # read file (never cat)
-Set-Content -Encoding UTF8 ".\arquivo.txt" -Value ""  # write file
+Get-ChildItem -Path ".\src"                           # nunca ls
+New-Item -ItemType Directory -Path ".\logs"            # nunca mkdir bare
+New-Item -ItemType File -Path ".\arquivo.txt"          # nunca touch
+Get-Content -Encoding UTF8 ".\arquivo.txt"             # nunca cat
+Set-Content -Encoding UTF8 ".\arquivo.txt" -Value ""
 Copy-Item ".\a.txt" -Destination ".\b.txt"
-Move-Item ".\a.txt" -Destination ".\pasta\"
 Remove-Item ".\pasta" -Recurse -Force
-$env:VAR = "valor"                                    # set env var (never export)
-```
+$env:VAR = "valor"                                     # nunca export
 
-**Never redirect stderr. Let output flow so the user can see execution:**
-
-```powershell
-# ❌ NEVER
-python script.py 2>&1
-python script.py 2> erros.txt
-
-# ✅ ALWAYS
-python script.py
-```
-
-**Set encoding before running Python or writing files:**
-
-```powershell
+# Encoding — sempre antes de rodar Python
 $OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-python script.py
 ```
 
-Do not chain commands with `&&` or `;`. Use separate lines or a Python script.
+**Nunca redirecionar stderr** — deixar o output fluir para o usuário acompanhar:
+
+```powershell
+# ❌  python script.py 2>&1   |   python script.py 2> erros.txt
+# ✅  python script.py
+```
 
 ---
 
 ## Python Scripts
 
-Use a Python script for **any task with more than trivial complexity**: file manipulation, parsing, renaming, API calls, data processing, conditionals, loops, error handling.
-
-**Paths — always use `pathlib`:**
+Qualquer complexidade mínima → script Python, não PowerShell.
 
 ```python
-from pathlib import Path
+from pathlib import Path  # sempre pathlib, nunca concatenação de string
 
-base = Path("C:/Users/nome/Documentos/projeto")  # forward slashes work on Windows
-arquivo = base / "dados" / "entrada.csv"          # never string concatenation
+base = Path("E:/Arquivos/Área de Trabalho/MestreCuca")
+arquivo = base / "data" / "json" / "N4_ALGORITMIA_1_A.json"
 
-if not arquivo.exists():
-    raise FileNotFoundError(f"Arquivo não encontrado: {arquivo}")
-```
-
-**File I/O — always explicit UTF-8:**
-
-```python
-with open(path, "r", encoding="utf-8") as f:
+# I/O sempre com UTF-8 explícito
+with open(arquivo, "r", encoding="utf-8") as f:
     conteudo = f.read()
 
-with open(path, "w", encoding="utf-8") as f:
-    f.write(conteudo)
-```
-
-**Progress output — always print so the user can follow execution:**
-
-```python
-print(f"[✓] Processando: {arquivo}")
-print(f"[!] Aviso: {msg}")
-print(f"[✗] Erro: {e}")
-```
-
-**Error handling — always explicit, never bare `except`:**
-
-```python
+# Error handling sempre explícito
 import sys
-
 try:
     resultado = processar(arquivo)
-    print(f"[✓] Concluído: {resultado}")
 except FileNotFoundError as e:
-    print(f"[✗] Arquivo não encontrado: {e}")
-    sys.exit(1)
-except PermissionError as e:
-    print(f"[✗] Sem permissão: {e}")
-    sys.exit(1)
+    print(f"[✗] Arquivo não encontrado: {e}"); sys.exit(1)
 except Exception as e:
-    print(f"[✗] Erro inesperado: {type(e).__name__}: {e}")
-    sys.exit(1)
+    print(f"[✗] {type(e).__name__}: {e}"); sys.exit(1)
 ```
 
-Scripts must exit with code `1` on failure and `0` on success.
+- Exit `1` em falha, `0` em sucesso
+- Nunca `except:` bare — sempre capturar exceção específica ou `Exception`
 
 ---
 
 ## Virtual Environment
 
 ```powershell
-# Create
 python -m venv .venv
-
-# Activate
-.\.venv\Scripts\Activate.ps1
-
-# If blocked by execution policy
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-
-# Install
+.\.venv\Scripts\Activate.ps1          # se bloqueado: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 pip install -r requirements.txt
-
-# Freeze
 pip freeze > requirements.txt
 ```
 
-- Never install packages globally — always activate `.venv` first
-- Use `python -m pip` when in doubt about the active Python
-- Check if `.venv` exists before creating it
+- Nunca instalar globalmente — sempre ativar `.venv` antes
+- Usar `python -m pip` quando em dúvida sobre qual Python está ativo
 
 ---
 
-## FastAPI / Flask / Django
+## Project Map
 
-- Load all configuration from `.env` via `python-dotenv` — never use shell `export`
-- Config files and source files must declare `encoding="utf-8"` explicitly
-- Use `uvicorn main:app --reload` for FastAPI dev server (run from PowerShell, not a bash script)
-- Never assume Unix socket paths or `/tmp` — use `Path` for all temp/output dirs
-
-```python
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-SECRET_KEY = os.getenv("SECRET_KEY")
+```
+MestreCuca/
+├── run_kilo.py          # CLI principal — único entrypoint de produção
+├── diag_env.py / diag_data.py / run_diag.py   # diagnósticos
+├── rebuild_index.py     # reconstrói índices
+├── _*.py                # ⚠️ temporários de auditoria — NÃO modificar/referenciar
+│
+├── core/                # ⚠️ CRÍTICO — motores (ver core/AGENTS.md)
+├── runtime/             # ⚠️ CRÍTICO — pipeline (ver runtime/AGENTS.md)
+├── tests/               # pytest (ver tests/AGENTS.md)
+├── tools/               # builders de artefatos (ver tools/AGENTS.md)
+│
+├── config/              # 🔒 PROTEGIDO — fonte da verdade operacional
+├── .kilo/               # STATE.md + agentes + memória + orquestradores
+├── data/                # 🚫 gerado — nunca editar manualmente
+│   ├── json/            # 162 N4 JSONs  →  regenerar: tools/n4_to_json.py
+│   ├── embeddings/      # 162 .npy      →  regenerar: tools/build_embeddings.py
+│   └── graphs/          # .gexf/.json   →  regenerar: tools/graph_builder.py
+├── prompts/             # templates YAML por etapa do pipeline
+├── scripts/             # geração em massa de artefatos
+└── docs/                # arquitetura, USAGE, roadmaps
 ```
 
+> `config/` na raiz é primário. `.kilo/config/` é espelho — em conflito, `config/` prevalece.  
+> `_*.py` na raiz e em `runtime/` são diagnósticos temporários — não referenciar como padrão.
+
 ---
 
-## React / Next.js
-
-- Use `npm`; do not use `yarn` unless already configured in the project
-- Environment variables go in `.env.local` — never in shell exports
-- All path references in config files (`next.config.js`, `tailwind.config.js`) must use forward slashes
-- Use functional components and hooks; no class components
-- Default to TypeScript unless the project already uses plain JavaScript
+## Entrypoints
 
 ```powershell
-npx create-next-app@latest nome-do-projeto
-cd nome-do-projeto
-npm run dev
+python run_kilo.py --health                                      # 13 verificações — rodar primeiro
+python run_kilo.py --query "como decompor este problema?"        # pipeline full
+python run_kilo.py --mode simple     --query "o que é X?"
+python run_kilo.py --mode autonomous --query "como otimizar?"
+python run_kilo.py --mode interactive
+python run_kilo.py --query "teste"   --verbose --log-level DEBUG
+
+python run_diag.py    # grafo ontológico
+python diag_env.py    # ambiente e dependências
+python diag_data.py   # JSONs, embeddings, índices
+
+python -m pytest tests/ -v
 ```
 
----
-
-## Data Science / ML / AI
-
-- Read CSVs with explicit encoding; for Brazilian data use `sep=";"` and `decimal=","`
-
-```python
-import pandas as pd
-from pathlib import Path
-
-df = pd.read_csv(Path("dados") / "arquivo.csv", encoding="utf-8")
-
-# Brazilian format
-df = pd.read_csv(Path("dados") / "br.csv", sep=";", decimal=",", encoding="utf-8")
-
-# Always save with UTF-8
-df.to_csv(output_path, index=False, encoding="utf-8")
-```
-
-- For large files use `chunksize` — never load everything into memory without checking size first
-- Use `joblib` for model persistence; `scikit-learn` conventions for ML pipelines
-- Jupyter kernel must point to the project `.venv`
-
----
-
-## External APIs / Integration
-
-- Always set request timeout — never leave connections open-ended
-- Never hardcode secrets, tokens or passwords — load from `.env`
-- Validate API responses with `raise_for_status()` before processing
-- Use `pydantic` for response schema validation in FastAPI projects
-
-```python
-import requests
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
-API_KEY = os.getenv("MINHA_API_KEY")
-
-response = requests.get(url, headers={"Authorization": f"Bearer {API_KEY}"}, timeout=30)
-response.raise_for_status()
-data = response.json()
-```
-
----
-
-## File Management
-
-- Create files and folders directly without asking for confirmation
-- Follow the existing project structure when extending it
-- For new Python projects, always scaffold: `requirements.txt`, `.gitignore`, `README.md`, `.env.example`
-- Never commit `.env` — always add it to `.gitignore`; commit only `.env.example`
+> Sem `Makefile`. `.bat` são wrappers — preferir Python direto.
 
 ---
 
 ## Code Style
 
-- Python: PEP 8, type hints on function signatures, docstrings for non-trivial functions
-- Naming: `snake_case` Python · `camelCase` JS/TS · `kebab-case` files and routes
-- Imports: grouped (stdlib → third-party → local), sorted within each group
-- No dead code: no `TODO` blocks, no commented-out code, no placeholder `pass` in final output
-- Comments: use the same language as the existing codebase; default to Portuguese for new projects
+- PEP 8, type hints em todas as assinaturas, docstrings em funções não-triviais
+- `snake_case` Python · `camelCase` JS/TS · `UPPER_CASE` variáveis de config
+- Imports: stdlib → third-party → local, ordenados dentro de cada grupo
+- Código e comentários em **português** (padrão do projeto)
+- Sem código morto: sem `TODO` soltos, sem blocos comentados, sem `pass` placeholder
 
 ---
 
 ## Security
 
-- Never commit API keys, tokens, passwords or secrets
-- Always validate external inputs before processing
-- Use parameterized queries for all database access — never string-format SQL
-- `.env` must always be in `.gitignore`
+- Nunca commitar API keys, tokens ou senhas — carregar do `.env` via `python-dotenv`
+- `.env` sempre no `.gitignore`; commitar apenas `.env.example`
+- Validar toda entrada externa antes de processar
+- Queries SQL sempre parametrizadas — nunca string format
+
+---
+
+## Protected Files
+
+Leia livremente; **nunca modifique sem instrução explícita:**
+
+| Arquivo | Por quê |
+|---|---|
+| `config/ontology.yaml` | 162 células N4 — alteração quebra todo o pipeline |
+| `config/embedding.yaml` | invalida embeddings em `data/embeddings/` |
+| `config/graph.yaml` | quebra serialização GEXF |
+| `config/retrieval.yaml` | afeta scoring global de retrieval |
+| `.kilo/agents/agents.yaml` | configuração dos 6 agentes LLM |
+| `.kilo/orchestrators/orchestrators.yaml` | define os 3 pipelines |
+| `.kilo/memory/memory.yaml` | níveis de memória |
+| `prompts/**/*.yaml` | muda comportamento dos agentes |
+| `data/**` | artefatos gerados — regenerar via `tools/` |
+| `_*.py` (raiz e runtime/) | diagnósticos temporários |
+| `AGENTS.md` (qualquer) | protegido pelo Kilo Code |
+
+---
+
+## When to Stop and Ask
+
+Agir diretamente é o padrão. **Parar e confirmar** antes de:
+
+- Modificar `config/` ou `.kilo/agents/`
+- Alterar interface pública em `core/` ou `runtime/` (assinatura, schema, tipo de retorno)
+- Deletar arquivo fora de `data/` ou `__pycache__`
+- Adicionar dependência ao `requirements.txt`
+- Refatorar mais de 2 módulos simultaneamente
+
+Em dúvida: implementar em arquivo novo, nunca sobrescrever sem confirmação.
+
+---
+
+## Engineering Laws (resumo)
+
+1. **TDD** — teste antes do código; cobertura mínima 80% em `core/` e `runtime/`
+2. **Zero-Trust** — validar toda entrada com `pydantic`; nunca confiar em retrieval sem verificação
+3. **Atomicidade** — commits `tipo(escopo): descrição`; uma coisa por commit
+4. **Legibilidade** — nomes descritivos; comentários explicam *por quê*, não *o quê*
+5. **Rastreabilidade** — sem issue, sem merge; vincular PR com `Closes #N`
+6. **Consistência** — terminologia de `config/ontology.yaml`; formatação via `ruff`/`black`
+7. **Defesa em Profundidade** — validar na entrada, na saída e no armazenamento
+8. **Falha Explícita** — erro deve dizer *o quê*, *por quê*, *onde* e *como corrigir*
+9. **Documentação Viva** — atualizar README, STATE.md e CHANGELOG junto com o código
+10. **Revisão Obrigatória** — todo PR precisa de ≥1 aprovação
+
+**Branches:** `feat/123-descricao` · `fix/` · `docs/` · `refactor/` · `test/` · `chore/`
