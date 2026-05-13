@@ -952,7 +952,7 @@ for n3_key, cells in sorted(n3_groups.items()):
     n2_prefix = n3_ref.split('.')[0]
     n2_id = f"{n2_prefix}.{n3_ref.split('.')[1]}"
     
-    filename = f"N4-{n3_ref.replace('.', '_')}-{dominio}-{n3_nome_real.upper()}.md"
+    filename = os.path.join("data", "ontology", f"N4-{n3_ref.replace('.', '_')}-{dominio}-{n3_nome_real.upper()}.md")
     
     # Constrói tabela de células
     tabela_celulas = ""

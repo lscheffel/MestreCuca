@@ -29,7 +29,7 @@ for d in ['data/json', 'data/embeddings', 'tools', 'runtime', 'config', 'core', 
         print(f'  {d}/: NOT FOUND')
 
 print('\n=== N4 MARKDOWN COUNT ===')
-n4_md = glob.glob('N4-*.md')
+n4_md = glob.glob(os.path.join('data', 'ontology', 'N4-*.md'))
 print(f'  Total N4 .md: {len(n4_md)}')
 
 print('\n=== N4 JSON COUNT ===')

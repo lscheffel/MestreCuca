@@ -81,7 +81,7 @@ for n3_key, cells in n3_groups.items():
     n3_nome = sample['n3_nome']
     n2_id = sample['n2_id']
     
-    filename = f"N4-{n3_id.replace('.', '_')}-{dominio}-{n3_nome.upper()}.md"
+    filename = os.path.join("data", "ontology", f"N4-{n3_id.replace('.', '_')}-{dominio}-{n3_nome.upper()}.md")
     
     # Constrói tabela de células
     tabela_celulas = ""

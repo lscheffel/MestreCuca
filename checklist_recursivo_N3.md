@@ -24,7 +24,7 @@ Este documento estabelece o framework de desenvolvimento iterativo para componen
 - **Ontologia Mestre:** `ONTOLOGIA_MESTRA_DOMINANTE_V2.md`
 - **Taxonomia Expandido:** `Taxonomia_Ontologica.md`
 - **Prompt Modular:** `PROMPT_MODULAR_N3.md`
-- **Artefatos Existentes:** 54 arquivos `N3-{ID}-{DOMÍNIO}-{SUBDOMÍNIO}.md`
+- **Artefatos Existentes:** 54 arquivos `data/ontology/N3-{ID}-{DOMÍNIO}-{SUBDOMÍNIO}.md`
 
 ### 2.2 Níveis Consolidados
 
@@ -54,7 +54,7 @@ Todo componente N3 deve herdar obrigatoriamente:
 1. `ONTOLOGIA_MESTRA_DOMINANTE_V2.md` - Definições N0-N2
 2. `Taxonomia_Ontologica.md` - Estrutura N3/N4
 3. `PROMPT_MODULAR_N3.md` - Template de desenvolvimento
-4. `N3-{ID}-{DOMÍNIO}-{SUBDOMÍNIO}.md` - Artefatos existentes
+4. `data/ontology/N3-{ID}-{DOMÍNIO}-{SUBDOMÍNIO}.md` - Artefatos existentes
 
 **Dados de Configuração:**
 - ID do subdomínio N3 (ex: 1.1.1)

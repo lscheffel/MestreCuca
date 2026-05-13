@@ -573,7 +573,7 @@ for n3_id, info in n4_especializacoes.items():
     n2_id = info["n2_id"]
     
     for n4_id, n4_nome, descricao in info["subarvores"]:
-        filename = f"N4-{n4_id.replace('.', '_')}-{dominio}-{n4_nome}.md"
+        filename = os.path.join("data", "ontology", f"N4-{n4_id.replace('.', '_')}-{dominio}-{n4_nome}.md")
         
         # IDs ancestrais
         n3_completo = f"{n3_id}"

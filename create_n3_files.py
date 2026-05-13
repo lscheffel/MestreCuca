@@ -48,7 +48,7 @@ print(f"Encontrados {len(n3_data)} subdomínios N3")
 
 # Para cada N3, cria um arquivo
 for item in n3_data:
-    filename = f"N3-{item['n3_id'].replace('.', '_')}-{item['dominio']}-{item['subdominio'].upper()}.md"
+    filename = os.path.join("data", "ontology", f"N3-{item['n3_id'].replace('.', '_')}-{item['dominio']}-{item['subdominio'].upper()}.md")
     
     # Determina a URL ancora para a ontologia mestre
     # Procura a secao correspondente na V2

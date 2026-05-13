@@ -68,7 +68,7 @@ print(f"Encontrados {len(n3_list)} subdomínios N3")
 
 # Para cada N3, cria um arquivo
 for item in n3_list:
-    filename = f"N3-{item['n3_id'].replace('.', '_')}-{item['dominio']}-{item['subdominio'].upper()}.md"
+    filename = os.path.join("data", "ontology", f"N3-{item['n3_id'].replace('.', '_')}-{item['dominio']}-{item['subdominio'].upper()}.md")
     
     content_file = f"""# N3-{item['n3_id'].replace('.', '_')} - {item['dominio']} / {item['nome']}
 

@@ -77,8 +77,8 @@ for celula in celulas_list:
     })
 
 # 4. Limpar arquivos existentes
-for file in glob.glob("N3-*.md"): os.remove(file)
-for file in glob.glob("N4-*.md"): os.remove(file)
+for file in glob.glob(os.path.join("data", "ontology", "N3-*.md")): os.remove(file)
+for file in glob.glob(os.path.join("data", "ontology", "N4-*.md")): os.remove(file)
 
 # 5. Gerar novos N3 e N4
 for n3_id, data in n3_dict.items():
