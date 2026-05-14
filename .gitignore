@@ -1,0 +1,30 @@
+# ── Artefatos gerados pelo pipeline ──────────────────────────────────
+results/
+data/json/
+data/embeddings/*.npy
+data/graphs/
+
+# ── Ambiente virtual ────────────────────────────────────────────────
+.venv/
+
+# ── Cache / temporários ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── IDE / Editor ────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Diagnósticos temporários (raiz) ─────────────────────────────────
+_*.py
+_diag_output*.txt
+
+# ── Ambiente / Secrets ──────────────────────────────────────────────
+.env
+.env.local

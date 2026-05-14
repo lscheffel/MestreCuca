@@ -172,6 +172,44 @@ def initialize_system() -> dict:
     return components
 
 
+def _format_classificacao(classification: dict) -> str:
+    """Formata a classificação N0→N4 com design limpo para o terminal."""
+    classif = classification.get("classificacao", {})
+    if not classif:
+        return ""
+
+    n0 = classif.get("n0_eixo", {})
+    n1 = classif.get("n1_pilar", {})
+    n2 = classif.get("n2_dominio", {})
+    n3 = classif.get("n3_subarvore", {})
+    n4 = classif.get("n4_celula", {})
+
+    confianca = classif.get("confianca_media", 0)
+    caminho = classif.get("caminho_completo", "")
+
+    lines = [
+        "",
+        "🧬 CLASSIFICAÇÃO ONTOLÓGICA FRACTAL",
+        "─" * 42,
+    ]
+    if n0.get("eixo"):
+        lines.append(f"  N0 Eixo:      {n0['eixo']} (score: {n0.get('score', 0):.4f})")
+    if n1.get("pilar"):
+        lines.append(f"  N1 Pilar:     {n1['pilar']} (score: {n1.get('score', 0):.4f})")
+    if n2.get("dominio"):
+        lines.append(f"  N2 Domínio:   {n2['dominio']} (score: {n2.get('score', 0):.4f})")
+    if n3.get("subarvore"):
+        lines.append(f"  N3 Subárvore: {n3['subarvore']} (score: {n3.get('score', 0):.4f})")
+    if n4.get("celula_nome"):
+        lines.append(f"  N4 Célula:    {n4['celula_nome']} (score: {n4.get('score', 0):.4f})")
+    if caminho:
+        lines.append(f"  Caminho:      {caminho}")
+    lines.append(f"  Confiança:    {confianca:.4f}")
+    lines.append("─" * 42)
+
+    return "\n".join(lines)
+
+
 def save_query_results(query: str, result_dict: dict) -> None:
     """Salva o resultado completo em JSON e o output final em YAML."""
     try:
@@ -182,13 +220,31 @@ def save_query_results(query: str, result_dict: dict) -> None:
         if not safe_query:
             safe_query = "query"
         base_filename = f"{timestamp}_{safe_query}"
-        
+
         with open(_RESULTS_DIR / f"{base_filename}_full.json", "w", encoding="utf-8") as f:
             json.dump(result_dict, f, indent=2, default=str, ensure_ascii=False)
-            
+
+        # Extrai o output formatado (prompt canônico) para YAML
+        final_output = result_dict.get("final_output", {})
+        synthesis = result_dict.get("synthesis", {})
+        output_prompt = synthesis.get("prompt", final_output) if synthesis else final_output
+
+        yaml_data = {
+            "query": result_dict.get("query", ""),
+            "status": result_dict.get("status", ""),
+            "latency_ms": result_dict.get("latency_ms", 0),
+            "classification": result_dict.get("classification", {}),
+            "routing": result_dict.get("routing", {}),
+            "prompt": output_prompt,
+            "validation": result_dict.get("validation", {}),
+        }
+
         with open(_RESULTS_DIR / f"{base_filename}_output.yaml", "w", encoding="utf-8") as f:
-            yaml.dump(result_dict.get("final_output", {}), f, allow_unicode=True, default_flow_style=False, sort_keys=False)
-            
+            yaml.dump(yaml_data, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+
+        logger.info("Resultados salvos: %s_full.json, %s_output.yaml",
+                     base_filename, base_filename)
+
     except Exception as e:
         logger.error(f"❌ Erro ao salvar resultados: {e}")
 
@@ -249,16 +305,43 @@ def run_interactive(components: dict) -> None:
             print("─" * 60)
             print(f"📊 Status: {result.get('status', 'N/A')}")
             print(f"⏱️  Latência: {elapsed:.0f}ms")
-            final = result.get("final_output", {})
-            if isinstance(final, dict) and "content" in final:
-                print(f"\n💬 Resposta:\n{final['content']}")
-            elif isinstance(final, dict) and "qa_pairs" in final:
-                for qa in final["qa_pairs"]:
-                    print(f"\n  Q: {qa.get('question', 'N/A')}")
-                    print(f"  A: {qa.get('answer', 'N/A')}")
+
+            # Exibe classificação formatada
+            classificacao_fmt = _format_classificacao(
+                result.get("classification", {})
+            )
+            if classificacao_fmt:
+                print(classificacao_fmt)
+
+            # Exibe o prompt canônico do Arquiteto
+            synthesis = result.get("synthesis", {})
+            prompt = synthesis.get("prompt", "")
+            if prompt:
+                print(f"\n🏗️  PROMPT ARQUITETADO FINAL")
+                print("─" * 60)
+                print(prompt)
+                print("─" * 60)
             else:
-                print(f"\n📋 Resultado: {json.dumps(result, indent=2, default=str)[:2000]}")
-            print("─" * 60 + "\n")
+                # Fallback: exibe output final se disponível
+                final = result.get("final_output", {})
+                if isinstance(final, dict) and "content" in final:
+                    print(f"\n💬 Resposta:\n{final['content']}")
+                elif isinstance(final, dict) and "qa_pairs" in final:
+                    for qa in final["qa_pairs"]:
+                        print(f"\n  Q: {qa.get('question', 'N/A')}")
+                        print(f"  A: {qa.get('answer', 'N/A')}")
+                else:
+                    print(f"\n📋 Resultado: {json.dumps(result, indent=2, default=str)[:2000]}")
+
+            # Resumo de validação
+            validation = result.get("validation", {})
+            if validation:
+                score = validation.get("score_geral", 0)
+                valido = validation.get("valido", False)
+                status_v = "✅ APROVADO" if valido else "⚠️  COM RESTRIÇÕES"
+                print(f"\n🔍 Validação: {status_v} (score: {score:.4f})")
+
+            print()
 
 
 def main():
@@ -297,7 +380,43 @@ Exemplos:
 
     if args.query:
         result = run_pipeline(components, args.query, mode=args.mode)
-        print(json.dumps(result, indent=2, default=str))
+
+        # Exibe classificação formatada
+        classificacao_fmt = _format_classificacao(
+            result.get("classification", {})
+        )
+        if classificacao_fmt:
+            print(classificacao_fmt)
+
+        # Exibe o prompt canônico do Arquiteto
+        synthesis = result.get("synthesis", {})
+        prompt = synthesis.get("prompt", "")
+        if prompt:
+            print(f"\n🏗️  PROMPT ARQUITETADO FINAL")
+            print("─" * 60)
+            print(prompt)
+            print("─" * 60)
+        else:
+            final = result.get("final_output", {})
+            if isinstance(final, dict) and "content" in final:
+                print(f"\n💬 Resposta:\n{final['content']}")
+            elif isinstance(final, dict) and "qa_pairs" in final:
+                for qa in final["qa_pairs"]:
+                    print(f"\n  Q: {qa.get('question', 'N/A')}")
+                    print(f"  A: {qa.get('answer', 'N/A')}")
+            else:
+                print(f"\n📋 Resultado: {json.dumps(result, indent=2, default=str)[:2000]}")
+
+        # Resumo de validação
+        validation = result.get("validation", {})
+        if validation:
+            score = validation.get("score_geral", 0)
+            valido = validation.get("valido", False)
+            status_v = "✅ APROVADO" if valido else "⚠️  COM RESTRIÇÕES"
+            print(f"\n🔍 Validação: {status_v} (score: {score:.4f})")
+
+        # Info de salvamento
+        logger.info("Resultados salvos automaticamente em results/")
     elif not args.health:
         parser.print_help()
         sys.exit(1)

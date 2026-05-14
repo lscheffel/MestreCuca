@@ -37,6 +37,7 @@ VERIFICATION_TYPES = [
     "polaridades_compativeis",
     "conceitos_validos",
     "relacoes_consistentes",
+    "formato_canônico",
 ]
 
 # Limites de assinatura semântica por pilar (min/max esperados)
@@ -307,6 +308,10 @@ class OntologyValidator:
         # 5. Relações consistentes
         v5 = self._verify_relations(retrieved_cells)
         verificacoes.append(v5)
+
+        # 6. Formato canônico do Arquiteto de Prompts
+        v6 = self._verify_format(response_context)
+        verificacoes.append(v6)
 
         # Calcular score geral
         scores = [v.score for v in verificacoes]
@@ -636,6 +641,66 @@ class OntologyValidator:
                 detalhes=f"Todas as {total_rels} relações são consistentes.",
             )
 
+    def _verify_format(
+        self, context: dict
+    ) -> VerificationResult:
+        """
+        Verifica se o output contém as 4 seções obrigatórias
+        do Formato Canônico do Arquiteto de Prompts.
+        """
+        prompt = context.get("prompt", "")
+        if not prompt:
+            return VerificationResult(
+                tipo="formato_canônico",
+                passou=False,
+                score=0.0,
+                detalhes="Prompt ausente no contexto de resposta.",
+                warnings=["Nenhum prompt gerado pelo LLM."],
+            )
+
+        secoes_obrigatorias = [
+            "### 1. CLASSIFICAÇÃO",
+            "### 2. LEITURA ESTRATÉGICA",
+            "### 3. RESPOSTA EXECUTÁVEL",
+            "### 4. OTIMIZAÇÃO",
+        ]
+
+        secoes_encontradas = []
+        secoes_faltando = []
+
+        for secao in secoes_obrigatorias:
+            if secao in prompt:
+                secoes_encontradas.append(secao)
+            else:
+                secoes_faltando.append(secao)
+
+        score = len(secoes_encontradas) / len(secoes_obrigatorias)
+
+        if score >= 0.75:
+            return VerificationResult(
+                tipo="formato_canônico",
+                passou=True,
+                score=score,
+                detalhes=f"{len(secoes_encontradas)}/{len(secoes_obrigatorias)} seções obrigatórias presentes.",
+                warnings=(
+                    [f"Seção ausente: {s}" for s in secoes_faltando]
+                    if secoes_faltando
+                    else []
+                ),
+            )
+        else:
+            return VerificationResult(
+                tipo="formato_canônico",
+                passou=False,
+                score=score,
+                detalhes=f"Apenas {len(secoes_encontradas)}/{len(secoes_obrigatorias)} seções obrigatórias presentes.",
+                warnings=(
+                    [f"Seção ausente: {s}" for s in secoes_faltando]
+                    if secoes_faltando
+                    else ["Formato canônico não detectado."]
+                ),
+            )
+
     def _generate_recommendations(
         self, verificacoes: List[VerificationResult]
     ) -> List[str]:
@@ -664,6 +729,13 @@ class OntologyValidator:
                 elif v.tipo == "relacoes_consistentes":
                     recs.append(
                         "Revisar relações tipadas e garantir pesos em [-1, 1]."
+                    )
+                elif v.tipo == "formato_canônico":
+                    recs.append(
+                        "O output do LLM não segue o formato canônico do "
+                        "Arquiteto de Prompts. Verificar se as 4 seções "
+                        "(CLASSIFICAÇÃO, LEITURA ESTRATÉGICA, RESPOSTA EXECUTÁVEL, "
+                        "OTIMIZAÇÃO) estão presentes e formatadas corretamente."
                     )
         return recs
 

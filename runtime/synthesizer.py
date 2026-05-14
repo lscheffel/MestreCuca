@@ -6,6 +6,9 @@ em prompts enriquecidos e respostas compostas, respeitando a estratégia
 do pilar selecionado e a assinatura semântica das células.
 
 Fase 6b do Roadmap da Ontologia Fractal.
+
+Versão do Roadmap Gemini: implementa Formato Canônico do Arquiteto de Prompts
+com as 4 seções obrigatórias e persona de Arquiteto Sênior.
 """
 
 from __future__ import annotations
@@ -13,6 +16,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -30,154 +34,294 @@ if str(_PROJECT_ROOT / "core") not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT / "core"))
 
 
-# ── Templates de síntese por pilar ──────────────────────────────────
+# ── Contexto por pilar (injetado no Master Template) ──────────────────────
 
-SYNTHESIS_TEMPLATES: Dict[str, str] = {
+PILAR_CONTEXTOS: Dict[str, str] = {
     "LOGOS": (
-        "Você é um analista lógico-estrutural operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: LOGOS (Lógica-Estrutural)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Relações Identificadas\n"
-        "{relacoes}\n\n"
-        "## Restrições Lógicas\n"
-        "- Manter coerência dedutiva entre premissas e conclusão.\n"
-        "- Cada passo deve ser verificável.\n"
-        "- Respeitar a hierarquia ontológica (N0→N4).\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Decomponha a questão em premissas explícitas.\n"
-        "2. Aplique os conceitos ativados de forma sequencial.\n"
-        "3. Indique relações causais e dependências.\n"
-        "4. Apresente uma conclusão verificável.\n"
-        "{restricoes_adicionais}"
+        "Pilar LOGOS (Lógica-Estrutural): foco em decomposição lógica, "
+        "verificabilidade e coerência dedutiva. Cada passo deve ser "
+        "estruturado, sequencial e rastreável."
     ),
     "BIOS": (
-        "Você é um analista orgânico-vital operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: BIOS (Orgânico-Vital)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Ciclos e Interdependências\n"
-        "{ciclos}\n\n"
-        "## Restrições Orgânicas\n"
-        "- Considerar ciclos de retroalimentação.\n"
-        "- Respeitar limites de capacidade (homeostase).\n"
-        "- Preservar integridade do sistema.\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Identifique os ciclos de vida envolvidos.\n"
-        "2. Mapeie interdependências ecossistêmicas.\n"
-        "3. Proponha soluções sustentáveis e adaptativas.\n"
-        "4. Respeite os limites orgânicos do sistema.\n"
-        "{restricoes_adicionais}"
+        "Pilar BIOS (Orgânico-Vital): foco em ciclos de vida, homeostase, "
+        "interdependências ecossistêmicas e sustentabilidade adaptativa."
     ),
     "PATHOS": (
-        "Você é um analista relacional-significativo operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: PATHOS (Relacional-Significativo)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Conexões Humanas\n"
-        "{conexoes}\n\n"
-        "## Restrições Relacionais\n"
-        "- Priorizar empatia e reconhecimento.\n"
-        "- Considerar impacto emocional e social.\n"
-        "- Respeitar dignidade e valores.\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Reconheça a dimensão humana da questão.\n"
-        "2. Estabeleça conexões significativas entre os elementos.\n"
-        "3. Proponha ações com impacto positivo verificável.\n"
-        "4. Considere múltiplas perspectivas e vozes.\n"
-        "{restricoes_adicionais}"
+        "Pilar PATHOS (Relacional-Significativo): foco em impacto humano, "
+        "empatia, conexões significativas e múltiplas perspectivas."
     ),
     "KHAOS": (
-        "Você é um analista transformacional-criativo operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: KHAOS (Transformacional-Criativo)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Tensões e Rupturas\n"
-        "{tensões}\n\n"
-        "## Restrições Transformacionais\n"
-        "- Explorar além das fronteiras convencionais.\n"
-        "- Considerar rupturas como oportunidades.\n"
-        "- Equilibrar destruição e reconstrução.\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Identifique pontos de ruptura e disrupção.\n"
-        "2. Explore possibilidades emergentes.\n"
-        "3. Proponha caminhos criativos e adaptativos.\n"
-        "4. Considere a evolução e a transformação contínua.\n"
-        "{restricoes_adicionais}"
+        "Pilar KHAOS (Transformacional-Criativo): foco em rupturas, "
+        "disrupção criativa, possibilidades emergentes e evolução contínua."
     ),
     "APEIRON": (
-        "Você é um analista estratégico-transcendente operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: APEIRON (Estratégico-Transcendente)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Padrões Sistêmicos\n"
-        "{padroes}\n\n"
-        "## Restrições Estratégicas\n"
-        "- Considerar múltiplas escalas e perspectivas.\n"
-        "- Buscar padrões universais e transcendentes.\n"
-        "- Integrar visão de curto e longo prazo.\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Escale a análise para múltiplas dimensões.\n"
-        "2. Identifique padrões abstratos e universais.\n"
-        "3. Proponha uma visão estratégica integradora.\n"
-        "4. Transcenda limitações imediatas.\n"
-        "{restricoes_adicionais}"
+        "Pilar APEIRON (Estratégico-Transcendente): foco em padrões universais, "
+        "visão sistêmica multi-escala e transcendência de limitações imediatas."
     ),
     "MYTHOS": (
-        "Você é um analista narrativo-simbólico operando sobre a Ontologia Fractal.\n"
-        "Sua tarefa: {tarefa}\n\n"
-        "## Contexto Ontológico\n"
-        "Pilar: MYTHOS (Narrativo-Simbólico)\n"
-        "Domínio: {dominio}\n"
-        "Subárvore: {subarvore}\n"
-        "Célula focal: {celula}\n\n"
-        "## Conceitos Ativados\n"
-        "{conceitos_ativados}\n\n"
-        "## Arquétipos e Símbolos\n"
-        "{simbolos}\n\n"
-        "## Restrições Narrativas\n"
-        "- Respeitar a profundidade simbólica.\n"
-        "- Conectar com padrões arquetípicos.\n"
-        "- Honrar a tradição e a sabedoria.\n\n"
-        "## Instrução\n"
-        "Produza uma resposta que:\n"
-        "1. Enquadre a questão em uma narrativa significativa.\n"
-        "2. Identifique símbolos e arquétipos relevantes.\n"
-        "3. Proponha uma jornada ou transformação simbólica.\n"
-        "4. Extraia significado profundo e aplicável.\n"
-        "{restricoes_adicionais}"
+        "Pilar MYTHOS (Narrativo-Simbólico): foco em narrativas profundas, "
+        "arquétipos, simbolismo e significado transformador."
     ),
 }
+
+# ── Master Template — Formato Canônico do Arquiteto de Prompts ────────────
+# Este template é o wrapper final que impõe as 4 seções obrigatórias.
+# O LLM DEVE seguir este formato EXATAMENTE.
+
+MASTER_TEMPLATE = """Você é um Arquiteto de Prompts Sênior operando sob a Ontologia Fractal MestreCuca.
+Sua tarefa é receber um problema, classificá-lo ontologicamente e produzir
+um Prompt Arquitetado completo e executável.
+
+{contexto_pilar}
+
+## Dados de Entrada
+- **Query original:** {query}
+- **Domínio:** {dominio}
+- **Subárvore:** {subarvore}
+- **Célula focal:** {celula}
+- **Classificação:** {classificacao_texto}
+
+## Conceitos Ativados ({num_cells} células)
+{conceitos_ativados}
+
+## Relações Identificadas
+{relacoes}
+
+{restricoes_adicionais}
+
+---
+
+INSTRUÇÃO: Produza a resposta FINAL no seguinte formato canônico, com EXATAMENTE
+4 seções. Não adicione prólogo, epílogo, resumos ou comentários fora deste formato.
+O output deve ser utilizável diretamente como prompt de engenharia.
+
+### 1. CLASSIFICAÇÃO
+- Vetor: {eixo}
+- Pilar: {pilar}
+- Domínio: {dominio}
+- Subárvore: {subarvore}
+- Célula: {celula}
+
+### 2. LEITURA ESTRATÉGICA
+{leitura_estrategica}
+
+### 3. RESPOSTA EXECUTÁVEL
+{resposta_executavel}
+
+### 4. OTIMIZAÇÃO
+{otimizacao}
+"""
+
+
+def _build_classificacao_texto(classification: Optional[dict]) -> str:
+    """Gera texto legível da classificação N0→N4."""
+    if not classification:
+        return "Não classificada"
+    classif = classification.get("classificacao", {})
+    n0 = classif.get("n0_eixo", {})
+    n1 = classif.get("n1_pilar", {})
+    n2 = classif.get("n2_dominio", {})
+    n3 = classif.get("n3_subarvore", {})
+    n4 = classif.get("n4_celula", {})
+    parts = []
+    if n0.get("eixo"):
+        parts.append(f"Eixo: {n0['eixo']}")
+    if n1.get("pilar"):
+        parts.append(f"Pilar: {n1['pilar']}")
+    if n2.get("dominio"):
+        parts.append(f"Domínio: {n2['dominio']}")
+    if n3.get("subarvore"):
+        parts.append(f"Subárvore: {n3['subarvore']}")
+    if n4.get("celula_nome"):
+        parts.append(f"Célula: {n4['celula_nome']}")
+    return " | ".join(parts) if parts else "Não classificada"
+
+
+def _gerar_leitura_estrategica(
+    query: str,
+    pilar: str,
+    dominio: str,
+    subarvore: str,
+    celula: str,
+    conceitos: List[dict],
+) -> str:
+    """
+    Gera a seção de Leitura Estratégica (2-3 parágrafos).
+    Analisa o problema real sob a perspectiva ontológica do pilar.
+    """
+    nomes = [c.get("data", {}).get("nome", c.get("uid", "")) for c in conceitos[:8]]
+    nomes_unicos = list(dict.fromkeys(nomes))
+
+    contexto = " ".join(nomes_unicos) if nomes_unicos else "conhecimento disponível"
+
+    leituras = {
+        "LOGOS": (
+            f"A query '{query}' revela uma necessidade de decomposição lógica "
+            f"estrutural. O domínio {dominio} na subárvore {subarvore} aponta "
+            f"para uma arquitetura de resolução baseada em relações causais "
+            f"entre os conceitos ativados: {contexto}. A célula focal {celula} "
+            f"sugere que o problema central reside na estruturação e organização "
+            f"das dependências. A abordagem deve priorizar clareza, verificabilidade "
+            f"e progressão lógica de premissas para conclusões."
+        ),
+        "BIOS": (
+            f"A query '{query}' indica uma questão sistêmica orgânica que exige "
+            f"análise de interdependências vivas. No domínio {dominio}, subárvore "
+            f"{subarvore}, os conceitos ativados — {contexto} — formam um ecossistema "
+            f"com ciclos de retroalimentação. A célula focal {celula} destaca um "
+            f"ponto crítico de homeostase. A leitura estratégica deve considerar "
+            f"limites de capacidade, ciclos de vida e equilíbrio dinâmico."
+        ),
+        "PATHOS": (
+            f"A query '{query}' expressa uma necessidade relacional e significativa. "
+            f"No contexto do domínio {dominio} ({subarvore}), os conceitos "
+            f"ativados — {contexto} — revelam tensões e conexões humanas profundas. "
+            f"A célula focal {celula} indica que o impacto emocional e social é "
+            f"central. A leitura deve considerar múltiplas perspectivas, empatia "
+            f"e o reconhecimento da dimensão subjetiva envolvida."
+        ),
+        "KHAOS": (
+            f"A query '{query}' sinaliza uma necessidade de ruptura e transformação. "
+            f"No domínio {dominio}, subárvore {subarvore}, os conceitos "
+            f"ativados — {contexto} — apontam para tensões criativas e "
+            f"oportunidades de disrupção. A célula focal {celula} marca um ponto "
+            f"de inflexão. A leitura estratégica deve explorar fronteiras, "
+            f"questionar premissas e abraçar a ambiguidade como catalisador."
+        ),
+        "APEIRON": (
+            f"A query '{query}' exige visão sistêmica e transcendência de limites "
+            f"imediatos. No domínio {dominio}, subárvore {subarvore}, os conceitos "
+            f"ativados — {contexto} — revelam padrões em múltiplas escalas. "
+            f"A célula focal {celula} sugere uma conexão com princípios universais. "
+            f"A leitura deve escalar a análise, buscar analogias estruturais e "
+            f"propor uma visão integradora que transcenda o contexto imediato."
+        ),
+        "MYTHOS": (
+            f"A query '{query}' carrega uma dimensão narrativa e simbólica. "
+            f"No domínio {dominio}, subárvore {subarvore}, os conceitos "
+            f"ativados — {contexto} — evocam arquétipos e padrões simbólicos. "
+            f"A célula focal {celula} conecta-se a uma narrativa profunda. "
+            f"A leitura deve enquadrar a questão em uma jornada significativa, "
+            f"extraindo significado e conectando com tradições de sabedoria."
+        ),
+    }
+    return leituras.get(pilar, leituras["LOGOS"])
+
+
+def _gerar_resposta_executavel(
+    query: str,
+    pilar: str,
+    dominio: str,
+    subarvore: str,
+    celula: str,
+    conceitos: List[dict],
+) -> str:
+    """
+    Gera a seção de Resposta Executável (checklist + passos algorítmicos).
+    """
+    nomes = [c.get("data", {}).get("nome", c.get("uid", "")) for c in conceitos[:6]]
+
+    passos = {
+        "LOGOS": [
+            f"1. Decompor '{query}' em premissas atômicas verificáveis.",
+            f"2. Mapear dependências lógicas entre os conceitos: {', '.join(nomes[:4])}.",
+            "3. Construir cadeia dedutiva: premissa → inferência → conclusão.",
+            "4. Validar cada passo com contraexemplos e testes de consistência.",
+            "5. Consolidar resultado final com critérios de aceitação explícitos.",
+        ],
+        "BIOS": [
+            f"1. Mapear o ecossistema envolvido em '{query}' e seus ciclos ativos.",
+            f"2. Identificar pontos de homeostase e alavancas de mudança.",
+            f"3. Avaliar impactos de curto e longo prazo nos conceitos: {', '.join(nomes[:4])}.",
+            "4. Propor soluções adaptativas com mecanismos de feedback.",
+            "5. Definir indicadores de saúde do sistema e limiares de alerta.",
+        ],
+        "PATHOS": [
+            f"1. Identificar os stakeholders e suas perspectivas em '{query}'.",
+            f"2. Mapear conexões emocionais e relacionais entre: {', '.join(nomes[:4])}.",
+            "3. Avaliar o impacto humano de cada possível ação.",
+            "4. Propor abordagens que respeitem dignidade e valores.",
+            "5. Validar com múltiplas perspectivas antes de consolidar.",
+        ],
+        "KHAOS": [
+            f"1. Questionar as premissas fundamentais de '{query}'.",
+            f"2. Explorar possibilidades disruptivas com: {', '.join(nomes[:4])}.",
+            "3. Identificar pontos de ruptura e oportunidades emergentes.",
+            "4. Propor caminhos criativos que equilibrem destruição e reconstrução.",
+            "5. Definir critérios de evolução e adaptação contínua.",
+        ],
+        "APEIRON": [
+            f"1. Escalar '{query}' para múltiplas dimensões e perspectivas.",
+            f"2. Identificar padrões universais com: {', '.join(nomes[:4])}.",
+            "3. Buscar analogias estruturais em domínios aparentemente distantes.",
+            "4. Propor uma visão integradora que transcenda limitações imediatas.",
+            "5. Definir princípios orientadores de longo prazo.",
+        ],
+        "MYTHOS": [
+            f"1. Enquadrar '{query}' em uma narrativa significativa e coerente.",
+            f"2. Identificar arquétipos e símbolos em: {', '.join(nomes[:4])}.",
+            "3. Mapear a jornada simbólica do problema à solução.",
+            "4. Extrair significado profundo e aplicável.",
+            "5. Consolidar como história transformadora com morale prático.",
+        ],
+    }
+    passos_list = passos.get(pilar, passos["LOGOS"])
+
+    checklist = "\n".join([f"- [ ] {p}" for p in passos_list])
+    return f"**Passos ({pilar}):**\n\n{checklist}"
+
+
+def _gerar_otimizacao(
+    pilar: str,
+    dominio: str,
+    subarvore: str,
+    celula: str,
+    routing: dict,
+) -> str:
+    """Gera a seção de Otimização (variáveis estratégicas e edge cases)."""
+    score = routing.get("score", 0)
+    confianca = routing.get("confianca", 0)
+
+    otimizacoes = {
+        "LOGOS": [
+            "Melhorias incrementais: refinar premissas com dados adicionais.",
+            "Alternativas: considerar abordagens dedutivas vs. indutivas.",
+            f"Edge case: score de roteamento {score:.4f} — verificar se abaixo de 0.5.",
+            "Ponto de atenção: consistência lógica entre premissas e conclusão.",
+        ],
+        "BIOS": [
+            "Melhorias incrementais: monitorar ciclos de feedback em tempo real.",
+            "Alternativas: intervenção gradual vs. transformação radical.",
+            f"Edge case: confiança {confianca:.4f} — avaliar estabilidade do ecossistema.",
+            "Ponto de atenção: respeitar limites de capacidade (homeostase).",
+        ],
+        "PATHOS": [
+            "Melhorias incrementais: aprofundar escuta ativa com stakeholders.",
+            "Alternativas: mediação direta vs. facilitação indireta.",
+            f"Edge case: tensões entre perspectivas divergentes.",
+            "Ponto de atenção: equilibrar empatia com objetividade.",
+        ],
+        "KHAOS": [
+            "Melhorias incrementais: testar micro-rupturas antes de disrupções grandes.",
+            "Alternativas: inovação incremental vs. revolucionária.",
+            f"Edge case: score {score:.4f} — risco de transformação descontrolada.",
+            "Ponto de atenção: equilibrar destruição criativa com estabilidade.",
+        ],
+        "APEIRON": [
+            "Melhorias incrementais: expandir análise para escalas superiores.",
+            "Alternativas: visão de sistema vs. análise de componentes.",
+            f"Edge case: abrangência excessiva pode diluir foco.",
+            "Ponto de atenção: manter coerência entre escalas.",
+        ],
+        "MYTHOS": [
+            "Melhorias incrementais: enriquecer narrativa com arquétipos complementares.",
+            "Alternativas: narrativa heroica vs. narrativa de transformação.",
+            f"Edge case: simbolismo pode obscurecer ação prática.",
+            "Ponto de atenção: ancorar significado simbólico em resultados concretos.",
+        ],
+    }
+    items = otimizacoes.get(pilar, otimizacoes["LOGOS"])
+    return "\n".join([f"- {item}" for item in items])
 
 
 @dataclass
@@ -273,19 +417,29 @@ class OntologySynthesizer:
         self, synthesis_input: SynthesisInput
     ) -> SynthesisOutput:
         """
-        Executa a síntese completa.
+        Executa a síntese completa com Formato Canônico do Arquiteto de Prompts.
 
-        1. Determina template base pelo pilar
-        2. Monta contexto ontológico enriquecido
-        3. Combina retrieved cells com grafo
-        4. Gera prompt final
+        Fluxo:
+        1. Determina pilar e contexto
+        2. Monta referências de células
+        3. Monta conceitos ativados
+        4. Monta relações
+        5. Gera as 4 seções canônicas via Master Template
+        6. Retorna output estruturado
         """
         routing = synthesis_input.routing_decision
         pilar = routing.get("pilar", "LOGOS")
+        dominio = routing.get("dominio", "N/A")
+        subarvore = routing.get("subarvore", "N/A")
+        celula = routing.get("conceito_foco", "N/A")
+        
+        # Extrai o eixo da classificação em vez do roteamento
+        classif_dict = synthesis_input.classification.get("classificacao", {}) if synthesis_input.classification else {}
+        eixo = classif_dict.get("n0_eixo", {}).get("eixo", "N/A")
 
-        # Obtém template
-        template = SYNTHESIS_TEMPLATES.get(
-            pilar, SYNTHESIS_TEMPLATES["LOGOS"]
+        # Obtém contexto do pilar
+        contexto_pilar = PILAR_CONTEXTOS.get(
+            pilar, PILAR_CONTEXTOS["LOGOS"]
         )
 
         # Monta referências de células
@@ -297,25 +451,63 @@ class OntologySynthesizer:
         # Monta relações
         relacoes = self._build_relations(cell_refs)
 
-        # Monta componentes específicos por pilar
-        extras = self._build_pilar_extras(pilar, cell_refs)
-
         # Monta restrições adicionais
         restricoes = self._build_restrictions(synthesis_input)
 
-        # Preenche template
-        prompt = template.format(
-            tarefa=synthesis_input.query,
-            dominio=routing.get("dominio", "N/A"),
-            subarvore=routing.get("subarvore", "N/A"),
-            celula=routing.get("conceito_foco", "N/A"),
+        # Gera classificação textual
+        classificacao_texto = _build_classificacao_texto(
+            synthesis_input.classification
+        )
+
+        # Gera Leitura Estratégica (Seção 2)
+        leitura_estrategica = _gerar_leitura_estrategica(
+            query=synthesis_input.query,
+            pilar=pilar,
+            dominio=dominio,
+            subarvore=subarvore,
+            celula=celula,
+            conceitos=cell_refs,
+        )
+
+        # Gera Resposta Executável (Seção 3)
+        resposta_executavel = _gerar_resposta_executavel(
+            query=synthesis_input.query,
+            pilar=pilar,
+            dominio=dominio,
+            subarvore=subarvore,
+            celula=celula,
+            conceitos=cell_refs,
+        )
+
+        # Gera Otimização (Seção 4)
+        otimizacao = _gerar_otimizacao(
+            pilar=pilar,
+            dominio=dominio,
+            subarvore=subarvore,
+            celula=celula,
+            routing=routing,
+        )
+
+        # Monta prompt final via Master Template
+        prompt = MASTER_TEMPLATE.format(
+            contexto_pilar=contexto_pilar,
+            query=synthesis_input.query,
+            dominio=dominio,
+            subarvore=subarvore,
+            celula=celula,
+            classificacao_texto=classificacao_texto,
+            num_cells=len(cell_refs),
             conceitos_ativados=conceitos,
             relacoes=relacoes,
             restricoes_adicionais=restricoes,
-            **extras,
+            eixo=eixo,
+            pilar=pilar,
+            leitura_estrategica=leitura_estrategica,
+            resposta_executavel=resposta_executavel,
+            otimizacao=otimizacao,
         )
 
-        # Monta sumário de contexto
+        # Monta sumário de contexto para logging/auditoria
         context_summary = self._build_context_summary(
             synthesis_input, cell_refs
         )
@@ -327,9 +519,10 @@ class OntologySynthesizer:
             metadata={
                 "pilar": pilar,
                 "num_cells": len(cell_refs),
-                "template_usado": pilar,
-                "dominio": routing.get("dominio"),
-                "subarvore": routing.get("subarvore"),
+                "template_usado": "MASTER_CANONICO",
+                "dominio": dominio,
+                "subarvore": subarvore,
+                "formato": "ARQUITETO_PROMPTS_V1",
             },
         )
 

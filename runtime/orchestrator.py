@@ -83,7 +83,7 @@ class PipelineResult:
             "retrieved_cells": self.retrieved_cells,
             "graph_context": self.graph_context,
             "synthesis": {
-                "prompt": self.synthesis.prompt[:500] if self.synthesis else None,
+                "prompt": self.synthesis.prompt if self.synthesis else None,
                 "context_summary": str(self.synthesis.context_summary) if self.synthesis else None,
                 "cell_references": self.synthesis.cell_references if self.synthesis else [],
                 "metadata": self.synthesis.metadata if self.synthesis else {},
@@ -91,6 +91,13 @@ class PipelineResult:
             "validation": self.validation if self.validation else None,
             "metadata": self.metadata,
         }
+
+    @property
+    def formatted_output(self) -> str:
+        """Extrai o prompt formatado do resultado da síntese."""
+        if self.synthesis and self.synthesis.prompt:
+            return self.synthesis.prompt
+        return "[Sem output formatado]"
 
     def summary(self) -> str:
         """Sumário legível do resultado."""
