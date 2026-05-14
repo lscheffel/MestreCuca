@@ -1,0 +1,1901 @@
+prompt: 'Você é um analista orgânico-vital operando sobre a Ontologia Fractal.
+
+  Sua tarefa: Preciso de um framework executável para orquestrar a transição de um
+  sistema legado monolítico para um ecossistema distribuído caótico. O objetivo é
+  usar a entropia da mudança como catalisador de inovação, garantindo a integridade
+  dos dados durante a ruptura.
+
+
+  ## Contexto Ontológico
+
+  Pilar: BIOS (Orgânico-Vital)
+
+  Domínio: SOMA
+
+  Subárvore: INTEGRIDADE
+
+  Célula focal: ATUALIZAÇÃO_SISTEMA
+
+
+  ## Conceitos Ativados
+
+  - **ATUALIZAÇÃO_SISTEMA** (N4_SOMA_1_C):  [funções: equilibrar, transformar, avaliar]
+  [natureza: estado]
+
+  - **DESTRUIÇÃO_CRIATIVA** (N4_ENTROPIA_1_B):  [funções: avaliar, equilibrar, dissolver]
+  [natureza: estado]
+
+  - **DISPERSÃO_ENERGIA** (N4_ENTROPIA_2_A):  [funções: avaliar, dissolver, equilibrar]
+  [natureza: vetor]
+
+  - **AUTORREPARAÇÃO** (N4_SOMA_2_B):  [funções: equilibrar, avaliar, regenerar] [natureza:
+  estado]
+
+  - **SANEAMENTO** (N4_OIKOS_1_C):  [funções: sequenciar, adaptar, equilibrar] [natureza:
+  processo]
+
+  - **ISOMORFISMO** (N4_ESCALA_1_C):  [funções: escalar, mapear, comparar] [natureza:
+  fenomeno]
+
+  - **INTEGRIDADE** (N4_ETHOS_2_C):  [funções: avaliar, equilibrar, classificar] [natureza:
+  estado]
+
+  - **PARALELIZAÇÃO** (N4_ALGORITMIA_2_C):  [funções: sequenciar, validar, controlar]
+  [natureza: processo]
+
+  - **TRANSFORMAÇÃO_EXCEPCIONAL** (N4_SINGULARIDADE_1_C):  [funções: transformar,
+  emergir, prever] [natureza: fenomeno]
+
+  - **TRANSFORMAÇÃO** (N4_ESTETICA_3_A):  [funções: transformar, comparar, avaliar]
+  [natureza: fenomeno]
+
+  - **MANUTENÇÃO_ESTRUTURAL** (N4_SOMA_1_A):  [funções: equilibrar, avaliar, regenerar]
+  [natureza: estado]
+
+  - **PROPAGAÇÃO** (N4_VIBRATIO_3_A):  [funções: sequenciar, generalizar, avaliar]
+  [natureza: processo]
+
+
+  ## Ciclos e Interdependências
+
+  - SANEAMENTO: processo dinâmico com potencial de ciclagem e retroalimentação
+
+  - PARALELIZAÇÃO: processo dinâmico com potencial de ciclagem e retroalimentação
+
+  - PROPAGAÇÃO: processo dinâmico com potencial de ciclagem e retroalimentação
+
+
+  ## Restrições Orgânicas
+
+  - Considerar ciclos de retroalimentação.
+
+  - Respeitar limites de capacidade (homeostase).
+
+  - Preservar integridade do sistema.
+
+
+  ## Instrução
+
+  Produza uma resposta que:
+
+  1. Identifique os ciclos de vida envolvidos.
+
+  2. Mapeie interdependências ecossistêmicas.
+
+  3. Proponha soluções sustentáveis e adaptativas.
+
+  4. Respeite os limites orgânicos do sistema.
+
+  - Foco em resolução concreta e aplicável.'
+context_summary: 'Pilar: BIOS
+
+  Estrategia: Orgânico-Vital
+
+  Domínio: SOMA
+
+  Subárvore: INTEGRIDADE
+
+  Score de roteamento: 0.3464
+
+  Células ativadas: 12
+
+  Uids: [''N4_SOMA_1_C'', ''N4_ENTROPIA_1_B'', ''N4_ENTROPIA_2_A'', ''N4_SOMA_2_B'',
+  ''N4_OIKOS_1_C'', ''N4_ESCALA_1_C'', ''N4_ETHOS_2_C'', ''N4_ALGORITMIA_2_C'', ''N4_SINGULARIDADE_1_C'',
+  ''N4_ESTETICA_3_A'', ''N4_SOMA_1_A'', ''N4_VIBRATIO_3_A'']'
+cell_references:
+- N4_SOMA_1_C
+- N4_ENTROPIA_1_B
+- N4_ENTROPIA_2_A
+- N4_SOMA_2_B
+- N4_OIKOS_1_C
+- N4_ESCALA_1_C
+- N4_ETHOS_2_C
+- N4_ALGORITMIA_2_C
+- N4_SINGULARIDADE_1_C
+- N4_ESTETICA_3_A
+- N4_SOMA_1_A
+- N4_VIBRATIO_3_A
+synthesis_metadata:
+  pilar: BIOS
+  num_cells: 12
+  template_usado: BIOS
+  dominio: SOMA
+  subarvore: INTEGRIDADE
+validation:
+  aprovado: true
+  score_geral: 0.7733
+  criticidade: baixa
+  verificacoes:
+  - tipo: eixo_coerente
+    passou: true
+    score: 0.8
+    detalhes: Eixo ou pilar não especificado, assumido coerente.
+    warnings:
+    - Classificação N0/N1 incompleta.
+  - tipo: assinatura_preservada
+    passou: false
+    score: 0.6667
+    detalhes: 72/108 dimensões dentro dos limites.
+    warnings:
+    - 'Assinatura fora do esperado: N4_SOMA_1_C.dinamismo=0.229 fora de [0.40, 0.80]'
+    - 'Assinatura fora do esperado: N4_SOMA_1_C.temporalidade=0.226 fora de [0.40,
+      0.80]'
+    - 'Assinatura fora do esperado: N4_ENTROPIA_1_B.materialidade=0.479 fora de [0.50,
+      0.90]'
+    - 'Assinatura fora do esperado: N4_ENTROPIA_1_B.dinamismo=0.353 fora de [0.40,
+      0.80]'
+    - 'Assinatura fora do esperado: N4_ENTROPIA_1_B.temporalidade=0.310 fora de [0.40,
+      0.80]'
+  - tipo: polaridades_compativeis
+    passou: false
+    score: 0.4
+    detalhes: 'Pilares incompatíveis coativados: LOGOS + KHAOS'
+    warnings:
+    - Tensão entre LOGOS e KHAOS detectada.
+    - Avaliar se a tensão é intencional (dialética).
+  - tipo: conceitos_validos
+    passou: true
+    score: 1.0
+    detalhes: Todos os 12 conceitos são válidos.
+    warnings: []
+  - tipo: relacoes_consistentes
+    passou: true
+    score: 1.0
+    detalhes: 94/94 relações válidas.
+    warnings:
+    - 'Relação: N4_SOMA_1_C→N4_SOMA_1_C: tipo desconhecido ''é_requisito_de'''
+    - 'Relação: N4_SOMA_2_B→N4_SOMA_2_B: tipo desconhecido ''é_requisito_de'''
+    - 'Relação: N4_SINGULARIDADE_1_C→N4_SINGULARIDADE_1_C: tipo desconhecido ''é_requisito_de'''
+    - 'Relação: N4_ESTETICA_3_A→N4_ESTETICA_3_A: tipo desconhecido ''é_requisito_de'''
+    - 'Relação: N4_SOMA_1_A→N4_SOMA_1_A: tipo desconhecido ''é_requisito_de'''
+  recomendacoes:
+  - Ajustar seleção de células para manter coerência semântica com o pilar dominante.
+  - Separar opostos em camadas dialéticas ou justificar tensão como recurso retórico.
+  pode_resintetizar: false
+classification:
+  query: Preciso de um framework executável para orquestrar a transição de um sistema
+    legado monolítico para um ecossistema distribuído caótico. O objetivo é usar a
+    entropia da mudança como catalisador de inovação, garantindo a integridade dos
+    dados durante a ruptura.
+  classificacao:
+    n0_eixo:
+      eixo: SINTRÓPICO
+      code: S1
+      score: 0.2855
+    n1_pilar:
+      pilar: BIOS
+      code: B
+      score: 0.3922
+    n2_dominio:
+      dominio: SOMA
+      code: S
+      score: 0.3478
+    n3_subarvore:
+      subarvore: INTEGRIDADE
+      code: INTEGRIDADE
+      score: 0.4283
+    n4_celula:
+      celula_nome: ATUALIZAÇÃO_SISTEMA
+      code: N4_SOMA_1_C
+      score: 0.3712
+  caminho_completo: S1.BIOS.SOMA.INTEGRIDADE.ATUALIZAÇÃO_SISTEMA
+  confianca_media: 0.365
+  top_cells:
+  - uid: N4_SOMA_1_C
+    nome: ATUALIZAÇÃO_SISTEMA
+    score: 0.3712
+  - uid: N4_SOMA_1_A
+    nome: MANUTENÇÃO_ESTRUTURAL
+    score: 0.3406
+  - uid: N4_SOMA_1_B
+    nome: AVALIAÇÃO_CONDIÇÃO
+    score: 0.3169
+  _latency_ms: 0
+routing:
+  pilar: BIOS
+  estrategia: Orgânico-Vital
+  dominio: SOMA
+  subarvore: INTEGRIDADE
+  conceito_foco: ATUALIZAÇÃO_SISTEMA
+  prompt_base: 'Analise a questão sob a perspectiva orgânica da ontologia fractal.
+    Considere ciclos de vida, interdependências ecossistêmicas e princípios de homeostase.
+    Utilize os conceitos de: corpo, saúde, energia, vitalidade, organismo.
+
+
+    Contexto ontológico:
+
+    Domínio: SOMA
+
+    Subárvore: INTEGRIDADE
+
+    Célula focal: ATUALIZAÇÃO_SISTEMA'
+  score: 0.3464
+  confianca: 0.4157
+  metodo: classification+signals
+retrieved_cells_count: 12
+graph_context:
+  seed_nodes:
+  - N4_SOMA_1_C
+  - N4_ENTROPIA_1_B
+  - N4_ENTROPIA_2_A
+  - N4_SOMA_2_B
+  - N4_OIKOS_1_C
+  neighbors:
+  - target: N4_OIKOS_1_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: PROTEÇÃO_FÍSICA
+      nome_normalizado: proteção física
+      uid: N4_OIKOS_1_A
+      legacy_id: B2.1.1-A
+      path: S1.B2.1.1-A
+      hierarchical_id: 2.1.1.1
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.1
+      n3_name: MORADA
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: PROTEÇÃO_FÍSICA
+      gatilho: Abrigo exposto a elementos adversos
+      acao: Estabelecer barreiras estruturais
+      restricao: Não isolar completamente
+      verificacao: Ambiente interno mantém condições ideais
+      sig_abstracao: 0.3
+      sig_complexidade: 0.296
+      sig_causalidade: 0.281
+      sig_emocionalidade: 0.292
+      sig_materialidade: 0.549
+      sig_simbolismo: 0.183
+      sig_dinamismo: 0.287
+      sig_temporalidade: 0.218
+      sig_ambiguidade: 0.243
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_1_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: RECURSOS_ESSENCIAIS
+      nome_normalizado: recursos essenciais
+      uid: N4_OIKOS_1_B
+      legacy_id: B2.1.1-B
+      path: S1.B2.1.1-B
+      hierarchical_id: 2.1.1.2
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.1
+      n3_name: MORADA
+      axis: SINTRÓPICO
+      natureza: vetor
+      type: cell
+      label: RECURSOS_ESSENCIAIS
+      gatilho: Morada sem provisão básica
+      acao: Estocar água, alimento, energia
+      restricao: Não exceder capacidade de armazenamento
+      verificacao: Sobrevivência garantida por período crítico
+      sig_abstracao: 0.584
+      sig_complexidade: 0.476
+      sig_causalidade: 0.482
+      sig_emocionalidade: 0.342
+      sig_materialidade: 0.425
+      sig_simbolismo: 0.358
+      sig_dinamismo: 0.68
+      sig_temporalidade: 0.576
+      sig_ambiguidade: 0.361
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_1_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: SANEAMENTO
+      nome_normalizado: saneamento
+      uid: N4_OIKOS_1_C
+      legacy_id: B2.1.1-C
+      path: S1.B2.1.1-C
+      hierarchical_id: 2.1.1.3
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.1
+      n3_name: MORADA
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: SANEAMENTO
+      gatilho: Ambiente com risco de contaminação
+      acao: Implementar limpeza e descarte adequado
+      restricao: Solução deve ser sustentável
+      verificacao: Níveis de higiene dentro de padrões seguros
+      sig_abstracao: 0.358
+      sig_complexidade: 0.533
+      sig_causalidade: 0.482
+      sig_emocionalidade: 0.309
+      sig_materialidade: 0.444
+      sig_simbolismo: 0.299
+      sig_dinamismo: 0.609
+      sig_temporalidade: 0.593
+      sig_ambiguidade: 0.299
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_2_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: REIVINDICAÇÃO_ESPACIAL
+      nome_normalizado: reivindicação espacial
+      uid: N4_OIKOS_2_A
+      legacy_id: B2.1.2-A
+      path: S1.B2.1.2-A
+      hierarchical_id: 2.1.2.1
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.2
+      n3_name: TERRITORIO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: REIVINDICAÇÃO_ESPACIAL
+      gatilho: Definir área de domínio
+      acao: Estabelecer fronteiras geográficas
+      restricao: Não invadir território alheio
+      verificacao: Limites territoriais claramente definidos
+      sig_abstracao: 0.32
+      sig_complexidade: 0.549
+      sig_causalidade: 0.514
+      sig_emocionalidade: 0.341
+      sig_materialidade: 0.44
+      sig_simbolismo: 0.251
+      sig_dinamismo: 0.634
+      sig_temporalidade: 0.585
+      sig_ambiguidade: 0.311
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_2_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: DEFESA_TERRITORIAL
+      nome_normalizado: defesa territorial
+      uid: N4_OIKOS_2_B
+      legacy_id: B2.1.2-B
+      path: S1.B2.1.2-B
+      hierarchical_id: 2.1.2.2
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.2
+      n3_name: TERRITORIO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: DEFESA_TERRITORIAL
+      gatilho: Proteger espaço contra intrusão
+      acao: Implementar sistemas de vigilância
+      restricao: Não usar força excessiva
+      verificacao: Território mantido sob controle
+      sig_abstracao: 0.309
+      sig_complexidade: 0.473
+      sig_causalidade: 0.48
+      sig_emocionalidade: 0.348
+      sig_materialidade: 0.415
+      sig_simbolismo: 0.258
+      sig_dinamismo: 0.625
+      sig_temporalidade: 0.589
+      sig_ambiguidade: 0.323
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_2_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: GESTÃO_RECURSOS_TERRITORIAIS
+      nome_normalizado: gestão recursos territoriais
+      uid: N4_OIKOS_2_C
+      legacy_id: B2.1.2-C
+      path: S1.B2.1.2-C
+      hierarchical_id: 2.1.2.3
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.2
+      n3_name: TERRITORIO
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: GESTÃO_RECURSOS_TERRITORIAIS
+      gatilho: Administrar recursos do espaço
+      acao: Distribuir uso de forma sustentável
+      restricao: Não esgotar recursos localmente
+      verificacao: Uso equilibrado do território
+      sig_abstracao: 0.259
+      sig_complexidade: 0.364
+      sig_causalidade: 0.338
+      sig_emocionalidade: 0.336
+      sig_materialidade: 0.566
+      sig_simbolismo: 0.189
+      sig_dinamismo: 0.269
+      sig_temporalidade: 0.268
+      sig_ambiguidade: 0.256
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_3_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ARMAZENAMENTO_RECURSOS
+      nome_normalizado: armazenamento recursos
+      uid: N4_OIKOS_3_A
+      legacy_id: B2.1.3-A
+      path: S1.B2.1.3-A
+      hierarchical_id: 2.1.3.1
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.3
+      n3_name: PROVISAO
+      axis: SINTRÓPICO
+      natureza: principio
+      type: cell
+      label: ARMAZENAMENTO_RECURSOS
+      gatilho: Necessidade de reserva de materiais
+      acao: Estocar provisões para período crítico
+      restricao: Não acumular além da capacidade
+      verificacao: Recursos armazenados de forma segura
+      sig_abstracao: 0.626
+      sig_complexidade: 0.459
+      sig_causalidade: 0.607
+      sig_emocionalidade: 0.37
+      sig_materialidade: 0.399
+      sig_simbolismo: 0.476
+      sig_dinamismo: 0.391
+      sig_temporalidade: 0.419
+      sig_ambiguidade: 0.386
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_3_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ROTAÇÃO_ESTOQUE
+      nome_normalizado: rotação estoque
+      uid: N4_OIKOS_3_B
+      legacy_id: B2.1.3-B
+      path: S1.B2.1.3-B
+      hierarchical_id: 2.1.3.2
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.3
+      n3_name: PROVISAO
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: ROTAÇÃO_ESTOQUE
+      gatilho: Gerenciar validade de provisões
+      acao: Usar sistema FIFO (primeiro a entrar, primeiro a sair)
+      restricao: Não deixar recursos estragarem
+      verificacao: Estoque sempre atualizado e utilizável
+      sig_abstracao: 0.324
+      sig_complexidade: 0.356
+      sig_causalidade: 0.303
+      sig_emocionalidade: 0.277
+      sig_materialidade: 0.538
+      sig_simbolismo: 0.231
+      sig_dinamismo: 0.233
+      sig_temporalidade: 0.281
+      sig_ambiguidade: 0.252
+    seed: N4_SOMA_1_C
+  - target: N4_OIKOS_3_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: DISTRIBUIÇÃO_RECURSOS
+      nome_normalizado: distribuição recursos
+      uid: N4_OIKOS_3_C
+      legacy_id: B2.1.3-C
+      path: S1.B2.1.3-C
+      hierarchical_id: 2.1.3.3
+      pilar: BIOS
+      dominio: OIKOS
+      n3_ref: 2.1.3
+      n3_name: PROVISAO
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: DISTRIBUIÇÃO_RECURSOS
+      gatilho: Alocar provisões onde necessário
+      acao: Priorizar necessidades críticas
+      restricao: Não desperdiçar recursos
+      verificacao: Distribuição eficiente e equitativa
+      sig_abstracao: 0.333
+      sig_complexidade: 0.333
+      sig_causalidade: 0.303
+      sig_emocionalidade: 0.348
+      sig_materialidade: 0.563
+      sig_simbolismo: 0.234
+      sig_dinamismo: 0.286
+      sig_temporalidade: 0.283
+      sig_ambiguidade: 0.3
+    seed: N4_SOMA_1_C
+  - target: N4_SOMA_1_C
+    tipo: é_requisito_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ATUALIZAÇÃO_SISTEMA
+      nome_normalizado: atualização sistema
+      uid: N4_SOMA_1_C
+      legacy_id: B2.2.1-C
+      path: S1.B2.2.1-C
+      hierarchical_id: 2.2.1.3
+      pilar: BIOS
+      dominio: SOMA
+      n3_ref: 2.2.1
+      n3_name: INTEGRIDADE
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: ATUALIZAÇÃO_SISTEMA
+      gatilho: Melhorar ou modernizar estrutura
+      acao: Implementar upgrades necessários
+      restricao: Não alterar funcionalidade essencial
+      verificacao: Sistema atualizado mantendo integridade
+      sig_abstracao: 0.246
+      sig_complexidade: 0.315
+      sig_causalidade: 0.307
+      sig_emocionalidade: 0.271
+      sig_materialidade: 0.543
+      sig_simbolismo: 0.188
+      sig_dinamismo: 0.229
+      sig_temporalidade: 0.226
+      sig_ambiguidade: 0.241
+    seed: N4_SOMA_1_C
+  - target: N4_SINGULARIDADE_2_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: POTENCIAL_INFINITO
+      nome_normalizado: potencial infinito
+      uid: N4_SINGULARIDADE_2_B
+      legacy_id: K4.2.2-B
+      path: E2.K1.2.2-B
+      hierarchical_id: 4.2.2.2
+      pilar: KHAOS
+      dominio: SINGULARIDADE
+      n3_ref: 4.2.2
+      n3_name: INFINITO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: POTENCIAL_INFINITO
+      gatilho: Possibilidades sem limite
+      acao: Abrir-se ao potencial
+      restricao: Não restringir artificialmente
+      verificacao: Potencial reconhecido
+      sig_abstracao: 0.752
+      sig_complexidade: 0.628
+      sig_causalidade: 0.446
+      sig_emocionalidade: 0.564
+      sig_materialidade: 0.364
+      sig_simbolismo: 0.689
+      sig_dinamismo: 0.588
+      sig_temporalidade: 0.502
+      sig_ambiguidade: 0.627
+    seed: N4_SOMA_1_C
+  - target: N4_VACUO_1_C
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: CAMPO_POTENCIAL
+      nome_normalizado: campo potencial
+      uid: N4_VACUO_1_C
+      legacy_id: A5.3.1-C
+      path: E2.A2.3.1-C
+      hierarchical_id: 5.3.1.3
+      pilar: APEIRON
+      dominio: VÁCUO
+      n3_ref: 5.3.1
+      n3_name: POTENCIAL
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: CAMPO_POTENCIAL
+      gatilho: Matriz de possibilidades
+      acao: Mapear estados potenciais
+      restricao: Não limitar possibilidades
+      verificacao: Campo reconhecido
+      sig_abstracao: 0.744
+      sig_complexidade: 0.61
+      sig_causalidade: 0.495
+      sig_emocionalidade: 0.514
+      sig_materialidade: 0.336
+      sig_simbolismo: 0.692
+      sig_dinamismo: 0.515
+      sig_temporalidade: 0.494
+      sig_ambiguidade: 0.626
+    seed: N4_SOMA_1_C
+  - target: N4_VACUO_3_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: REPOUSO_POTENCIAL
+      nome_normalizado: repouso potencial
+      uid: N4_VACUO_3_B
+      legacy_id: A5.3.3-B
+      path: E2.A2.3.3-B
+      hierarchical_id: 5.3.3.2
+      pilar: APEIRON
+      dominio: VÁCUO
+      n3_ref: 5.3.3
+      n3_name: CAMPO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: REPOUSO_POTENCIAL
+      gatilho: Possibilidades em estado latente
+      acao: Respeitar repouso
+      restricao: Não perturbar desnecessariamente
+      verificacao: Repouso mantido
+      sig_abstracao: 0.728
+      sig_complexidade: 0.616
+      sig_causalidade: 0.462
+      sig_emocionalidade: 0.503
+      sig_materialidade: 0.335
+      sig_simbolismo: 0.695
+      sig_dinamismo: 0.493
+      sig_temporalidade: 0.473
+      sig_ambiguidade: 0.612
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_3_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: POTENCIAL_ATUAL
+      nome_normalizado: potencial atual
+      uid: N4_VIBRATIO_3_B
+      legacy_id: A5.2.3-B
+      path: E2.A2.2.3-B
+      hierarchical_id: 5.2.3.2
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.3
+      n3_name: ONDA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: POTENCIAL_ATUAL
+      gatilho: Onda como potência se tornando real
+      acao: Reconhecer processo de manifestação
+      restricao: Não negar potencial
+      verificacao: Transição compreendida
+      sig_abstracao: 0.743
+      sig_complexidade: 0.625
+      sig_causalidade: 0.455
+      sig_emocionalidade: 0.535
+      sig_materialidade: 0.344
+      sig_simbolismo: 0.706
+      sig_dinamismo: 0.527
+      sig_temporalidade: 0.481
+      sig_ambiguidade: 0.623
+    seed: N4_SOMA_1_C
+  - target: N4_ARQUETIPO_1_A
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: RECONHECIMENTO_ARQUETÍPICO
+      nome_normalizado: reconhecimento arquetípico
+      uid: N4_ARQUETIPO_1_A
+      legacy_id: M6.1.1-A
+      path: E2.M3.1.1-A
+      hierarchical_id: 6.1.1.1
+      pilar: MYTHOS
+      dominio: ARQUÉTIPO
+      n3_ref: 6.1.1
+      n3_name: PADRAO_PRIMORDIAL
+      axis: ENTRÓPICO
+      natureza: arquétipo
+      type: cell
+      label: RECONHECIMENTO_ARQUETÍPICO
+      gatilho: Padrão recorrente em comportamento
+      acao: Mapear para arquétipo universal
+      restricao: Não reduzir a estereótipo
+      verificacao: Arquétipo esclarece dinâmica
+      sig_abstracao: 0.679
+      sig_complexidade: 0.514
+      sig_causalidade: 0.37
+      sig_emocionalidade: 0.675
+      sig_materialidade: 0.306
+      sig_simbolismo: 0.734
+      sig_dinamismo: 0.379
+      sig_temporalidade: 0.501
+      sig_ambiguidade: 0.624
+    seed: N4_SOMA_1_C
+  - target: N4_ARQUETIPO_1_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: ATIVAÇÃO_SIMPOLAR
+      nome_normalizado: ativação simpolar
+      uid: N4_ARQUETIPO_1_B
+      legacy_id: M6.1.1-B
+      path: E2.M3.1.1-B
+      hierarchical_id: 6.1.1.2
+      pilar: MYTHOS
+      dominio: ARQUÉTIPO
+      n3_ref: 6.1.1
+      n3_name: PADRAO_PRIMORDIAL
+      axis: ENTRÓPICO
+      natureza: arquétipo
+      type: cell
+      label: ATIVAÇÃO_SIMPOLAR
+      gatilho: Arquétipo adormecido
+      acao: Evocar arquétipo latente
+      restricao: Não forçar integração abrupta
+      verificacao: Arquétipo emerge organicamente
+      sig_abstracao: 0.69
+      sig_complexidade: 0.516
+      sig_causalidade: 0.375
+      sig_emocionalidade: 0.669
+      sig_materialidade: 0.316
+      sig_simbolismo: 0.729
+      sig_dinamismo: 0.384
+      sig_temporalidade: 0.438
+      sig_ambiguidade: 0.591
+    seed: N4_SOMA_1_C
+  - target: N4_ARQUETIPO_1_C
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: SÍNTESE_OPOSTOS
+      nome_normalizado: síntese opostos
+      uid: N4_ARQUETIPO_1_C
+      legacy_id: M6.1.1-C
+      path: E2.M3.1.1-C
+      hierarchical_id: 6.1.1.3
+      pilar: MYTHOS
+      dominio: ARQUÉTIPO
+      n3_ref: 6.1.1
+      n3_name: PADRAO_PRIMORDIAL
+      axis: ENTRÓPICO
+      natureza: arquétipo
+      type: cell
+      label: SÍNTESE_OPOSTOS
+      gatilho: Tensão entre arquétipos
+      acao: Encontrar terceira via
+      restricao: Não suprimir nenhum arquétipo
+      verificacao: Síntese transcende oposição
+      sig_abstracao: 0.702
+      sig_complexidade: 0.468
+      sig_causalidade: 0.343
+      sig_emocionalidade: 0.662
+      sig_materialidade: 0.321
+      sig_simbolismo: 0.725
+      sig_dinamismo: 0.353
+      sig_temporalidade: 0.469
+      sig_ambiguidade: 0.584
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_1_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ENTROPIA_SISTEMA
+      nome_normalizado: entropia sistema
+      uid: N4_ENTROPIA_1_A
+      legacy_id: K4.1.1-A
+      path: E2.K1.1.1-A
+      hierarchical_id: 4.1.1.1
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.1
+      n3_name: DEGRADAÇÃO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: ENTROPIA_SISTEMA
+      gatilho: Sistema complexo mostrando fadiga
+      acao: Identificar fontes de desordem
+      restricao: Não tentar reverter entropia total
+      verificacao: Taxa de entropia dentro dos limites
+      sig_abstracao: 0.666
+      sig_complexidade: 0.587
+      sig_causalidade: 0.426
+      sig_emocionalidade: 0.51
+      sig_materialidade: 0.349
+      sig_simbolismo: 0.601
+      sig_dinamismo: 0.576
+      sig_temporalidade: 0.446
+      sig_ambiguidade: 0.672
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_1_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: DESTRUIÇÃO_CRIATIVA
+      nome_normalizado: destruição criativa
+      uid: N4_ENTROPIA_1_B
+      legacy_id: K4.1.1-B
+      path: E2.K1.1.1-B
+      hierarchical_id: 4.1.1.2
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.1
+      n3_name: DEGRADAÇÃO
+      axis: ENTRÓPICO
+      natureza: estado
+      type: cell
+      label: DESTRUIÇÃO_CRIATIVA
+      gatilho: Estrutura obsoleta impedindo evolução
+      acao: Desmantelar componentes não funcionais
+      restricao: Preservar elementos úteis
+      verificacao: Espaço liberado para novas configurações
+      sig_abstracao: 0.333
+      sig_complexidade: 0.392
+      sig_causalidade: 0.297
+      sig_emocionalidade: 0.275
+      sig_materialidade: 0.479
+      sig_simbolismo: 0.271
+      sig_dinamismo: 0.353
+      sig_temporalidade: 0.31
+      sig_ambiguidade: 0.369
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_1_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: RECICLAGEM
+      nome_normalizado: reciclagem
+      uid: N4_ENTROPIA_1_C
+      legacy_id: K4.1.1-C
+      path: E2.K1.1.1-C
+      hierarchical_id: 4.1.1.3
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.1
+      n3_name: DEGRADAÇÃO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: RECICLAGEM
+      gatilho: Recursos descartados disponíveis
+      acao: Reintegrar em novos ciclos
+      restricao: Energia de reciclagem não deve superar benefício
+      verificacao: Material recuperado ≥ 70%
+      sig_abstracao: 0.708
+      sig_complexidade: 0.648
+      sig_causalidade: 0.44
+      sig_emocionalidade: 0.558
+      sig_materialidade: 0.362
+      sig_simbolismo: 0.668
+      sig_dinamismo: 0.624
+      sig_temporalidade: 0.447
+      sig_ambiguidade: 0.663
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_2_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: DISPERSÃO_ENERGIA
+      nome_normalizado: dispersão energia
+      uid: N4_ENTROPIA_2_A
+      legacy_id: K4.1.2-A
+      path: E2.K1.1.2-A
+      hierarchical_id: 4.1.2.1
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.2
+      n3_name: DISSIPAÇÃO
+      axis: ENTRÓPICO
+      natureza: vetor
+      type: cell
+      label: DISPERSÃO_ENERGIA
+      gatilho: Energia dissipando no meio
+      acao: Redistribuir sem destruir
+      restricao: Não concentrar artificialmente
+      verificacao: Quantidade total conservada
+      sig_abstracao: 0.629
+      sig_complexidade: 0.561
+      sig_causalidade: 0.479
+      sig_emocionalidade: 0.352
+      sig_materialidade: 0.324
+      sig_simbolismo: 0.369
+      sig_dinamismo: 0.705
+      sig_temporalidade: 0.556
+      sig_ambiguidade: 0.509
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_2_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ENTROPIA_AUMENTADA
+      nome_normalizado: entropia aumentada
+      uid: N4_ENTROPIA_2_B
+      legacy_id: K4.1.2-B
+      path: E2.K1.1.2-B
+      hierarchical_id: 4.1.2.2
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.2
+      n3_name: DISSIPAÇÃO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: ENTROPIA_AUMENTADA
+      gatilho: Desordem aumentando naturalmente
+      acao: Permitir processo espontâneo
+      restricao: Não forçar ordem artificial
+      verificacao: Desordem dentro dos limites naturais
+      sig_abstracao: 0.707
+      sig_complexidade: 0.602
+      sig_causalidade: 0.496
+      sig_emocionalidade: 0.542
+      sig_materialidade: 0.341
+      sig_simbolismo: 0.632
+      sig_dinamismo: 0.628
+      sig_temporalidade: 0.445
+      sig_ambiguidade: 0.65
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_2_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: RETORNO_AMORFO
+      nome_normalizado: retorno amorfo
+      uid: N4_ENTROPIA_2_C
+      legacy_id: K4.1.2-C
+      path: E2.K1.1.2-C
+      hierarchical_id: 4.1.2.3
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.2
+      n3_name: DISSIPAÇÃO
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: RETORNO_AMORFO
+      gatilho: Retornar ao estado potencial
+      acao: Permitir dissolução estrutural
+      restricao: Não manter estrutura artificialmente
+      verificacao: Estado amorfo alcançado
+      sig_abstracao: 0.696
+      sig_complexidade: 0.583
+      sig_causalidade: 0.427
+      sig_emocionalidade: 0.515
+      sig_materialidade: 0.369
+      sig_simbolismo: 0.617
+      sig_dinamismo: 0.592
+      sig_temporalidade: 0.491
+      sig_ambiguidade: 0.683
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_3_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: ALEATORIEDADE
+      nome_normalizado: aleatoriedade
+      uid: N4_ENTROPIA_3_A
+      legacy_id: K4.1.3-A
+      path: E2.K1.1.3-A
+      hierarchical_id: 4.1.3.1
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.3
+      n3_name: CAOS
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: ALEATORIEDADE
+      gatilho: Comportamento imprevisível
+      acao: Aceitar incerteza inerente
+      restricao: Não tentar controlar tudo
+      verificacao: Padrões emergem do caos
+      sig_abstracao: 0.674
+      sig_complexidade: 0.631
+      sig_causalidade: 0.469
+      sig_emocionalidade: 0.578
+      sig_materialidade: 0.357
+      sig_simbolismo: 0.645
+      sig_dinamismo: 0.625
+      sig_temporalidade: 0.463
+      sig_ambiguidade: 0.704
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_3_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: COMPLEXIDADE_CAÓTICA
+      nome_normalizado: complexidade caótica
+      uid: N4_ENTROPIA_3_B
+      legacy_id: K4.1.3-B
+      path: E2.K1.1.3-B
+      hierarchical_id: 4.1.3.2
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.3
+      n3_name: CAOS
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: COMPLEXIDADE_CAÓTICA
+      gatilho: Sistema altamente sensível
+      acao: Reconhecer dependência inicial
+      restricao: Não prever a longo prazo
+      verificacao: Comportamento compreendido
+      sig_abstracao: 0.675
+      sig_complexidade: 0.605
+      sig_causalidade: 0.484
+      sig_emocionalidade: 0.591
+      sig_materialidade: 0.352
+      sig_simbolismo: 0.668
+      sig_dinamismo: 0.607
+      sig_temporalidade: 0.492
+      sig_ambiguidade: 0.655
+    seed: N4_SOMA_1_C
+  - target: N4_ENTROPIA_3_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: PADRÕES_EMERGENTES
+      nome_normalizado: padrões emergentes
+      uid: N4_ENTROPIA_3_C
+      legacy_id: K4.1.3-C
+      path: E2.K1.1.3-C
+      hierarchical_id: 4.1.3.3
+      pilar: KHAOS
+      dominio: ENTROPIA
+      n3_ref: 4.1.3
+      n3_name: CAOS
+      axis: ENTRÓPICO
+      natureza: processo
+      type: cell
+      label: PADRÕES_EMERGENTES
+      gatilho: Ordem surgindo do desordem
+      acao: Identificar estruturas ocultas
+      restricao: Não impor ordem externa
+      verificacao: Padrões reconhecidos
+      sig_abstracao: 0.385
+      sig_complexidade: 0.607
+      sig_causalidade: 0.494
+      sig_emocionalidade: 0.31
+      sig_materialidade: 0.312
+      sig_simbolismo: 0.297
+      sig_dinamismo: 0.685
+      sig_temporalidade: 0.587
+      sig_ambiguidade: 0.465
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_1_A
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: DECOMPOSIÇÃO_BINÁRIA
+      nome_normalizado: decomposição binária
+      uid: N4_ALGORITMIA_1_A
+      legacy_id: R1.1.1-A
+      path: S1.L1.1.1-A
+      hierarchical_id: 1.1.1.1
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.1
+      n3_name: RESOLUÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: DECOMPOSIÇÃO_BINÁRIA
+      gatilho: Problema complexo sem solução evidente
+      acao: Dividir em duas subpartes até atingir unidade resolvível
+      restricao: Não aplicar quando a divisão altera a natureza do problema
+      verificacao: Cada subparte deve ser estritamente menor que o original
+      sig_abstracao: 0.417
+      sig_complexidade: 0.601
+      sig_causalidade: 0.595
+      sig_emocionalidade: 0.271
+      sig_materialidade: 0.339
+      sig_simbolismo: 0.291
+      sig_dinamismo: 0.598
+      sig_temporalidade: 0.555
+      sig_ambiguidade: 0.256
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_1_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: SEQUÊNCIA_OTIMIZADA
+      nome_normalizado: sequência otimizada
+      uid: N4_ALGORITMIA_1_B
+      legacy_id: R1.1.1-B
+      path: S1.L1.1.1-B
+      hierarchical_id: 1.1.1.2
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.1
+      n3_name: RESOLUÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: SEQUÊNCIA_OTIMIZADA
+      gatilho: Múltiplos passos possíveis para objetivo
+      acao: Identificar dependências e ordenar topologicamente
+      restricao: Ignorar ordens que violem precedências lógicas
+      verificacao: Sequência deve ser executável sem retrocessos
+      sig_abstracao: 0.418
+      sig_complexidade: 0.581
+      sig_causalidade: 0.557
+      sig_emocionalidade: 0.263
+      sig_materialidade: 0.317
+      sig_simbolismo: 0.272
+      sig_dinamismo: 0.634
+      sig_temporalidade: 0.566
+      sig_ambiguidade: 0.239
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_1_C
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: CASO_BASE
+      nome_normalizado: caso base
+      uid: N4_ALGORITMIA_1_C
+      legacy_id: R1.1.1-C
+      path: S1.L1.1.1-C
+      hierarchical_id: 1.1.1.3
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.1
+      n3_name: RESOLUÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: CASO_BASE
+      gatilho: Recursão ou processo iterativo
+      acao: Definir condição de parada e resultado trivial
+      restricao: Caso base deve ser alcançável em passos finitos
+      verificacao: Processo converge para caso base
+      sig_abstracao: 0.427
+      sig_complexidade: 0.582
+      sig_causalidade: 0.583
+      sig_emocionalidade: 0.254
+      sig_materialidade: 0.334
+      sig_simbolismo: 0.264
+      sig_dinamismo: 0.611
+      sig_temporalidade: 0.571
+      sig_ambiguidade: 0.295
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_1_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: CICLO_TEMPORAL
+      nome_normalizado: ciclo temporal
+      uid: N4_VIBRATIO_1_A
+      legacy_id: A5.2.1-A
+      path: E2.A2.2.1-A
+      hierarchical_id: 5.2.1.1
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.1
+      n3_name: FREQUENCIA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: CICLO_TEMPORAL
+      gatilho: Frequência determinando caráter
+      acao: Identificar padrão cíclico
+      restricao: Não ignorar periodicidade
+      verificacao: Cadência reconhecida
+      sig_abstracao: 0.692
+      sig_complexidade: 0.554
+      sig_causalidade: 0.452
+      sig_emocionalidade: 0.527
+      sig_materialidade: 0.336
+      sig_simbolismo: 0.636
+      sig_dinamismo: 0.48
+      sig_temporalidade: 0.481
+      sig_ambiguidade: 0.582
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_1_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: RESONÂNCIA_FREQUÊNCIA
+      nome_normalizado: resonância frequência
+      uid: N4_VIBRATIO_1_B
+      legacy_id: A5.2.1-B
+      path: E2.A2.2.1-B
+      hierarchical_id: 5.2.1.2
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.1
+      n3_name: FREQUENCIA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: RESONÂNCIA_FREQUÊNCIA
+      gatilho: Sintonizar com frequência
+      acao: Ajustar para sincronia
+      restricao: Não causar dissonância
+      verificacao: Ressonância alcançada
+      sig_abstracao: 0.732
+      sig_complexidade: 0.616
+      sig_causalidade: 0.466
+      sig_emocionalidade: 0.552
+      sig_materialidade: 0.377
+      sig_simbolismo: 0.692
+      sig_dinamismo: 0.55
+      sig_temporalidade: 0.514
+      sig_ambiguidade: 0.557
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_1_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: IDENTIDADE_FREQUÊNCIA
+      nome_normalizado: identidade frequência
+      uid: N4_VIBRATIO_1_C
+      legacy_id: A5.2.1-C
+      path: E2.A2.2.1-C
+      hierarchical_id: 5.2.1.3
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.1
+      n3_name: FREQUENCIA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: IDENTIDADE_FREQUÊNCIA
+      gatilho: Frequência como assinatura
+      acao: Reconhecer padrão único
+      restricao: Não confundir com ruído
+      verificacao: Identidade estabelecida
+      sig_abstracao: 0.677
+      sig_complexidade: 0.579
+      sig_causalidade: 0.431
+      sig_emocionalidade: 0.52
+      sig_materialidade: 0.316
+      sig_simbolismo: 0.623
+      sig_dinamismo: 0.494
+      sig_temporalidade: 0.447
+      sig_ambiguidade: 0.546
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_2_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: AMPLIFICAÇÃO
+      nome_normalizado: amplificação
+      uid: N4_VIBRATIO_2_A
+      legacy_id: A5.2.2-A
+      path: E2.A2.2.2-A
+      hierarchical_id: 5.2.2.1
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.2
+      n3_name: RESONÂNCIA
+      axis: ENTRÓPICO
+      natureza: principio
+      type: cell
+      label: AMPLIFICAÇÃO
+      gatilho: Sincronia aumentando efeito
+      acao: Ajustar para ressonância
+      restricao: Não causar interferência
+      verificacao: Amplificação positiva
+      sig_abstracao: 0.702
+      sig_complexidade: 0.538
+      sig_causalidade: 0.652
+      sig_emocionalidade: 0.327
+      sig_materialidade: 0.308
+      sig_simbolismo: 0.549
+      sig_dinamismo: 0.46
+      sig_temporalidade: 0.464
+      sig_ambiguidade: 0.42
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_2_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: SINCRONIA
+      nome_normalizado: sincronia
+      uid: N4_VIBRATIO_2_B
+      legacy_id: A5.2.2-B
+      path: E2.A2.2.2-B
+      hierarchical_id: 5.2.2.2
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.2
+      n3_name: RESONÂNCIA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: SINCRONIA
+      gatilho: Elementos em fase
+      acao: Alinhar frequências
+      restricao: Não forçar sincronia
+      verificacao: Sincronia natural
+      sig_abstracao: 0.722
+      sig_complexidade: 0.613
+      sig_causalidade: 0.474
+      sig_emocionalidade: 0.507
+      sig_materialidade: 0.35
+      sig_simbolismo: 0.654
+      sig_dinamismo: 0.539
+      sig_temporalidade: 0.464
+      sig_ambiguidade: 0.551
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_2_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: MULTIPLICAÇÃO
+      nome_normalizado: multiplicação
+      uid: N4_VIBRATIO_2_C
+      legacy_id: A5.2.2-C
+      path: E2.A2.2.2-C
+      hierarchical_id: 5.2.2.3
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.2
+      n3_name: RESONÂNCIA
+      axis: ENTRÓPICO
+      natureza: principio
+      type: cell
+      label: MULTIPLICAÇÃO
+      gatilho: Efeito sem adição de matéria
+      acao: Aproveitar ressonância
+      restricao: Não desperdiçar energia
+      verificacao: Multiplicação eficiente
+      sig_abstracao: 0.692
+      sig_complexidade: 0.529
+      sig_causalidade: 0.623
+      sig_emocionalidade: 0.343
+      sig_materialidade: 0.306
+      sig_simbolismo: 0.539
+      sig_dinamismo: 0.411
+      sig_temporalidade: 0.461
+      sig_ambiguidade: 0.41
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_3_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: PROPAGAÇÃO
+      nome_normalizado: propagação
+      uid: N4_VIBRATIO_3_A
+      legacy_id: A5.2.3-A
+      path: E2.A2.2.3-A
+      hierarchical_id: 5.2.3.1
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.3
+      n3_name: ONDA
+      axis: ENTRÓPICO
+      natureza: processo
+      type: cell
+      label: PROPAGAÇÃO
+      gatilho: Padrão se movendo no meio
+      acao: Identificar direção e velocidade
+      restricao: Não interromper desnecessariamente
+      verificacao: Propagação compreendida
+      sig_abstracao: 0.454
+      sig_complexidade: 0.571
+      sig_causalidade: 0.548
+      sig_emocionalidade: 0.275
+      sig_materialidade: 0.294
+      sig_simbolismo: 0.332
+      sig_dinamismo: 0.648
+      sig_temporalidade: 0.592
+      sig_ambiguidade: 0.329
+    seed: N4_SOMA_1_C
+  - target: N4_VIBRATIO_3_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: PADRÃO_ONDA
+      nome_normalizado: padrão onda
+      uid: N4_VIBRATIO_3_C
+      legacy_id: A5.2.3-C
+      path: E2.A2.2.3-C
+      hierarchical_id: 5.2.3.3
+      pilar: APEIRON
+      dominio: VIBRATIO
+      n3_ref: 5.2.3
+      n3_name: ONDA
+      axis: ENTRÓPICO
+      natureza: fenomeno
+      type: cell
+      label: PADRÃO_ONDA
+      gatilho: Identificar características da onda
+      acao: Mapear amplitude e frequência
+      restricao: Não simplificar demais
+      verificacao: Padrão reconhecido
+      sig_abstracao: 0.721
+      sig_complexidade: 0.551
+      sig_causalidade: 0.48
+      sig_emocionalidade: 0.53
+      sig_materialidade: 0.32
+      sig_simbolismo: 0.647
+      sig_dinamismo: 0.486
+      sig_temporalidade: 0.454
+      sig_ambiguidade: 0.592
+    seed: N4_SOMA_1_C
+  - target: N4_MECANICA_1_A
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: ANÁLISE_ESTATICA
+      nome_normalizado: análise estatica
+      uid: N4_MECANICA_1_A
+      legacy_id: R1.3.1-A
+      path: S1.L1.3.1-A
+      hierarchical_id: 1.3.1.1
+      pilar: LOGOS
+      dominio: MECÂNICA
+      n3_ref: 1.3.1
+      n3_name: ESTATICA
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: ANÁLISE_ESTATICA
+      gatilho: Sistema em equilíbrio sem movimento
+      acao: Identificar forças atuantes e seus vetores
+      restricao: Ignorar forças dinâmicas
+      verificacao: Soma dos vetores resulta em zero
+      sig_abstracao: 0.46
+      sig_complexidade: 0.548
+      sig_causalidade: 0.567
+      sig_emocionalidade: 0.291
+      sig_materialidade: 0.413
+      sig_simbolismo: 0.287
+      sig_dinamismo: 0.626
+      sig_temporalidade: 0.61
+      sig_ambiguidade: 0.317
+    seed: N4_SOMA_1_C
+  - target: N4_MECANICA_2_A
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: ANÁLISE_DINÂMICA
+      nome_normalizado: análise dinâmica
+      uid: N4_MECANICA_2_A
+      legacy_id: R1.3.2-A
+      path: S1.L1.3.2-A
+      hierarchical_id: 1.3.2.1
+      pilar: LOGOS
+      dominio: MECÂNICA
+      n3_ref: 1.3.2
+      n3_name: DINAMICA
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: ANÁLISE_DINÂMICA
+      gatilho: Sistema em movimento ou transição
+      acao: Modelar forças e acelerações
+      restricao: Ignorar efeitos não relevantes
+      verificacao: Equações de movimento resolvidas
+      sig_abstracao: 0.395
+      sig_complexidade: 0.577
+      sig_causalidade: 0.58
+      sig_emocionalidade: 0.263
+      sig_materialidade: 0.391
+      sig_simbolismo: 0.242
+      sig_dinamismo: 0.587
+      sig_temporalidade: 0.567
+      sig_ambiguidade: 0.267
+    seed: N4_SOMA_1_C
+  - target: N4_ARQUETIPO_2_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: PADRÃO_COMPORTAMENTAL
+      nome_normalizado: padrão comportamental
+      uid: N4_ARQUETIPO_2_B
+      legacy_id: M6.1.2-B
+      path: E2.M3.1.2-B
+      hierarchical_id: 6.1.2.2
+      pilar: MYTHOS
+      dominio: ARQUÉTIPO
+      n3_ref: 6.1.2
+      n3_name: COMPORTAMENTO
+      axis: ENTRÓPICO
+      natureza: processo
+      type: cell
+      label: PADRÃO_COMPORTAMENTAL
+      gatilho: Comportamento repetitivo
+      acao: Identificar arquétipo subjacente
+      restricao: Não julgar o padrão
+      verificacao: Padrão compreendido
+      sig_abstracao: 0.425
+      sig_complexidade: 0.529
+      sig_causalidade: 0.472
+      sig_emocionalidade: 0.401
+      sig_materialidade: 0.332
+      sig_simbolismo: 0.461
+      sig_dinamismo: 0.615
+      sig_temporalidade: 0.592
+      sig_ambiguidade: 0.374
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_3_A
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: VERIFICAÇÃO_LÓGICA
+      nome_normalizado: verificação lógica
+      uid: N4_ALGORITMIA_3_A
+      legacy_id: R1.1.3-A
+      path: S1.L1.1.3-A
+      hierarchical_id: 1.1.3.1
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.3
+      n3_name: VALIDAÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: VERIFICAÇÃO_LÓGICA
+      gatilho: Correção do algoritmo em questão
+      acao: Aplicar provas de correção e invariáveis
+      restricao: Não aceitar testes empíricos como prova
+      verificacao: Todas as precondições e pós-condições satisfeitas
+      sig_abstracao: 0.411
+      sig_complexidade: 0.572
+      sig_causalidade: 0.583
+      sig_emocionalidade: 0.28
+      sig_materialidade: 0.327
+      sig_simbolismo: 0.296
+      sig_dinamismo: 0.637
+      sig_temporalidade: 0.608
+      sig_ambiguidade: 0.277
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_3_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: TESTE_DE_FRONTEIRA
+      nome_normalizado: teste de fronteira
+      uid: N4_ALGORITMIA_3_B
+      legacy_id: R1.1.3-B
+      path: S1.L1.1.3-B
+      hierarchical_id: 1.1.3.2
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.3
+      n3_name: VALIDAÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: TESTE_DE_FRONTEIRA
+      gatilho: Identificar limites operacionais
+      acao: Testar casos extremos e limites do domínio
+      restricao: Não extrapolar além dos limites definidos
+      verificacao: Comportamento correto em todos os limites
+      sig_abstracao: 0.467
+      sig_complexidade: 0.606
+      sig_causalidade: 0.545
+      sig_emocionalidade: 0.277
+      sig_materialidade: 0.369
+      sig_simbolismo: 0.275
+      sig_dinamismo: 0.647
+      sig_temporalidade: 0.606
+      sig_ambiguidade: 0.278
+    seed: N4_SOMA_1_C
+  - target: N4_ALGORITMIA_3_C
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: CORREÇÃO_PARCIAL
+      nome_normalizado: correção parcial
+      uid: N4_ALGORITMIA_3_C
+      legacy_id: R1.1.3-C
+      path: S1.L1.1.3-C
+      hierarchical_id: 1.1.3.3
+      pilar: LOGOS
+      dominio: ALGORITMIA
+      n3_ref: 1.1.3
+      n3_name: VALIDAÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: CORREÇÃO_PARCIAL
+      gatilho: Solução parcial para problema maior
+      acao: Validar subproblemas independentemente
+      restricao: Não compor soluções incorretas
+      verificacao: Correção de cada subproblema verificada
+      sig_abstracao: 0.446
+      sig_complexidade: 0.582
+      sig_causalidade: 0.551
+      sig_emocionalidade: 0.278
+      sig_materialidade: 0.347
+      sig_simbolismo: 0.278
+      sig_dinamismo: 0.633
+      sig_temporalidade: 0.6
+      sig_ambiguidade: 0.248
+    seed: N4_SOMA_1_C
+  - target: N4_VACUO_2_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: LINGUAGEM_NÃO_MANIFESTO
+      nome_normalizado: linguagem não manifesto
+      uid: N4_VACUO_2_B
+      legacy_id: A5.3.2-B
+      path: E2.A2.3.2-B
+      hierarchical_id: 5.3.2.2
+      pilar: APEIRON
+      dominio: VÁCUO
+      n3_ref: 5.3.2
+      n3_name: SILÊNCIO
+      axis: ENTRÓPICO
+      natureza: estado
+      type: cell
+      label: LINGUAGEM_NÃO_MANIFESTO
+      gatilho: O não-dito como comunicação
+      acao: Ouvir o implícito
+      restricao: Não ignorar subtexto
+      verificacao: Mensagem implícita captada
+      sig_abstracao: 0.404
+      sig_complexidade: 0.359
+      sig_causalidade: 0.332
+      sig_emocionalidade: 0.289
+      sig_materialidade: 0.453
+      sig_simbolismo: 0.275
+      sig_dinamismo: 0.252
+      sig_temporalidade: 0.285
+      sig_ambiguidade: 0.365
+    seed: N4_SOMA_1_C
+  - target: N4_SOMA_2_B
+    tipo: é_requisito_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: AUTORREPARAÇÃO
+      nome_normalizado: autorreparação
+      uid: N4_SOMA_2_B
+      legacy_id: B2.2.2-B
+      path: S1.B2.2.2-B
+      hierarchical_id: 2.2.2.2
+      pilar: BIOS
+      dominio: SOMA
+      n3_ref: 2.2.2
+      n3_name: VITALIDADE
+      axis: SINTRÓPICO
+      natureza: estado
+      type: cell
+      label: AUTORREPARAÇÃO
+      gatilho: Sistema com capacidade de cura
+      acao: Ativar mecanismos de autorreparação
+      restricao: Não forçar recuperação além do limite
+      verificacao: Sistema recupera funcionalidade gradualmente
+      sig_abstracao: 0.288
+      sig_complexidade: 0.381
+      sig_causalidade: 0.341
+      sig_emocionalidade: 0.327
+      sig_materialidade: 0.571
+      sig_simbolismo: 0.229
+      sig_dinamismo: 0.255
+      sig_temporalidade: 0.282
+      sig_ambiguidade: 0.241
+    seed: N4_SOMA_2_B
+  - target: N4_MECANICA_1_B
+    tipo: contrasta
+    peso: -0.7
+    node_data:
+      nivel: 4
+      nome: EQUILÍBRIO_FORÇAS
+      nome_normalizado: equilíbrio forças
+      uid: N4_MECANICA_1_B
+      legacy_id: R1.3.1-B
+      path: S1.L1.3.1-B
+      hierarchical_id: 1.3.1.2
+      pilar: LOGOS
+      dominio: MECÂNICA
+      n3_ref: 1.3.1
+      n3_name: ESTATICA
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: EQUILÍBRIO_FORÇAS
+      gatilho: Distribuir tensões em estrutura
+      acao: Calcular pontos de apoio e cargas
+      restricao: Não exceder limites materiais
+      verificacao: Estabilidade estrutural garantida
+      sig_abstracao: 0.441
+      sig_complexidade: 0.583
+      sig_causalidade: 0.599
+      sig_emocionalidade: 0.269
+      sig_materialidade: 0.372
+      sig_simbolismo: 0.265
+      sig_dinamismo: 0.58
+      sig_temporalidade: 0.561
+      sig_ambiguidade: 0.281
+    seed: N4_SOMA_2_B
+  - target: N4_NOMOS_1_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: CODIFICAÇÃO_NORMA
+      nome_normalizado: codificação norma
+      uid: N4_NOMOS_1_A
+      legacy_id: R1.2.1-A
+      path: S1.L1.2.1-A
+      hierarchical_id: 1.2.1.1
+      pilar: LOGOS
+      dominio: NOMOS
+      n3_ref: 1.2.1
+      n3_name: LEGISLAÇÃO
+      axis: SINTRÓPICO
+      natureza: restricao
+      type: cell
+      label: CODIFICAÇÃO_NORMA
+      gatilho: Regra ou regulamento a ser formalizado
+      acao: Expressar em linguagem formal e inequívoca
+      restricao: Não deixar ambiguidades propositais
+      verificacao: Regra pode ser aplicada consistentemente
+      sig_abstracao: 0.526
+      sig_complexidade: 0.495
+      sig_causalidade: 0.622
+      sig_emocionalidade: 0.248
+      sig_materialidade: 0.366
+      sig_simbolismo: 0.255
+      sig_dinamismo: 0.351
+      sig_temporalidade: 0.343
+      sig_ambiguidade: 0.312
+    seed: N4_SOMA_2_B
+  - target: N4_NOMOS_1_B
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: VERIFICAÇÃO_CONFORMIDADE
+      nome_normalizado: verificação conformidade
+      uid: N4_NOMOS_1_B
+      legacy_id: R1.2.1-B
+      path: S1.L1.2.1-B
+      hierarchical_id: 1.2.1.2
+      pilar: LOGOS
+      dominio: NOMOS
+      n3_ref: 1.2.1
+      n3_name: LEGISLAÇÃO
+      axis: SINTRÓPICO
+      natureza: processo
+      type: cell
+      label: VERIFICAÇÃO_CONFORMIDADE
+      gatilho: Avaliar conformidade com norma
+      acao: Verificar todos os requisitos explicitamente
+      restricao: Não aceitar conformidade parcial
+      verificacao: 100% dos requisitos atendidos
+      sig_abstracao: 0.424
+      sig_complexidade: 0.531
+      sig_causalidade: 0.617
+      sig_emocionalidade: 0.279
+      sig_materialidade: 0.363
+      sig_simbolismo: 0.299
+      sig_dinamismo: 0.621
+      sig_temporalidade: 0.61
+      sig_ambiguidade: 0.298
+    seed: N4_SOMA_2_B
+  - target: N4_NOMOS_1_C
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: HIERARQUIA_LEIS
+      nome_normalizado: hierarquia leis
+      uid: N4_NOMOS_1_C
+      legacy_id: R1.2.1-C
+      path: S1.L1.2.1-C
+      hierarchical_id: 1.2.1.3
+      pilar: LOGOS
+      dominio: NOMOS
+      n3_ref: 1.2.1
+      n3_name: LEGISLAÇÃO
+      axis: SINTRÓPICO
+      natureza: estrutura
+      type: cell
+      label: HIERARQUIA_LEIS
+      gatilho: Conflito entre normas de diferentes níveis
+      acao: Aplicar lei de hierarquia superior
+      restricao: Não criar hierarquia arbitrária
+      verificacao: Lei superior prevalece sem contradição
+      sig_abstracao: 0.556
+      sig_complexidade: 0.577
+      sig_causalidade: 0.506
+      sig_emocionalidade: 0.266
+      sig_materialidade: 0.598
+      sig_simbolismo: 0.364
+      sig_dinamismo: 0.332
+      sig_temporalidade: 0.325
+      sig_ambiguidade: 0.262
+    seed: N4_SOMA_2_B
+  - target: N4_NOMOS_2_A
+    tipo: depende_de
+    peso: 0.7
+    node_data:
+      nivel: 4
+      nome: DEFINIÇÃO_FRONTEIRA
+      nome_normalizado: definição fronteira
+      uid: N4_NOMOS_2_A
+      legacy_id: R1.2.2-A
+      path: S1.L1.2.2-A
+      hierarchical_id: 1.2.2.1
+      pilar: LOGOS
+      dominio: NOMOS
+      n3_ref: 1.2.2
+      n3_name: CONTORNO
+      axis: SINTRÓPICO
+      natureza: restricao
+      type: cell
+      label: DEFINIÇÃO_FRONTEIRA
+      gatilho: Delimitar escopo de sistema ou problema
+      acao: Especificar limites inclusivos e exclusivos
+      restricao: Não deixar fronteiras ambíguas
+      verificacao: Fronteira clara e não contraditória
+      sig_abstracao: 0.547
+      sig_complexidade: 0.497
+      sig_causalidade: 0.594
+      sig_emocionalidade: 0.219
+      sig_materialidade: 0.332
+      sig_simbolismo: 0.256
+      sig_dinamismo: 0.321
+      sig_temporalidade: 0.386
+      sig_ambiguidade: 0.32
+    seed: N4_SOMA_2_B
+  paths: []
+  metrics:
+    total_seeds: 5
+    total_neighbors: 50
+    unique_targets: 83
+    depth: 3
+  latency_ms: 0.0
+dialectic_opposites: []

@@ -15,16 +15,19 @@ import json
 import logging
 import sys
 import time
+import re
+import yaml
 from datetime import datetime, timezone
 from pathlib import Path
 
 # ── Resolução robusta do diretório raiz ──────────────────────────────────────
 _PROJECT_ROOT = Path(__file__).resolve().parent
 _KILO_ROOT = _PROJECT_ROOT / ".kilo"
+_RESULTS_DIR = _PROJECT_ROOT / "results"
 
 # Garante que tanto a raiz quanto .kilo/ sejam importáveis
 for _p in [_PROJECT_ROOT, _PROJECT_ROOT / "core", _PROJECT_ROOT / "runtime",
-           _KILO_ROOT, _KILO_ROOT / "agents"]:
+           _KILO_ROOT, _KILO_ROOT / "agents", _PROJECT_ROOT / "agents", _PROJECT_ROOT / "tools"]:
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
@@ -121,7 +124,7 @@ def initialize_system() -> dict:
         components["retriever"] = HybridRetriever(
             embedding_dir=str(_PROJECT_ROOT / "data" / "embeddings"),
             json_dir=json_dir,
-            config_path=str(_PROJECT_ROOT / ".kilo" / "config" / "retrieval.yaml"),
+            config_path=str(_PROJECT_ROOT / "config" / "retrieval.yaml"),
         )
         logger.info("✅ Retriever inicializado")
     except Exception as e:
@@ -147,7 +150,7 @@ def initialize_system() -> dict:
     # 7. Multi-Agent Orchestrator
     try:
         components["orchestrator"] = MultiAgentOrchestrator(
-            config={"config_dir": str(_PROJECT_ROOT / ".kilo" / "config")},
+            config={"config_dir": str(_PROJECT_ROOT / "config")},
             retriever=components.get("retriever"),
             graph=components.get("graph"),
         )
@@ -169,6 +172,26 @@ def initialize_system() -> dict:
     return components
 
 
+def save_query_results(query: str, result_dict: dict) -> None:
+    """Salva o resultado completo em JSON e o output final em YAML."""
+    try:
+        _RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        # Cria um nome de arquivo limpo baseado nos primeiros 30 caracteres da query
+        safe_query = re.sub(r'[^a-zA-Z0-9]', '_', query)[:30].strip('_')
+        if not safe_query:
+            safe_query = "query"
+        base_filename = f"{timestamp}_{safe_query}"
+        
+        with open(_RESULTS_DIR / f"{base_filename}_full.json", "w", encoding="utf-8") as f:
+            json.dump(result_dict, f, indent=2, default=str, ensure_ascii=False)
+            
+        with open(_RESULTS_DIR / f"{base_filename}_output.yaml", "w", encoding="utf-8") as f:
+            yaml.dump(result_dict.get("final_output", {}), f, allow_unicode=True, default_flow_style=False, sort_keys=False)
+            
+    except Exception as e:
+        logger.error(f"❌ Erro ao salvar resultados: {e}")
+
 def run_pipeline(components: dict, query: str, mode: str = "full") -> dict:
     orchestrator = components.get("orchestrator")
     if orchestrator is None:
@@ -188,6 +211,10 @@ def run_pipeline(components: dict, query: str, mode: str = "full") -> dict:
     result_dict = result.to_dict()
     result_dict["mode"] = mode
     result_dict["timestamp"] = datetime.now(timezone.utc).isoformat()
+
+    # Salva os resultados automaticamente, independente do modo
+    save_query_results(query, result_dict)
+
     return result_dict
 
 
@@ -271,7 +298,7 @@ Exemplos:
     if args.query:
         result = run_pipeline(components, args.query, mode=args.mode)
         print(json.dumps(result, indent=2, default=str))
-    else:
+    elif not args.health:
         parser.print_help()
         sys.exit(1)
 

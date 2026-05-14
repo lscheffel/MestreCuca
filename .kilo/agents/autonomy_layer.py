@@ -1274,6 +1274,77 @@ class AutonomyLayer:
 
         return recommendations
 
+    def run_autonomous_pipeline(
+        self,
+        query: str,
+        components: Dict[str, Any],
+        max_retakes: int = 2,
+    ) -> Any:
+        """
+        Executa o pipeline autônomo com auto-avaliação e retakes.
+
+        Combina o MultiAgentOrchestrator com o AutonomyLayer,
+        criando um loop de auto-avaliação que re-executa o pipeline
+        quando a qualidade é insuficiente.
+
+        Args:
+            query: Query do usuário.
+            components: Dicionário de componentes do sistema.
+            max_retakes: Número máximo de re-execuções em caso de rejeição.
+
+        Returns:
+            MultiAgentPipelineResult enriquecido com dados de autonomia.
+        """
+        from .multi_agent_orchestrator import (
+            MultiAgentOrchestrator,
+            MultiAgentPipelineResult,
+        )
+
+        orchestrator = components.get("orchestrator")
+        if orchestrator is None:
+            raise RuntimeError("Orquestrador não disponível no pipeline autônomo")
+
+        # Executar pipeline inicial
+        pipeline_result = orchestrator.full_pipeline(query)
+        result_dict = pipeline_result.to_dict()
+
+        # Auto-avaliação
+        autonomy_result = self.process_result(result_dict)
+
+        # Retries se rejeitado
+        retake_count = 0
+        while (
+            autonomy_result["decision"] == "reject"
+            and retake_count < max_retakes
+        ):
+            retake_count += 1
+            logger.info(
+                "Retake %d/%d para query: %s",
+                retake_count, max_retakes, query[:50],
+            )
+            pipeline_result = orchestrator.full_pipeline(query)
+            result_dict = pipeline_result.to_dict()
+            autonomy_result = self.process_result(result_dict)
+
+        # Enriquecer metadados com resultado de autonomia
+        metadata = dict(pipeline_result.metadata or {})
+        metadata["autonomy"] = autonomy_result
+        metadata["autonomy_retakes"] = retake_count
+        metadata["autonomy_decision"] = autonomy_result["decision"]
+
+        # Construir resultado final compatível
+        final_result = MultiAgentPipelineResult(
+            query=query,
+            pipeline_mode="autonomous",
+            steps=pipeline_result.steps,
+            final_output=pipeline_result.final_output,
+            total_latency_ms=pipeline_result.total_latency_ms,
+            status=pipeline_result.status,
+            metadata=metadata,
+        )
+
+        return final_result
+
     def reset(self) -> None:
         """Reseta o estado do AutonomyLayer (útil para testes)."""
         self.evaluator._history.clear()

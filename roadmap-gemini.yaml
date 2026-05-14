@@ -1,0 +1,72 @@
+meta:
+  projeto: "MestreCuca - Arquiteto de Prompts"
+  arquivo: "roadmap-gemini.yaml"
+  objetivo: "Instrucionar o Agente de IA (Kilo-Code) na transição da 'Fase de Diagnóstico' para a 'Fase de Produto Final (Arquiteto de Prompts)'"
+  versao_alvo: "10/10 (Excelência)"
+  contexto: >
+    O motor cognitivo do MestreCuca funciona perfeitamente (classificação fractal N0->N4, roteamento por pilares e retrieval híbrido). 
+    Contudo, a camada de Síntese e a Interface de Linha de Comando (CLI) estão atuando como ferramentas de debug, 
+    retornando dicionários JSON em vez de atuar como o produto final exigido: um Arquiteto de Prompts.
+
+diagnostico:
+  estado_atual: >
+    O `run_kilo.py` e o `MultiAgentOrchestrator` cospem as "engrenagens" do sistema (metadados, json dumps, logs de roteamento). 
+    O `runtime/synthesizer.py` gera prompts genéricos por pilar, mas não impõe ao LLM o formato canônico final.
+  gap_arquitetural: >
+    Falta a imposição rígida do template definido em `docs/agentes-prompts/ARQUITETO_PROMPTS_FINAL.md`. 
+    O LLM não está sendo instruído a colapsar o contexto em um output com as 4 seções obrigatórias.
+  objetivo_central: >
+    Fazer o sistema receber um input simples e cuspir APENAS o Prompt Arquitetado formatado e blindado, 
+    escondendo a complexidade fractal do usuário (Regra V - Invisibilidade do Sistema).
+
+plano_de_implementacao:
+  fase_1_refatoracao_synthesizer:
+    alvo: "runtime/synthesizer.py"
+    prioridade: "CRÍTICA"
+    instrucoes:
+      - Modificar o dicionário `SYNTHESIS_TEMPLATES` ou criar um "Master Template" (Wrapper).
+      - Injetar no System Prompt a persona: "Você é um Arquiteto de Prompts Sênior operando sob a Ontologia Fractal MestreCuca."
+      - Forçar o LLM a retornar a resposta EXATAMENTE no formato Markdown exigido.
+      - O LLM DEVE gerar 4 seções fixas em sua resposta:
+        1. `### 1. CLASSIFICAÇÃO` (Recuperar do contexto as tags N0 a N4).
+        2. `### 2. LEITURA ESTRATÉGICA` (2 a 3 parágrafos de análise do problema real).
+        3. `### 3. RESPOSTA EXECUTÁVEL` (Checklist e passos em estilo algoritmo).
+        4. `### 4. OTIMIZAÇÃO` (Variáveis estratégicas e edge cases).
+      - Garantir que as variáveis de contexto e regras de pilares sejam passadas como base de conhecimento, mas o output deve focar exclusivamente no framework acima.
+
+  fase_2_orquestrador_e_agente_de_sintese:
+    alvos: 
+      - ".kilo/agents/synthesis_agent.py" (se existir implementação específica)
+      - "runtime/orchestrator.py" ou ".kilo/agents/multi_agent_orchestrator.py"
+    prioridade: "ALTA"
+    instrucoes:
+      - Garantir que o output do LLM não se perca em chaves aninhadas profundas (ex: retornar via `final_output['content']`).
+      - Caso o Validator bloqueie a resposta, ajustar o limiar de tolerância ou certificar-se de que o Validator compreende e aprova o novo formato (que é altamente rigoroso).
+
+  fase_3_limpeza_visual_cli:
+    alvo: "run_kilo.py"
+    prioridade: "ALTA"
+    instrucoes:
+      - No método `run_interactive` e no loop padrão, interceptar o `result`.
+      - Eliminar a linha de fallback atual que faz `json.dumps(result, ...)` para o usuário.
+      - Extrair de `result.get('classification')` ou `result.get('metadata')` os valores de N0, N1, N2, N3 e N4, exibindo-os com design limpo (ex: `🧬 [CLASSIFICAÇÃO ONTOLÓGICA FRACTAL]`).
+      - Imprimir de forma destacada o conteúdo de síntese do LLM como o `🏗️ PROMPT ARQUITETADO FINAL`.
+      - Manter metadados (tempo de latência e JSON dumps) disponíveis APENAS se a flag `--verbose` for utilizada.
+
+  fase_4_persistencia_de_resultados:
+    alvo: "run_kilo.py"
+    prioridade: "ALTA"
+    instrucoes:
+      - Garantir e preservar a existência do diretório `results/` na raiz do projeto.
+      - A cada query recebida (em qualquer modo), interceptar e registrar o output no sistema de arquivos.
+      - Salvar os logs/metadados/dump completo como `[timestamp]_[query_slug]_full.json`.
+      - Salvar a extração limpa de `final_output` no formato `[timestamp]_[query_slug]_output.yaml`.
+
+regras_estritas_de_codigo:
+  - "NÃO quebre a lógica do Graph Agent ou do Hybrid Retriever. O Retrieval já está correto."
+  - "NÃO altere os pesos híbridos (0.5 / 0.3 / 0.2)."
+  - "Mantenha total fidelidade às Regras Douradas do Cânone do Arquiteto contidas no ARQUITETO_PROMPTS_FINAL.md."
+  - "Escreva código limpo, pythonico, com type hints e guard-clauses para keys de dicionários vazias."
+
+kpi_de_sucesso:
+  - "Ao rodar `python run_kilo.py --query 'como otimizar o sistema'`, o terminal deve retornar um texto bem formatado, com 4 blocos de markdown e sem exibir dicionários JSON feios."
