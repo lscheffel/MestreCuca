@@ -1,0 +1,24 @@
+[01:22:18] ============================================================
+[01:22:18] CORREÇÃO 1: Movendo arquivos soltos de data/
+[01:22:18]   ✅ data/semantic_expansion_report.md → docs/runtime-pipeline/semantic_expansion_report.md
+[01:22:18]   ✅ data/taxo.txt → docs/ontologia-taxonomia/taxo.txt
+[01:22:18]   ✅ data/test_results.csv → tests/test_results.csv
+[01:22:18]   ✅ data/test_results.json → tests/test_results.json
+[01:22:18] ============================================================
+[01:22:18] CORREÇÃO 2: Movendo documentação de tests/ para docs/
+[01:22:18]   ✅ tests/ONTO_ENGINE_ROADMAP-DEEP.md → docs/planejamento-roadmap/ONTO_ENGINE_ROADMAP-DEEP.md
+[01:22:18] ============================================================
+[01:22:18] CORREÇÃO 3: Removendo .bat de scripts/ (conforme AGENTS.md)
+[01:22:18]   🗑️  scripts/run_diag.bat removido
+[01:22:18]   🗑️  scripts/run_test.bat removido
+[01:22:18] ============================================================
+[01:22:18] CORREÇÃO 4: Movendo diagnósticos de runtime/ para scripts/
+[01:22:18]   ✅ runtime/_diag_check_celulas.py → scripts/_diag_check_celulas.py
+[01:22:18]   ✅ runtime/_diag_validator4.py → scripts/_diag_validator4.py
+[01:22:18]   ✅ runtime/_diag_validator5.py → scripts/_diag_validator5.py
+[01:22:18] ============================================================
+[01:22:18] CORREÇÃO 5: Removendo data/indexes/ vazio
+[01:22:18]   🗑️  data/indexes removido
+[01:22:18] ============================================================
+[01:22:18] CORREÇÕES CONCLUÍDAS
+[01:22:18] Total de operações: 20
