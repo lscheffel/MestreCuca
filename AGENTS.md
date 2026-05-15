@@ -1,208 +1,499 @@
-# AGENTS.md — MestreCuca
+---
+version: "4.0"
+profile: "windows_cmd_runtime"
+language: "pt-BR"
+os: "Windows 11"
+shell: "cmd.exe"
+python: "python.exe"
+encoding: "utf-8"
+priority:
+  - windows_compatibility
+  - cmd_compatibility
+  - utf8_safety
+  - explicit_errors
+  - python_over_shell
+  - never_assume_unix
+startup:
+  - "READ .kilo/STATE.md FIRST"
+hard_constraints:
+  - "NEVER USE UNIX COMMANDS"
+  - "NEVER USE POWERSHELL"
+  - "NEVER USE python3"
+  - "NEVER ASSUME LINUX"
+---
 
-> Sistema Cognitivo Ontológico · v3.0.0 · 162 células N4 (2×3×3×3×3)  
-> Ambiente: **Windows 11 pt-BR / Python 3.13 / pip + venv / VS Code + Kilo Code**
+# AGENTS.md — WINDOWS CMD RUNTIME
 
-**Primeira ação em qualquer sessão: leia `.kilo/STATE.md`** — estado atual, decisões recentes, bugs conhecidos e workarounds ativos.
+## ENVIRONMENT
 
-Subdiretórios têm seus próprios `AGENTS.md` com regras específicas. Este arquivo contém apenas o que é universal.
+THIS PROJECT RUNS ON:
+
+- Windows 11 only
+- CMD.EXE only
+- UTF-8 only
+- Python via `python.exe`
+
+ASSUME:
+
+- Linux does not exist
+- macOS does not exist
+- Bash does not exist
+- WSL does not exist
+- PowerShell is not available
 
 ---
 
-## Environment
+# FIRST ACTION
 
-- OS: Windows 11, locale pt-BR, filesystem UTF-8 — paths com acentos são comuns
-- Shell: PowerShell (5.1 ou 7+) — **nunca Unix/Linux/macOS**
-- Proibido: `ls`, `cat`, `head`, `tail`, `touch`, `chmod`, `grep`, `export`, `source`, `&&`, `;`
+ALWAYS READ:
 
----
-
-## Shell — PowerShell
-
-Use PowerShell **só para operações simples**. Qualquer lógica, loop ou parsing vira script Python.
-
-```powershell
-Get-ChildItem -Path ".\src"                           # nunca ls
-New-Item -ItemType Directory -Path ".\logs"            # nunca mkdir bare
-New-Item -ItemType File -Path ".\arquivo.txt"          # nunca touch
-Get-Content -Encoding UTF8 ".\arquivo.txt"             # nunca cat
-Set-Content -Encoding UTF8 ".\arquivo.txt" -Value ""
-Copy-Item ".\a.txt" -Destination ".\b.txt"
-Remove-Item ".\pasta" -Recurse -Force
-$env:VAR = "valor"                                     # nunca export
-
-# Encoding — sempre antes de rodar Python
-$OutputEncoding = [System.Text.Encoding]::UTF8
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+```cmd
+type .kilo\STATE.md
 ```
 
-**Nunca redirecionar stderr** — deixar o output fluir para o usuário acompanhar:
+DO THIS BEFORE:
+- coding
+- debugging
+- refactoring
+- running scripts
+- editing configs
 
-```powershell
-# ❌  python script.py 2>&1   |   python script.py 2> erros.txt
-# ✅  python script.py
+---
+
+# HARD PROHIBITIONS
+
+NEVER USE:
+
+```text
+ls
+cat
+grep
+head
+tail
+touch
+rm
+mv
+cp
+pwd
+export
+source
+chmod
+sudo
+bash
+sh
+zsh
+powershell
+pwsh
+python3
+py
+python3.exe
+```
+
+NEVER USE:
+
+- Unix paths
+- `/home/`
+- `~/`
+- bash syntax
+- shell chaining with `&&`
+- shell chaining with `;`
+- PowerShell syntax
+- Unix shebangs
+
+FORBIDDEN:
+
+```bash
+python3 script.py
+ls -la
+cat arquivo.txt
+rm -rf pasta
+#!/usr/bin/env python3
 ```
 
 ---
 
-## Python Scripts
+# CMD COMMANDS ONLY
 
-Qualquer complexidade mínima → script Python, não PowerShell.
+| NEVER USE | USE INSTEAD |
+|---|---|
+| ls | dir |
+| cat | type |
+| rm | del / rmdir |
+| cp | copy |
+| mv | move |
+| pwd | cd |
+| touch | type nul > arquivo.txt |
+
+VALID COMMANDS:
+
+```cmd
+dir
+dir src
+type arquivo.txt
+copy a.txt b.txt
+move a.txt pasta\
+del arquivo.txt
+rmdir /s /q pasta
+cd
+mkdir logs
+```
+
+---
+
+# PYTHON EXECUTION — CRITICAL
+
+ALWAYS USE:
+
+```cmd
+python.exe script.py
+```
+
+OR:
+
+```cmd
+python.exe -m modulo
+```
+
+VALID:
+
+```cmd
+python.exe run_kilo.py
+python.exe diag_env.py
+python.exe -m pytest tests -v
+```
+
+NEVER USE:
+
+```cmd
+python3 script.py
+py script.py
+python script.py
+```
+
+IF `python3` APPEARS:
+1. STOP
+2. REPLACE WITH `python.exe`
+3. RECHECK BEFORE EXECUTION
+
+ASSUME:
+- `python3` DOES NOT EXIST
+- ONLY `python.exe` IS VALID
+
+THIS IS A HARD RUNTIME CONSTRAINT.
+
+---
+
+# PYTHON VS CMD
+
+USE CMD ONLY FOR:
+
+- navigation
+- file copy
+- directory listing
+- launching Python
+
+USE PYTHON FOR:
+
+- loops
+- parsing
+- JSON
+- transformations
+- validation
+- file processing
+- business logic
+- data manipulation
+
+NEVER USE CMD FOR:
+
+- parsing
+- loops
+- JSON handling
+- text processing
+- complex automation
+
+---
+
+# UTF-8 RULES
+
+ALL FILE OPERATIONS MUST USE UTF-8.
+
+ALWAYS:
 
 ```python
-from pathlib import Path  # sempre pathlib, nunca concatenação de string
-
-base = Path("E:/Arquivos/Área de Trabalho/MestreCuca")
-arquivo = base / "data" / "json" / "N4_ALGORITMIA_1_A.json"
-
-# I/O sempre com UTF-8 explícito
 with open(arquivo, "r", encoding="utf-8") as f:
-    conteudo = f.read()
+    dados = f.read()
+```
 
-# Error handling sempre explícito
-import sys
-try:
-    resultado = processar(arquivo)
+```python
+with open(arquivo, "w", encoding="utf-8") as f:
+    f.write(conteudo)
+```
+
+NEVER OMIT ENCODING.
+
+---
+
+# PATH RULES
+
+USE:
+
+```python
+from pathlib import Path
+```
+
+ALWAYS USE:
+- pathlib
+- Windows-compatible paths
+- UTF-8-safe handling
+
+NEVER:
+- assume Linux paths
+- use `/`
+- hardcode Unix directories
+
+IMPORTANT:
+
+- Paths with accents MAY EXIST
+- DO NOT break UTF-8 paths
+- DO NOT normalize accents away
+- HANDLE Unicode safely
+
+GOOD:
+
+```python
+base = Path(r"E:\Projetos\MestreCuca")
+arquivo = base / "data" / "arquivo.json"
+```
+
+BAD:
+
+```python
+path = "/home/user/project"
+```
+
+---
+
+# VENV RULES
+
+ALWAYS USE `.venv`
+
+CREATE:
+
+```cmd
+python.exe -m venv .venv
+```
+
+ACTIVATE:
+
+```cmd
+.venv\Scripts\activate.bat
+```
+
+INSTALL:
+
+```cmd
+python.exe -m pip install -r requirements.txt
+```
+
+NEVER INSTALL GLOBALLY.
+
+---
+
+# PROJECT ENTRYPOINTS
+
+MAIN:
+
+```cmd
+python.exe run_kilo.py
+```
+
+HEALTH:
+
+```cmd
+python.exe run_kilo.py --health
+```
+
+TESTS:
+
+```cmd
+python.exe -m pytest tests -v
+```
+
+DIAGNOSTICS:
+
+```cmd
+python.exe diag_env.py
+python.exe diag_data.py
+python.exe run_diag.py
+```
+
+---
+
+# PROTECTED FILES
+
+DO NOT MODIFY WITHOUT CONFIRMATION:
+
+```text
+config/
+.kilo/agents/
+.kilo/orchestrators/
+.kilo/memory/
+prompts/
+data/
+AGENTS.md
+config/ontology.yaml
+config/retrieval.yaml
+config/embedding.yaml
+config/graph.yaml
+```
+
+READING IS ALLOWED.
+
+MODIFICATION REQUIRES CONFIRMATION.
+
+---
+
+# GENERATED FILES
+
+DO NOT MANUALLY EDIT:
+
+```text
+data/json/
+data/embeddings/
+data/graphs/
+```
+
+REGENERATE USING:
+
+```text
+tools/n4_to_json.py
+tools/build_embeddings.py
+tools/graph_builder.py
+```
+
+---
+
+# TEMP FILES
+
+FILES STARTING WITH `_` ARE TEMPORARY.
+
+EXAMPLES:
+
+```text
+_audit.py
+_debug.py
+_temp.py
+```
+
+DO NOT:
+- import
+- depend on
+- treat as production code
+- refactor around them
+
+---
+
+# STOP AND ASK BEFORE
+
+ASK FOR CONFIRMATION BEFORE:
+
+- deleting files outside `data/`
+- changing public interfaces
+- modifying configs
+- changing schemas
+- adding dependencies
+- editing protected files
+- refactoring multiple modules
+
+WHEN UNSURE:
+- create new file
+- avoid overwriting existing implementations
+
+---
+
+# CODE RULES
+
+ALWAYS USE:
+
+- type hints
+- descriptive names
+- explicit exceptions
+- pathlib
+- UTF-8 encoding
+
+NEVER USE:
+
+- bare `except:`
+- silent failures
+- dead code
+- placeholder `pass`
+- commented legacy blocks
+
+GOOD:
+
+```python
 except FileNotFoundError as e:
-    print(f"[✗] Arquivo não encontrado: {e}"); sys.exit(1)
-except Exception as e:
-    print(f"[✗] {type(e).__name__}: {e}"); sys.exit(1)
+    print(f"Arquivo não encontrado: {e}")
+    sys.exit(1)
 ```
 
-- Exit `1` em falha, `0` em sucesso
-- Nunca `except:` bare — sempre capturar exceção específica ou `Exception`
+BAD:
 
----
-
-## Virtual Environment
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1          # se bloqueado: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-pip install -r requirements.txt
-pip freeze > requirements.txt
+```python
+except:
+    pass
 ```
 
-- Nunca instalar globalmente — sempre ativar `.venv` antes
-- Usar `python -m pip` quando em dúvida sobre qual Python está ativo
-
 ---
 
-## Project Map
+# ERROR RULES
 
-```
-MestreCuca/
-├── run_kilo.py          # CLI principal — único entrypoint de produção
-├── diag_env.py / diag_data.py / run_diag.py   # diagnósticos
-├── rebuild_index.py     # reconstrói índices
-├── _*.py                # ⚠️ temporários de auditoria — NÃO modificar/referenciar
-│
-├── core/                # ⚠️ CRÍTICO — motores (ver core/AGENTS.md)
-├── runtime/             # ⚠️ CRÍTICO — pipeline (ver runtime/AGENTS.md)
-├── tests/               # pytest (ver tests/AGENTS.md)
-├── tools/               # builders de artefatos (ver tools/AGENTS.md)
-│
-├── config/              # 🔒 PROTEGIDO — fonte da verdade operacional
-├── .kilo/               # STATE.md + agentes + memória + orquestradores
-├── data/                # 🚫 gerado — nunca editar manualmente
-│   ├── json/            # 162 N4 JSONs  →  regenerar: tools/n4_to_json.py
-│   ├── embeddings/      # 162 .npy      →  regenerar: tools/build_embeddings.py
-│   └── graphs/          # .gexf/.json   →  regenerar: tools/graph_builder.py
-├── prompts/             # templates YAML por etapa do pipeline
-├── scripts/             # geração em massa de artefatos
-└── docs/                # arquitetura, USAGE, roadmaps
+ERRORS MUST:
+
+- explain what failed
+- explain where
+- explain why
+- explain how to fix
+
+NEVER HIDE ERRORS.
+
+NEVER REDIRECT STDERR.
+
+GOOD:
+
+```cmd
+python.exe script.py
 ```
 
-> `config/` na raiz é primário. `.kilo/config/` é espelho — em conflito, `config/` prevalece.  
-> `_*.py` na raiz e em `runtime/` são diagnósticos temporários — não referenciar como padrão.
+BAD:
 
----
-
-## Entrypoints
-
-```powershell
-python run_kilo.py --health                                      # 13 verificações — rodar primeiro
-python run_kilo.py --query "como decompor este problema?"        # pipeline full
-python run_kilo.py --mode simple     --query "o que é X?"
-python run_kilo.py --mode autonomous --query "como otimizar?"
-python run_kilo.py --mode interactive
-python run_kilo.py --query "teste"   --verbose --log-level DEBUG
-
-python run_diag.py    # grafo ontológico
-python diag_env.py    # ambiente e dependências
-python diag_data.py   # JSONs, embeddings, índices
-
-python -m pytest tests/ -v
+```cmd
+python.exe script.py 2> erro.txt
 ```
 
-> Sem `Makefile`. `.bat` são wrappers — preferir Python direto.
-
 ---
 
-## Code Style
+# FINAL RUNTIME RULES
 
-- PEP 8, type hints em todas as assinaturas, docstrings em funções não-triviais
-- `snake_case` Python · `camelCase` JS/TS · `UPPER_CASE` variáveis de config
-- Imports: stdlib → third-party → local, ordenados dentro de cada grupo
-- Código e comentários em **português** (padrão do projeto)
-- Sem código morto: sem `TODO` soltos, sem blocos comentados, sem `pass` placeholder
+PRIORITY ORDER:
 
----
+1. WINDOWS COMPATIBILITY
+2. CMD COMPATIBILITY
+3. UTF-8 SAFETY
+4. EXPLICIT FAILURES
+5. PYTHON FOR COMPLEX TASKS
+6. NEVER ASSUME UNIX
 
-## Security
+IF A COMMAND MAY FAIL ON WINDOWS:
+1. STOP
+2. RECHECK
+3. USE PYTHON INSTEAD
 
-- Nunca commitar API keys, tokens ou senhas — carregar do `.env` via `python-dotenv`
-- `.env` sempre no `.gitignore`; commitar apenas `.env.example`
-- Validar toda entrada externa antes de processar
-- Queries SQL sempre parametrizadas — nunca string format
+THIS PROJECT IS WINDOWS-FIRST.
 
----
-
-## Protected Files
-
-Leia livremente; **nunca modifique sem instrução explícita:**
-
-| Arquivo | Por quê |
-|---|---|
-| `config/ontology.yaml` | 162 células N4 — alteração quebra todo o pipeline |
-| `config/embedding.yaml` | invalida embeddings em `data/embeddings/` |
-| `config/graph.yaml` | quebra serialização GEXF |
-| `config/retrieval.yaml` | afeta scoring global de retrieval |
-| `.kilo/agents/agents.yaml` | configuração dos 6 agentes LLM |
-| `.kilo/orchestrators/orchestrators.yaml` | define os 3 pipelines |
-| `.kilo/memory/memory.yaml` | níveis de memória |
-| `prompts/**/*.yaml` | muda comportamento dos agentes |
-| `data/**` | artefatos gerados — regenerar via `tools/` |
-| `_*.py` (raiz e runtime/) | diagnósticos temporários |
-| `AGENTS.md` (qualquer) | protegido pelo Kilo Code |
-
----
-
-## When to Stop and Ask
-
-Agir diretamente é o padrão. **Parar e confirmar** antes de:
-
-- Modificar `config/` ou `.kilo/agents/`
-- Alterar interface pública em `core/` ou `runtime/` (assinatura, schema, tipo de retorno)
-- Deletar arquivo fora de `data/` ou `__pycache__`
-- Adicionar dependência ao `requirements.txt`
-- Refatorar mais de 2 módulos simultaneamente
-
-Em dúvida: implementar em arquivo novo, nunca sobrescrever sem confirmação.
-
----
-
-## Engineering Laws (resumo)
-
-1. **TDD** — teste antes do código; cobertura mínima 80% em `core/` e `runtime/`
-2. **Zero-Trust** — validar toda entrada com `pydantic`; nunca confiar em retrieval sem verificação
-3. **Atomicidade** — commits `tipo(escopo): descrição`; uma coisa por commit
-4. **Legibilidade** — nomes descritivos; comentários explicam *por quê*, não *o quê*
-5. **Rastreabilidade** — sem issue, sem merge; vincular PR com `Closes #N`
-6. **Consistência** — terminologia de `config/ontology.yaml`; formatação via `ruff`/`black`
-7. **Defesa em Profundidade** — validar na entrada, na saída e no armazenamento
-8. **Falha Explícita** — erro deve dizer *o quê*, *por quê*, *onde* e *como corrigir*
-9. **Documentação Viva** — atualizar README, STATE.md e CHANGELOG junto com o código
-10. **Revisão Obrigatória** — todo PR precisa de ≥1 aprovação
-
-**Branches:** `feat/123-descricao` · `fix/` · `docs/` · `refactor/` · `test/` · `chore/`
+NEVER GENERATE:
+- Linux commands
+- Bash syntax
+- PowerShell syntax
+- python3
+- Unix assumptions
