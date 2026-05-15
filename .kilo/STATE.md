@@ -1,135 +1,362 @@
-# STATE.md — Memória Técnica do Sistema
+---
+version: "3.1.0"
+type: "persistent_operational_memory"
+project: "MestreCuca"
+profile: "windows_cmd_runtime"
+language: "pt-BR"
+os: "Windows 11"
+shell: "cmd.exe"
+python: "python.exe"
+encoding: "utf-8"
 
-> **Propósito:** Fonte de contexto persistente para agentes de IA que operam sobre o projeto MestreCuca.
-> **Atualizado por:** Kilo Code Doc Spec (README Sync)
-> **Última atualização:** 2026-05-13
+priority:
+  - windows_compatibility
+  - cmd_compatibility
+  - utf8_safety
+  - python_exe_only
+  - ontology_consistency
+  - retrieval_integrity
 
+startup_sequence:
+  - "READ STATE.md"
+  - "READ README.md"
+  - "READ config/*.yaml"
+  - "READ docs/"
+
+hard_constraints:
+  - "NEVER USE UNIX COMMANDS"
+  - "NEVER USE POWERSHELL"
+  - "NEVER USE python3"
+  - "NEVER ASSUME LINUX"
+  - "CODE IS THE ONLY SOURCE OF TRUTH"
+
+truth_source:
+  primary: "source_code"
+  secondary: "config/*.yaml"
+  tertiary: "docs/"
+
+last_updated: "2026-05-13"
+updated_by: "Kilo Code Doc Spec"
 ---
 
-## Estado Atual do Sistema
+# STATE.md — Persistent Operational Memory
+
+## Runtime Identity
 
 | Campo | Valor |
 |---|---|
-| **Versão** | 3.0.2 |
-| **Fase do Roadmap** | Fase 1 — Arquitetura do Prompt Arquitetado (RFC-004) |
-| **Status** | READY FOR DEVELOPMENT |
-| **Avaliação** | 7.5 / 10 (pós-roadmap: 10/10) |
-| **Build** | Estável (162 células N4 operacionais) |
+| OS | Windows 11 |
+| Shell | cmd.exe |
+| Python | python.exe |
+| Encoding | UTF-8 |
+| Runtime Policy | Windows-first |
+| Filesystem | UTF-8 + paths acentuados suportados |
 
 ---
 
-## Componentes Ativos
+# Critical Runtime Constraints
 
-### Core (framework agnóstico)
-- `core/ontology_graph.py` — OntologyGraph (NetworkX MultiDiGraph, 242+ nós, 2557+ arestas)
-- `core/signature_engine.py` — Assinaturas semânticas 9D
-- `core/dialectic_engine.py` — Inferência de opostos (5 níveis de profundidade)
-- `core/cognitive_function_engine.py` — Funções cognitivas auxiliares
-- `core/ontology_typing.py` — 10 naturezas ontológicas
-- `core/relation_engine.py` — 10 tipos de relação ponderados
-- `core/agent_base.py` — BaseAgent, AgentResult, AgentMemory
+## Invalid Runtime Assumptions
 
-### Runtime (pipeline de execução)
-- `runtime/classifier.py` — OntologicalClassifier (N0→N4)
-- `runtime/router.py` — CognitiveRouter (seleção adaptativa de pipeline)
-- `runtime/retriever.py` — HybridRetriever (vetorial + gráfico + simbólico)
-- `runtime/synthesizer.py` — OntologySynthesizer (composição multi-fonte)
-- `runtime/validator.py` — OntologyValidator (coerência ontológica)
-- `runtime/orchestrator.py` — MultiAgentOrchestrator (3 pipelines configuráveis)
+NEVER ASSUME:
 
-### Agents (.kilo/agents/)
-- **OntoClassifier** — GPT-4o, T=0.2, classificação N0→N4
-- **OntoRetriever** — GPT-4o, T=0.0, retrieval híbrido (top_k=20)
-- **OntoSynthesizer** — GPT-4o, T=0.4, síntese multi-fonte
-- **OntoValidator** — GPT-4o, T=0.0, validação de consistência
-- **OntoRouter** — GPT-4o-mini, T=0.3, roteamento inteligente
-- **AutonomyLayer** — Auto-avaliação, feedback loop, thresholds adaptativos
-
-### Modelos de Embedding
-- Modelo: `all-MiniLM-L6-v2` (sentence-transformers)
-- Dimensão: 384
-- Índice: FAISS IVFFlat (cosine, nlist=100, nprobe=10)
-- Cache: LRU, 2048 MB, TTL 24h
+- Linux
+- macOS
+- Bash
+- WSL
+- PowerShell
+- Unix filesystem
+- python3
 
 ---
 
-## Arquitetura de Memória
+## Forbidden Outputs
+
+NEVER GENERATE:
+
+```text
+ls
+cat
+grep
+bash
+sh
+zsh
+powershell
+pwsh
+python3
+py
+source
+chmod
+sudo
+```
+
+NEVER GENERATE:
+
+```text
+/home/
+~/ 
+/usr/
+```
+
+---
+
+## Valid Runtime Behavior
+
+ONLY VALID SHELL:
+- cmd.exe
+
+ONLY VALID PYTHON:
+- python.exe
+
+VALID:
+
+```cmd
+python.exe run_kilo.py
+python.exe diag_env.py
+python.exe -m pytest tests -v
+dir
+type arquivo.txt
+```
+
+---
+
+# Known Agent Failure Patterns
+
+| Problema | Correção |
+|---|---|
+| Geração de `python3` | Usar `python.exe` |
+| Comandos bash/Linux | Reescrever para CMD |
+| Uso de PowerShell | Proibido |
+| Paths Unix (`/home/`) | Usar pathlib + Windows |
+| Parsing via shell | Mover para Python |
+| Encoding implícito | Forçar UTF-8 explícito |
+| Uso de `py` launcher | Usar `python.exe` |
+
+---
+
+# Recovery Protocol
+
+IF INVALID COMMAND IS GENERATED:
+
+1. STOP
+2. RECHECK RUNTIME IDENTITY
+3. REWRITE FOR CMD.EXE
+4. REPLACE `python3` WITH `python.exe`
+5. VALIDATE WINDOWS COMPATIBILITY
+6. EXECUTE AGAIN
+
+---
+
+# Bootstrap Load Order
+
+1. `STATE.md`
+2. `README.md`
+3. `config/*.yaml`
+4. `docs/`
+5. `runtime/`
+6. `core/`
+
+---
+
+# System State
+
+| Campo | Valor |
+|---|---|
+| Versão | 3.0.2 |
+| Fase do Roadmap | Fase 1 — Arquitetura do Prompt Arquitetado (RFC-004) |
+| Status | READY FOR DEVELOPMENT |
+| Build | Estável |
+| Ontologia | 162 células N4 operacionais |
+
+---
+
+# Operational Truths
+
+| Verdade Operacional | Estado |
+|---|---|
+| `run_kilo.py` é o entrypoint principal | TRUE |
+| Projeto é Windows-first | TRUE |
+| Makefile não existe | TRUE |
+| `.venv` é obrigatório | TRUE |
+| `data/` contém artefatos gerados | TRUE |
+| `config/ontology.yaml` é fonte canônica | TRUE |
+
+---
+
+# Active Components
+
+## Core
+
+| Arquivo | Função |
+|---|---|
+| `core/ontology_graph.py` | OntologyGraph (NetworkX MultiDiGraph) |
+| `core/signature_engine.py` | Assinaturas semânticas 9D |
+| `core/dialectic_engine.py` | Inferência dialética |
+| `core/cognitive_function_engine.py` | Funções cognitivas |
+| `core/ontology_typing.py` | Naturezas ontológicas |
+| `core/relation_engine.py` | Relações ponderadas |
+| `core/agent_base.py` | BaseAgent / AgentMemory |
+
+---
+
+## Runtime
+
+| Arquivo | Função |
+|---|---|
+| `runtime/classifier.py` | OntologicalClassifier |
+| `runtime/router.py` | CognitiveRouter |
+| `runtime/retriever.py` | HybridRetriever |
+| `runtime/synthesizer.py` | OntologySynthesizer |
+| `runtime/validator.py` | OntologyValidator |
+| `runtime/orchestrator.py` | MultiAgentOrchestrator |
+
+---
+
+## Agents
+
+| Agente | Modelo | Função |
+|---|---|---|
+| OntoClassifier | GPT-4o | Classificação N0→N4 |
+| OntoRetriever | GPT-4o | Retrieval híbrido |
+| OntoSynthesizer | GPT-4o | Síntese multi-fonte |
+| OntoValidator | GPT-4o | Validação |
+| OntoRouter | GPT-4o-mini | Roteamento |
+| AutonomyLayer | Interno | Feedback loop |
+
+---
+
+# Embedding Configuration
+
+| Campo | Valor |
+|---|---|
+| Modelo | all-MiniLM-L6-v2 |
+| Dimensão | 384 |
+| Índice | FAISS IVFFlat |
+| Similaridade | cosine |
+| nlist | 100 |
+| nprobe | 10 |
+| Cache | LRU |
+| TTL | 24h |
+
+---
+
+# Memory Architecture
 
 | Nível | Tipo | Capacidade | TTL | Estratégia |
 |---|---|---|---|---|
-| Curto prazo | volatile | 500 itens | 30 min | LRU |
-| Trabalho | managed | 200 itens | 1 hora | priority |
-| Longo prazo | persistent (SQLite) | 100k itens | ∞ | relevance |
-| Embedding cache | LRU | 50k itens | 24h | similaridade |
-| Retrieval cache | TTL (Redis) | 50k itens | 1h | — |
+| Curto prazo | volatile | 500 | 30 min | LRU |
+| Trabalho | managed | 200 | 1h | priority |
+| Longo prazo | SQLite | 100k | ∞ | relevance |
+| Embedding cache | LRU | 50k | 24h | similaridade |
+| Retrieval cache | Redis TTL | 50k | 1h | cache |
 
 ---
 
-## Ontologia Fractal — Estrutura Verificada
+# Ontological Structure
 
+```text
+N0 (Vetor):          2 nós
+N1 (Pilar):          6 nós
+N2 (Domínio):       18 nós
+N3 (Subárvore):     54 nós
+N4 (Célula):       162 nós
+
+2×3×3×3×3 = 162
 ```
-N0 (Vetor):          2 nós    — SINTRÓPICO | ENTRÓPICO
-N1 (Pilar):          6 nós    — LOGOS | BIOS | PATHOS | KHAOS | APEIRON | MYTHOS
-N2 (Domínio):       18 nós    — 3 por pilar
-N3 (Subárvore):     54 nós    — 3 por domínio
-N4 (Célula):       162 nós    — 3 por subárvore
-                    ───────
-                    2×3×3×3×3 = 162
-```
-
-### Arquivos N4 JSON Verificados
-- Diretório: `data/json/`
-- Contagem: 162 arquivos `N4_*.json`
-- Índice: `data/json/ontology_index.json`
-- Formato: JSON com uid, path, nome, natureza, relações, assinatura semântica 9D
 
 ---
 
-## Configuração de Retrieval Híbrido
+# Ontology Data Integrity
 
-| Método | Peso | Limiar | Descrição |
-|---|---|---|---|
-| Vetorial (cosine) | 0.50 | 0.15 min / 0.85 alta_confiança | Similaridade semântica |
-| Gráfico (ponderado) | 0.30 | 0.5 min | Navegação ontológica (profundidade 3) |
-| Simbólico (exato) | 0.20 | 0.8 parcial | Match por uid/tipo/pilar |
-| **Fusão** | weighted_sum | 0.40 limiar final | Deduplicação ativa |
-| **Reranking** | cross-encoder | 0.50 limiar | Top 50 → Top 10 |
-
----
-
-## Decisões de Design Recentes
-
-### 2026-05-13 — Auditoria de README (Fase 1–3 concluída)
-- README.md reescrito com base em varredura recursiva de 100% do repositório
-- Entrypoints documentados como scripts Python (Makefile não existe)
-- Flags de ausência documentadas: Makefile, CHANGELOG.md, CONTRIBUTING.md, .kilo/STATE.md
-- Árvore de diretórios verificada contra filesystem real
-- Stack tecnológico confirmado: Python 3.13, NetworkX ≥3.0, sentence-transformers ≥2.2
-
-### 2026-05-09 — Consolidação da Ontologia V2
-- Auditoria ontológica concluída (auditoria_discrepancias_ontologicas.md)
-- Correções de herança de tags e metas vetoriais aplicadas
-- Configuração ontológica migrada para `config/ontology.yaml` (1.708 linhas)
+| Campo | Valor |
+|---|---|
+| Diretório | `data/json/` |
+| Arquivos N4 | 162 |
+| Índice | `ontology_index.json` |
+| Estrutura | uid + relações + assinatura 9D |
 
 ---
 
-## Bugs Conhecidos e Workarounds
+# Hybrid Retrieval Configuration
+
+| Método | Peso | Limiar |
+|---|---|---|
+| Vetorial | 0.50 | 0.15 |
+| Gráfico | 0.30 | 0.50 |
+| Simbólico | 0.20 | 0.80 |
+| Fusão | weighted_sum | 0.40 |
+| Reranking | cross-encoder | 0.50 |
+
+---
+
+# Recent Design Decisions
+
+## 2026-05-13 — README Audit
+
+- README sincronizado com filesystem real
+- Entrypoints confirmados
+- Makefile inexistente documentado
+- Estrutura validada recursivamente
+- Stack confirmada:
+  - Python 3.13
+  - NetworkX ≥3.0
+  - sentence-transformers ≥2.2
+
+---
+
+## 2026-05-09 — Ontology V2 Consolidation
+
+- Auditoria ontológica concluída
+- Correções de herança aplicadas
+- Migração para `config/ontology.yaml`
+
+---
+
+# Known Bugs and Workarounds
 
 | Bug | Status | Workaround |
 |---|---|---|
-| `driver.py` — issues de path no Windows | Conhecido | Usar `run_kilo.py` (resolve paths automaticamente) |
-| `CHANGELOG.md` inexistente | ✅ Resolvido (v3.0.1) | — |
-| `CONTRIBUTING.md` inexistente | ✅ Resolvido (v3.0.1) | — |
+| `driver.py` path issues on Windows | Conhecido | Usar `run_kilo.py` |
+| `CHANGELOG.md` ausente | Resolvido | — |
+| `CONTRIBUTING.md` ausente | Resolvido | — |
 
 ---
 
-## Contexto para IAs
+# Operational Directives
 
-Este arquivo serve como **fonte canônica de contexto** para qualquer agente de IA que precise entender o estado do projeto MestreCuca. Ao iniciar operação, agentes devem:
+ALWAYS:
 
-1. Ler este arquivo para entender o estado atual
-2. Consultar `config/*.yaml` para parâmetros operacionais
-3. Consultar `README.md` para documentação de usuário
-4. Consultar `docs/` para documentação técnica detalhada
+- reload STATE.md every session
+- validate runtime assumptions
+- use UTF-8 explicitly
+- use pathlib
+- use python.exe
+- treat source code as canonical truth
 
-**Não hardcodar valores deste arquivo** — sempre recarregar a cada sessão.
+NEVER:
+
+- hardcode runtime assumptions
+- assume Linux compatibility
+- use bash syntax
+- generate python3
+- trust stale documentation
+
+---
+
+# Context Role
+
+THIS FILE IS:
+
+- persistent operational memory
+- runtime identity source
+- architectural snapshot
+- agent bootstrap context
+- known-failures registry
+
+THIS FILE IS NOT:
+
+- marketing documentation
+- roadmap
+- manifesto
+- speculative architecture
+- source code replacement
