@@ -10,8 +10,8 @@
 
 | Campo | Valor |
 |---|---|
-| **Versão** | 3.0.0 |
-| **Fase do Roadmap** | Fase 0 — Consolidação da Interface Estática |
+| **Versão** | 3.0.2 |
+| **Fase do Roadmap** | Fase 1 — Arquitetura do Prompt Arquitetado (RFC-004) |
 | **Status** | READY FOR DEVELOPMENT |
 | **Avaliação** | 7.5 / 10 (pós-roadmap: 10/10) |
 | **Build** | Estável (162 células N4 operacionais) |

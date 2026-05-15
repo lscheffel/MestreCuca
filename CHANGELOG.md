@@ -6,6 +6,27 @@
 
 ---
 
+## [3.0.2] — 2026-05-15 (Auditoria Documental)
+
+### Adicionado
+- **`docs/RFC-004-Arquitetura-Prompt-Arquitetado.md`** — RFC para refatoração do synthesizer e CLI limpa
+- **`docs/HANDOFF-PROMPT-ORCHESTRATOR.md`** — Prompt de handoff para implementação do RFC-004
+
+### Alterado
+- **README.md** — Corrigidas referências a `.bat` inexistentes (`run_diag.bat`, `run_test.bat`)
+- **README.md** — Corrigido path de `semantic_expansion_report.md`
+- **README.md** — Adicionados scripts omitidos: `create_n4_manual.py`, `padronizador.py`, `reestruturar_n4.py`
+- **README.md** — Adicionado `diag2.py` à lista de diagnósticos
+- **`.kilo/STATE.md`** — Versão atualizada para 3.0.2
+
+### Contexto
+- Auditoria documental completa: 8 discrepâncias identificadas e corrigidas
+- Sem débitos técnicos (0 TODOs/FIXMEs) no código-fonte
+- RFC-004 proposto para próxima fase de produto
+- Versão alinhada: CHANGELOG, STATE.md e README.md agora consistentes em v3.0.2
+
+---
+
 ## [3.0.1] — 2026-05-13 (Sync Completo)
 
 ### Adicionado

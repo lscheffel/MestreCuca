@@ -1,6 +1,6 @@
 # MestreCuca — Sistema Cognitivo Ontológico
 
-> **Status:** `[READY FOR DEVELOPMENT]` · **Versão:** 3.0.0 · **Base Ontológica:** 162 células N4 (2×3×3×3×3)
+> **Status:** `[READY FOR DEVELOPMENT]` · **Versão:** 3.0.2 · **Base Ontológica:** 162 células N4 (2×3×3×3×3)
 
 Sistema cognitivo baseado em ontologia fractal que transforma uma estrutura estática de conhecimento em um motor de inferência, recuperação híbrida e síntese composta. O pipeline opera sobre 6 pilares ontológicos, 18 domínios, 54 subárvores e 162 células operacionais.
 
@@ -73,8 +73,6 @@ MestreCuca/
 │
 ├── run_kilo.py                    # Entrypoint principal (CLI)
 ├── run_diag.py                    # Diagnóstico de rede ontológica
-├── run_diag.bat                   # Wrapper batch para diagnóstico
-├── run_test.bat                   # Teste completo + exportação de grafos
 ├── diag.py                        # Diagnóstico de dados JSON
 ├── diag_env.py                    # Diagnóstico de ambiente/dependências
 ├── diag_data.py                   # Diagnóstico de dados
@@ -132,8 +130,7 @@ MestreCuca/
 │   ├── json/                      # 162 N4 JSONs + ontology_index.json
 │   ├── embeddings/                # 162 vetores .npy (384-dim)
 │   ├── graphs/                    # Exportações GEXF/JSON + métricas
-│   ├── indexes/                   # Índices de busca auxiliares
-│   └── semantic_expansion_report.md
+│   └── indexes/                   # Índices de busca auxiliares
 │
 ├── scripts/                       # Scripts de build/geração
 │   ├── create_fase0.py            # Gerador principal de artefatos
@@ -146,6 +143,9 @@ MestreCuca/
 ├── docs/                          # Documentação
 │   ├── arquitetura_sistema_cognitivo.md
 │   ├── USAGE.md
+│   ├── runtime-pipeline/
+│   │   ├── RUNTIME.md
+│   │   └── semantic_expansion_report.md
 │   └── roadmap/
 │       ├── 1 - Semantic Operating Substrate - roadmap.md
 │       ├── 1.1 - Roadmap-ImpN5.yaml
@@ -210,52 +210,49 @@ N0 (Vetor)           2 nós         SINTRÓPICO | ENTRÓPICO
 
 ### Entrypoint Principal
 
-```powershell
+```cmd
 # Health check (13 verificações de integridade)
-python run_kilo.py --health
+python.exe run_kilo.py --health
 
 # Query única — pipeline completo
-python run_kilo.py --query "como decompor este problema?"
+python.exe run_kilo.py --query "como decompor este problema?"
 
 # Query com modo simplificado
-python run_kilo.py --mode simple --query "o que é otimização?"
+python.exe run_kilo.py --mode simple --query "o que é otimização?"
 
 # Pipeline autônomo (auto-avaliação + feedback loop)
-python run_kilo.py --mode autonomous --query "como otimizar processos?"
+python.exe run_kilo.py --mode autonomous --query "como otimizar processos?"
 
 # Modo interativo (REPL)
-python run_kilo.py --mode interactive
+python.exe run_kilo.py --mode interactive
 
 # Logging detalhado
-python run_kilo.py --query "teste" --verbose --log-level DEBUG
+python.exe run_kilo.py --query "teste" --verbose --log-level DEBUG
 ```
 
 **Modos disponíveis:** `full` (padrão) · `simple` · `autonomous` · `interactive`
 
 ### Diagnóstico
 
-```powershell
+```cmd
 # Diagnóstico da rede ontológica (grafo, nós, arestas, métricas)
-python run_diag.py
+python.exe run_diag.py
 
 # Diagnóstico de ambiente (dependências, imports, índices)
-python diag_env.py
+python.exe diag_env.py
 
 # Diagnóstico de dados (JSONs, embeddings, índices)
-python diag_data.py
+python.exe diag_data.py
 ```
 
 ### Testes & Build
 
-```powershell
-# Teste completo + exportação de grafos (batch)
-run_test.bat
-
-# Diagnóstico via batch
-run_diag.bat
-
+```cmd
 # Testes pytest
-python -m pytest tests/ -v
+python.exe -m pytest tests/ -v
+
+# Diagnóstico de rede ontológica
+python.exe run_diag.py
 ```
 
 ### Scripts de Geração
@@ -264,8 +261,12 @@ python -m pytest tests/ -v
 |---|---|
 | `scripts/create_fase0.py` | Geração massiva de artefatos ontológicos |
 | `scripts/create_n3_files.py` | Geração de arquivos N3 (subárvores) |
+| `scripts/create_n3_files_v2.py` | Geração de arquivos N3 (versão 2) |
 | `scripts/create_n4_files.py` | Geração de arquivos N4 (células) |
 | `scripts/create_n4_from_taxonomy.py` | Geração N4 a partir de taxonomia |
+| `scripts/create_n4_manual.py` | Geração manual de células N4 |
+| `scripts/padronizador.py` | Padronização de arquivos |
+| `scripts/reestruturar_n4.py` | Reestruturação de arquivos N4 |
 | `scripts/validate_yaml.py` | Validação de arquivos YAML |
 
 ---
